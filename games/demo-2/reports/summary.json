@@ -1,0 +1,52 @@
+{
+  "slug": "demo-2",
+  "url": "https://ellisonleao.github.io/clumsy-bird/",
+  "status": "complete",
+  "final_url": "https://ellisonleao.github.io/clumsy-bird/",
+  "entry_url": "https://ellisonleao.github.io/clumsy-bird/",
+  "entry_rel": "ellisonleao.github.io/clumsy-bird/index.html",
+  "engine": {
+    "engine": "melonjs",
+    "confidence": "high",
+    "evidence": [
+      "runtime global detected: melon",
+      "signature match: 'melonjs'"
+    ]
+  },
+  "counts": {
+    "discovered": 21,
+    "captured": 21,
+    "downloaded": 0,
+    "failed": 0,
+    "duplicates": 0
+  },
+  "score": 97,
+  "verdict": "verified-playable-locally: game launched, rendered and animated offline from the mirror",
+  "audit_summary": {},
+  "assets_summary": {
+    "assets": 22,
+    "by_category": {
+      "code": 5,
+      "audio": 4,
+      "font": 1,
+      "image": 12
+    },
+    "overall_feasibility": 72,
+    "bottleneck": null,
+    "thresholds": ">=80 easy, 50-79 moderate, 25-49 difficult, <25 very difficult"
+  },
+  "created": "2026-11-19T17:11:35.377863+00:00",
+  "duration_s": 34.5,
+  "preview_url": "/games/demo-2/mirror/ellisonleao.github.io/clumsy-bird/index.html",
+  "reports": {
+    "summary": "games/demo-2/reports/summary.json",
+    "recon": "games/demo-2/reports/recon.json",
+    "manifest": "games/demo-2/reports/manifest.json",
+    "depgraph": "games/demo-2/reports/depgraph.json",
+    "rewrite": "games/demo-2/reports/rewrite.json",
+    "audit": "games/demo-2/reports/audit.json",
+    "assets": "games/demo-2/reports/assets.json",
+    "verify": "games/demo-2/reports/verify.json",
+    "score": "games/demo-2/reports/score.json"
+  }
+}
