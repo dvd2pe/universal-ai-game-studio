@@ -1,0 +1,19 @@
+# Local-only artifacts
+__pycache__/
+*.pyc
+.pytest_cache/
+*.log
+.DS_Store
+node_modules/
+
+# Never commit credentials
+.secrets/
+
+# Build outputs
+dist/
+android/bin/
+android/gen/
+android/classes/
+android/dex/
+android/assets/
+android/*.keystore

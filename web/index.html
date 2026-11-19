@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Universal AI Game Studio</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="layout">
+  <aside class="sidebar">
+    <div class="logo">◆ UGS</div>
+    <div class="logo-sub">Universal AI Game Studio</div>
+    <nav>
+      <button class="nav-btn active" data-view="dashboard">▦ Dashboard</button>
+      <button class="nav-btn" data-view="acquire">⬇ Acquire Game</button>
+      <button class="nav-btn" data-view="projects">▧ Projects</button>
+      <button class="nav-btn" data-view="about">◈ About</button>
+    </nav>
+    <div class="sidebar-note">
+      Stage A–B pipeline:<br>
+      recon → mirror → reconstruct<br>→ audit → assets → verify
+    </div>
+  </aside>
+
+  <main class="main">
+    <!-- DASHBOARD -->
+    <section id="view-dashboard" class="view">
+      <h1>Dashboard</h1>
+      <div class="cards" id="dash-cards"></div>
+      <h2>Recent projects</h2>
+      <div id="dash-projects"></div>
+    </section>
+
+    <!-- ACQUIRE -->
+    <section id="view-acquire" class="view hidden">
+      <h1>Acquire Game</h1>
+      <p class="muted">Paste a game URL. The engine identifies the entry point, captures all
+      network resources, mirrors them locally, reconstructs a playable local copy and verifies it.</p>
+      <div class="acquire-form">
+        <input id="acq-url" type="url" placeholder="https://example.com/game/" spellcheck="false">
+        <input id="acq-slug" type="text" placeholder="slug (optional)">
+        <button id="acq-go" class="primary">Acquire</button>
+      </div>
+      <div id="acq-note" class="legal-note">Use only games you own or are licensed to mirror.</div>
+      <div id="acq-progress" class="progress-box hidden">
+        <div class="job-head"><b id="job-state">running</b><span id="job-slug"></span></div>
+        <pre id="job-log"></pre>
+        <div id="job-result"></div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="view-projects" class="view hidden">
+      <h1>Projects</h1>
+      <div id="projects-list"></div>
+    </section>
+
+    <!-- PROJECT DETAIL -->
+    <section id="view-project" class="view hidden">
+      <div id="proj-head"></div>
+      <div class="tabs" id="proj-tabs">
+        <button data-tab="recon" class="tab active">Recon</button>
+        <button data-tab="resources" class="tab">Resources</button>
+        <button data-tab="deps" class="tab">Dependencies</button>
+        <button data-tab="verify" class="tab">Verification</button>
+        <button data-tab="audit" class="tab">Audit</button>
+        <button data-tab="assets" class="tab">Assets</button>
+        <button data-tab="preview" class="tab">Preview</button>
+      </div>
+      <div id="proj-body" class="proj-body"></div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="view-about" class="view hidden">
+      <h1>About</h1>
+      <p><b>Universal AI Game Studio</b> acquires a web game, mirrors it byte-identically,
+      reconstructs a locally playable copy (URL rewriting + runtime interceptor), audits
+      external services/branding, inventories assets with feasibility scores and verifies
+      the reconstruction by actually playing it in headless Chromium.</p>
+      <ul class="honest">
+        <li>Original files are never modified — everything is preserved under <code>acquisition/original/</code>.</li>
+        <li>Scores are evidence-based; uncertainty is visible, never hidden.</li>
+        <li>Cleanup changes are only <i>proposed</i> (audit report) — nothing is removed automatically.</li>
+        <li>APK builds run on GitHub Actions via <code>acquire-build.yml</code> (dispatch).</li>
+      </ul>
+      <p class="legal-note">Use only games you own or are licensed to acquire, modify and redistribute.</p>
+    </section>
+  </main>
+</div>
+<script src="app.js"></script>
+</body>
+</html>

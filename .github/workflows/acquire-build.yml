@@ -1,0 +1,86 @@
+name: Acquire & Build APK
+
+# Dispatch: acquire a game URL → mirror it → commit the mirror → build a signed APK.
+# The APK bundles the mirror as assets and loads file:///android_asset/mirror/index.html.
+on:
+  workflow_dispatch:
+    inputs:
+      game_url:
+        description: "Game URL to acquire"
+        required: true
+        default: "https://ellisonleao.github.io/clumsy-bird/"
+      slug:
+        description: "Project slug (optional)"
+        required: false
+        default: ""
+      app_name:
+        description: "APK display name"
+        required: false
+        default: "AI Game Box"
+      package_name:
+        description: "APK package id"
+        required: false
+        default: "com.dvd2pe.gamebox"
+
+permissions:
+  contents: write
+
+jobs:
+  acquire:
+    runs-on: ubuntu-latest
+    outputs:
+      slug: ${{ steps.acquire.outputs.slug }}
+      sha: ${{ steps.commit.outputs.sha }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+          python -m playwright install --with-deps chromium
+      - id: acquire
+        run: |
+          SLUG=$(python scripts/cli.py acquire "${{ inputs.game_url }}" --slug "${{ inputs.slug }}" --out games | tail -1)
+          echo "slug=$SLUG" >> "$GITHUB_OUTPUT"
+          echo "Acquired project: $SLUG"
+      - id: commit
+        run: |
+          git config user.name "studio-bot"
+          git config user.email "studio-bot@users.noreply.github.com"
+          # CI safety: skip files >90MB (git hard limit) — they stay in the reports artifact? no: they are removed locally
+          find games -type f -size +90M -print -delete
+          git add games
+          git commit -m "acquire: ${{ inputs.game_url }} [skip ci]" || echo "nothing to commit"
+          git push
+          echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: reports-${{ steps.acquire.outputs.slug }}
+          path: games/${{ steps.acquire.outputs.slug }}/reports/
+
+  apk:
+    needs: acquire
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ needs.acquire.outputs.sha }}
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "17"
+      - uses: android-actions/setup-android@v3
+      - name: Accept SDK licenses
+        run: yes | sdkmanager --licenses > /dev/null || true
+      - name: Build signed APK
+        run: |
+          chmod +x scripts/build-apk.sh
+          scripts/build-apk.sh games/${{ needs.acquire.outputs.slug }}/mirror \
+            "${{ inputs.game_url }}" "${{ inputs.package_name }}" "${{ inputs.app_name }}" \
+            "dist/${{ needs.acquire.outputs.slug }}.apk"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: apk-${{ needs.acquire.outputs.slug }}
+          path: dist/*.apk

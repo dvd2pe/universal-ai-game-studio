@@ -1,0 +1,61 @@
+{
+  "loaded_url": "http://127.0.0.1:55049/ellisonleao.github.io/clumsy-bird/index.html",
+  "canvas": {
+    "w": 1200,
+    "h": 800
+  },
+  "animation_detected": true,
+  "console_errors": [],
+  "page_errors": 0,
+  "missing_requests": [],
+  "failed_requests": [],
+  "external_hosts": {},
+  "local_requests": 22,
+  "counts": {
+    "acquired": 21,
+    "discovered": 21,
+    "files": 22
+  },
+  "score": {
+    "total": 97,
+    "components": {
+      "acquisition": {
+        "value": 1.0,
+        "weight": 0.25,
+        "contribution": 25.0
+      },
+      "integrity": {
+        "value": 1.0,
+        "weight": 0.15,
+        "contribution": 15.0
+      },
+      "dependencies": {
+        "value": 1.0,
+        "weight": 0.15,
+        "contribution": 15.0
+      },
+      "launch": {
+        "value": 1.0,
+        "weight": 0.15,
+        "contribution": 15.0
+      },
+      "runtime_paint": {
+        "value": 1.0,
+        "weight": 0.1,
+        "contribution": 10.0
+      },
+      "coverage": {
+        "value": 0.7,
+        "weight": 0.1,
+        "contribution": 7.0
+      },
+      "external_isolation": {
+        "value": 1.0,
+        "weight": 0.1,
+        "contribution": 10.0
+      }
+    },
+    "note": "0-100 weighted sum of independently measured components"
+  },
+  "verdict": "verified-playable-locally: game launched, rendered and animated offline from the mirror"
+}
