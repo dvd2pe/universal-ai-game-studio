@@ -14,9 +14,20 @@ OUT="${5:-dist/game.apk}"
 
 SDK="${ANDROID_HOME:-${ANDROID_SDK_ROOT:-}}"
 [ -n "$SDK" ] || { echo "ERROR: ANDROID_HOME not set" >&2; exit 1; }
-BT="$(ls -d "$SDK"/build-tools/* | sort -V | tail -1)"
-PLAT="$(ls -d "$SDK"/platforms/android-* | sort -V | tail -1)"
+# prefer stable versions explicitly; fall back to newest stable available
+BT=""
+for v in 34.0.0 35.0.0 36.0.0; do
+  [ -d "$SDK/build-tools/$v" ] && { BT="$SDK/build-tools/$v"; break; }
+done
+[ -n "$BT" ] || BT="$(ls -d "$SDK"/build-tools/* | sort -V | tail -1)"
+PLAT=""
+for v in android-34 android-35 android-36; do
+  [ -d "$SDK/platforms/$v" ] && { PLAT="$SDK/platforms/$v"; break; }
+done
+[ -n "$PLAT" ] || PLAT="$(ls -d "$SDK"/platforms/android-* | grep -v beta | sort -V | tail -1)"
 echo "SDK: $SDK | build-tools: $(basename "$BT") | platform: $(basename "$PLAT")"
+
+mkdir -p "$(dirname "$OUT")"
 
 cd "$(dirname "$0")/../android"
 rm -rf bin gen classes dex; mkdir -p bin gen classes dex assets
