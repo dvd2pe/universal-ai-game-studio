@@ -71,9 +71,14 @@ jobs:
         with:
           distribution: temurin
           java-version: "17"
-      - uses: android-actions/setup-android@v3
-      - name: Accept SDK licenses
-        run: yes | sdkmanager --licenses > /dev/null || true
+      - name: Prepare Android SDK (preinstalled on runners)
+        run: |
+          export ANDROID_HOME="${ANDROID_HOME:-/usr/local/lib/android/sdk}"
+          echo "ANDROID_HOME=$ANDROID_HOME" >> "$GITHUB_ENV"
+          SDKM="$ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager"
+          yes | "$SDKM" --licenses > /dev/null || true
+          "$SDKM" "build-tools;34.0.0" "platforms;android-34" > /dev/null 2>&1 || echo "using preinstalled build-tools"
+          ls "$ANDROID_HOME/build-tools/" 2>/dev/null || true
       - name: Build signed APK
         run: |
           chmod +x scripts/build-apk.sh
