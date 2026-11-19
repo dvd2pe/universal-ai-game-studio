@@ -12,6 +12,16 @@ PACKAGE="${3:-com.dvd2pe.gamebox}"
 APP_NAME="${4:-AI Game Box}"
 OUT="${5:-dist/game.apk}"
 
+# absolutize caller-relative paths BEFORE cd'ing into android/
+MIRROR_DIR="${MIRROR_DIR:-}"
+if [ -n "$MIRROR_DIR" ] && [ "${MIRROR_DIR#/}" = "$MIRROR_DIR" ]; then
+  MIRROR_DIR="$(pwd)/$MIRROR_DIR"
+fi
+if [ "${OUT#/}" = "$OUT" ]; then
+  OUT="$(pwd)/$OUT"
+fi
+mkdir -p "$(dirname "$OUT")"
+
 SDK="${ANDROID_HOME:-${ANDROID_SDK_ROOT:-}}"
 [ -n "$SDK" ] || { echo "ERROR: ANDROID_HOME not set" >&2; exit 1; }
 # prefer stable versions explicitly; fall back to newest stable available
@@ -26,8 +36,6 @@ for v in android-34 android-35 android-36; do
 done
 [ -n "$PLAT" ] || PLAT="$(ls -d "$SDK"/platforms/android-* | grep -v beta | sort -V | tail -1)"
 echo "SDK: $SDK | build-tools: $(basename "$BT") | platform: $(basename "$PLAT")"
-
-mkdir -p "$(dirname "$OUT")"
 
 cd "$(dirname "$0")/../android"
 rm -rf bin gen classes dex; mkdir -p bin gen classes dex assets
