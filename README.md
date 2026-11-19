@@ -1,5 +1,8 @@
 # Universal AI Game Studio
 
+[![CI](https://github.com/dvd2pe/universal-ai-game-studio/actions/workflows/ci.yml/badge.svg)](https://github.com/dvd2pe/universal-ai-game-studio/actions/workflows/ci.yml)
+[![Acquire & Build APK](https://github.com/dvd2pe/universal-ai-game-studio/actions/workflows/acquire-build.yml/badge.svg)](https://github.com/dvd2pe/universal-ai-game-studio/actions/workflows/acquire-build.yml)
+
 Acquire a web game from a URL, deep-mirror it byte-identically, reconstruct a locally
 playable copy, audit external services/branding, inventory assets with feasibility
 scores, and verify the reconstruction by actually playing it in headless Chromium —
