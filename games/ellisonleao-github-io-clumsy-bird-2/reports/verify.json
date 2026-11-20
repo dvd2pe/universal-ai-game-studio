@@ -1,0 +1,65 @@
+{
+  "loaded_url": "http://127.0.0.1:53685/ellisonleao.github.io/clumsy-bird/index.html",
+  "canvas": null,
+  "animation_detected": false,
+  "console_errors": [
+    "Failed to load resource: the server responded with a status of 404 (File not found)"
+  ],
+  "page_errors": 0,
+  "missing_requests": [
+    {
+      "url": "http://127.0.0.1:53685/ellisonleao.github.io/clumsy-bird/index.html",
+      "status": 404
+    }
+  ],
+  "failed_requests": [],
+  "external_hosts": {},
+  "local_requests": 1,
+  "counts": {
+    "acquired": 21,
+    "discovered": 22,
+    "files": 22
+  },
+  "score": {
+    "total": 56,
+    "components": {
+      "acquisition": {
+        "value": 0.955,
+        "weight": 0.25,
+        "contribution": 23.9
+      },
+      "integrity": {
+        "value": 1.0,
+        "weight": 0.15,
+        "contribution": 15.0
+      },
+      "dependencies": {
+        "value": 0.0,
+        "weight": 0.15,
+        "contribution": 0.0
+      },
+      "launch": {
+        "value": 0.0,
+        "weight": 0.15,
+        "contribution": 0.0
+      },
+      "runtime_paint": {
+        "value": 0.0,
+        "weight": 0.1,
+        "contribution": 0.0
+      },
+      "coverage": {
+        "value": 0.7,
+        "weight": 0.1,
+        "contribution": 7.0
+      },
+      "external_isolation": {
+        "value": 1.0,
+        "weight": 0.1,
+        "contribution": 10.0
+      }
+    },
+    "note": "0-100 weighted sum of independently measured components"
+  },
+  "verdict": "partially-verified: mirror loads locally but some runtime checks did not pass (see components)"
+}

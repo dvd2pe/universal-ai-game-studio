@@ -1,0 +1,14 @@
+{
+  "rewritten": {
+    "html": 0,
+    "css": 1,
+    "js": 0
+  },
+  "copied_binary": 18,
+  "unresolved": [
+    "ellisonleao.github.io/clumsy-bird/index.css: data/css/gamefont.eot",
+    "ellisonleao.github.io/clumsy-bird/index.css: data/css/gamefont.eot?#iefix",
+    "ellisonleao.github.io/clumsy-bird/index.css: data/css/gamefont.ttf",
+    "ellisonleao.github.io/clumsy-bird/index.css: data/css/gamefont.svg#gamefont"
+  ]
+}

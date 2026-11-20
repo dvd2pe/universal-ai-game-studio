@@ -1,0 +1,415 @@
+{
+  "url": "https://ellisonleao.github.io/clumsy-bird",
+  "started": "2026-11-20T10:01:23.422564+00:00",
+  "final_url": "https://ellisonleao.github.io/clumsy-bird/",
+  "redirects": [],
+  "iframes": [],
+  "console": [
+    {
+      "type": "warning",
+      "text": "The provided value 'middle' is not a valid enum value of type CanvasTextAlign."
+    },
+    {
+      "type": "warning",
+      "text": "The provided value 'middle' is not a valid enum value of type CanvasTextAlign."
+    },
+    {
+      "type": "warning",
+      "text": "The provided value 'middle' is not a valid enum value of type CanvasTextAlign."
+    },
+    {
+      "type": "warning",
+      "text": "The provided value 'middle' is not a valid enum value of type CanvasTextAlign."
+    },
+    {
+      "type": "warning",
+      "text": "The provided value 'middle' is not a valid enum value of type CanvasTextAlign."
+    },
+    {
+      "type": "warning",
+      "text": "The provided value 'middle' is not a valid enum value of type CanvasTextAlign."
+    },
+    {
+      "type": "warning",
+      "text": "The provided value 'middle' is not a valid enum value of type CanvasTextAlign."
+    },
+    {
+      "type": "warning",
+      "text": "The provided value 'middle' is not a valid enum value of type CanvasTextAlign."
+    },
+    {
+      "type": "warning",
+      "text": "The provided value 'middle' is not a valid enum value of type CanvasTextAlign."
+    },
+    {
+      "type": "warning",
+      "text": "The provided value 'middle' is not a valid enum value of type CanvasTextAlign."
+    },
+    {
+      "type": "warning",
+      "text": "The provided value 'middle' is not a valid enum value of type CanvasTextAlign."
+    },
+    {
+      "type": "warning",
+      "text": "The provided value 'middle' is not a valid enum value of type CanvasTextAlign."
+    },
+    {
+      "type": "warning",
+      "text": "The provided value 'middle' is not a valid enum value of type CanvasTextAlign."
+    },
+    {
+      "type": "warning",
+      "text": "The provided value 'middle' is not a valid enum value of type CanvasTextAlign."
+    },
+    {
+      "type": "warning",
+      "text": "The provided value 'middle' is not a valid enum value of type CanvasTextAlign."
+    },
+    {
+      "type": "warning",
+      "text": "The provided value 'middle' is not a valid enum value of type CanvasTextAlign."
+    },
+    {
+      "type": "warning",
+      "text": "The provided value 'middle' is not a valid enum value of type CanvasTextAlign."
+    },
+    {
+      "type": "warning",
+      "text": "The provided value 'middle' is not a valid enum value of type CanvasTextAlign."
+    },
+    {
+      "type": "warning",
+      "text": "The provided value 'middle' is not a valid enum value of type CanvasTextAlign."
+    },
+    {
+      "type": "warning",
+      "text": "The provided value 'middle' is not a valid enum value of type CanvasTextAlign."
+    },
+    {
+      "type": "warning",
+      "text": "The AudioContext was not allowed to start. It must be resumed (or created) after a user gesture on the page. https://developer.chrome.com/blog/autoplay/#web_audio"
+    },
+    {
+      "type": "warning",
+      "text": "The AudioContext was not allowed to start. It must be resumed (or created) after a user gesture on the page. https://developer.chrome.com/blog/autoplay/#web_audio"
+    }
+  ],
+  "page_errors": [],
+  "resources": [
+    {
+      "url": "https://ellisonleao.github.io/clumsy-bird",
+      "method": "GET",
+      "status": 301,
+      "mime": "",
+      "resource_type": "",
+      "phase": "initial",
+      "error": "body unavailable (Error)",
+      "external": false
+    },
+    {
+      "url": "https://ellisonleao.github.io/clumsy-bird/",
+      "method": "GET",
+      "status": 200,
+      "mime": "text/html; charset=utf-8",
+      "resource_type": "document",
+      "phase": "initial",
+      "initiator_frame": "https://ellisonleao.github.io/clumsy-bird/",
+      "size": 2429,
+      "raw": "7d29b347e54dd21bbe93c122ebe4efe47007efe6.bin",
+      "sha256": "f829cfb1d7b49f503357293efeeb5f4b284194e1f4c9088cd70cff050b2d0eb9",
+      "external": false
+    },
+    {
+      "url": "https://ellisonleao.github.io/clumsy-bird/index.css",
+      "method": "GET",
+      "status": 200,
+      "mime": "text/css; charset=utf-8",
+      "resource_type": "stylesheet",
+      "phase": "initial",
+      "initiator_frame": "https://ellisonleao.github.io/clumsy-bird/",
+      "size": 1260,
+      "raw": "81f10c461058287e737f55629a67de87a335feaa.bin",
+      "sha256": "17dfa48c753351c729177d0838b9281a3b7b46956fec7b0e9266791800cab625",
+      "external": false
+    },
+    {
+      "url": "https://ellisonleao.github.io/clumsy-bird/build/clumsy-min.js",
+      "method": "GET",
+      "status": 200,
+      "mime": "application/javascript; charset=utf-8",
+      "resource_type": "script",
+      "phase": "initial",
+      "initiator_frame": "https://ellisonleao.github.io/clumsy-bird/",
+      "size": 12842,
+      "raw": "d4672467273cb12e78e5507db36a4d6b8e71bcc6.bin",
+      "sha256": "e01c8715a1f3f9c3a8dc3ce683a63ba6a756d8f2aae96cb11cc0c99afd3ed4de",
+      "external": false
+    },
+    {
+      "url": "https://ellisonleao.github.io/clumsy-bird/js/melonJS-min.js",
+      "method": "GET",
+      "status": 200,
+      "mime": "application/javascript; charset=utf-8",
+      "resource_type": "script",
+      "phase": "initial",
+      "initiator_frame": "https://ellisonleao.github.io/clumsy-bird/",
+      "size": 224374,
+      "raw": "0b18767d337e5f5593be6316b8318097440b1833.bin",
+      "sha256": "4b281a49b40f8f1914e0bc49c2c59f99a9bd8127981f17dbd3bc65d00685385c",
+      "external": false
+    },
+    {
+      "url": "https://ellisonleao.github.io/clumsy-bird/data/bgm/theme.mp3",
+      "method": "GET",
+      "status": 200,
+      "mime": "audio/mp3",
+      "resource_type": "xhr",
+      "phase": "initial",
+      "initiator_frame": "https://ellisonleao.github.io/clumsy-bird/",
+      "size": 1408418,
+      "raw": "1f8fe8764c5997a02b5c249272aeaef24f83ce4a.bin",
+      "sha256": "8bed9acfb0bce3b1f98f7296f838039a81d1582aa7b946e85c14d30361eac354",
+      "external": false
+    },
+    {
+      "url": "https://ellisonleao.github.io/clumsy-bird/data/img/bg.png",
+      "method": "GET",
+      "status": 200,
+      "mime": "image/png",
+      "resource_type": "image",
+      "phase": "initial",
+      "initiator_frame": "https://ellisonleao.github.io/clumsy-bird/",
+      "size": 4576,
+      "raw": "41e0b78a7bb5b1b0da8b288090742878f75d26dd.bin",
+      "sha256": "1ca3ef1c0433183445973aa87d7105c8a2ff266099490276592d8815de7c94d9",
+      "external": false
+    },
+    {
+      "url": "https://ellisonleao.github.io/clumsy-bird/data/img/pipe.png",
+      "method": "GET",
+      "status": 200,
+      "mime": "image/png",
+      "resource_type": "image",
+      "phase": "initial",
+      "initiator_frame": "https://ellisonleao.github.io/clumsy-bird/",
+      "size": 23851,
+      "raw": "0ba886e7a9bca2bbde55c15890b2560ffd7cd2b6.bin",
+      "sha256": "3caa3c7b83727a06320c2e3d29da46a6e54d0da9b38fc258323084783a7e791c",
+      "external": false
+    },
+    {
+      "url": "https://ellisonleao.github.io/clumsy-bird/data/sfx/hit.mp3",
+      "method": "GET",
+      "status": 200,
+      "mime": "audio/mp3",
+      "resource_type": "xhr",
+      "phase": "initial",
+      "initiator_frame": "https://ellisonleao.github.io/clumsy-bird/",
+      "size": 2821,
+      "raw": "4301158fe90ab0d276ad50f9c2f36a882b2908ae.bin",
+      "sha256": "e53e723202bba588d4b0b60077d3ba2bc8494760e6eab095abe785389c7cc44c",
+      "external": false
+    },
+    {
+      "url": "https://ellisonleao.github.io/clumsy-bird/data/sfx/wing.mp3",
+      "method": "GET",
+      "status": 200,
+      "mime": "audio/mp3",
+      "resource_type": "xhr",
+      "phase": "initial",
+      "initiator_frame": "https://ellisonleao.github.io/clumsy-bird/",
+      "size": 3200,
+      "raw": "c12bab9d87e8566ae796eeafb5e6e6c5aa26f119.bin",
+      "sha256": "5b97a31e54597b1165549106ecf0df48ca24767af43d2794099c5c0e4c7a5d04",
+      "external": false
+    },
+    {
+      "url": "https://ellisonleao.github.io/clumsy-bird/data/sfx/lose.mp3",
+      "method": "GET",
+      "status": 200,
+      "mime": "audio/mp3",
+      "resource_type": "xhr",
+      "phase": "initial",
+      "initiator_frame": "https://ellisonleao.github.io/clumsy-bird/",
+      "size": 5015,
+      "raw": "c376920ab9b77095fc1baf5f212aa737ab72ab58.bin",
+      "sha256": "4a39a555ad2e3ea1a6d54f549d31fa42714ff25751d74d5437cb4c1bff82fb82",
+      "external": false
+    },
+    {
+      "url": "https://ellisonleao.github.io/clumsy-bird/data/img/gameover.png",
+      "method": "GET",
+      "status": 200,
+      "mime": "image/png",
+      "resource_type": "image",
+      "phase": "initial",
+      "initiator_frame": "https://ellisonleao.github.io/clumsy-bird/",
+      "size": 2749,
+      "raw": "4402b18efd9dc8bad0522a5db6713182416d4aec.bin",
+      "sha256": "1808919fc97deb987959f72ae8467fd9dc16201ff323c4b0c55e7b13b34cc819",
+      "external": false
+    },
+    {
+      "url": "https://ellisonleao.github.io/clumsy-bird/data/img/ground.png",
+      "method": "GET",
+      "status": 200,
+      "mime": "image/png",
+      "resource_type": "image",
+      "phase": "initial",
+      "initiator_frame": "https://ellisonleao.github.io/clumsy-bird/",
+      "size": 1612,
+      "raw": "c50dcaff6eee4175587d5a8074d30cbd14a8be69.bin",
+      "sha256": "ceac2ab3b0eeb26bf8b993a8a668a0dcba89a36bb23200045e0e74e6805d482b",
+      "external": false
+    },
+    {
+      "url": "https://ellisonleao.github.io/clumsy-bird/data/img/logo.png",
+      "method": "GET",
+      "status": 200,
+      "mime": "image/png",
+      "resource_type": "image",
+      "phase": "initial",
+      "initiator_frame": "https://ellisonleao.github.io/clumsy-bird/",
+      "size": 20284,
+      "raw": "ea97a84a3db89aff411d5adaf8664c7ddfc3c1e1.bin",
+      "sha256": "bfe4dfe01a8fdc3dd391ce774d62cee551348e0f78cfb5dae245664a07064e75",
+      "external": false
+    },
+    {
+      "url": "https://ellisonleao.github.io/clumsy-bird/data/img/clumsy.png",
+      "method": "GET",
+      "status": 200,
+      "mime": "image/png",
+      "resource_type": "image",
+      "phase": "initial",
+      "initiator_frame": "https://ellisonleao.github.io/clumsy-bird/",
+      "size": 1557,
+      "raw": "b214ebd73bcfb5247b7c4baa62f22e7866d9758f.bin",
+      "sha256": "e42e12f2a957a481fb5ec9d1f209e9118e81750cd288ffef254aab75957735e6",
+      "external": false
+    },
+    {
+      "url": "https://ellisonleao.github.io/clumsy-bird/data/img/gameoverbg.png",
+      "method": "GET",
+      "status": 200,
+      "mime": "image/png",
+      "resource_type": "image",
+      "phase": "initial",
+      "initiator_frame": "https://ellisonleao.github.io/clumsy-bird/",
+      "size": 1983,
+      "raw": "9119fefc0d51b581b4b388d9ef43891de1ab6892.bin",
+      "sha256": "01c091e40279744cc80e409cc2906c93757bba752982ef0eab626e4f3761a4aa",
+      "external": false
+    },
+    {
+      "url": "https://ellisonleao.github.io/clumsy-bird/data/img/getready.png",
+      "method": "GET",
+      "status": 200,
+      "mime": "image/png",
+      "resource_type": "image",
+      "phase": "initial",
+      "initiator_frame": "https://ellisonleao.github.io/clumsy-bird/",
+      "size": 2925,
+      "raw": "1dc647986679b0a7c53f73197ec56171171634f8.bin",
+      "sha256": "6cb8cd0fcb830405bcb0924fa7e9093ce01ad554bd844f0e614c327a32a8fea1",
+      "external": false
+    },
+    {
+      "url": "https://ellisonleao.github.io/clumsy-bird/data/img/hit.png",
+      "method": "GET",
+      "status": 200,
+      "mime": "image/png",
+      "resource_type": "image",
+      "phase": "initial",
+      "initiator_frame": "https://ellisonleao.github.io/clumsy-bird/",
+      "size": 1028,
+      "raw": "63b3c253cdfe8ea676125eb052538638316a8cea.bin",
+      "sha256": "38c19fca1d144129588d327e5851af24deb2d7d111a97d0820a933c0d63fdbee",
+      "external": false
+    },
+    {
+      "url": "https://ellisonleao.github.io/clumsy-bird/data/img/share.png",
+      "method": "GET",
+      "status": 200,
+      "mime": "image/png",
+      "resource_type": "image",
+      "phase": "initial",
+      "initiator_frame": "https://ellisonleao.github.io/clumsy-bird/",
+      "size": 8631,
+      "raw": "75ff8a52e65c4f99ae6c27d59afc25002918e29b.bin",
+      "sha256": "801a8eb19f31dbd722144c5fb1decdbd02cf55bf1f1d75c6289e326c66650042",
+      "external": false
+    },
+    {
+      "url": "https://ellisonleao.github.io/clumsy-bird/data/img/new.png",
+      "method": "GET",
+      "status": 200,
+      "mime": "image/png",
+      "resource_type": "image",
+      "phase": "initial",
+      "initiator_frame": "https://ellisonleao.github.io/clumsy-bird/",
+      "size": 2196,
+      "raw": "d365571b3e5f0373c5fa0a5303d182067b012eb0.bin",
+      "sha256": "ebb48544f9f123260c0a5bfc2b07492b9b0cc829da55a9f4297ccb0e76620d15",
+      "external": false
+    },
+    {
+      "url": "https://ellisonleao.github.io/clumsy-bird/data/img/tweet.png",
+      "method": "GET",
+      "status": 200,
+      "mime": "image/png",
+      "resource_type": "image",
+      "phase": "initial",
+      "initiator_frame": "https://ellisonleao.github.io/clumsy-bird/",
+      "size": 6704,
+      "raw": "022c5a42e1d763999aba6b73852ceab924f85181.bin",
+      "sha256": "bf7a56eb1b7c655c5ba2c04446c2459ec6f8677726f568be36731be90935d12f",
+      "external": false
+    },
+    {
+      "url": "https://ellisonleao.github.io/clumsy-bird/data/css/gamefont.woff",
+      "method": "GET",
+      "status": 200,
+      "mime": "font/woff",
+      "resource_type": "font",
+      "phase": "initial",
+      "initiator_frame": "https://ellisonleao.github.io/clumsy-bird/",
+      "size": 4080,
+      "raw": "724b882520d3621e63453e007ccea846d95c6893.bin",
+      "sha256": "ec9e8ce7eb397f64908f74d2e5f58c9c7c2e5d2aa277212aa36d230957c9bc6c",
+      "external": false
+    }
+  ],
+  "globals": {
+    "phaser": false,
+    "pixi": false,
+    "three": false,
+    "melon": true,
+    "babylon": false,
+    "unity": false,
+    "cocos": false,
+    "playcanvas": false,
+    "godot": false,
+    "egret": false,
+    "construct2": false,
+    "construct3": false,
+    "gdevelop": false,
+    "hasCanvas": true
+  },
+  "entry_url": "https://ellisonleao.github.io/clumsy-bird/",
+  "entry_in_iframe": false,
+  "warnings": [],
+  "fatal": null,
+  "interaction_attempted": true,
+  "finished": "2026-11-20T10:01:45.152218+00:00",
+  "request_count": 22,
+  "external_count": 0,
+  "engine": {
+    "engine": "melonjs",
+    "confidence": "high",
+    "evidence": [
+      "runtime global detected: melon",
+      "signature match: 'melonjs'"
+    ]
+  }
+}

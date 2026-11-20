@@ -1,0 +1,401 @@
+{
+  "items": [
+    {
+      "path": "ellisonleao.github.io/clumsy-bird/build/clumsy-min.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 12842,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "ellisonleao.github.io/clumsy-bird/data/bgm/theme.mp3",
+      "category": "audio",
+      "meta": {
+        "size_bytes": 1408418,
+        "format": "mp3",
+        "duration_s": 117.342041,
+        "channels": 2,
+        "sample_rate": "44100",
+        "width": null,
+        "height": null
+      },
+      "feasibility": {
+        "score": 75,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "ellisonleao.github.io/clumsy-bird/data/css/gamefont.woff",
+      "category": "font",
+      "meta": {
+        "size_bytes": 4080,
+        "format": "woff"
+      },
+      "feasibility": {
+        "score": 70,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "ellisonleao.github.io/clumsy-bird/data/img/bg.png",
+      "category": "image",
+      "meta": {
+        "size_bytes": 4576,
+        "format": "PNG",
+        "width": 900,
+        "height": 504,
+        "mode": "RGB",
+        "alpha": false
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "ellisonleao.github.io/clumsy-bird/data/img/clumsy.png",
+      "category": "image",
+      "meta": {
+        "size_bytes": 1557,
+        "format": "PNG",
+        "width": 255,
+        "height": 60,
+        "mode": "RGBA",
+        "alpha": true
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "ellisonleao.github.io/clumsy-bird/data/img/gameover.png",
+      "category": "image",
+      "meta": {
+        "size_bytes": 2749,
+        "format": "PNG",
+        "width": 245,
+        "height": 132,
+        "mode": "RGBA",
+        "alpha": true
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "ellisonleao.github.io/clumsy-bird/data/img/gameoverbg.png",
+      "category": "image",
+      "meta": {
+        "size_bytes": 1983,
+        "format": "PNG",
+        "width": 505,
+        "height": 361,
+        "mode": "RGB",
+        "alpha": false
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "ellisonleao.github.io/clumsy-bird/data/img/getready.png",
+      "category": "image",
+      "meta": {
+        "size_bytes": 2925,
+        "format": "PNG",
+        "width": 405,
+        "height": 134,
+        "mode": "RGBA",
+        "alpha": true
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "ellisonleao.github.io/clumsy-bird/data/img/ground.png",
+      "category": "image",
+      "meta": {
+        "size_bytes": 1612,
+        "format": "PNG",
+        "width": 900,
+        "height": 96,
+        "mode": "RGBA",
+        "alpha": true
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "ellisonleao.github.io/clumsy-bird/data/img/hit.png",
+      "category": "image",
+      "meta": {
+        "size_bytes": 1028,
+        "format": "PNG",
+        "width": 148,
+        "height": 60,
+        "mode": "RGB",
+        "alpha": false
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "ellisonleao.github.io/clumsy-bird/data/img/logo.png",
+      "category": "image",
+      "meta": {
+        "size_bytes": 20284,
+        "format": "PNG",
+        "width": 351,
+        "height": 145,
+        "mode": "RGBA",
+        "alpha": true
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "ellisonleao.github.io/clumsy-bird/data/img/new.png",
+      "category": "image",
+      "meta": {
+        "size_bytes": 2196,
+        "format": "PNG",
+        "width": 48,
+        "height": 48,
+        "mode": "RGBA",
+        "alpha": true
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "ellisonleao.github.io/clumsy-bird/data/img/pipe.png",
+      "category": "image",
+      "meta": {
+        "size_bytes": 23851,
+        "format": "PNG",
+        "width": 148,
+        "height": 1664,
+        "mode": "RGBA",
+        "alpha": true
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "ellisonleao.github.io/clumsy-bird/data/img/share.png",
+      "category": "image",
+      "meta": {
+        "size_bytes": 8631,
+        "format": "PNG",
+        "width": 150,
+        "height": 75,
+        "mode": "RGBA",
+        "alpha": true
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "ellisonleao.github.io/clumsy-bird/data/img/tweet.png",
+      "category": "image",
+      "meta": {
+        "size_bytes": 6704,
+        "format": "PNG",
+        "width": 152,
+        "height": 75,
+        "mode": "RGBA",
+        "alpha": true
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "ellisonleao.github.io/clumsy-bird/data/sfx/hit.mp3",
+      "category": "audio",
+      "meta": {
+        "size_bytes": 2821,
+        "format": "mp3",
+        "duration_s": 0.20898,
+        "channels": 1,
+        "sample_rate": "44100",
+        "width": null,
+        "height": null
+      },
+      "feasibility": {
+        "score": 75,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "ellisonleao.github.io/clumsy-bird/data/sfx/lose.mp3",
+      "category": "audio",
+      "meta": {
+        "size_bytes": 5015,
+        "format": "mp3",
+        "duration_s": 0.391837,
+        "channels": 2,
+        "sample_rate": "44100",
+        "width": null,
+        "height": null
+      },
+      "feasibility": {
+        "score": 75,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "ellisonleao.github.io/clumsy-bird/data/sfx/wing.mp3",
+      "category": "audio",
+      "meta": {
+        "size_bytes": 3200,
+        "format": "mp3",
+        "duration_s": 0.287347,
+        "channels": 1,
+        "sample_rate": "44100",
+        "width": null,
+        "height": null
+      },
+      "feasibility": {
+        "score": 75,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "ellisonleao.github.io/clumsy-bird/index.css",
+      "category": "code",
+      "meta": {
+        "size_bytes": 1300,
+        "format": "css"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "ellisonleao.github.io/clumsy-bird/js/melonJS-min.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 224345,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "ellisonleao.github.io/clumsy-bird__file",
+      "category": "other",
+      "meta": {
+        "size_bytes": 2429,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "index.html",
+      "category": "code",
+      "meta": {
+        "size_bytes": 128,
+        "format": "html"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    }
+  ],
+  "summary": {
+    "assets": 22,
+    "by_category": {
+      "code": 4,
+      "audio": 4,
+      "font": 1,
+      "image": 12,
+      "other": 1
+    },
+    "overall_feasibility": 73,
+    "bottleneck": null,
+    "thresholds": ">=80 easy, 50-79 moderate, 25-49 difficult, <25 very difficult"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "nodes": [
+    "ellisonleao.github.io/clumsy-bird/build/clumsy-min.js",
+    "ellisonleao.github.io/clumsy-bird/data/bgm/theme.mp3",
+    "ellisonleao.github.io/clumsy-bird/data/css/gamefont.woff",
+    "ellisonleao.github.io/clumsy-bird/data/img/bg.png",
+    "ellisonleao.github.io/clumsy-bird/data/img/clumsy.png",
+    "ellisonleao.github.io/clumsy-bird/data/img/gameover.png",
+    "ellisonleao.github.io/clumsy-bird/data/img/gameoverbg.png",
+    "ellisonleao.github.io/clumsy-bird/data/img/getready.png",
+    "ellisonleao.github.io/clumsy-bird/data/img/ground.png",
+    "ellisonleao.github.io/clumsy-bird/data/img/hit.png",
+    "ellisonleao.github.io/clumsy-bird/data/img/logo.png",
+    "ellisonleao.github.io/clumsy-bird/data/img/new.png",
+    "ellisonleao.github.io/clumsy-bird/data/img/pipe.png",
+    "ellisonleao.github.io/clumsy-bird/data/img/share.png",
+    "ellisonleao.github.io/clumsy-bird/data/img/tweet.png",
+    "ellisonleao.github.io/clumsy-bird/data/sfx/hit.mp3",
+    "ellisonleao.github.io/clumsy-bird/data/sfx/lose.mp3",
+    "ellisonleao.github.io/clumsy-bird/data/sfx/wing.mp3",
+    "ellisonleao.github.io/clumsy-bird/index.css",
+    "ellisonleao.github.io/clumsy-bird/js/melonJS-min.js",
+    "ellisonleao.github.io/clumsy-bird__file"
+  ],
+  "edges": [
+    {
+      "from": "ellisonleao.github.io/clumsy-bird/index.css",
+      "to": "ellisonleao.github.io/clumsy-bird/data/css/gamefont.woff"
+    }
+  ],
+  "unresolved_refs": [
+    "ellisonleao.github.io/clumsy-bird/index.css: data/css/gamefont.eot",
+    "ellisonleao.github.io/clumsy-bird/index.css: data/css/gamefont.eot?#iefix",
+    "ellisonleao.github.io/clumsy-bird/index.css: data/css/gamefont.ttf",
+    "ellisonleao.github.io/clumsy-bird/index.css: data/css/gamefont.svg#gamefont"
+  ],
+  "external_hosts": []
+}

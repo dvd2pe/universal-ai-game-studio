@@ -62,9 +62,33 @@ def build_mirror(project_dir, recon, progress=print):
               "failed": 0, "duplicates": 0}
 
     progress(f"mirror: organizing {counts['discovered']} discovered resources")
+
+    # file/dir clash pre-pass: the same game URL with and without a trailing
+    # slash maps to …/game (saved as a FILE) and …/game/… (needs a DIRECTORY)
+    # — renaming the file rels up-front keeps later mkdir() calls legal
+    rel_for = {}
+    for res in recon["resources"]:
+        rel_for.setdefault(res["url"], _local_rel(res["url"]))
+    all_rels = set(rel_for.values())
+    for rel in sorted(all_rels):
+        if any(s != rel and s.startswith(rel + "/") for s in all_rels):
+            p = Path(rel)
+            n = 0
+            while True:
+                cand = str(p.parent / f"{p.name}__file{n if n else ''}")
+                if cand not in all_rels and not (acq / cand).exists():
+                    break
+                n += 1
+            for u, r in rel_for.items():
+                if r == rel:
+                    rel_for[u] = cand
+            all_rels.discard(rel)
+            all_rels.add(cand)
+            progress(f"mirror: rel '{rel}' is both file and dir prefix → '{cand}'")
+
     for res in recon["resources"]:
         url = res["url"]
-        rel = _local_rel(url)
+        rel = rel_for[url]
         entry = {
             "url": url, "rel": rel, "method": res.get("method", "GET"),
             "status": res.get("status", 0), "mime": res.get("mime", ""),
@@ -140,7 +164,7 @@ def build_mirror(project_dir, recon, progress=print):
     missing = [e["url"] for e in resources if "error" in e]
     manifest = {
         "source_url": recon["url"], "entry_url": index_url,
-        "entry_rel": _local_rel(index_url), "created": recon.get("finished"),
+        "entry_rel": rel_for.get(index_url) or _local_rel(index_url), "created": recon.get("finished"),
         "engine": recon.get("engine", {}), "resources": resources,
         "counts": counts, "missing": missing, "known_rels": sorted(used_rels),
         "interaction_attempted": recon.get("interaction_attempted", False),

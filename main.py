@@ -69,10 +69,13 @@ _URL_RE = re.compile(r"https?://[^\s<>\"')\]}]+")
 
 
 def _extract_urls(text):
-    """Pull every http(s) URL out of arbitrary pasted text (deduped, order kept)."""
+    """Pull every http(s) URL out of arbitrary pasted text (deduped, order
+    kept, trailing slash normalized so the same link pasted twice counts once)."""
     urls, seen = [], set()
     for m in _URL_RE.finditer(text or ""):
         u = m.group(0).rstrip(".,;:!?\"'")
+        if u.endswith("/"):
+            u = u[:-1]
         if u not in seen:
             seen.add(u)
             urls.append(u)
