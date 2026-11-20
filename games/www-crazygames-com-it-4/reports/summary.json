@@ -1,0 +1,55 @@
+{
+  "slug": "www-crazygames-com-it-4",
+  "url": "https://www.crazygames.com/it/game/tic-tac-toe",
+  "status": "complete",
+  "final_url": "https://www.crazygames.com/it/game/tic-tac-toe",
+  "entry_url": "https://tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/index.html?isNewUser=true&__nextLocale=it&isFirstSession=true&czyExpClientOptable4=enabled&czyExpClientAdsDummyAA50=disabled&czyExpClientAmazonBidRoute_2=prebid&czyExpClientAdsHolidayMode_CZY_21360=enabled&czyExpClientAdmiral=enabled&czyExpClientAdXFloor_1_CZY_20844=1.1&czyExpClientAutoRefreshIngameBanners=disabled&czyExpClientVerticalVideoSize_CZY_22165=disabled&czyExpDisableInterstitialsFirst12h_CZY_18471=disabled&czyExpClientArtworkAbTesting_CZY_20701=enabled&czyExpModelApiTraffic_CZY_21907=enabled&czyExpCoversImages_CZY_21375=enabled&czyExpClientDomainProbe_CZY_21425=disabled&czyExpClientGamepageModelBlend_CZY_21410=enabled&czyExpClientInAppPurchaseAlternativeBillingAndroidValidToken=disabled&czyExpClientConfirmLeaveGame=enabled&czyExpClientImpressionDiscounting_CZY_20723=disabled&czyExpClientLbRankProgress_CZY_21923=disabled&czyExpIncreasedLeaderboardProminance=disabled&czyExpClientModelGamePage=knn_v3&czyExpClientInAppPurchaseAlternativeBillingAndroid=enabled&czyExpClientInAppPurchaseAlternativeBillingIOSUS=enabled",
+  "entry_rel": "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/index__qisNewUser_tr.html",
+  "engine": {
+    "engine": "unknown",
+    "confidence": "none",
+    "evidence": []
+  },
+  "counts": {
+    "discovered": 646,
+    "captured": 390,
+    "downloaded": 19,
+    "failed": 39,
+    "duplicates": 198
+  },
+  "score": 85,
+  "verdict": "partially-verified: mirror loads locally but some runtime checks did not pass (see components)",
+  "audit_summary": {
+    "GREEN": 10,
+    "UNKNOWN": 105,
+    "YELLOW": 9
+  },
+  "assets_summary": {
+    "assets": 389,
+    "by_category": {
+      "code": 140,
+      "other": 105,
+      "config": 2,
+      "font": 6,
+      "image": 129,
+      "audio": 7
+    },
+    "overall_feasibility": 59,
+    "bottleneck": null,
+    "thresholds": ">=80 easy, 50-79 moderate, 25-49 difficult, <25 very difficult"
+  },
+  "created": "2026-11-20T10:20:12.203123+00:00",
+  "duration_s": 103.0,
+  "preview_url": "/games/www-crazygames-com-it-4/mirror/tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/index__qisNewUser_tr.html",
+  "reports": {
+    "summary": "games/www-crazygames-com-it-4/reports/summary.json",
+    "recon": "games/www-crazygames-com-it-4/reports/recon.json",
+    "manifest": "games/www-crazygames-com-it-4/reports/manifest.json",
+    "depgraph": "games/www-crazygames-com-it-4/reports/depgraph.json",
+    "rewrite": "games/www-crazygames-com-it-4/reports/rewrite.json",
+    "audit": "games/www-crazygames-com-it-4/reports/audit.json",
+    "assets": "games/www-crazygames-com-it-4/reports/assets.json",
+    "verify": "games/www-crazygames-com-it-4/reports/verify.json",
+    "score": "games/www-crazygames-com-it-4/reports/score.json"
+  }
+}

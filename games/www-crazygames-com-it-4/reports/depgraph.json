@@ -1,0 +1,972 @@
+{
+  "nodes": [
+    "183dad8e1126c540690ed23a2fb15df9.safeframe.googlesyndication.com/safeframe/1-0-45/html/container.html",
+    "aax.amazon-adsystem.com/e/dtb/bid/926463.55/0/prebid__qadunitid_aqg",
+    "accounts.google.com/gsi/client",
+    "accounts.google.com/gsi/fedcm/config/passive.json",
+    "accounts.google.com/gsi/fedcm/listaccounts",
+    "accounts.google.com/gsi/status__qclient_id_49",
+    "accounts.google.com/gsi/style",
+    "ads.pubmatic.com/AdServer/js/user_sync__qgdpr_0_gdpr_.html",
+    "api.crazygames.com/v4/en_US/configv3",
+    "api.crazygames.com/v4/en_US/game/tic-tac-toe/rating",
+    "api.crazygames.com/v4/it_IT/games/basicLaunch__qdevice_deskt",
+    "api.crazygames.com/v4/it_IT/unitsconfig__qcountry_HK",
+    "ats-wrapper.privacymanager.io/ats-modules/f335ec38-f1f6-423b-8091-fe87576411ae/ats.js",
+    "b1sync.outbrain.com/usersync/googleadx/index__qgoogle_cver_.html",
+    "builds.crazygames.com/gameframe/static/js/8bMbYHnb2.js",
+    "builds.crazygames.com/gameframe/static/js/B64wT94t.js",
+    "builds.crazygames.com/gameframe/static/js/BByQv_Bo2.js",
+    "builds.crazygames.com/gameframe/static/js/BSTaXr_G.js",
+    "builds.crazygames.com/gameframe/static/js/ByF0oZf9.js",
+    "builds.crazygames.com/gameframe/static/js/CKRfKwc82.js",
+    "builds.crazygames.com/gameframe/static/js/Cc5IXyQv2.js",
+    "builds.crazygames.com/gameframe/static/js/D1oZjxrY2.js",
+    "builds.crazygames.com/gameframe/static/js/DUwvcEJu.js",
+    "builds.crazygames.com/gameframe/static/js/DdPAVnY5.js",
+    "builds.crazygames.com/gameframe/static/js/DesdDbnn.js",
+    "builds.crazygames.com/gameframe/static/js/Df2MVSKS2.js",
+    "builds.crazygames.com/gameframe/v2.14/bundle.js",
+    "builds.crazygames.com/portal-web/_next/static/1795091751/_buildManifest.js",
+    "builds.crazygames.com/portal-web/_next/static/1795091751/_ssgManifest.js",
+    "builds.crazygames.com/portal-web/_next/static/chunks/14434-c17bcbafd5b6f726.js",
+    "builds.crazygames.com/portal-web/_next/static/chunks/16790.faa7938429f06041.js",
+    "builds.crazygames.com/portal-web/_next/static/chunks/1871.d8c214416bf611bd.js",
+    "builds.crazygames.com/portal-web/_next/static/chunks/1bd5887b-aeda1d4dc1d4c5d6.js",
+    "builds.crazygames.com/portal-web/_next/static/chunks/20299.3446c1257377bdb1.js",
+    "builds.crazygames.com/portal-web/_next/static/chunks/21550.567375bf60279fc6.js",
+    "builds.crazygames.com/portal-web/_next/static/chunks/23504.8bddfb04a465c6f0.js",
+    "builds.crazygames.com/portal-web/_next/static/chunks/33297-74b8dca86dff2137.js",
+    "builds.crazygames.com/portal-web/_next/static/chunks/36092.0349f610968cbf9e.js",
+    "builds.crazygames.com/portal-web/_next/static/chunks/42035.1477a89fe640024e.js",
+    "builds.crazygames.com/portal-web/_next/static/chunks/54135.d94d5dea709a8f84.js",
+    "builds.crazygames.com/portal-web/_next/static/chunks/63877-c2d40d30009765f7.js",
+    "builds.crazygames.com/portal-web/_next/static/chunks/65142.d96517d600582bf4.js",
+    "builds.crazygames.com/portal-web/_next/static/chunks/6847-aefee112308b4d28.js",
+    "builds.crazygames.com/portal-web/_next/static/chunks/68846.2c65f3c52f70dfb0.js",
+    "builds.crazygames.com/portal-web/_next/static/chunks/73066-ee4e2d0ab88fd850.js",
+    "builds.crazygames.com/portal-web/_next/static/chunks/76683.bed38207f2580772.js",
+    "builds.crazygames.com/portal-web/_next/static/chunks/80957.fafa430367cb012a.js",
+    "builds.crazygames.com/portal-web/_next/static/chunks/82067.ff9a3b15c3e78a8b.js",
+    "builds.crazygames.com/portal-web/_next/static/chunks/83767.e065e668cf21a614.js",
+    "builds.crazygames.com/portal-web/_next/static/chunks/86092.8f279f3c9e289c0d.js",
+    "builds.crazygames.com/portal-web/_next/static/chunks/88823-2d8457dd7fbe1da5.js",
+    "builds.crazygames.com/portal-web/_next/static/chunks/89247-b71493a621fcc168.js",
+    "builds.crazygames.com/portal-web/_next/static/chunks/89837-94227bbb7509f614.js",
+    "builds.crazygames.com/portal-web/_next/static/chunks/9690-e20dda3addafa762.js",
+    "builds.crazygames.com/portal-web/_next/static/chunks/98881.cf293c9bfa4d5f9d.js",
+    "builds.crazygames.com/portal-web/_next/static/chunks/99414.d6bebab3fad69f8f.js",
+    "builds.crazygames.com/portal-web/_next/static/chunks/framework-5e11c2d5d470e84d.js",
+    "builds.crazygames.com/portal-web/_next/static/chunks/main-d3e2aedeadf39fcd.js",
+    "builds.crazygames.com/portal-web/_next/static/chunks/pages/_app-7d25fb516595d4af.js",
+    "builds.crazygames.com/portal-web/_next/static/chunks/pages/game/_game_-ad1c3e8dbd589296.js",
+    "builds.crazygames.com/portal-web/_next/static/chunks/webpack-a7cf33bd636e662b.js",
+    "builds.crazygames.com/portal-web/_next/static/css/031e1778ec9c348e.css",
+    "builds.crazygames.com/portal-web/_next/static/css/3725ca9154e05542.css",
+    "builds.crazygames.com/portal-web/_next/static/css/581e397261e10ee2.css",
+    "builds.crazygames.com/portal-web/_next/static/css/5bcc76f3b4fbe4c4.css",
+    "builds.crazygames.com/portal-web/_next/static/css/5db9552f0a5fb1a1.css",
+    "builds.crazygames.com/portal-web/_next/static/css/614e687fbe00b148.css",
+    "builds.crazygames.com/portal-web/_next/static/css/6f3bc1ffa4b59ff3.css",
+    "builds.crazygames.com/portal-web/_next/static/css/7298308bc3878c18.css",
+    "builds.crazygames.com/portal-web/_next/static/css/7deffa60fe068947.css",
+    "builds.crazygames.com/portal-web/_next/static/css/88e5c940bbc969ac.css",
+    "builds.crazygames.com/portal-web/_next/static/css/91f4b48f90d625cc.css",
+    "builds.crazygames.com/portal-web/_next/static/css/9802f89b70963e60.css",
+    "builds.crazygames.com/portal-web/_next/static/css/9ce16680287f0906.css",
+    "builds.crazygames.com/portal-web/_next/static/css/b1de9405606fc0e1.css",
+    "builds.crazygames.com/portal-web/_next/static/css/b855fb72a0eb1c9c.css",
+    "builds.crazygames.com/portal-web/_next/static/css/c4a72e6084fc69c3.css",
+    "builds.crazygames.com/portal-web/_next/static/css/d239be49867c9718.css",
+    "builds.crazygames.com/portal-web/_next/static/css/dfdf111b0ff12747.css",
+    "builds.crazygames.com/portal-web/_next/static/css/e844aa76c7b000fa.css",
+    "builds.crazygames.com/portal-web/_next/static/css/ebbd98611333aec8.css",
+    "builds.crazygames.com/portal-web/_next/static/css/f290b2d12b78da08.css",
+    "builds.crazygames.com/portal-web/_next/static/css/f5d1c303e6b14100.css",
+    "builds.crazygames.com/portal-web/_next/static/media/4addd173933af60a.p.woff2",
+    "builds.crazygames.com/portal-web/_next/static/media/6ad36a674cfc3e90.p.woff2",
+    "builds.crazygames.com/portal-web/_next/static/media/72fd0ddcfc9397a7.p.woff2",
+    "builds.crazygames.com/portal-web/_next/static/media/e3353863c413f150.p.woff2",
+    "c1.adform.net/serving/cookie/match/index__qCC_1_party_2.html",
+    "cdn.privacy-mgmt.com/unified/wrapperMessagingWithoutDetection.js",
+    "check.analytics.rlcdn.com/check/13431",
+    "cm.g.doubleclick.net/partnerpixels__qurl_https_3A",
+    "cm.g.doubleclick.net/pixel__qgoogle_nid_o",
+    "cms.quantserve.com/dpixel__qa_p-n5vvLvRd",
+    "creativecdn.com/cm-notify__qpi_adxab_goo",
+    "cs.media.net/cksync__qcs_8.php",
+    "dsum.casalemedia.com/pbusermatch__qorigin_prebi",
+    "elb.the-ozone-project.com/cookie_sync",
+    "elb.the-ozone-project.com/openrtb2/auction",
+    "elb.the-ozone-project.com/static/load-cookie__qgdpr_0_gdpr_.html",
+    "ep1.adtrafficquality.google/getconfig/sodar__qsv_200_tid_g_dup0",
+    "ep2.adtrafficquality.google/sodar/sodar2.js",
+    "ep2.adtrafficquality.google/sodar/sodar2/257/runner.html",
+    "esp.rtbhouse.com/encrypt",
+    "fafvertizing.crazygames.com/v12.38/424.bundle.js",
+    "fafvertizing.crazygames.com/v12.38/rafvertizing-prebid-optable.js",
+    "fafvertizing.crazygames.com/v12.38/rafvertizing.js",
+    "fast.nexx360.io/booster",
+    "fastlane.rubiconproject.com/a/api/fastlane__qaccount_id_1_dup0.json",
+    "fonts.googleapis.com/css2__qdisplay_swap",
+    "fonts.googleapis.com/css__qfamily_Googl",
+    "fonts.googleapis.com/css__qfamily_Monts",
+    "fonts.googleapis.com/css__qfamily_Robot",
+    "fonts.gstatic.com/l/font__qkit_XRX_3I6L",
+    "games.crazygames.com/it_IT/tic-tac-toe/index__qisNewUser_tr.html",
+    "geo.privacymanager.io/index.html",
+    "google-bidout-d.openx.net/w/1.0/pd__qplm_5",
+    "google.com/.well-known/web-identity",
+    "googleads.g.doubleclick.net/pagead/drt/s__qv_r20120211",
+    "gum.criteo.com/sid/json__qorigin_prebi",
+    "gum.criteo.com/sid/json__qorigin_publi_dup0",
+    "gum.criteo.com/syncframe__qorigin_publi",
+    "htlb.casalemedia.com/openrtb/pbjs__qs_512809",
+    "i.ytimg.com/vi_webp/QNFQvX-MQgI/hqdefault.webp",
+    "id.crwdcntrl.net/id__qc_18200",
+    "image6.pubmatic.com/AdServer/PugMaster__qsec_1_async__dup0",
+    "imasdk.googleapis.com/js/sdkloader/ima3.js",
+    "imgs.crazygames.com/8-ball-pool-billiards-multiplayer_16x9/20260722044342/8-ball-pool-billiards-multiplayer_16x9-cover__qmetadata_non",
+    "imgs.crazygames.com/8-ball-pool-wyr_16x9/20251027031134/8-ball-pool-wyr_16x9-cover__qmetadata_non",
+    "imgs.crazygames.com/airplane-flight-pilot-simulator_16x9/20260929062817/airplane-flight-pilot-simulator_16x9-cover__qmetadata_non.png",
+    "imgs.crazygames.com/assets/SVG/icons/appstore.svg",
+    "imgs.crazygames.com/assets/SVG/icons/arrow-full-right.svg",
+    "imgs.crazygames.com/assets/SVG/icons/arrow-full-top.svg",
+    "imgs.crazygames.com/assets/SVG/icons/close.svg",
+    "imgs.crazygames.com/assets/SVG/icons/discord.svg",
+    "imgs.crazygames.com/assets/SVG/icons/linkedin.svg",
+    "imgs.crazygames.com/assets/SVG/icons/new.svg",
+    "imgs.crazygames.com/assets/SVG/icons/open-menu.svg",
+    "imgs.crazygames.com/assets/SVG/icons/originals6.svg",
+    "imgs.crazygames.com/assets/SVG/icons/playstore.svg",
+    "imgs.crazygames.com/assets/SVG/icons/refresh.svg",
+    "imgs.crazygames.com/assets/SVG/icons/search.svg",
+    "imgs.crazygames.com/assets/SVG/icons/share.svg",
+    "imgs.crazygames.com/assets/SVG/icons/tiktok.svg",
+    "imgs.crazygames.com/assets/SVG/icons/youtube.svg",
+    "imgs.crazygames.com/assets/SVG/ui-icons/action.svg",
+    "imgs.crazygames.com/assets/SVG/ui-icons/adventure.svg",
+    "imgs.crazygames.com/assets/SVG/ui-icons/arcade.svg",
+    "imgs.crazygames.com/assets/SVG/ui-icons/board.svg",
+    "imgs.crazygames.com/assets/SVG/ui-icons/cards.svg",
+    "imgs.crazygames.com/assets/SVG/ui-icons/chevron_right.svg",
+    "imgs.crazygames.com/assets/SVG/ui-icons/clicker.svg",
+    "imgs.crazygames.com/assets/SVG/ui-icons/clock.svg",
+    "imgs.crazygames.com/assets/SVG/ui-icons/cloud_error.svg",
+    "imgs.crazygames.com/assets/SVG/ui-icons/controls.svg",
+    "imgs.crazygames.com/assets/SVG/ui-icons/dislike.svg",
+    "imgs.crazygames.com/assets/SVG/ui-icons/driving.svg",
+    "imgs.crazygames.com/assets/SVG/ui-icons/expand.svg",
+    "imgs.crazygames.com/assets/SVG/ui-icons/feedback.svg",
+    "imgs.crazygames.com/assets/SVG/ui-icons/fire.svg",
+    "imgs.crazygames.com/assets/SVG/ui-icons/friends.svg",
+    "imgs.crazygames.com/assets/SVG/ui-icons/home.svg",
+    "imgs.crazygames.com/assets/SVG/ui-icons/io.svg",
+    "imgs.crazygames.com/assets/SVG/ui-icons/leaderboard.svg",
+    "imgs.crazygames.com/assets/SVG/ui-icons/like.svg",
+    "imgs.crazygames.com/assets/SVG/ui-icons/menu_close.svg",
+    "imgs.crazygames.com/assets/SVG/ui-icons/new.svg",
+    "imgs.crazygames.com/assets/SVG/ui-icons/notifications.svg",
+    "imgs.crazygames.com/assets/SVG/ui-icons/originals.svg",
+    "imgs.crazygames.com/assets/SVG/ui-icons/phone.svg",
+    "imgs.crazygames.com/assets/SVG/ui-icons/puzzle.svg",
+    "imgs.crazygames.com/assets/SVG/ui-icons/save.svg",
+    "imgs.crazygames.com/assets/SVG/ui-icons/shooting.svg",
+    "imgs.crazygames.com/assets/SVG/ui-icons/simulation.svg",
+    "imgs.crazygames.com/assets/SVG/ui-icons/sports.svg",
+    "imgs.crazygames.com/assets/SVG/ui-icons/strategy.svg",
+    "imgs.crazygames.com/assets/SVG/ui-icons/tag.svg",
+    "imgs.crazygames.com/assets/SVG/ui-icons/trivia.svg",
+    "imgs.crazygames.com/assets/SVG/ui-icons/unmute.svg",
+    "imgs.crazygames.com/assets/SVG/ui-icons/updated.svg",
+    "imgs.crazygames.com/assets/SVG/ui-icons/words.svg",
+    "imgs.crazygames.com/battle-brigade_16x9/20260420092345/battle-brigade_16x9-cover__qmetadata_non",
+    "imgs.crazygames.com/block-puzzle-master_16x9/20250924025352/block-puzzle-master_16x9-cover__qmetadata_non",
+    "imgs.crazygames.com/bloxdhop-io_16x9/20261027023447/bloxdhop-io_16x9-cover__qmetadata_non.png",
+    "imgs.crazygames.com/bloxity-io_16x9/20261019060604/bloxity-io_16x9-cover__qmetadata_non.png",
+    "imgs.crazygames.com/bridge-race_16x9/20241227062023/bridge-race_16x9-cover__qmetadata_non",
+    "imgs.crazygames.com/case-simulator-cars_16x9/20261022030826/case-simulator-cars_16x9-cover__qmetadata_non.png",
+    "imgs.crazygames.com/checkers-draughts-multiplayer_16x9/20260323095303/checkers-draughts-multiplayer_16x9-cover__qmetadata_non",
+    "imgs.crazygames.com/checkers-free_16x9/20250331052950/checkers-free_16x9-cover__qmetadata_non",
+    "imgs.crazygames.com/chess-free_16x9/20260508084105/chess-free_16x9-cover__qmetadata_non",
+    "imgs.crazygames.com/chess-online-multiplayer-game_16x9/20261106033112/chess-online-multiplayer-game_16x9-cover__qmetadata_non.png",
+    "imgs.crazygames.com/count-masters-stickman-games_16x9/20260318145715/count-masters-stickman-games_16x9-cover__qmetadata_non",
+    "imgs.crazygames.com/crazy-chameleon_16x9/20260831063015/crazy-chameleon_16x9-cover__qmetadata_non",
+    "imgs.crazygames.com/crazygames/favicon-2026/touch-icon__qmetadata_non_dup0.png",
+    "imgs.crazygames.com/crazygames/ziggy_rainbow2__qmetadata_non.svg",
+    "imgs.crazygames.com/dear-travellers---airline-chaos_16x9/20260910025106/dear-travellers---airline-chaos_16x9-cover__qmetadata_non",
+    "imgs.crazygames.com/designville-merge-design_16x9/20260827034042/designville-merge-design_16x9-cover__qmetadata_non",
+    "imgs.crazygames.com/downhill-racer-bvk_16x9/20260702100727/downhill-racer-bvk_16x9-cover__qmetadata_non",
+    "imgs.crazygames.com/duo-with-friends_16x9/20260407080722/duo-with-friends_16x9-cover__qmetadata_non",
+    "imgs.crazygames.com/final-drop_16x9/20261117170328/final-drop_16x9-cover__qmetadata_non.png",
+    "imgs.crazygames.com/games/4-in-a-row-connected-multiplayer-online/cover_16x9-1739759253546__qmetadata_non.png",
+    "imgs.crazygames.com/games/cubes-2048-io/cover_16x9-1693298929425__qmetadata_non.png",
+    "imgs.crazygames.com/games/master-chess/cover-1624894080822__qmetadata_non.png",
+    "imgs.crazygames.com/games/polybusiness/cover-1638601607006__qmetadata_non.png",
+    "imgs.crazygames.com/games/spades/cover-1636534372712__qmetadata_non.png",
+    "imgs.crazygames.com/games/stickman-clash/cover_16x9-1746127524433__qmetadata_non.png",
+    "imgs.crazygames.com/games/tic-tac-toe/thumb-1579168809142__qmetadata_non_dup0.png",
+    "imgs.crazygames.com/games/uno-online/cover-1679068977831__qmetadata_non.png",
+    "imgs.crazygames.com/gin-rummy-zal_16x9/20261012023857/gin-rummy-zal_16x9-cover__qmetadata_non.png",
+    "imgs.crazygames.com/guess-their-answer_16x9/20241122084004/guess-their-answer_16x9-cover__qmetadata_non",
+    "imgs.crazygames.com/hangman-cfc_16x9/20260519090049/hangman-cfc_16x9-cover__qmetadata_non",
+    "imgs.crazygames.com/hazmob-fps-online-shooter_16x9/20260302022643/hazmob-fps-online-shooter_16x9-cover__qmetadata_non",
+    "imgs.crazygames.com/hole-io-uyt_16x9/20260929080322/hole-io-uyt_16x9-cover__qmetadata_non.png",
+    "imgs.crazygames.com/holey-io-battle-royale_16x9/20260220104426/holey-io-battle-royale_16x9-cover__qmetadata_non",
+    "imgs.crazygames.com/iron-generals-crystal-war_16x9/20261120013115/iron-generals-crystal-war_16x9-cover__qmetadata_non.png",
+    "imgs.crazygames.com/ludo-club---fun-dice-game_16x9/20240117055243/ludo-club---fun-dice-game_16x9-cover__qmetadata_non",
+    "imgs.crazygames.com/ludo-king_16x9/20240229043328/ludo-king_16x9-cover__qmetadata_non",
+    "imgs.crazygames.com/man-runner-2048_16x9/20260520032150/man-runner-2048_16x9-cover__qmetadata_non",
+    "imgs.crazygames.com/mancala-classic_16x9/20240419092652/mancala-classic_16x9-cover__qmetadata_non",
+    "imgs.crazygames.com/mx-offroad-master_16x9/20261109101215/mx-offroad-master_16x9-cover__qmetadata_non.jpg",
+    "imgs.crazygames.com/night-city-racing_16x9/20261109101151/night-city-racing_16x9-cover__qmetadata_non.jpg",
+    "imgs.crazygames.com/paint-to-hide_16x9/20261111044857/paint-to-hide_16x9-cover__qmetadata_non.jpg",
+    "imgs.crazygames.com/pearl-thief_16x9/20261119070127/pearl-thief_16x9-cover__qmetadata_non.jpg",
+    "imgs.crazygames.com/piece-of-cake-merge-and-bake_16x9/20260812042932/piece-of-cake-merge-and-bake_16x9-cover__qmetadata_non",
+    "imgs.crazygames.com/pizza-challenge/20230131111322/pizza-challenge-cover__qmetadata_non",
+    "imgs.crazygames.com/racing-limits_16x9/20250711091800/racing-limits_16x9-cover__qmetadata_non",
+    "imgs.crazygames.com/ragdoll-archers_16x9/20250926080758/ragdoll-archers_16x9-cover__qmetadata_non",
+    "imgs.crazygames.com/rally-racer-dirt_16x9/20260220034629/rally-racer-dirt_16x9-cover__qmetadata_non",
+    "imgs.crazygames.com/real-war-not-fake-sno_16x9/20260813072730/real-war-not-fake-sno_16x9-cover__qmetadata_non",
+    "imgs.crazygames.com/roling-balls-sea-race_16x9/20241029074138/roling-balls-sea-race_16x9-cover__qmetadata_non",
+    "imgs.crazygames.com/screw-out-bolts-and-nuts_16x9/20250711094331/screw-out-bolts-and-nuts_16x9-cover__qmetadata_non",
+    "imgs.crazygames.com/skillwarz_16x9/20260318145302/skillwarz_16x9-cover__qmetadata_non",
+    "imgs.crazygames.com/sky-riders-buk_16x9/20240206045724/sky-riders-buk_16x9-cover__qmetadata_non",
+    "imgs.crazygames.com/smash-karts_16x9/20261106171644/smash-karts_16x9-cover__qmetadata_non.png",
+    "imgs.crazygames.com/snakes-and-ladders_16x9/20260506080214/snakes-and-ladders_16x9-cover__qmetadata_non",
+    "imgs.crazygames.com/space-waves_16x9/20260805094726/space-waves_16x9-cover__qmetadata_non",
+    "imgs.crazygames.com/steal-a-eggs_16x9/20260904032016/steal-a-eggs_16x9-cover__qmetadata_non",
+    "imgs.crazygames.com/supermarket-simulator-cashier-game_16x9/20260220060008/supermarket-simulator-cashier-game_16x9-cover__qmetadata_non",
+    "imgs.crazygames.com/table-tennis-world-tour_16x9/20230908041108/table-tennis-world-tour_16x9-cover__qmetadata_non",
+    "imgs.crazygames.com/table-tower-online_16x9/20240729101419/table-tower-online_16x9-cover__qmetadata_non",
+    "imgs.crazygames.com/thief-puzzle_16x9/20240919050737/thief-puzzle_16x9-cover__qmetadata_non",
+    "imgs.crazygames.com/traffic-rider-vvq_16x9/20250526021507/traffic-rider-vvq_16x9-cover__qmetadata_non",
+    "imgs.crazygames.com/unmatched-ego-2_16x9/20260721024839/unmatched-ego-2_16x9-cover__qmetadata_non",
+    "imgs.crazygames.com/veck-io_16x9/20261002034849/veck-io_16x9-cover__qmetadata_non.png",
+    "imgs.crazygames.com/what-s-the-difference-online_16x9/20261109102141/what-s-the-difference-online_16x9-cover__qmetadata_non.png",
+    "imgs.crazygames.com/words-of-wonders_16x9/20231019163757/words-of-wonders_16x9-cover__qmetadata_non",
+    "imgs.crazygames.com/worldguessr_16x9/20241018082520/worldguessr_16x9-cover__qmetadata_non",
+    "invstatic101.creativecdn.com/encrypted-signals/encrypted-tag-g.js",
+    "mafvertizing.crazygames.com/prebid.js",
+    "match.adsrvr.org/track/rid__qttd_pid_c67x",
+    "match.adsrvr.org/track/usersync__qus_privacy__",
+    "model.crazygames.com/v2/gamepageRequest__qtable_game_r",
+    "na.edge.optable.co/config__qosdk_web-v0._dup0",
+    "na.edge.optable.co/v2/targeting__qid___passpor",
+    "na.edge.optable.co/witness__qosdk_web-v0._dup0",
+    "o187844.ingest.us.sentry.io/api/1511344/envelope/index__qsentry_versi.html",
+    "oa.openxcdn.net/esp.js",
+    "pagead2.googlesyndication.com/bg/Z4x1aK_9z8avgBkDMULgyabWdPVsrxsMGL2jqwC3Qu0.js",
+    "pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js",
+    "pagead2.googlesyndication.com/pagead/s/cookie_push_onload.html",
+    "prebid.media.net/rtb/prebid__qcid_8CUYL2RS",
+    "px.ads.linkedin.com/setuid__qpartner_appN",
+    "rtb.openx.net/esp__qurl_https_3A_dup0",
+    "s.amazon-adsystem.com/x/19cb1bfc173dcb98ccec",
+    "s.tribalfusion.com/z/i__qp_b6_u_CAESE.match",
+    "sdk.crazygames.com/crazygames-sdk-v3.js",
+    "securepubads.g.doubleclick.net/gampad/ads__qpvsid_139184_dup0",
+    "securepubads.g.doubleclick.net/gampad/ads__qpvsid_656252_dup0",
+    "securepubads.g.doubleclick.net/pagead/managed/dict/m202611100101/gpt",
+    "securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202611120201/pubads_impl.js",
+    "securepubads.g.doubleclick.net/tag/js/gpt_dup0.js",
+    "simage2.pubmatic.com/AdServer/Pug__qvcode_bz0yJn",
+    "solutions.cdn.optable.co/crazygames/rtd-bridge.js",
+    "solutions.cdn.optable.co/crazygames/sdk.js",
+    "static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092",
+    "static.criteo.net/js/ld/publishertag.ids.js",
+    "sync-dsp.ad-m.asia/dsp/api/sync/send__qs_openx",
+    "sync-tm.everesttech.net/ct/upi/pid/ny75r2x0__qredir_https_",
+    "sync.crwdcntrl.net/qmap__qc_240_tp_PUB",
+    "sync.teads.tv/um__qssb_provider",
+    "tags.crwdcntrl.net/lt/c/16589/sync.min.js",
+    "threeredcubes.com/files/m2ha9qa_3jniu.bundle.js",
+    "threeredcubes.com/k1ed4ybz3efg8xileql0vmg1x",
+    "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/css/Montserrat-Black.woff2",
+    "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/css/animation.css",
+    "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/css/ctl-multiplayer-icons.css",
+    "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/css/ctl-multiplayer.css",
+    "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/css/ios_fullscreen.css",
+    "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/css/main.css",
+    "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/css/reset.css",
+    "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/ctl_ui/animatecss/css/animate.min.css",
+    "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/ctl_ui/bootstrap/css/bootstrap.min.css",
+    "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/ctl_ui/bootstrap/js/bootstrap.min.js",
+    "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/ctl_ui/bootstrap/js/popper.min.js",
+    "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/ctl_ui/css/badges-avatar.css",
+    "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/ctl_ui/css/flags.css",
+    "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/ctl_ui/css/style.css",
+    "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/ctl_ui/css/theme.css",
+    "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/ctl_ui/fontawesome/css/brands.css",
+    "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/ctl_ui/fontawesome/css/fontawesome.css",
+    "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/ctl_ui/fontawesome/css/solid.css",
+    "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/ctl_ui/fontawesome/webfonts/fa-solid-900.woff2",
+    "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/ctl_ui/hamburger/hamburgers.min.css",
+    "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/ctl_ui/js/CEventsHandler.js",
+    "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/ctl_ui/js/CGUIController.js",
+    "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/ctl_ui/js/CLeaderboardController.js",
+    "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/ctl_ui/js/CModalController.js",
+    "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/ctl_ui/js/jquery-3.7.1.min.js",
+    "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/ctl_ui/js/lang.js",
+    "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/ctl_ui/js/utils.js",
+    "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/ctl_ui/owlcarousel/owl.carousel.min.css",
+    "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/ctl_ui/owlcarousel/owl.carousel.min.js",
+    "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/ctl_ui/owlcarousel/owl.theme.default.min.css",
+    "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/ctl_ui/sprites/flags_small.png",
+    "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/index__qisNewUser_tr.html",
+    "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/js/CLang.js",
+    "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/js/lib/audio/howler.min.js",
+    "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/js/lib/createjs.min.js",
+    "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/js/lib/multiplayer/clipboard.min.js",
+    "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/js/lib/multiplayer/popper.min.js",
+    "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/js/main.js",
+    "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/sounds/click.mp3",
+    "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/sounds/draw.mp3",
+    "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/sounds/gameover.mp3",
+    "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/sounds/hurryup.mp3",
+    "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/sounds/match_found.mp3",
+    "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/sounds/place_mark.mp3",
+    "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/sounds/win.mp3",
+    "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/sprites/bg_menu.jpg",
+    "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/sprites/bg_white.jpg",
+    "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/sprites/but_3x3.png",
+    "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/sprites/but_5x5.png",
+    "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/sprites/but_7x7.png",
+    "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/sprites/but_box_1.png",
+    "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/sprites/but_box_2.png",
+    "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/sprites/but_check.png",
+    "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/sprites/but_continue.png",
+    "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/sprites/but_delete.png",
+    "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/sprites/but_home.png",
+    "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/sprites/but_long.png",
+    "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/sprites/but_no.png",
+    "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/sprites/but_restart.png",
+    "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/sprites/but_yes.png",
+    "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/sprites/cell.png",
+    "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/sprites/icon_local.png",
+    "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/sprites/icon_multiplayer.png",
+    "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/sprites/icon_training.png",
+    "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/sprites/logo_ar.png",
+    "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/sprites/logo_de.png",
+    "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/sprites/logo_en.png",
+    "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/sprites/logo_es.png",
+    "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/sprites/logo_fr.png",
+    "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/sprites/logo_hi.png",
+    "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/sprites/logo_id.png",
+    "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/sprites/logo_it.png",
+    "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/sprites/logo_ja.png",
+    "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/sprites/logo_pt.png",
+    "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/sprites/logo_ru.png",
+    "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/sprites/logo_tr.png",
+    "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/sprites/logo_zh.png",
+    "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/sprites/msg_box.png",
+    "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/sprites/msg_box_small.png",
+    "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/sprites/preloader/ctl_disclaimer.png",
+    "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/sprites/preloader/ctl_preloader.png",
+    "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/sprites/preloader/progress_bar_bg.png",
+    "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/sprites/preloader/progress_dot.png",
+    "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/sprites/separator_line.png",
+    "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/sprites/star_blue.png",
+    "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/sprites/star_white.png",
+    "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/sprites/toggle_box.png",
+    "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/sprites/tokenO.png",
+    "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/sprites/tokenX.png",
+    "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/sprites/tris_line.png",
+    "tpc.googlesyndication.com/pagead/js/r20261118/r20110914/abg_lite_fy2021.js",
+    "tpc.googlesyndication.com/pagead/js/r20261118/r20110914/client/load_preloaded_resource_fy2021.js",
+    "tpc.googlesyndication.com/pagead/js/r20261118/r20110914/client/qs_click_protection_fy2021.js",
+    "tpc.googlesyndication.com/pagead/js/r20261118/r20110914/client/window_focus_fy2021.js",
+    "tpc.googlesyndication.com/pagead/js/r20261118/r20110914/elements/html/countdown_handler_fy2021.js",
+    "tpc.googlesyndication.com/pagead/js/r20261118/r20110914/elements/html/interstitial_ad_frame_fy2021.js",
+    "trc.taboola.com/sg/google-authorized-buyers/1/cm__qgoogle_uid_C",
+    "uipglob.semasio.net/pubmatic/1/info2__qsType_sync_s",
+    "um.simpli.fi/pubmatic__qhttps___sima",
+    "ut.pubmatic.com/geo__qpubid_0",
+    "www.crazygames.com/images/background2.jpg",
+    "www.crazygames.com/images/logo/icon/logo-icon-white.svg",
+    "www.crazygames.com/images/logo/text/logo-text-white.svg",
+    "www.crazygames.com/it/game/tic-tac-toe",
+    "www.google.com/pagead/drt/ui",
+    "www.google.com/recaptcha/api2/aframe",
+    "www.gstatic.com/images/icons/material/system/2x/feedback_grey600_24dp.png",
+    "www.gstatic.com/images/icons/material/system/2x/settings_grey600_24dp.png",
+    "www.gstatic.com/mysidia/c725080e2f8c8de65736d5d0352633ff__qtag_addon_my.js",
+    "x.bidswitch.net/sync__qssp_pubmatic"
+  ],
+  "edges": [
+    {
+      "from": "builds.crazygames.com/portal-web/_next/static/css/581e397261e10ee2.css",
+      "to": "builds.crazygames.com/portal-web/_next/static/media/6ad36a674cfc3e90.p.woff2"
+    },
+    {
+      "from": "builds.crazygames.com/portal-web/_next/static/css/581e397261e10ee2.css",
+      "to": "builds.crazygames.com/portal-web/_next/static/media/72fd0ddcfc9397a7.p.woff2"
+    },
+    {
+      "from": "builds.crazygames.com/portal-web/_next/static/css/581e397261e10ee2.css",
+      "to": "builds.crazygames.com/portal-web/_next/static/media/4addd173933af60a.p.woff2"
+    },
+    {
+      "from": "builds.crazygames.com/portal-web/_next/static/css/581e397261e10ee2.css",
+      "to": "builds.crazygames.com/portal-web/_next/static/media/e3353863c413f150.p.woff2"
+    },
+    {
+      "from": "builds.crazygames.com/portal-web/_next/static/css/581e397261e10ee2.css",
+      "to": "imgs.crazygames.com/assets/SVG/icons/appstore.svg"
+    },
+    {
+      "from": "builds.crazygames.com/portal-web/_next/static/css/581e397261e10ee2.css",
+      "to": "imgs.crazygames.com/assets/SVG/icons/appstore.svg"
+    },
+    {
+      "from": "builds.crazygames.com/portal-web/_next/static/css/581e397261e10ee2.css",
+      "to": "imgs.crazygames.com/assets/SVG/icons/arrow-full-right.svg"
+    },
+    {
+      "from": "builds.crazygames.com/portal-web/_next/static/css/581e397261e10ee2.css",
+      "to": "imgs.crazygames.com/assets/SVG/icons/arrow-full-right.svg"
+    },
+    {
+      "from": "builds.crazygames.com/portal-web/_next/static/css/581e397261e10ee2.css",
+      "to": "imgs.crazygames.com/assets/SVG/icons/arrow-full-top.svg"
+    },
+    {
+      "from": "builds.crazygames.com/portal-web/_next/static/css/581e397261e10ee2.css",
+      "to": "imgs.crazygames.com/assets/SVG/icons/arrow-full-top.svg"
+    },
+    {
+      "from": "builds.crazygames.com/portal-web/_next/static/css/581e397261e10ee2.css",
+      "to": "imgs.crazygames.com/assets/SVG/icons/close.svg"
+    },
+    {
+      "from": "builds.crazygames.com/portal-web/_next/static/css/581e397261e10ee2.css",
+      "to": "imgs.crazygames.com/assets/SVG/icons/close.svg"
+    },
+    {
+      "from": "builds.crazygames.com/portal-web/_next/static/css/581e397261e10ee2.css",
+      "to": "imgs.crazygames.com/assets/SVG/icons/discord.svg"
+    },
+    {
+      "from": "builds.crazygames.com/portal-web/_next/static/css/581e397261e10ee2.css",
+      "to": "imgs.crazygames.com/assets/SVG/icons/discord.svg"
+    },
+    {
+      "from": "builds.crazygames.com/portal-web/_next/static/css/581e397261e10ee2.css",
+      "to": "imgs.crazygames.com/assets/SVG/icons/linkedin.svg"
+    },
+    {
+      "from": "builds.crazygames.com/portal-web/_next/static/css/581e397261e10ee2.css",
+      "to": "imgs.crazygames.com/assets/SVG/icons/linkedin.svg"
+    },
+    {
+      "from": "builds.crazygames.com/portal-web/_next/static/css/581e397261e10ee2.css",
+      "to": "imgs.crazygames.com/assets/SVG/icons/new.svg"
+    },
+    {
+      "from": "builds.crazygames.com/portal-web/_next/static/css/581e397261e10ee2.css",
+      "to": "imgs.crazygames.com/assets/SVG/icons/new.svg"
+    },
+    {
+      "from": "builds.crazygames.com/portal-web/_next/static/css/581e397261e10ee2.css",
+      "to": "imgs.crazygames.com/assets/SVG/icons/open-menu.svg"
+    },
+    {
+      "from": "builds.crazygames.com/portal-web/_next/static/css/581e397261e10ee2.css",
+      "to": "imgs.crazygames.com/assets/SVG/icons/open-menu.svg"
+    },
+    {
+      "from": "builds.crazygames.com/portal-web/_next/static/css/581e397261e10ee2.css",
+      "to": "imgs.crazygames.com/assets/SVG/icons/originals6.svg"
+    },
+    {
+      "from": "builds.crazygames.com/portal-web/_next/static/css/581e397261e10ee2.css",
+      "to": "imgs.crazygames.com/assets/SVG/icons/originals6.svg"
+    },
+    {
+      "from": "builds.crazygames.com/portal-web/_next/static/css/581e397261e10ee2.css",
+      "to": "imgs.crazygames.com/assets/SVG/icons/playstore.svg"
+    },
+    {
+      "from": "builds.crazygames.com/portal-web/_next/static/css/581e397261e10ee2.css",
+      "to": "imgs.crazygames.com/assets/SVG/icons/playstore.svg"
+    },
+    {
+      "from": "builds.crazygames.com/portal-web/_next/static/css/581e397261e10ee2.css",
+      "to": "imgs.crazygames.com/assets/SVG/icons/refresh.svg"
+    },
+    {
+      "from": "builds.crazygames.com/portal-web/_next/static/css/581e397261e10ee2.css",
+      "to": "imgs.crazygames.com/assets/SVG/icons/refresh.svg"
+    },
+    {
+      "from": "builds.crazygames.com/portal-web/_next/static/css/581e397261e10ee2.css",
+      "to": "imgs.crazygames.com/assets/SVG/icons/search.svg"
+    },
+    {
+      "from": "builds.crazygames.com/portal-web/_next/static/css/581e397261e10ee2.css",
+      "to": "imgs.crazygames.com/assets/SVG/icons/search.svg"
+    },
+    {
+      "from": "builds.crazygames.com/portal-web/_next/static/css/581e397261e10ee2.css",
+      "to": "imgs.crazygames.com/assets/SVG/icons/share.svg"
+    },
+    {
+      "from": "builds.crazygames.com/portal-web/_next/static/css/581e397261e10ee2.css",
+      "to": "imgs.crazygames.com/assets/SVG/icons/share.svg"
+    },
+    {
+      "from": "builds.crazygames.com/portal-web/_next/static/css/581e397261e10ee2.css",
+      "to": "imgs.crazygames.com/assets/SVG/icons/tiktok.svg"
+    },
+    {
+      "from": "builds.crazygames.com/portal-web/_next/static/css/581e397261e10ee2.css",
+      "to": "imgs.crazygames.com/assets/SVG/icons/tiktok.svg"
+    },
+    {
+      "from": "builds.crazygames.com/portal-web/_next/static/css/581e397261e10ee2.css",
+      "to": "imgs.crazygames.com/assets/SVG/icons/youtube.svg"
+    },
+    {
+      "from": "builds.crazygames.com/portal-web/_next/static/css/581e397261e10ee2.css",
+      "to": "imgs.crazygames.com/assets/SVG/icons/youtube.svg"
+    },
+    {
+      "from": "games.crazygames.com/it_IT/tic-tac-toe/index__qisNewUser_tr.html",
+      "to": "www.crazygames.com/it/game/tic-tac-toe"
+    },
+    {
+      "from": "games.crazygames.com/it_IT/tic-tac-toe/index__qisNewUser_tr.html",
+      "to": "fonts.googleapis.com/css2__qdisplay_swap"
+    },
+    {
+      "from": "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/index__qisNewUser_tr.html",
+      "to": "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/css/reset.css"
+    },
+    {
+      "from": "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/index__qisNewUser_tr.html",
+      "to": "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/css/main.css"
+    },
+    {
+      "from": "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/index__qisNewUser_tr.html",
+      "to": "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/css/ios_fullscreen.css"
+    },
+    {
+      "from": "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/index__qisNewUser_tr.html",
+      "to": "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/css/ctl-multiplayer-icons.css"
+    },
+    {
+      "from": "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/index__qisNewUser_tr.html",
+      "to": "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/css/animation.css"
+    },
+    {
+      "from": "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/index__qisNewUser_tr.html",
+      "to": "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/css/ctl-multiplayer.css"
+    },
+    {
+      "from": "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/index__qisNewUser_tr.html",
+      "to": "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/ctl_ui/bootstrap/css/bootstrap.min.css"
+    },
+    {
+      "from": "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/index__qisNewUser_tr.html",
+      "to": "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/ctl_ui/fontawesome/css/brands.css"
+    },
+    {
+      "from": "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/index__qisNewUser_tr.html",
+      "to": "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/ctl_ui/fontawesome/css/fontawesome.css"
+    },
+    {
+      "from": "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/index__qisNewUser_tr.html",
+      "to": "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/ctl_ui/fontawesome/css/solid.css"
+    },
+    {
+      "from": "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/index__qisNewUser_tr.html",
+      "to": "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/ctl_ui/css/style.css"
+    },
+    {
+      "from": "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/index__qisNewUser_tr.html",
+      "to": "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/ctl_ui/hamburger/hamburgers.min.css"
+    },
+    {
+      "from": "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/index__qisNewUser_tr.html",
+      "to": "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/ctl_ui/css/badges-avatar.css"
+    },
+    {
+      "from": "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/index__qisNewUser_tr.html",
+      "to": "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/ctl_ui/css/theme.css"
+    },
+    {
+      "from": "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/index__qisNewUser_tr.html",
+      "to": "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/ctl_ui/css/flags.css"
+    },
+    {
+      "from": "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/index__qisNewUser_tr.html",
+      "to": "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/ctl_ui/animatecss/css/animate.min.css"
+    },
+    {
+      "from": "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/index__qisNewUser_tr.html",
+      "to": "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/ctl_ui/owlcarousel/owl.carousel.min.css"
+    },
+    {
+      "from": "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/index__qisNewUser_tr.html",
+      "to": "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/ctl_ui/owlcarousel/owl.theme.default.min.css"
+    },
+    {
+      "from": "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/index__qisNewUser_tr.html",
+      "to": "fonts.googleapis.com/css__qfamily_Monts"
+    },
+    {
+      "from": "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/index__qisNewUser_tr.html",
+      "to": "sdk.crazygames.com/crazygames-sdk-v3.js"
+    },
+    {
+      "from": "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/index__qisNewUser_tr.html",
+      "to": "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/ctl_ui/js/jquery-3.7.1.min.js"
+    },
+    {
+      "from": "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/index__qisNewUser_tr.html",
+      "to": "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/ctl_ui/bootstrap/js/popper.min.js"
+    },
+    {
+      "from": "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/index__qisNewUser_tr.html",
+      "to": "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/ctl_ui/bootstrap/js/bootstrap.min.js"
+    },
+    {
+      "from": "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/index__qisNewUser_tr.html",
+      "to": "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/ctl_ui/js/lang.js"
+    },
+    {
+      "from": "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/index__qisNewUser_tr.html",
+      "to": "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/ctl_ui/js/utils.js"
+    },
+    {
+      "from": "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/index__qisNewUser_tr.html",
+      "to": "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/ctl_ui/owlcarousel/owl.carousel.min.js"
+    },
+    {
+      "from": "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/index__qisNewUser_tr.html",
+      "to": "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/ctl_ui/js/CEventsHandler.js"
+    },
+    {
+      "from": "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/index__qisNewUser_tr.html",
+      "to": "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/ctl_ui/js/CGUIController.js"
+    },
+    {
+      "from": "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/index__qisNewUser_tr.html",
+      "to": "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/ctl_ui/js/CLeaderboardController.js"
+    },
+    {
+      "from": "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/index__qisNewUser_tr.html",
+      "to": "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/ctl_ui/js/CModalController.js"
+    },
+    {
+      "from": "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/index__qisNewUser_tr.html",
+      "to": "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/js/lib/createjs.min.js"
+    },
+    {
+      "from": "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/index__qisNewUser_tr.html",
+      "to": "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/js/lib/audio/howler.min.js"
+    },
+    {
+      "from": "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/index__qisNewUser_tr.html",
+      "to": "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/js/lib/multiplayer/popper.min.js"
+    },
+    {
+      "from": "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/index__qisNewUser_tr.html",
+      "to": "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/js/lib/multiplayer/clipboard.min.js"
+    },
+    {
+      "from": "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/index__qisNewUser_tr.html",
+      "to": "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/js/CLang.js"
+    },
+    {
+      "from": "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/index__qisNewUser_tr.html",
+      "to": "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/js/main.js"
+    },
+    {
+      "from": "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/css/main.css",
+      "to": "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/css/Montserrat-Black.woff2"
+    },
+    {
+      "from": "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/ctl_ui/fontawesome/css/solid.css",
+      "to": "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/ctl_ui/fontawesome/webfonts/fa-solid-900.woff2"
+    },
+    {
+      "from": "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/ctl_ui/css/flags.css",
+      "to": "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/ctl_ui/sprites/flags_small.png"
+    },
+    {
+      "from": "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/ctl_ui/css/flags.css",
+      "to": "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/ctl_ui/sprites/flags_small.png"
+    },
+    {
+      "from": "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/ctl_ui/css/flags.css",
+      "to": "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/ctl_ui/sprites/flags_small.png"
+    },
+    {
+      "from": "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/ctl_ui/css/flags.css",
+      "to": "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/ctl_ui/sprites/flags_small.png"
+    },
+    {
+      "from": "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/ctl_ui/css/flags.css",
+      "to": "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/ctl_ui/sprites/flags_small.png"
+    },
+    {
+      "from": "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/ctl_ui/css/flags.css",
+      "to": "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/ctl_ui/sprites/flags_small.png"
+    },
+    {
+      "from": "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/ctl_ui/css/flags.css",
+      "to": "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/ctl_ui/sprites/flags_small.png"
+    },
+    {
+      "from": "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/ctl_ui/css/flags.css",
+      "to": "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/ctl_ui/sprites/flags_small.png"
+    },
+    {
+      "from": "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/ctl_ui/css/flags.css",
+      "to": "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/ctl_ui/sprites/flags_small.png"
+    },
+    {
+      "from": "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/ctl_ui/css/flags.css",
+      "to": "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/ctl_ui/sprites/flags_small.png"
+    },
+    {
+      "from": "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/ctl_ui/css/flags.css",
+      "to": "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/ctl_ui/sprites/flags_small.png"
+    },
+    {
+      "from": "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/ctl_ui/css/flags.css",
+      "to": "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/ctl_ui/sprites/flags_small.png"
+    },
+    {
+      "from": "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/ctl_ui/css/flags.css",
+      "to": "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/ctl_ui/sprites/flags_small.png"
+    },
+    {
+      "from": "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/ctl_ui/css/flags.css",
+      "to": "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/ctl_ui/sprites/flags_small.png"
+    },
+    {
+      "from": "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/ctl_ui/css/flags.css",
+      "to": "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/ctl_ui/sprites/flags_small.png"
+    },
+    {
+      "from": "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/ctl_ui/css/flags.css",
+      "to": "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/ctl_ui/sprites/flags_small.png"
+    },
+    {
+      "from": "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/ctl_ui/css/flags.css",
+      "to": "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/ctl_ui/sprites/flags_small.png"
+    },
+    {
+      "from": "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/ctl_ui/css/flags.css",
+      "to": "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/ctl_ui/sprites/flags_small.png"
+    },
+    {
+      "from": "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/ctl_ui/css/flags.css",
+      "to": "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/ctl_ui/sprites/flags_small.png"
+    },
+    {
+      "from": "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/ctl_ui/css/flags.css",
+      "to": "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/ctl_ui/sprites/flags_small.png"
+    },
+    {
+      "from": "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/ctl_ui/css/flags.css",
+      "to": "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/ctl_ui/sprites/flags_small.png"
+    },
+    {
+      "from": "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/ctl_ui/css/flags.css",
+      "to": "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/ctl_ui/sprites/flags_small.png"
+    },
+    {
+      "from": "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/ctl_ui/css/flags.css",
+      "to": "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/ctl_ui/sprites/flags_small.png"
+    },
+    {
+      "from": "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/ctl_ui/css/flags.css",
+      "to": "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/ctl_ui/sprites/flags_small.png"
+    },
+    {
+      "from": "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/ctl_ui/css/flags.css",
+      "to": "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/ctl_ui/sprites/flags_small.png"
+    },
+    {
+      "from": "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/ctl_ui/css/flags.css",
+      "to": "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/ctl_ui/sprites/flags_small.png"
+    },
+    {
+      "from": "elb.the-ozone-project.com/static/load-cookie__qgdpr_0_gdpr_.html",
+      "to": "static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092"
+    }
+  ],
+  "unresolved_refs": [
+    "builds.crazygames.com/portal-web/_next/static/css/581e397261e10ee2.css: https://builds.crazygames.com/portal-web/_next/static/media/1c867a160d61396e.woff2",
+    "builds.crazygames.com/portal-web/_next/static/css/581e397261e10ee2.css: https://builds.crazygames.com/portal-web/_next/static/media/e6a92b4f622ad549.woff2",
+    "builds.crazygames.com/portal-web/_next/static/css/581e397261e10ee2.css: https://imgs.crazygames.com/assets/SVG/icons/3users.svg",
+    "builds.crazygames.com/portal-web/_next/static/css/581e397261e10ee2.css: https://imgs.crazygames.com/assets/SVG/icons/3users.svg",
+    "builds.crazygames.com/portal-web/_next/static/css/581e397261e10ee2.css: https://imgs.crazygames.com/assets/SVG/icons/apple.svg",
+    "builds.crazygames.com/portal-web/_next/static/css/581e397261e10ee2.css: https://imgs.crazygames.com/assets/SVG/icons/apple.svg",
+    "builds.crazygames.com/portal-web/_next/static/css/581e397261e10ee2.css: https://imgs.crazygames.com/assets/SVG/icons/arcade.svg",
+    "builds.crazygames.com/portal-web/_next/static/css/581e397261e10ee2.css: https://imgs.crazygames.com/assets/SVG/icons/arcade.svg",
+    "builds.crazygames.com/portal-web/_next/static/css/581e397261e10ee2.css: https://imgs.crazygames.com/assets/SVG/icons/arrow-full-bottom.svg",
+    "builds.crazygames.com/portal-web/_next/static/css/581e397261e10ee2.css: https://imgs.crazygames.com/assets/SVG/icons/arrow-full-bottom.svg",
+    "builds.crazygames.com/portal-web/_next/static/css/581e397261e10ee2.css: https://imgs.crazygames.com/assets/SVG/icons/arrow-full-left.svg",
+    "builds.crazygames.com/portal-web/_next/static/css/581e397261e10ee2.css: https://imgs.crazygames.com/assets/SVG/icons/arrow-full-left.svg",
+    "builds.crazygames.com/portal-web/_next/static/css/581e397261e10ee2.css: https://imgs.crazygames.com/assets/SVG/icons/bell.svg",
+    "builds.crazygames.com/portal-web/_next/static/css/581e397261e10ee2.css: https://imgs.crazygames.com/assets/SVG/icons/bell.svg",
+    "builds.crazygames.com/portal-web/_next/static/css/581e397261e10ee2.css: https://imgs.crazygames.com/assets/SVG/icons/blocked.svg",
+    "builds.crazygames.com/portal-web/_next/static/css/581e397261e10ee2.css: https://imgs.crazygames.com/assets/SVG/icons/blocked.svg",
+    "builds.crazygames.com/portal-web/_next/static/css/581e397261e10ee2.css: https://imgs.crazygames.com/assets/SVG/icons/browser.svg",
+    "builds.crazygames.com/portal-web/_next/static/css/581e397261e10ee2.css: https://imgs.crazygames.com/assets/SVG/icons/browser.svg",
+    "builds.crazygames.com/portal-web/_next/static/css/581e397261e10ee2.css: https://imgs.crazygames.com/assets/SVG/icons/calendar.svg",
+    "builds.crazygames.com/portal-web/_next/static/css/581e397261e10ee2.css: https://imgs.crazygames.com/assets/SVG/icons/calendar.svg",
+    "builds.crazygames.com/portal-web/_next/static/css/dfdf111b0ff12747.css: /images/daily-games/hourglass.svg",
+    "builds.crazygames.com/portal-web/_next/static/css/dfdf111b0ff12747.css: /images/daily-games/hourglass.svg",
+    "builds.crazygames.com/portal-web/_next/static/css/5bcc76f3b4fbe4c4.css: /images/daily-games/chevron-up.svg",
+    "builds.crazygames.com/portal-web/_next/static/css/5db9552f0a5fb1a1.css: /images/daily-games/row-check.svg",
+    "builds.crazygames.com/portal-web/_next/static/css/5db9552f0a5fb1a1.css: /images/daily-games/row-check-lg.svg",
+    "builds.crazygames.com/portal-web/_next/static/css/5db9552f0a5fb1a1.css: /images/daily-games/replay.svg",
+    "games.crazygames.com/it_IT/tic-tac-toe/index__qisNewUser_tr.html: <link href> https://builds.crazygames.com",
+    "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/index__qisNewUser_tr.html: <link href> ./favicon.ico",
+    "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/index__qisNewUser_tr.html: <link href> https://www.crazygames.com/game/tic-tac-toe",
+    "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/css/main.css: Montserrat-Black.woff",
+    "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/css/main.css: subset-RoundedMplus1c-Bold.woff2",
+    "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/css/main.css: subset-RoundedMplus1c-Bold.woff",
+    "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/css/ios_fullscreen.css: ../sprites/swipe.png",
+    "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/css/ctl-multiplayer-icons.css: ../font/ctl-multiplayer-icons.eot?11056267",
+    "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/css/ctl-multiplayer-icons.css: ../font/ctl-multiplayer-icons.eot?11056267#iefix",
+    "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/css/ctl-multiplayer-icons.css: ../font/ctl-multiplayer-icons.woff2?11056267",
+    "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/css/ctl-multiplayer-icons.css: ../font/ctl-multiplayer-icons.woff?11056267",
+    "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/css/ctl-multiplayer-icons.css: ../font/ctl-multiplayer-icons.ttf?11056267",
+    "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/css/ctl-multiplayer-icons.css: ../font/ctl-multiplayer-icons.svg?11056267#ctl-multiplayer-icons",
+    "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/css/ctl-multiplayer-icons.css: ../font/ctl-multiplayer-icons.svg?11056267#ctl-multiplayer-icons",
+    "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/ctl_ui/fontawesome/css/solid.css: ../webfonts/fa-solid-900.ttf",
+    "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/ctl_ui/fontawesome/css/brands.css: ../webfonts/fa-brands-400.woff2",
+    "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/ctl_ui/fontawesome/css/brands.css: ../webfonts/fa-brands-400.ttf",
+    "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/ctl_ui/css/badges-avatar.css: ../sprites/badge_100.png",
+    "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/ctl_ui/css/flags.css: ../sprites/flags.png",
+    "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/ctl_ui/css/flags.css: ../sprites/flags.png",
+    "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/ctl_ui/css/flags.css: ../sprites/flags.png",
+    "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/ctl_ui/css/flags.css: ../sprites/flags.png",
+    "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/ctl_ui/css/flags.css: ../sprites/flags.png",
+    "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/ctl_ui/css/flags.css: ../sprites/flags.png",
+    "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/ctl_ui/css/flags.css: ../sprites/flags.png",
+    "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/ctl_ui/css/flags.css: ../sprites/flags.png",
+    "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/ctl_ui/css/flags.css: ../sprites/flags.png",
+    "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/ctl_ui/css/flags.css: ../sprites/flags.png",
+    "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/ctl_ui/css/flags.css: ../sprites/flags.png",
+    "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/ctl_ui/css/flags.css: ../sprites/flags.png",
+    "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/ctl_ui/css/flags.css: ../sprites/flags.png",
+    "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/ctl_ui/owlcarousel/owl.carousel.min.css: owl.video.play.png"
+  ],
+  "external_hosts": [
+    "183dad8e1126c540690ed23a2fb15df9.safeframe.googlesyndication.com",
+    "783eec663fdad5c3550431a5f4c4c144.safeframe.googlesyndication.com",
+    "a.tribalfusion.com",
+    "aax.amazon-adsystem.com",
+    "accounts.google.com",
+    "ad.turn.com",
+    "ads.pubmatic.com",
+    "analytics.pangle-ads.com",
+    "api.crazygames.com",
+    "ats-wrapper.privacymanager.io",
+    "b1sync.outbrain.com",
+    "builds.crazygames.com",
+    "c1.adform.net",
+    "cdn.privacy-mgmt.com",
+    "check.analytics.rlcdn.com",
+    "cm.adform.net",
+    "cm.g.doubleclick.net",
+    "cms.quantserve.com",
+    "cr-p3.ladsp.com",
+    "creativecdn.com",
+    "cs.media.net",
+    "dis.criteo.com",
+    "dpm.demdex.net",
+    "dsp-2.presage.io",
+    "dsp.adkernel.com",
+    "dsum-sec.casalemedia.com",
+    "dsum.casalemedia.com",
+    "elb.the-ozone-project.com",
+    "ep1.adtrafficquality.google",
+    "ep2.adtrafficquality.google",
+    "esp.rtbhouse.com",
+    "fafvertizing.crazygames.com",
+    "fast.nexx360.io",
+    "fastlane.rubiconproject.com",
+    "fonts.googleapis.com",
+    "fonts.gstatic.com",
+    "games.crazygames.com",
+    "geo.privacymanager.io",
+    "google-bidout-d.openx.net",
+    "google.com",
+    "googleads.g.doubleclick.net",
+    "gum.criteo.com",
+    "htlb.casalemedia.com",
+    "i.w55c.net",
+    "i.ytimg.com",
+    "ib.adnxs.com",
+    "id.crwdcntrl.net",
+    "idsync.rlcdn.com",
+    "image2.pubmatic.com",
+    "image4.pubmatic.com",
+    "image6.pubmatic.com",
+    "imasdk.googleapis.com",
+    "imgs.crazygames.com",
+    "invstatic101.creativecdn.com",
+    "ipac.ctnsnet.com",
+    "jp-u.openx.net",
+    "krk2.kargo.com",
+    "mafvertizing.crazygames.com",
+    "match.adsrvr.org",
+    "model.crazygames.com",
+    "na.edge.optable.co",
+    "o187844.ingest.us.sentry.io",
+    "oa.openxcdn.net",
+    "pagead2.googlesyndication.com",
+    "pippio.com",
+    "pixel.rubiconproject.com",
+    "prebid.media.net",
+    "pubmatic-match.dotomi.com",
+    "px.ads.linkedin.com",
+    "rt.gsspat.jp",
+    "rtb.openx.net",
+    "s.amazon-adsystem.com",
+    "s.seedtag.com",
+    "s.tribalfusion.com",
+    "sdk.crazygames.com",
+    "securepubads.g.doubleclick.net",
+    "sg.semasio.net",
+    "simage2.pubmatic.com",
+    "simage4.pubmatic.com",
+    "solutions.cdn.optable.co",
+    "ssum.casalemedia.com",
+    "static.cloudflareinsights.com",
+    "static.criteo.net",
+    "sync-dsp.ad-m.asia",
+    "sync-tm.everesttech.net",
+    "sync.1rx.io",
+    "sync.crwdcntrl.net",
+    "sync.mathtag.com",
+    "sync.srv.stackadapt.com",
+    "sync.targeting.unrulymedia.com",
+    "sync.teads.tv",
+    "t.adx.opera.com",
+    "tags.crwdcntrl.net",
+    "tg.socdm.com",
+    "threeredcubes.com",
+    "tpc.googlesyndication.com",
+    "trc.taboola.com",
+    "u.openx.net",
+    "uipglob.semasio.net",
+    "um.simpli.fi",
+    "ups.analytics.yahoo.com",
+    "us-u.openx.net",
+    "ut.pubmatic.com",
+    "www.crazygames.com",
+    "www.google.com",
+    "www.gstatic.com",
+    "www.temu.com",
+    "x.bidswitch.net"
+  ]
+}

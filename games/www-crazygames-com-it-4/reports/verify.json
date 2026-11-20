@@ -1,0 +1,68 @@
+{
+  "loaded_url": "http://127.0.0.1:34247/tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/index__qisNewUser_tr.html",
+  "canvas": {
+    "w": 2560,
+    "h": 2560
+  },
+  "animation_detected": false,
+  "console_errors": [
+    "Failed to load resource: the server responded with a status of 404 (File not found)"
+  ],
+  "page_errors": 0,
+  "missing_requests": [
+    {
+      "url": "http://127.0.0.1:34247/tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/ctl_ui/sprites/flags.png",
+      "status": 404
+    }
+  ],
+  "failed_requests": [],
+  "external_hosts": {},
+  "local_requests": 93,
+  "counts": {
+    "acquired": 409,
+    "discovered": 646,
+    "files": 389
+  },
+  "score": {
+    "total": 85,
+    "components": {
+      "acquisition": {
+        "value": 0.633,
+        "weight": 0.25,
+        "contribution": 15.8
+      },
+      "integrity": {
+        "value": 0.997,
+        "weight": 0.15,
+        "contribution": 15.0
+      },
+      "dependencies": {
+        "value": 0.989,
+        "weight": 0.15,
+        "contribution": 14.8
+      },
+      "launch": {
+        "value": 1.0,
+        "weight": 0.15,
+        "contribution": 15.0
+      },
+      "runtime_paint": {
+        "value": 0.4,
+        "weight": 0.1,
+        "contribution": 4.0
+      },
+      "coverage": {
+        "value": 1.0,
+        "weight": 0.1,
+        "contribution": 10.0
+      },
+      "external_isolation": {
+        "value": 1.0,
+        "weight": 0.1,
+        "contribution": 10.0
+      }
+    },
+    "note": "0-100 weighted sum of independently measured components"
+  },
+  "verdict": "partially-verified: mirror loads locally but some runtime checks did not pass (see components)"
+}
