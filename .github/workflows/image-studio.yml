@@ -20,7 +20,7 @@ jobs:
       - run: python -m pip install gradio pillow
       - name: Compile application
         run: python -m py_compile image-studio/app.py
-      - name: Validate Kaggle notebook JSON and code
+      - name: Compile CPU smoke test\n        run: python -m py_compile image-studio/cpu_smoke.py\n      - name: Validate Kaggle notebook JSON and code
         run: |
           python - <<'PY'
           import ast, json
