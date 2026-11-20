@@ -1,0 +1,56 @@
+{
+  "slug": "www-crazygames-com-it-5",
+  "url": "https://www.crazygames.com/it/game/bubble-blast-pwd",
+  "status": "complete",
+  "final_url": "https://www.crazygames.com/it/game/bubble-blast-pwd",
+  "entry_url": "https://bubble-blast-pwd.game-files.crazygames.com/bubble-blast-pwd/14/index.html?isNewUser=false&__nextLocale=it&isFirstSession=true&czyExpClientOptable4=disabled&czyExpClientAdsDummyAA50=enabled&czyExpClientAmazonBidRoute_2=prebid&czyExpClientBidBasedPriceFloor_CZY_21335=second_highest&czyExpClientAdsHolidayMode_CZY_21360=enabled&czyExpClientAdmiral=enabled&czyExpClientAdXFloor_1_CZY_20844=1&czyExpClientAutoRefreshIngameBanners=disabled&czyExpClientVerticalVideoSize_CZY_22165=disabled&czyExpDisableInterstitialsFirst12h_CZY_18471=disabled&czyExpClientArtworkAbTesting_CZY_20701=enabled&czyExpModelApiTraffic_CZY_21907=enabled&czyExpCoversImages_CZY_21375=enabled&czyExpClientDomainProbe_CZY_21425=disabled&czyExpClientGamepageModelBlend_CZY_21410=enabled&czyExpClientInAppPurchaseAlternativeBillingAndroidValidToken=disabled&czyExpClientConfirmLeaveGame=enabled&czyExpClientImpressionDiscounting_CZY_20723=enabled&czyExpClientLbRankProgress_CZY_21923=enabled&czyExpIncreasedLeaderboardProminance=enabled&czyExpClientModelGamePage=knn_v3&czyExpClientInAppPurchaseAlternativeBillingAndroid=enabled&czyExpClientInAppPurchaseAlternativeBillingIOSUS=enabled",
+  "entry_rel": "bubble-blast-pwd.game-files.crazygames.com/bubble-blast-pwd/14/index__qisNewUser_fa.html",
+  "engine": {
+    "engine": "unknown",
+    "confidence": "none",
+    "evidence": []
+  },
+  "counts": {
+    "discovered": 1084,
+    "captured": 118,
+    "downloaded": 356,
+    "failed": 88,
+    "duplicates": 522
+  },
+  "score": 44,
+  "verdict": "incomplete: significant failures during local verification \u2014 mirror is NOT confirmed playable",
+  "audit_summary": {
+    "GREEN": 13,
+    "UNKNOWN": 134,
+    "YELLOW": 8
+  },
+  "assets_summary": {
+    "assets": 314,
+    "by_category": {
+      "other": 109,
+      "config": 9,
+      "code": 96,
+      "image": 89,
+      "font": 8,
+      "sprite-sheet": 1,
+      "audio": 2
+    },
+    "overall_feasibility": 58,
+    "bottleneck": null,
+    "thresholds": ">=80 easy, 50-79 moderate, 25-49 difficult, <25 very difficult"
+  },
+  "created": "2026-11-20T10:24:14.816256+00:00",
+  "duration_s": 236.4,
+  "preview_url": "/games/www-crazygames-com-it-5/mirror/bubble-blast-pwd.game-files.crazygames.com/bubble-blast-pwd/14/index__qisNewUser_fa.html",
+  "reports": {
+    "summary": "games/www-crazygames-com-it-5/reports/summary.json",
+    "recon": "games/www-crazygames-com-it-5/reports/recon.json",
+    "manifest": "games/www-crazygames-com-it-5/reports/manifest.json",
+    "depgraph": "games/www-crazygames-com-it-5/reports/depgraph.json",
+    "rewrite": "games/www-crazygames-com-it-5/reports/rewrite.json",
+    "audit": "games/www-crazygames-com-it-5/reports/audit.json",
+    "assets": "games/www-crazygames-com-it-5/reports/assets.json",
+    "verify": "games/www-crazygames-com-it-5/reports/verify.json",
+    "score": "games/www-crazygames-com-it-5/reports/score.json"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "rewritten": {
+    "html": 7,
+    "css": 22,
+    "js": 0
+  },
+  "copied_binary": 218,
+  "unresolved": [
+    "builds.crazygames.com/portal-web/_next/static/css/581e397261e10ee2.css: https://builds.crazygames.com/portal-web/_next/static/media/1c867a160d61396e.woff2",
+    "builds.crazygames.com/portal-web/_next/static/css/581e397261e10ee2.css: https://builds.crazygames.com/portal-web/_next/static/media/e6a92b4f622ad549.woff2",
+    "builds.crazygames.com/portal-web/_next/static/css/581e397261e10ee2.css: https://imgs.crazygames.com/assets/SVG/icons/3users.svg",
+    "builds.crazygames.com/portal-web/_next/static/css/581e397261e10ee2.css: https://imgs.crazygames.com/assets/SVG/icons/3users.svg",
+    "builds.crazygames.com/portal-web/_next/static/css/581e397261e10ee2.css: https://imgs.crazygames.com/assets/SVG/icons/apple.svg",
+    "builds.crazygames.com/portal-web/_next/static/css/581e397261e10ee2.css: https://imgs.crazygames.com/assets/SVG/icons/apple.svg",
+    "builds.crazygames.com/portal-web/_next/static/css/581e397261e10ee2.css: https://imgs.crazygames.com/assets/SVG/icons/arcade.svg",
+    "builds.crazygames.com/portal-web/_next/static/css/581e397261e10ee2.css: https://imgs.crazygames.com/assets/SVG/icons/arcade.svg",
+    "builds.crazygames.com/portal-web/_next/static/css/581e397261e10ee2.css: https://imgs.crazygames.com/assets/SVG/icons/arrow-full-bottom.svg",
+    "builds.crazygames.com/portal-web/_next/static/css/581e397261e10ee2.css: https://imgs.crazygames.com/assets/SVG/icons/arrow-full-bottom.svg",
+    "builds.crazygames.com/portal-web/_next/static/css/581e397261e10ee2.css: https://imgs.crazygames.com/assets/SVG/icons/arrow-full-left.svg",
+    "builds.crazygames.com/portal-web/_next/static/css/581e397261e10ee2.css: https://imgs.crazygames.com/assets/SVG/icons/arrow-full-left.svg",
+    "builds.crazygames.com/portal-web/_next/static/css/581e397261e10ee2.css: https://imgs.crazygames.com/assets/SVG/icons/bell.svg",
+    "builds.crazygames.com/portal-web/_next/static/css/581e397261e10ee2.css: https://imgs.crazygames.com/assets/SVG/icons/bell.svg",
+    "builds.crazygames.com/portal-web/_next/static/css/581e397261e10ee2.css: https://imgs.crazygames.com/assets/SVG/icons/blocked.svg",
+    "builds.crazygames.com/portal-web/_next/static/css/581e397261e10ee2.css: https://imgs.crazygames.com/assets/SVG/icons/blocked.svg",
+    "builds.crazygames.com/portal-web/_next/static/css/581e397261e10ee2.css: https://imgs.crazygames.com/assets/SVG/icons/browser.svg",
+    "builds.crazygames.com/portal-web/_next/static/css/581e397261e10ee2.css: https://imgs.crazygames.com/assets/SVG/icons/browser.svg",
+    "builds.crazygames.com/portal-web/_next/static/css/581e397261e10ee2.css: https://imgs.crazygames.com/assets/SVG/icons/calendar.svg",
+    "builds.crazygames.com/portal-web/_next/static/css/581e397261e10ee2.css: https://imgs.crazygames.com/assets/SVG/icons/calendar.svg",
+    "builds.crazygames.com/portal-web/_next/static/css/5bcc76f3b4fbe4c4.css: /images/daily-games/chevron-up.svg",
+    "builds.crazygames.com/portal-web/_next/static/css/dfdf111b0ff12747.css: /images/daily-games/hourglass.svg",
+    "builds.crazygames.com/portal-web/_next/static/css/dfdf111b0ff12747.css: /images/daily-games/hourglass.svg",
+    "builds.crazygames.com/portal-web/_next/static/css/5db9552f0a5fb1a1.css: /images/daily-games/row-check.svg",
+    "builds.crazygames.com/portal-web/_next/static/css/5db9552f0a5fb1a1.css: /images/daily-games/row-check-lg.svg",
+    "builds.crazygames.com/portal-web/_next/static/css/5db9552f0a5fb1a1.css: /images/daily-games/replay.svg",
+    "games.crazygames.com/it_IT/bubble-blast-pwd/index__qisNewUser_tr.html: <link href> https://builds.crazygames.com",
+    "bubble-blast-pwd.game-files.crazygames.com/bubble-blast-pwd/14/index__qisNewUser_tr.html: <link href> https://www.crazygames.com/game/bubble-blast-pwd",
+    "bubble-blast-pwd.game-files.crazygames.com/bubble-blast-pwd/14/assets/fonts/styles__q202607301924.css: Montserrat-ExtraBold.woff?202607301924",
+    "bubble-blast-pwd.game-files.crazygames.com/bubble-blast-pwd/14/assets/fonts/styles__q202607301924.css: Montserrat-Medium.woff?202607301924",
+    "bubble-blast-pwd.game-files.crazygames.com/bubble-blast-pwd/14/assets/fonts/styles__q202607301924.css: Pony.woff?202607301924"
+  ]
+}
