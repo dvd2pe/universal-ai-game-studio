@@ -48,7 +48,7 @@ def load_pipeline(key):
     if kind == "zimage":
         from diffusers import ZImagePipeline
         pipe = ZImagePipeline.from_pretrained(model_id, dtype=dtype, low_cpu_mem_usage=True)
-        pipe.to("cuda")
+        pipe.enable_model_cpu_offload()
     else:
         quant_config = _qwen_nf4_config()
         if kind == "qwen21":
