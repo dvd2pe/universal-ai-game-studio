@@ -549,36 +549,13 @@
   ],
   "unresolved_refs": [
     "builds.crazygames.com/portal-web/_next/static/css/5bcc76f3b4fbe4c4.css: /images/daily-games/chevron-up.svg",
-    "builds.crazygames.com/portal-web/_next/static/css/581e397261e10ee2.css: https://builds.crazygames.com/portal-web/_next/static/media/1c867a160d61396e.woff2",
-    "builds.crazygames.com/portal-web/_next/static/css/581e397261e10ee2.css: https://builds.crazygames.com/portal-web/_next/static/media/e6a92b4f622ad549.woff2",
-    "builds.crazygames.com/portal-web/_next/static/css/581e397261e10ee2.css: https://imgs.crazygames.com/assets/SVG/icons/3users.svg",
-    "builds.crazygames.com/portal-web/_next/static/css/581e397261e10ee2.css: https://imgs.crazygames.com/assets/SVG/icons/3users.svg",
-    "builds.crazygames.com/portal-web/_next/static/css/581e397261e10ee2.css: https://imgs.crazygames.com/assets/SVG/icons/apple.svg",
-    "builds.crazygames.com/portal-web/_next/static/css/581e397261e10ee2.css: https://imgs.crazygames.com/assets/SVG/icons/apple.svg",
-    "builds.crazygames.com/portal-web/_next/static/css/581e397261e10ee2.css: https://imgs.crazygames.com/assets/SVG/icons/arcade.svg",
-    "builds.crazygames.com/portal-web/_next/static/css/581e397261e10ee2.css: https://imgs.crazygames.com/assets/SVG/icons/arcade.svg",
-    "builds.crazygames.com/portal-web/_next/static/css/581e397261e10ee2.css: https://imgs.crazygames.com/assets/SVG/icons/arrow-full-bottom.svg",
-    "builds.crazygames.com/portal-web/_next/static/css/581e397261e10ee2.css: https://imgs.crazygames.com/assets/SVG/icons/arrow-full-bottom.svg",
-    "builds.crazygames.com/portal-web/_next/static/css/581e397261e10ee2.css: https://imgs.crazygames.com/assets/SVG/icons/arrow-full-left.svg",
-    "builds.crazygames.com/portal-web/_next/static/css/581e397261e10ee2.css: https://imgs.crazygames.com/assets/SVG/icons/arrow-full-left.svg",
-    "builds.crazygames.com/portal-web/_next/static/css/581e397261e10ee2.css: https://imgs.crazygames.com/assets/SVG/icons/bell.svg",
-    "builds.crazygames.com/portal-web/_next/static/css/581e397261e10ee2.css: https://imgs.crazygames.com/assets/SVG/icons/bell.svg",
-    "builds.crazygames.com/portal-web/_next/static/css/581e397261e10ee2.css: https://imgs.crazygames.com/assets/SVG/icons/blocked.svg",
-    "builds.crazygames.com/portal-web/_next/static/css/581e397261e10ee2.css: https://imgs.crazygames.com/assets/SVG/icons/blocked.svg",
-    "builds.crazygames.com/portal-web/_next/static/css/581e397261e10ee2.css: https://imgs.crazygames.com/assets/SVG/icons/browser.svg",
-    "builds.crazygames.com/portal-web/_next/static/css/581e397261e10ee2.css: https://imgs.crazygames.com/assets/SVG/icons/browser.svg",
-    "builds.crazygames.com/portal-web/_next/static/css/581e397261e10ee2.css: https://imgs.crazygames.com/assets/SVG/icons/calendar.svg",
-    "builds.crazygames.com/portal-web/_next/static/css/581e397261e10ee2.css: https://imgs.crazygames.com/assets/SVG/icons/calendar.svg",
     "builds.crazygames.com/portal-web/_next/static/css/5db9552f0a5fb1a1.css: /images/daily-games/row-check.svg",
     "builds.crazygames.com/portal-web/_next/static/css/5db9552f0a5fb1a1.css: /images/daily-games/row-check-lg.svg",
     "builds.crazygames.com/portal-web/_next/static/css/5db9552f0a5fb1a1.css: /images/daily-games/replay.svg",
     "builds.crazygames.com/portal-web/_next/static/css/dfdf111b0ff12747.css: /images/daily-games/hourglass.svg",
     "builds.crazygames.com/portal-web/_next/static/css/dfdf111b0ff12747.css: /images/daily-games/hourglass.svg",
     "games.crazygames.com/it_IT/hex-dominion/index__qisNewUser_tr.html: <link href> https://builds.crazygames.com",
-    "hex-dominion.game-files.crazygames.com/hex-dominion/25/index__qisNewUser_tr.html: <link href> ./assets__icon.svg",
-    "hex-dominion.game-files.crazygames.com/hex-dominion/25/index__qisNewUser_tr.html: <link href> https://www.crazygames.com/game/hex-dominion",
-    "hex-dominion.game-files.crazygames.com/hex-dominion/25/src__ui__game.css: ./assets__rewards.png",
-    "hex-dominion.game-files.crazygames.com/hex-dominion/25/src__ui__game.css: ./assets__rewards.png"
+    "hex-dominion.game-files.crazygames.com/hex-dominion/25/index__qisNewUser_tr.html: <link href> https://www.crazygames.com/game/hex-dominion"
   ],
   "external_hosts": [
     "0406df2f8706c755aea5048db4397059.safeframe.googlesyndication.com",
@@ -676,5 +653,6 @@
     "www.gstatic.com",
     "www.temu.com",
     "x.bidswitch.net"
-  ]
+  ],
+  "stubs_added": 4
 }

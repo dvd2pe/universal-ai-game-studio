@@ -9487,5 +9487,6 @@
       "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/ctl_ui/css/flags.css: ../sprites/flags.png",
       "tic-tac-toe.game-files.crazygames.com/tic-tac-toe/19/ctl_ui/owlcarousel/owl.carousel.min.css: owl.video.play.png"
     ]
-  }
+  },
+  "stubs": 123
 }

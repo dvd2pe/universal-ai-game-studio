@@ -1,7 +1,7 @@
 {
   "source_url": "https://www.crazygames.com/it/game/jigpic-solitaire",
   "entry_url": "https://jigpic-solitaire.game-files.crazygames.com/jigpic-solitaire/15/index.html?isNewUser=false&__nextLocale=it&isFirstSession=true&czyExpClientOptable4=enabled&czyExpClientAdsDummyAA50=disabled&czyExpClientAmazonBidRoute_2=prebid&czyExpClientAdsHolidayMode_CZY_21360=enabled&czyExpClientAdmiral=enabled&czyExpClientAdXFloor_1_CZY_20844=1.1&czyExpClientVerticalVideoSize_CZY_22165=disabled&czyExpDisableInterstitialsFirst12h_CZY_18471=disabled&czyExpClientArtworkAbTesting_CZY_20701=enabled&czyExpModelApiTraffic_CZY_21907=enabled&czyExpCoversImages_CZY_21375=enabled&czyExpClientDomainProbe_CZY_21425=disabled&czyExpClientGamepageModelBlend_CZY_21410=enabled&czyExpClientInAppPurchaseAlternativeBillingAndroidValidToken=disabled&czyExpClientConfirmLeaveGame=enabled&czyExpClientImpressionDiscounting_CZY_20723=enabled&czyExpClientLbRankProgress_CZY_21923=enabled&czyExpIncreasedLeaderboardProminance=enabled&czyExpClientModelGamePage=knn_v3&czyExpClientInAppPurchaseAlternativeBillingAndroid=enabled&czyExpClientInAppPurchaseAlternativeBillingIOSUS=enabled",
-  "entry_rel": "jigpic-solitaire.game-files.crazygames.com/jigpic-solitaire/15/index__qisNewUser_fa.html",
+  "entry_rel": "jigpic-solitaire.game-files.crazygames.com/jigpic-solitaire/15/index__qisNewUser_tr.html",
   "created": "2026-11-20T10:13:22.436009+00:00",
   "engine": {
     "engine": "unknown",
@@ -18448,5 +18448,6 @@
       "jigpic-solitaire.game-files.crazygames.com/jigpic-solitaire/15/index__qisNewUser_tr.html: <link href> https://www.crazygames.com/game/jigpic-solitaire",
       "secure-assets.rubiconproject.com/utils/xapi/multi-sync__qp_seedtag_en.html: <script src> usync.js"
     ]
-  }
+  },
+  "stubs": 144
 }

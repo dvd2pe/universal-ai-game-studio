@@ -35,6 +35,30 @@ class QuietHandler(http.server.SimpleHTTPRequestHandler):
     def log_message(self, *args):  # silence request log
         pass
 
+    def translate_path(self, path):
+        """__q… variant fallback: runtime URLs with a query string map onto
+        <name>__q<query>.<ext> paths that the mirror stores only once (the
+        canonical variant). Serve the queryless copy — or any other stored
+        variant of the same file — instead of 404-ing."""
+        p = super().translate_path(path)
+        if not os.path.exists(p):
+            d, name = os.path.split(p)
+            idx = name.find("__q")
+            if idx > 0:
+                dot = name.rfind(".")
+                stem, ext = (name[:idx], name[dot:]) if dot > idx else (name[:idx], "")
+                for cand in [stem + ext] if ext else [stem]:
+                    c = os.path.join(d, cand)
+                    if os.path.isfile(c):
+                        return c
+                try:
+                    for f in os.listdir(d):
+                        if f.startswith(stem + "__q") and f.endswith(ext):
+                            return os.path.join(d, f)
+                except OSError:
+                    pass
+        return p
+
 
 def _free_port():
     s = socket.socket()

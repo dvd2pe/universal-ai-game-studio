@@ -1,0 +1,111 @@
+{
+    "settings": "Settings",
+    "sound": "Sound",
+    "music": "Music",
+    "level": "Level",
+    "next": "Next",
+    "level_$_completed": "Level $ completed",
+    "play": "Play",
+    "leaderboard": "Leaderboard",
+    "shop": "Shop",
+    "auth_title": "Authorization",
+    "auth_text": "- reliable saving of progress\n- access to the leaderboard",
+    "auth_btn": "Sign in",
+    "error": "Error",
+    "error_reward": "Video is not available",
+    "def_player_name": "Earthling",
+    "restart": "Restart",
+    "congratulations": "Congratulations!",
+    "continue": "Continue",
+    "more": "More",
+    "ok": "Ok",
+    "cancel": "Cancel",
+    "random": "Random",
+    "receive": "Receive",
+    "get": "Get",
+    "play_on": "Play on",
+    "give_up": "Give up",
+    "available": "Available",
+    "level_failed": "Level $ failed",
+    "defeat": "Defeat",
+    "ready": "Ready",
+    "not_ready": "Not ready",
+    "free": "Free",
+    "slides": "Slides",
+    "skip": "Skip",
+    "close": "Close",
+    "open": "Open",
+    "buy": "Buy",
+
+    "choose_mini_game": "Choose a mini-game",
+
+    "how_to_play": "How to play",
+
+    "chapter": "Chapter",
+
+    "mix_container": "Select a container to mix",
+
+    "roulette_title": "Wheel of Fortune",
+    "roulette_btn": "Spin",
+
+    "piggy_bank": "Piggy bank",
+    "piggy_full": "Full!",
+    "piggy_description": "COMPLETE LEVELS.\nAND COLLECT $ MONEY,\nTO BREAK THE PIGGY!",
+    "piggy_description_full": "The piggy is full!\nIt contains $ money. Break it,\nand you will get the contents!",
+    "piggy_break": "Break!",
+
+    "beginners_set": "Beginners Set",
+    "default_set": "All in One",
+    "not_enough": "Not enough",
+    "purchase_failed": "Purchase failed.\nPlease refresh the page.",
+
+    "mg_find_couple_name": "Find a couple",
+    "mg_three_in_row_name": "Three in a row",
+
+    "mg_find_couple_tutor_text": "A lot of hidden cards are on the screen. By clicking on them, you open two at a time and try to find identical images. The goal is to find all pairs, opening and remembering their location.",
+    "mg_three_in_row_tutor_text": "Swap neighboring pieces to collect 3 or more identical pieces in a row. They disappear, and you collect the necessary elements to pass the level.",
+
+    "slides_info": "The display of slides can be disabled in the game settings",
+    "you_opened_new_bonus": "You opened a new bonus!",
+
+    "bonus_shop_name": "Shop",
+    "bonus_shop_description": "Here you can buy bonuses at a discount",
+
+    "bonus_extra_containers_name": "Extra container",
+    "bonus_extra_containers_description": "Now you can add extra containers if you get stuck",
+
+    "bonus_backwards_name": "Undo move",
+    "bonus_backwards_description": "Now you can undo your last move",
+
+    "bonus_mix_container_name": "Mix containers",
+    "bonus_mix_container_description": "Now you can mix the contents of containers",
+
+    "bonus_pig_name": "Piggy bank",
+    "bonus_pig_description": "It will be filled after passing levels",
+
+    "bonus_roulette_name": "Wheel of Fortune",
+    "bonus_roulette_description": "Does luck love you?",
+
+    "bonus_mini_games_name": "Mini-games",
+    "bonus_mini_games_description": "Time to have fun!",
+
+    "bonus_leaderboard_name": "Leaderboard",
+    "bonus_leaderboard_description": "Compete with other players!",
+
+    "bonus_calendar_name": "Calendar",
+    "bonus_calendar_description": "Daily levels, prizes, separate collection and leaderboard",
+
+    "part": "Part",
+    "collection": "Collection",
+    "empty_collection_message": "The collection is empty.\nComplete levels and fill it.",
+    "hard_level": "Hard level",
+    "hard": "Hard",
+    "calendar_final_text": "Congratulations!\nYou have completed this month!\nNow it is in your collection.\n\nVery soon a new month and new challenges!",
+    "empty_calendar_collection_message": "The collection is empty.\n\nComplete the month completely,\nso it appears in your collection.",
+
+    "offer_to_buy_calendar_day": "Video is not available.\nYou can open the day for $ coins.\nOr try later.",
+    "calendar_open_after_level": "Calendar will be available\nafter $ level",
+
+    "main_menu_calendar_button": "Main menu",
+    "x2_reward": "x2 REWARD"
+}

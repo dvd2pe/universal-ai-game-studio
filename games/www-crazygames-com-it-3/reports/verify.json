@@ -1,27 +1,31 @@
 {
-  "loaded_url": "http://127.0.0.1:44763/jigpic-solitaire.game-files.crazygames.com/jigpic-solitaire/15/index__qisNewUser_fa.html",
-  "canvas": null,
+  "loaded_url": "http://127.0.0.1:55633/jigpic-solitaire.game-files.crazygames.com/jigpic-solitaire/15/index__qisNewUser_tr.html",
+  "canvas": {
+    "w": 560,
+    "h": 800
+  },
   "animation_detected": false,
   "console_errors": [
-    "Failed to load resource: the server responded with a status of 404 (File not found)"
+    "Failed to load resource: the server responded with a status of 404 (File not found)",
+    "pageerror: [Loader.load] Failed to load http://127.0.0.1:55633/jigpic-solitaire.game-files.crazygames.com/jigpic-solitaire/15/json/resources.json?v=c0947f7f9745da94c149.\nSyntaxError: Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
   ],
-  "page_errors": 0,
+  "page_errors": 1,
   "missing_requests": [
     {
-      "url": "http://127.0.0.1:44763/jigpic-solitaire.game-files.crazygames.com/jigpic-solitaire/15/index__qisNewUser_fa.html",
+      "url": "http://127.0.0.1:55633/jigpic-solitaire.game-files.crazygames.com/jigpic-solitaire/15/json/resources.json?v=c0947f7f9745da94c149",
       "status": 404
     }
   ],
   "failed_requests": [],
   "external_hosts": {},
-  "local_requests": 1,
+  "local_requests": 12,
   "counts": {
     "acquired": 552,
     "discovered": 1292,
-    "files": 382
+    "files": 813
   },
   "score": {
-    "total": 44,
+    "total": 68,
     "components": {
       "acquisition": {
         "value": 0.427,
@@ -34,19 +38,19 @@
         "contribution": 15.0
       },
       "dependencies": {
-        "value": 0.0,
+        "value": 0.917,
         "weight": 0.15,
-        "contribution": 0.0
+        "contribution": 13.7
       },
       "launch": {
-        "value": 0.0,
+        "value": 0.4,
         "weight": 0.15,
-        "contribution": 0.0
+        "contribution": 6.0
       },
       "runtime_paint": {
-        "value": 0.0,
+        "value": 0.4,
         "weight": 0.1,
-        "contribution": 0.0
+        "contribution": 4.0
       },
       "coverage": {
         "value": 0.85,
@@ -61,5 +65,5 @@
     },
     "note": "0-100 weighted sum of independently measured components"
   },
-  "verdict": "incomplete: significant failures during local verification \u2014 mirror is NOT confirmed playable"
+  "verdict": "partially-verified: mirror loads locally but some runtime checks did not pass (see components)"
 }

@@ -1,27 +1,31 @@
 {
-  "loaded_url": "http://127.0.0.1:43267/bubble-blast-pwd.game-files.crazygames.com/bubble-blast-pwd/14/index__qisNewUser_fa.html",
-  "canvas": null,
+  "loaded_url": "http://127.0.0.1:50699/bubble-blast-pwd.game-files.crazygames.com/bubble-blast-pwd/14/index__qisNewUser_tr.html",
+  "canvas": {
+    "w": 667,
+    "h": 800
+  },
   "animation_detected": false,
   "console_errors": [
-    "Failed to load resource: the server responded with a status of 404 (File not found)"
+    "Failed to load resource: the server responded with a status of 404 (File not found)",
+    "pageerror: Cannot read properties of undefined (reading 'closeWhiteBtn')"
   ],
-  "page_errors": 0,
+  "page_errors": 1,
   "missing_requests": [
     {
-      "url": "http://127.0.0.1:43267/bubble-blast-pwd.game-files.crazygames.com/bubble-blast-pwd/14/index__qisNewUser_fa.html",
+      "url": "http://127.0.0.1:50699/bubble-blast-pwd.game-files.crazygames.com/bubble-blast-pwd/14/assets/images/sd/preloader.json?202607301924",
       "status": 404
     }
   ],
   "failed_requests": [],
   "external_hosts": {},
-  "local_requests": 1,
+  "local_requests": 7,
   "counts": {
     "acquired": 474,
     "discovered": 1084,
-    "files": 314
+    "files": 813
   },
   "score": {
-    "total": 44,
+    "total": 67,
     "components": {
       "acquisition": {
         "value": 0.437,
@@ -34,19 +38,19 @@
         "contribution": 15.0
       },
       "dependencies": {
-        "value": 0.0,
+        "value": 0.857,
         "weight": 0.15,
-        "contribution": 0.0
+        "contribution": 12.9
       },
       "launch": {
-        "value": 0.0,
+        "value": 0.4,
         "weight": 0.15,
-        "contribution": 0.0
+        "contribution": 6.0
       },
       "runtime_paint": {
-        "value": 0.0,
+        "value": 0.4,
         "weight": 0.1,
-        "contribution": 0.0
+        "contribution": 4.0
       },
       "coverage": {
         "value": 0.85,
@@ -61,5 +65,5 @@
     },
     "note": "0-100 weighted sum of independently measured components"
   },
-  "verdict": "incomplete: significant failures during local verification \u2014 mirror is NOT confirmed playable"
+  "verdict": "partially-verified: mirror loads locally but some runtime checks did not pass (see components)"
 }

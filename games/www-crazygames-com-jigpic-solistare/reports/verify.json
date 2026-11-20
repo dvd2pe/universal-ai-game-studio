@@ -1,15 +1,15 @@
 {
-  "loaded_url": "http://127.0.0.1:56563/www.crazygames.com/it/game/jigpic-solistare",
+  "loaded_url": "http://127.0.0.1:58213/www.crazygames.com/it/game/jigpic-solistare",
   "canvas": null,
   "animation_detected": false,
   "console_errors": [
-    "local navigation failed: Page.goto: Download is starting\nCall log:\n  - navigating to \"http://127.0.0.1:56563/www.crazygames.com/it/game/jigpic-solistare\", waiting until \"domcontentloaded\"\n"
+    "local navigation failed: Page.goto: Download is starting\nCall log:\n  - navigating to \"http://127.0.0.1:58213/www.crazygames.com/it/game/jigpic-solistare\", waiting until \"domcontentloaded\"\n"
   ],
   "page_errors": 0,
   "missing_requests": [],
   "failed_requests": [
     {
-      "url": "http://127.0.0.1:56563/www.crazygames.com/it/game/jigpic-solistare",
+      "url": "http://127.0.0.1:58213/www.crazygames.com/it/game/jigpic-solistare",
       "error": "net::ERR_ABORTED"
     }
   ],
@@ -18,7 +18,7 @@
   "counts": {
     "acquired": 124,
     "discovered": 127,
-    "files": 121
+    "files": 678
   },
   "score": {
     "total": 68,

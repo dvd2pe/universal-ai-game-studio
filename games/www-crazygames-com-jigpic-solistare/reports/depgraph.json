@@ -252,26 +252,6 @@
     }
   ],
   "unresolved_refs": [
-    "builds.crazygames.com/portal-web/_next/static/css/581e397261e10ee2.css: https://builds.crazygames.com/portal-web/_next/static/media/1c867a160d61396e.woff2",
-    "builds.crazygames.com/portal-web/_next/static/css/581e397261e10ee2.css: https://builds.crazygames.com/portal-web/_next/static/media/e6a92b4f622ad549.woff2",
-    "builds.crazygames.com/portal-web/_next/static/css/581e397261e10ee2.css: https://imgs.crazygames.com/assets/SVG/icons/3users.svg",
-    "builds.crazygames.com/portal-web/_next/static/css/581e397261e10ee2.css: https://imgs.crazygames.com/assets/SVG/icons/3users.svg",
-    "builds.crazygames.com/portal-web/_next/static/css/581e397261e10ee2.css: https://imgs.crazygames.com/assets/SVG/icons/apple.svg",
-    "builds.crazygames.com/portal-web/_next/static/css/581e397261e10ee2.css: https://imgs.crazygames.com/assets/SVG/icons/apple.svg",
-    "builds.crazygames.com/portal-web/_next/static/css/581e397261e10ee2.css: https://imgs.crazygames.com/assets/SVG/icons/arcade.svg",
-    "builds.crazygames.com/portal-web/_next/static/css/581e397261e10ee2.css: https://imgs.crazygames.com/assets/SVG/icons/arcade.svg",
-    "builds.crazygames.com/portal-web/_next/static/css/581e397261e10ee2.css: https://imgs.crazygames.com/assets/SVG/icons/arrow-full-bottom.svg",
-    "builds.crazygames.com/portal-web/_next/static/css/581e397261e10ee2.css: https://imgs.crazygames.com/assets/SVG/icons/arrow-full-bottom.svg",
-    "builds.crazygames.com/portal-web/_next/static/css/581e397261e10ee2.css: https://imgs.crazygames.com/assets/SVG/icons/arrow-full-left.svg",
-    "builds.crazygames.com/portal-web/_next/static/css/581e397261e10ee2.css: https://imgs.crazygames.com/assets/SVG/icons/arrow-full-left.svg",
-    "builds.crazygames.com/portal-web/_next/static/css/581e397261e10ee2.css: https://imgs.crazygames.com/assets/SVG/icons/arrow-full-right.svg",
-    "builds.crazygames.com/portal-web/_next/static/css/581e397261e10ee2.css: https://imgs.crazygames.com/assets/SVG/icons/arrow-full-right.svg",
-    "builds.crazygames.com/portal-web/_next/static/css/581e397261e10ee2.css: https://imgs.crazygames.com/assets/SVG/icons/arrow-full-top.svg",
-    "builds.crazygames.com/portal-web/_next/static/css/581e397261e10ee2.css: https://imgs.crazygames.com/assets/SVG/icons/arrow-full-top.svg",
-    "builds.crazygames.com/portal-web/_next/static/css/581e397261e10ee2.css: https://imgs.crazygames.com/assets/SVG/icons/bell.svg",
-    "builds.crazygames.com/portal-web/_next/static/css/581e397261e10ee2.css: https://imgs.crazygames.com/assets/SVG/icons/bell.svg",
-    "builds.crazygames.com/portal-web/_next/static/css/581e397261e10ee2.css: https://imgs.crazygames.com/assets/SVG/icons/blocked.svg",
-    "builds.crazygames.com/portal-web/_next/static/css/581e397261e10ee2.css: https://imgs.crazygames.com/assets/SVG/icons/blocked.svg",
     "builds.crazygames.com/portal-web/_next/static/css/5bcc76f3b4fbe4c4.css: /images/daily-games/chevron-up.svg"
   ],
   "external_hosts": [
@@ -286,5 +266,6 @@
     "o187844.ingest.us.sentry.io",
     "solutions.cdn.optable.co",
     "threeredcubes.com"
-  ]
+  ],
+  "stubs_added": 117
 }

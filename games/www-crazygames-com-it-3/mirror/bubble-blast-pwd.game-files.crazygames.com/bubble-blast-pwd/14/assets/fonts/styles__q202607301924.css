@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'Montserrat-ExtraBold';
+    src: url("../../../../../bubble-blast-pwd.game-files.crazygames.com/bubble-blast-pwd/14/assets/fonts/Montserrat-ExtraBold__q202607301924.woff2") format('woff2'),
+        url('Montserrat-ExtraBold.woff?202607301924') format('woff');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat-Medium';
+    src: url("../../../../../bubble-blast-pwd.game-files.crazygames.com/bubble-blast-pwd/14/assets/fonts/Montserrat-Medium__q202607301924.woff2") format('woff2'),
+        url('Montserrat-Medium.woff?202607301924') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pony';
+    src: url("../../../../../bubble-blast-pwd.game-files.crazygames.com/bubble-blast-pwd/14/assets/fonts/Pony__q202607301924.woff2") format('woff2'),
+         url('Pony.woff?202607301924') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}

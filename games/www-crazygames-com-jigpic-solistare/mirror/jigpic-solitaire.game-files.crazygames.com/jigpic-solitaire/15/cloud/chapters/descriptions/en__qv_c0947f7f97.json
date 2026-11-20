@@ -1,0 +1,2882 @@
+[
+  {
+    "filename": "1.jpg",
+    "title": "Eiffel Tower",
+    "description": "The symbol of Paris and one of the most recognizable structures on the planet. Located in France.",
+    "fact": "During extreme heat the tower expands and becomes about 15 cm taller."
+  },
+  {
+    "filename": "2.jpg",
+    "title": "Taj Mahal",
+    "description": "A white marble mausoleum known as the ultimate symbol of eternal love. Located in India.",
+    "fact": "Its walls subtly change color depending on the time of day."
+  },
+  {
+    "filename": "3.jpg",
+    "title": "Statue of Liberty",
+    "description": "A gift from France and the global symbol of freedom. Located in USA.",
+    "fact": "If the statue were seated, she would still be as tall as a ten-story building."
+  },
+  {
+    "filename": "4.jpg",
+    "title": "Colosseum",
+    "description": "A giant Roman amphitheater and an engineering marvel. Located in Italy.",
+    "fact": "It held up to 50,000 spectators and had an underground level."
+  },
+  {
+    "filename": "5.jpg",
+    "title": "Great Wall of China",
+    "description": "A massive defensive system stretching for thousands of kilometers. Located in China.",
+    "fact": "It was built over nearly 2,000 years and varies greatly along its length."
+  },
+  {
+    "filename": "6.jpg",
+    "title": "Stonehenge",
+    "description": "A mysterious prehistoric stone circle full of unanswered questions. Located in United Kingdom.",
+    "fact": "Some stones were transported from nearly 250 km away."
+  },
+  {
+    "filename": "7.jpg",
+    "title": "Parthenon",
+    "description": "A masterpiece of ancient Greek architecture atop the Acropolis. Located in Greece.",
+    "fact": "Its columns subtly curve to create perfect visual proportions."
+  },
+  {
+    "filename": "8.jpg",
+    "title": "Machu Picchu",
+    "description": "The lost city of the Inca high in the Andes. Located in Peru.",
+    "fact": "Its stonework survived many earthquakes thanks to precise fitting blocks."
+  },
+  {
+    "filename": "9.jpg",
+    "title": "Pyramids of Giza & Sphinx",
+    "description": "The oldest surviving wonders of the ancient world. Located in Egypt.",
+    "fact": "The Sphinx was carved from a single piece of bedrock and was originally painted."
+  },
+  {
+    "filename": "10.jpg",
+    "title": "Angkor Wat",
+    "description": "The largest temple complex in the world, surrounded by jungle. Located in Cambodia.",
+    "fact": "At sunrise it forms a perfect reflection in the entrance pond."
+  },
+  {
+    "filename": "11.jpg",
+    "title": "Sagrada Familia",
+    "description": "Gaudi’s magnificent temple under construction for more than a century. Located in Spain.",
+    "fact": "Each façade represents a different theme and has a unique style."
+  },
+  {
+    "filename": "12.jpg",
+    "title": "Big Ben & Westminster",
+    "description": "The most famous clock in the world and the heart of London. Located in United Kingdom.",
+    "fact": "Big Ben is the name of the bell, not the tower."
+  },
+  {
+    "filename": "13.jpg",
+    "title": "Niagara Falls",
+    "description": "One of the most powerful waterfall systems on Earth. Located in USA and Canada.",
+    "fact": "It moves backward about 30 cm each year due to erosion."
+  },
+  {
+    "filename": "14.jpg",
+    "title": "Sydney Opera House",
+    "description": "Australia’s architectural icon with its white sail-like roofs. Located in Australia.",
+    "fact": "Its roof is covered with more than one million ceramic tiles."
+  },
+  {
+    "filename": "15.jpg",
+    "title": "Petra",
+    "description": "An ancient city carved directly into red sandstone cliffs. Located in Jordan.",
+    "fact": "The Treasury was actually built as a mausoleum."
+  },
+  {
+    "filename": "16.jpg",
+    "title": "Fushimi Inari Shrine",
+    "description": "Thousands of red torii gates forming iconic pathways. Located in Japan.",
+    "fact": "The shrine has over 10,000 gates, many donated by individuals."
+  },
+  {
+    "filename": "17.jpg",
+    "title": "Golden Gate Bridge",
+    "description": "One of the most iconic bridges in the world. Located in USA.",
+    "fact": "Its official color is called International Orange."
+  },
+  {
+    "filename": "18.jpg",
+    "title": "Neuschwanstein Castle",
+    "description": "A fairytale Bavarian castle that inspired Disney’s designs. Located in Germany.",
+    "fact": "It was built as King Ludwig II’s private retreat."
+  },
+  {
+    "filename": "19.jpg",
+    "title": "Uluwatu Temple",
+    "description": "A famous Balinese temple on dramatic ocean cliffs. Located in Indonesia.",
+    "fact": "Traditional Kecak fire dance shows take place around it at sunset."
+  },
+  {
+    "filename": "20.jpg",
+    "title": "Burj Khalifa",
+    "description": "The tallest building in the world and a symbol of Dubai. Located in UAE.",
+    "fact": "If you watch the sunset at the base and then ride to the top, the sun appears above the horizon again — letting you see a second sunset."
+  },
+  {
+    "filename": "21.jpg",
+    "title": "Chichen Itza",
+    "description": "An ancient Mayan city with the iconic Pyramid of Kukulkan. Located in Mexico.",
+    "fact": "During equinoxes, a 'serpent shadow' appears on the steps."
+  },
+  {
+    "filename": "22.jpg",
+    "title": "Forbidden City",
+    "description": "A grand imperial palace complex in Beijing. Located in China.",
+    "fact": "It contains nearly a thousand buildings with symbolic colors."
+  },
+  {
+    "filename": "23.jpg",
+    "title": "Mount Rushmore",
+    "description": "A mountain carved with four US presidents' faces. Located in USA.",
+    "fact": "Each face is about 18 meters tall."
+  },
+  {
+    "filename": "24.jpg",
+    "title": "Louvre Pyramid",
+    "description": "A glass pyramid marking the entrance to the famous museum. Located in France.",
+    "fact": "Once criticized, now one of Paris’s major symbols."
+  },
+  {
+    "filename": "25.jpg",
+    "title": "Times Square",
+    "description": "The brightest and busiest square in New York. Located in USA.",
+    "fact": "Visited by around 50 million tourists every year."
+  },
+  {
+    "filename": "26.jpg",
+    "title": "The Shard",
+    "description": "A glass skyscraper dominating London’s skyline. Located in United Kingdom.",
+    "fact": "Designed by architect Renzo Piano."
+  },
+  {
+    "filename": "27.jpg",
+    "title": "Santorini Blue Domes",
+    "description": "The famous blue-domed churches of Santorini. Located in Greece.",
+    "fact": "The blue is believed to symbolize protection from evil."
+  },
+  {
+    "filename": "28.jpg",
+    "title": "St. Peter’s Basilica",
+    "description": "The main Catholic basilica of the Vatican. Located in Vatican.",
+    "fact": "Michelangelo’s dome remains an engineering masterpiece."
+  },
+  {
+    "filename": "29.jpg",
+    "title": "Alhambra",
+    "description": "A Moorish palace complex known for intricate carvings. Located in Spain.",
+    "fact": "Contains over 10,000 decorative patterns."
+  },
+  {
+    "filename": "30.jpg",
+    "title": "Matterhorn",
+    "description": "The most iconic peak of the Alps. Located in Switzerland.",
+    "fact": "Its silhouette inspired the Toblerone logo."
+  },
+  {
+    "filename": "31.jpg",
+    "title": "Pantheon",
+    "description": "A perfectly preserved ancient Roman temple. Located in Italy.",
+    "fact": "Its dome is the largest unreinforced concrete dome in the world."
+  },
+  {
+    "filename": "32.jpg",
+    "title": "Hollywood Sign",
+    "description": "The iconic symbol of the film industry. Located in USA.",
+    "fact": "Originally read HOLLYWOODLAND."
+  },
+  {
+    "filename": "33.jpg",
+    "title": "Brandenburg Gate",
+    "description": "Berlin’s most famous gate. Located in Germany.",
+    "fact": "The Quadriga was once taken by Napoleon."
+  },
+  {
+    "filename": "34.jpg",
+    "title": "Table Mountain",
+    "description": "A flat-topped mountain over Cape Town. Located in South Africa.",
+    "fact": "It has its own microclimate at the summit."
+  },
+  {
+    "filename": "35.jpg",
+    "title": "Sheikh Zayed Grand Mosque",
+    "description": "One of the most impressive modern mosques. Located in UAE.",
+    "fact": "It houses the world’s largest hand‑knotted carpet."
+  },
+  {
+    "filename": "36.jpg",
+    "title": "Edinburgh Castle",
+    "description": "A medieval fortress atop volcanic rock. Located in United Kingdom.",
+    "fact": "Built on the remains of an extinct volcano."
+  },
+  {
+    "filename": "37.jpg",
+    "title": "Dubai Marina",
+    "description": "A modern waterfront skyline of skyscrapers. Located in UAE.",
+    "fact": "One of the densest residential high‑rise areas globally."
+  },
+  {
+    "filename": "38.jpg",
+    "title": "Meiji Shrine",
+    "description": "Massive wooden torii gates in a lush Tokyo forest. Located in Japan.",
+    "fact": "The main gate is made from a 1500‑year‑old cypress."
+  },
+  {
+    "filename": "39.jpg",
+    "title": "Palace of Versailles",
+    "description": "A royal palace known for its lavish halls and gardens. Located in France.",
+    "fact": "The Hall of Mirrors contains 357 mirrors."
+  },
+  {
+    "filename": "40.jpg",
+    "title": "Iguazu Falls",
+    "description": "One of the largest waterfall systems in the world. Located in Brazil and Argentina.",
+    "fact": "It consists of over 270 separate cascades."
+  },
+  {
+    "filename": "41.jpg",
+    "title": "Tower Bridge",
+    "description": "One of London’s most recognizable bridges. Located in the United Kingdom.",
+    "fact": "Its bascules lift in about 90 seconds."
+  },
+  {
+    "filename": "42.jpg",
+    "title": "Grand Canyon",
+    "description": "One of the deepest and most spectacular canyons in the world. Located in the USA.",
+    "fact": "It is over 5 million years old."
+  },
+  {
+    "filename": "43.jpg",
+    "title": "Mount Fuji",
+    "description": "Japan’s sacred volcano with a perfect symmetrical shape. Located in Japan.",
+    "fact": "Its last eruption occurred in 1707."
+  },
+  {
+    "filename": "44.jpg",
+    "title": "Venice Canals",
+    "description": "The world’s most iconic city of canals and gondolas. Located in Italy.",
+    "fact": "The city is built on more than 100 small islands."
+  },
+  {
+    "filename": "45.jpg",
+    "title": "Cloud Gate (The Bean)",
+    "description": "A mirror-polished sculpture and a modern symbol of Chicago. Located in the USA.",
+    "fact": "Its surface consists of more than 160 steel panels."
+  },
+  {
+    "filename": "46.jpg",
+    "title": "Acropolis Museum",
+    "description": "The main museum of ancient Greek heritage. Located in Greece.",
+    "fact": "It is built directly above archaeological excavations."
+  },
+  {
+    "filename": "47.jpg",
+    "title": "Banff National Park",
+    "description": "A turquoise-lake paradise at the heart of the Canadian Rockies. Located in Canada.",
+    "fact": "Lake Louise is one of the most photographed places on Earth."
+  },
+  {
+    "filename": "48.jpg",
+    "title": "Hawaii Volcanoes",
+    "description": "Home to Kilauea, one of the most active volcanoes in the world. Located in the USA.",
+    "fact": "Flowing lava constantly reshapes the coastline."
+  },
+  {
+    "filename": "49.jpg",
+    "title": "Bali Rice Terraces",
+    "description": "Ancient green terraces carved into tropical hillsides. Located in Indonesia.",
+    "fact": "The Subak irrigation system has been in use for over 1000 years."
+  },
+  {
+    "filename": "50.jpg",
+    "title": "Blue Lagoon",
+    "description": "A geothermal lagoon with bright milky-blue water. Located in Iceland.",
+    "fact": "All its water is completely renewed every 40 hours."
+  },
+  {
+    "filename": "51.jpg",
+    "title": "Cappadocia Hot Air Balloons",
+    "description": "Famous balloon flights above surreal valleys. Located in Turkey.",
+    "fact": "Balloons can rise over 1000 meters above the ground."
+  },
+  {
+    "filename": "52.jpg",
+    "title": "Great Barrier Reef",
+    "description": "The world’s largest coral reef ecosystem. Located in Australia.",
+    "fact": "It is visible from space."
+  },
+  {
+    "filename": "53.jpg",
+    "title": "Mount Kilimanjaro",
+    "description": "The highest peak in Africa. Located in Tanzania.",
+    "fact": "It is one of the few snowy mountains near the equator."
+  },
+  {
+    "filename": "54.jpg",
+    "title": "Gyeongbokgung Palace",
+    "description": "The grand royal palace of the Joseon dynasty. Located in South Korea.",
+    "fact": "It was destroyed and rebuilt more than 10 times."
+  },
+  {
+    "filename": "55.jpg",
+    "title": "Taipei 101",
+    "description": "A former tallest skyscraper in the world. Located in Taiwan.",
+    "fact": "It is engineered to withstand powerful earthquakes."
+  },
+  {
+    "filename": "56.jpg",
+    "title": "Shibuya Crossing",
+    "description": "The busiest pedestrian crossing in the world. Located in Japan.",
+    "fact": "More than 2500 people cross it at once."
+  },
+  {
+    "filename": "57.jpg",
+    "title": "Dubai Frame",
+    "description": "A massive architectural frame uniting old and new Dubai. Located in the UAE.",
+    "fact": "It features a 25-meter-long glass floor."
+  },
+  {
+    "filename": "58.jpg",
+    "title": "Hassan II Mosque",
+    "description": "A grand oceanfront mosque with intricate Moroccan design. Located in Morocco.",
+    "fact": "Its minaret is one of the tallest religious structures in the world."
+  },
+  {
+    "filename": "59.jpg",
+    "title": "Mont Saint-Michel",
+    "description": "A tidal island crowned with a medieval monastery. Located in France.",
+    "fact": "At high tide, it becomes completely surrounded by water."
+  },
+  {
+    "filename": "60.jpg",
+    "title": "Bora Bora",
+    "description": "A tropical island with a crystal-clear turquoise lagoon. Located in French Polynesia.",
+    "fact": "Its lagoon is considered one of the cleanest in the world."
+  },
+  {
+    "filename": "61.jpg",
+    "title": "Gardens by the Bay",
+    "description": "A futuristic park known for its glowing supertrees. Located in Singapore.",
+    "fact": "The supertrees function as vertical solar collectors."
+  },
+  {
+    "filename": "62.jpg",
+    "title": "Pamukkale",
+    "description": "White travertine terraces filled with mineral-rich water. Located in Turkey.",
+    "fact": "The terraces’ colors shift depending on the light."
+  },
+  {
+    "filename": "63.jpg",
+    "title": "Amalfi Coast",
+    "description": "Colorful villages perched on steep cliffs above the sea. Located in Italy.",
+    "fact": "Its coastal road is one of the most scenic on the planet."
+  },
+  {
+    "filename": "64.jpg",
+    "title": "Giant’s Causeway",
+    "description": "A field of basalt hexagonal columns. Located in Northern Ireland.",
+    "fact": "It includes more than 40,000 natural stone columns."
+  },
+  {
+    "filename": "65.jpg",
+    "title": "Matterhorn Glacier Paradise",
+    "description": "The highest cable car station in Europe. Located in Switzerland.",
+    "fact": "It reaches an altitude of over 3800 meters."
+  },
+  {
+    "filename": "66.jpg",
+    "title": "Lake Bled",
+    "description": "A picturesque alpine lake with a church on an island. Located in Slovenia.",
+    "fact": "It is supplied by natural karst springs."
+  },
+  {
+    "filename": "67.jpg",
+    "title": "Hallstatt",
+    "description": "A charming lakeside Alpine village. Located in Austria.",
+    "fact": "It is one of the oldest continuously inhabited villages in Europe."
+  },
+  {
+    "filename": "68.jpg",
+    "title": "Helsinki Cathedral",
+    "description": "A neoclassical symbol of Finland’s capital. Located in Finland.",
+    "fact": "Twelve statues of apostles stand atop its roof."
+  },
+  {
+    "filename": "69.jpg",
+    "title": "Angkor Thom",
+    "description": "A temple famous for its giant smiling stone faces. Located in Cambodia.",
+    "fact": "Its towers feature more than 200 carved faces."
+  },
+  {
+    "filename": "70.jpg",
+    "title": "St. Mark’s Basilica",
+    "description": "Venice’s main cathedral with golden mosaics. Located in Italy.",
+    "fact": "Its floors are slightly tilted due to ground subsidence."
+  },
+  {
+    "filename": "71.jpg",
+    "title": "Bryce Canyon",
+    "description": "A canyon filled with orange hoodoo rock formations. Located in the USA.",
+    "fact": "It has the world’s largest concentration of hoodoos."
+  },
+  {
+    "filename": "72.jpg",
+    "title": "Mount Athos",
+    "description": "A sacred monastic peninsula. Located in Greece.",
+    "fact": "Many monasteries here are over 1000 years old."
+  },
+  {
+    "filename": "73.jpg",
+    "title": "Rio Favelas",
+    "description": "Colorful hillside neighborhoods of Rio de Janeiro. Located in Brazil.",
+    "fact": "The city has more than 700 favelas."
+  },
+  {
+    "filename": "74.jpg",
+    "title": "Meteora",
+    "description": "Monasteries built atop massive rock pillars. Located in Greece.",
+    "fact": "Monks once reached them using rope nets."
+  },
+  {
+    "filename": "75.jpg",
+    "title": "Royal Mile",
+    "description": "A historic street in Edinburgh’s old town. Located in Scotland.",
+    "fact": "It connects Edinburgh Castle and Holyrood Palace."
+  },
+  {
+    "filename": "76.jpg",
+    "title": "Alfama",
+    "description": "Lisbon’s oldest surviving district. Located in Portugal.",
+    "fact": "It withstood the massive 1755 earthquake."
+  },
+  {
+    "filename": "77.jpg",
+    "title": "Namsan Tower",
+    "description": "A panoramic observation tower in Seoul. Located in South Korea.",
+    "fact": "The base is surrounded by thousands of love locks."
+  },
+  {
+    "filename": "78.jpg",
+    "title": "Petra Monastery",
+    "description": "A massive temple carved into sandstone cliffs. Located in Jordan.",
+    "fact": "It is even larger than the famous Treasury."
+  },
+  {
+    "filename": "79.jpg",
+    "title": "Osaka Castle",
+    "description": "One of Japan’s most beautiful historic castles. Located in Japan.",
+    "fact": "Its white walls symbolize purity and renewal."
+  },
+  {
+    "filename": "80.jpg",
+    "title": "Charles Bridge",
+    "description": "A medieval stone bridge lined with statues. Located in Czechia.",
+    "fact": "Its foundation stone was laid by Emperor Charles IV."
+  },
+  {
+    "filename": "81.jpg",
+    "title": "Luxembourg Old Town",
+    "description": "A historic fortress city with cliffs, fortifications and stone bridges. Located in Luxembourg.",
+    "fact": "It was once considered one of the most fortified cities in Europe."
+  },
+  {
+    "filename": "82.jpg",
+    "title": "Pyramids of Meroë",
+    "description": "Ancient Nubian pyramids with steep angles. Located in Sudan.",
+    "fact": "Their slopes are much steeper than those of Egyptian pyramids."
+  },
+  {
+    "filename": "83.jpg",
+    "title": "Manhattan Skyline",
+    "description": "One of the most recognizable city skylines in the world. Located in the USA.",
+    "fact": "Manhattan contains some of the most expensive land on Earth."
+  },
+  {
+    "filename": "84.jpg",
+    "title": "Antelope Canyon",
+    "description": "A narrow canyon with wave-like sandstone walls. Located in the USA.",
+    "fact": "Formed by millions of years of flash flood erosion."
+  },
+  {
+    "filename": "85.jpg",
+    "title": "Anse Source d’Argent Beach",
+    "description": "A turquoise beach with smooth giant granite boulders. Located in Seychelles.",
+    "fact": "Its granite formations are among the oldest in the world."
+  },
+  {
+    "filename": "86.jpg",
+    "title": "Great Ocean Road",
+    "description": "A scenic coastal highway with sea cliffs and rock stacks. Located in Australia.",
+    "fact": "Built by World War I veterans."
+  },
+  {
+    "filename": "87.jpg",
+    "title": "Hallgrímskirkja",
+    "description": "A futuristic cathedral inspired by basalt columns. Located in Iceland.",
+    "fact": "It is the tallest building in Iceland."
+  },
+  {
+    "filename": "88.jpg",
+    "title": "Yosemite – El Capitan",
+    "description": "A massive granite monolith rising over Yosemite Valley. Located in the USA.",
+    "fact": "Yosemite Falls is the highest waterfall in North America."
+  },
+  {
+    "filename": "89.jpg",
+    "title": "Ha Long Bay",
+    "description": "An emerald bay filled with limestone karst islands. Located in Vietnam.",
+    "fact": "Many islands remain uninhabited."
+  },
+  {
+    "filename": "90.jpg",
+    "title": "Angel Falls",
+    "description": "The tallest uninterrupted waterfall on Earth. Located in Venezuela.",
+    "fact": "Its water plunges nearly one kilometer straight down."
+  },
+  {
+    "filename": "91.jpg",
+    "title": "Lauterbrunnen",
+    "description": "A Swiss valley with towering cliffs and waterfalls. Located in Switzerland.",
+    "fact": "The valley has 72 waterfalls."
+  },
+  {
+    "filename": "92.jpg",
+    "title": "Chiang Kai-shek Memorial Hall",
+    "description": "A national monument with white marble and blue roofs. Located in Taiwan.",
+    "fact": "Its square hosts major ceremonies and celebrations."
+  },
+  {
+    "filename": "93.jpg",
+    "title": "Golden Temple",
+    "description": "A sacred Sikh temple surrounded by water. Located in India.",
+    "fact": "The shrine is covered with over 750 kg of gold."
+  },
+  {
+    "filename": "94.jpg",
+    "title": "Hungarian Parliament",
+    "description": "A grand Neo-Gothic riverside building on the Danube. Located in Hungary.",
+    "fact": "It houses the Holy Crown of Hungary."
+  },
+  {
+    "filename": "95.jpg",
+    "title": "Dubai Miracle Garden",
+    "description": "The world’s largest flower garden. Located in the UAE.",
+    "fact": "More than 150 million flowers are used each season."
+  },
+  {
+    "filename": "96.jpg",
+    "title": "Krabi Beaches",
+    "description": "Dramatic limestone cliffs above turquoise bays. Located in Thailand.",
+    "fact": "The cliffs were formed from ancient coral reefs."
+  },
+  {
+    "filename": "97.jpg",
+    "title": "Vinicunca Rainbow Mountain",
+    "description": "A multicolored mountain formed by mineral layers. Located in Peru.",
+    "fact": "Its colors come from different oxidized minerals."
+  },
+  {
+    "filename": "98.jpg",
+    "title": "Petra – The Siq",
+    "description": "A narrow sandstone gorge leading into Petra. Located in Jordan.",
+    "fact": "Its cliffs reach heights of up to 80 meters."
+  },
+  {
+    "filename": "99.jpg",
+    "title": "Derinkuyu Underground City",
+    "description": "A vast ancient subterranean settlement. Located in Turkey.",
+    "fact": "It could accommodate up to 20,000 people."
+  },
+  {
+    "filename": "100.jpg",
+    "title": "Abu Simbel",
+    "description": "Temples of Ramses II carved into a cliff. Located in Egypt.",
+    "fact": "The temple complex was relocated during the construction of the Aswan Dam."
+  },
+  {
+    "filename": "101.jpg",
+    "title": "Cologne Cathedral",
+    "description": "One of Europe's greatest Gothic cathedrals. Located in Germany.",
+    "fact": "Its construction lasted more than 600 years."
+  },
+  {
+    "filename": "102.jpg",
+    "title": "Jeita Grotto",
+    "description": "A spectacular cave system with stalactites and lakes. Located in Lebanon.",
+    "fact": "It contains one of the largest known stalagmites."
+  },
+  {
+    "filename": "103.jpg",
+    "title": "Mont Blanc",
+    "description": "The highest mountain in Western Europe. Located in France and Italy.",
+    "fact": "Its height changes due to annual snow accumulation."
+  },
+  {
+    "filename": "104.jpg",
+    "title": "Plitvice Lakes",
+    "description": "A chain of turquoise lakes connected by waterfalls. Located in Croatia.",
+    "fact": "The park contains over 90 waterfalls."
+  },
+  {
+    "filename": "105.jpg",
+    "title": "Uluru",
+    "description": "A sacred monolithic sandstone rock. Located in Australia.",
+    "fact": "Most of Uluru's mass lies hidden underground."
+  },
+  {
+    "filename": "106.jpg",
+    "title": "Bangkok Grand Palace",
+    "description": "A royal complex with golden roofs and ornate temples. Located in Thailand.",
+    "fact": "Decorated with handmade ceramic and glass mosaics."
+  },
+  {
+    "filename": "107.jpg",
+    "title": "Meteora Panorama",
+    "description": "Monasteries perched atop massive rock pillars. Located in Greece.",
+    "fact": "The monastic complex is over 600 years old."
+  },
+  {
+    "filename": "108.jpg",
+    "title": "Neuschwanstein in Winter",
+    "description": "A fairytale Bavarian castle surrounded by snowy Alps. Located in Germany.",
+    "fact": "The castle inspired many Disney designs."
+  },
+  {
+    "filename": "109.jpg",
+    "title": "Arashiyama Bamboo Grove",
+    "description": "A tall bamboo forest forming a natural green tunnel. Located in Japan.",
+    "fact": "The wind creates a unique 'singing' sound in the grove."
+  },
+  {
+    "filename": "110.jpg",
+    "title": "Sahara – Erg Chebbi",
+    "description": "Huge golden dunes in the Moroccan Sahara. Located in Morocco.",
+    "fact": "Some dunes reach heights of up to 180 meters."
+  },
+  {
+    "filename": "111.jpg",
+    "title": "Matterhorn & Lake Riffelsee",
+    "description": "A perfect reflection of the Matterhorn in a high Alpine lake. Located in Switzerland.",
+    "fact": "One of the most photographed mountains in the world."
+  },
+  {
+    "filename": "112.jpg",
+    "title": "Hagia Sophia",
+    "description": "A monumental structure that served as both cathedral and mosque. Located in Turkey.",
+    "fact": "Its massive dome was an engineering marvel of its time."
+  },
+  {
+    "filename": "113.jpg",
+    "title": "Port Hercules",
+    "description": "Monaco’s luxury marina surrounded by hills and pastel buildings. Located in Monaco.",
+    "fact": "Monaco is the most densely populated country in the world."
+  },
+  {
+    "filename": "114.jpg",
+    "title": "Palm Jumeirah",
+    "description": "An artificial island shaped like a palm tree. Located in the UAE.",
+    "fact": "Its construction increased Dubai’s coastline by 56 kilometers."
+  },
+  {
+    "filename": "115.jpg",
+    "title": "Great Zimbabwe",
+    "description": "The ancient stone ruins of the Kingdom of Zimbabwe. Located in Zimbabwe.",
+    "fact": "Structures were built without any mortar."
+  },
+  {
+    "filename": "116.jpg",
+    "title": "Norwegian Fjords",
+    "description": "Deep glacier-carved fjords with towering cliffs. Located in Norway.",
+    "fact": "Some fjords reach depths of over 1300 meters."
+  },
+  {
+    "filename": "117.jpg",
+    "title": "Maldives Overwater Villas",
+    "description": "Bungalows standing directly above a crystal-clear lagoon. Located in the Maldives.",
+    "fact": "Most villas stand on stilts above coral reefs."
+  },
+  {
+    "filename": "118.jpg",
+    "title": "Easter Island Moai",
+    "description": "Massive stone statues facing the ocean. Located in Chile.",
+    "fact": "Many statues have hidden bodies underground."
+  },
+  {
+    "filename": "119.jpg",
+    "title": "Kiyomizu-dera",
+    "description": "A wooden temple on tall pillars overlooking Kyoto. Located in Japan.",
+    "fact": "Built entirely without the use of nails."
+  },
+  {
+    "filename": "120.jpg",
+    "title": "Salzburg Old Town",
+    "description": "The baroque heart of Mozart’s birthplace. Located in Austria.",
+    "fact": "It has remained largely unchanged since the 17th century."
+  },
+  {
+    "filename": "121.jpg",
+    "title": "Temple of Heaven",
+    "description": "A circular imperial temple set in a vast Beijing park. Located in China.",
+    "fact": "Its main hall was built without nails."
+  },
+  {
+    "filename": "122.jpg",
+    "title": "Mesa Verde Cliff Palace",
+    "description": "An ancient cliff dwelling built into a sandstone alcove. Located in the United States.",
+    "fact": "It was constructed by Ancestral Pueblo people more than 700 years ago."
+  },
+  {
+    "filename": "123.jpg",
+    "title": "Piazzale Michelangelo",
+    "description": "A viewpoint with a panorama of Florence and the cathedral dome. Located in Italy.",
+    "fact": "It is one of the most famous views over the city."
+  },
+  {
+    "filename": "124.jpg",
+    "title": "Musée d’Orsay",
+    "description": "A museum in a former railway station with great clock windows. Located in France.",
+    "fact": "The station building was transformed into a museum of 19th-century art."
+  },
+  {
+    "filename": "125.jpg",
+    "title": "Ellora Caves",
+    "description": "A complex of rock-cut temples and monasteries carved into basalt cliffs. Located in India.",
+    "fact": "The Kailasa Temple was carved from a single mass of rock."
+  },
+  {
+    "filename": "126.jpg",
+    "title": "Tower of London",
+    "description": "A medieval fortress and royal landmark beside the River Thames. Located in the United Kingdom.",
+    "fact": "The Crown Jewels are kept within the Tower complex."
+  },
+  {
+    "filename": "127.jpg",
+    "title": "Kumano Nachi Taisha",
+    "description": "A shrine and pagoda set beside the tall Nachi Falls. Located in Japan.",
+    "fact": "It is part of the sacred Kumano pilgrimage routes."
+  },
+  {
+    "filename": "128.jpg",
+    "title": "Las Vegas Strip",
+    "description": "A boulevard of bright hotels, lights, and recognizable facades. Located in USA.",
+    "fact": "Many Strip hotels are architectural fantasies based on world cities."
+  },
+  {
+    "filename": "129.jpg",
+    "title": "Prambanan Temple",
+    "description": "A towering Hindu temple complex with sharp stone spires. Located in Indonesia.",
+    "fact": "The main temples are dedicated to Shiva, Vishnu, and Brahma."
+  },
+  {
+    "filename": "130.jpg",
+    "title": "Schwerin Castle",
+    "description": "A romantic turreted palace on an island in a lake. Located in Germany.",
+    "fact": "The castle now houses the parliament of Mecklenburg-Vorpommern."
+  },
+  {
+    "filename": "131.jpg",
+    "title": "Casa Batlló",
+    "description": "A modernist building with a wave-like facade and colorful tiled roof. Located in Spain.",
+    "fact": "Antoni Gaudí redesigned the house in the early twentieth century."
+  },
+  {
+    "filename": "132.jpg",
+    "title": "Mount Huangshan",
+    "description": "Granite peaks, wind-shaped pines, and seas of clouds in eastern China. Located in China.",
+    "fact": "Its scenery has inspired Chinese painters and poets for centuries."
+  },
+  {
+    "filename": "133.jpg",
+    "title": "Church of the Savior on Spilled Blood",
+    "description": "A church with colorful domes and mosaics beside a canal in Saint Petersburg. Located in Russia.",
+    "fact": "Its facades and interior are covered with vast mosaics."
+  },
+  {
+    "filename": "134.jpg",
+    "title": "Arch of Constantine",
+    "description": "A Roman triumphal arch standing near the Colosseum. Located in Italy.",
+    "fact": "It was dedicated in the fourth century to commemorate Constantine’s victory at the Milvian Bridge."
+  },
+  {
+    "filename": "135.jpg",
+    "title": "Chateau de Chenonceau",
+    "description": "An elegant Renaissance castle with a gallery spanning the River Cher. Located in France.",
+    "fact": "It is often called the Ladies’ Castle because of the influential women in its history."
+  },
+  {
+    "filename": "136.jpg",
+    "title": "Batalha Monastery",
+    "description": "A Gothic monastery with carved stone facades and delicate arches. Located in Portugal.",
+    "fact": "It was built to commemorate victory at the Battle of Aljubarrota."
+  },
+  {
+    "filename": "137.jpg",
+    "title": "Kennedy Space Center",
+    "description": "A space complex with rockets and launch infrastructure. Located in USA.",
+    "fact": "Many NASA missions launched from here."
+  },
+  {
+    "filename": "138.jpg",
+    "title": "Mehrangarh Fort",
+    "description": "A massive hilltop fortress above the blue city of Jodhpur. Located in India.",
+    "fact": "Its walls rise more than 100 meters above the plain."
+  },
+  {
+    "filename": "139.jpg",
+    "title": "Westminster Abbey",
+    "description": "A Gothic abbey church in central London. Located in the United Kingdom.",
+    "fact": "It has been the coronation church for English and British monarchs for centuries."
+  },
+  {
+    "filename": "140.jpg",
+    "title": "Shirakawa-go",
+    "description": "A mountain village of traditional steep-thatched farmhouses. Located in Japan.",
+    "fact": "The gassho-zukuri roofs are built to withstand heavy winter snow."
+  },
+  {
+    "filename": "141.jpg",
+    "title": "Terracotta Army",
+    "description": "An ancient army of life-sized clay soldiers near Xi’an. Located in China.",
+    "fact": "Thousands of figures were made with individual faces."
+  },
+  {
+    "filename": "142.jpg",
+    "title": "Faisal Mosque",
+    "description": "A modern white mosque set against the Margalla Hills. Located in Pakistan.",
+    "fact": "Its tent-like design makes it one of Islamabad’s most distinctive landmarks."
+  },
+  {
+    "filename": "143.jpg",
+    "title": "Bahia Palace",
+    "description": "A Moroccan palace of mosaics, carved wood, and quiet gardens. Located in Morocco.",
+    "fact": "The palace name is often translated as brilliance or beauty."
+  },
+  {
+    "filename": "144.jpg",
+    "title": "Wave Rock",
+    "description": "A curved granite formation shaped like a breaking wave. Located in Australia.",
+    "fact": "The rock is about 15 meters high."
+  },
+  {
+    "filename": "145.jpg",
+    "title": "Empire State Building",
+    "description": "An Art Deco skyscraper and classic symbol of New York City. Located in the USA.",
+    "fact": "It opened in 1931 during the Great Depression."
+  },
+  {
+    "filename": "146.jpg",
+    "title": "Sacré-Cœur",
+    "description": "A white basilica on Montmartre hill overlooking Paris. Located in France.",
+    "fact": "Its stone becomes brighter after rain because of its natural properties."
+  },
+  {
+    "filename": "147.jpg",
+    "title": "Arena di Verona",
+    "description": "A Roman amphitheater still used for performances. Located in Italy.",
+    "fact": "Its opera festival is one of the best-known open-air music events in Europe."
+  },
+  {
+    "filename": "148.jpg",
+    "title": "Alcazar of Segovia",
+    "description": "A fairytale stone castle on a rocky prow above the old city. Located in Spain.",
+    "fact": "Its sharp towers and ship-bow shape made it one of Segovia’s symbols."
+  },
+  {
+    "filename": "149.jpg",
+    "title": "Brasília Cathedral",
+    "description": "A modernist cathedral formed by sweeping concrete columns. Located in Brazil.",
+    "fact": "Oscar Niemeyer designed the cathedral as part of Brazil’s planned capital."
+  },
+  {
+    "filename": "150.jpg",
+    "title": "Sucre Historic Center",
+    "description": "A whitewashed colonial center with churches, plazas, and mountain views. Located in Bolivia.",
+    "fact": "Sucre is the constitutional capital of Bolivia."
+  },
+  {
+    "filename": "151.jpg",
+    "title": "Jama Masjid Delhi",
+    "description": "One of India’s largest mosques, built of red sandstone and white marble. Located in India.",
+    "fact": "Thousands of people can gather in its courtyard at once."
+  },
+  {
+    "filename": "152.jpg",
+    "title": "Buckingham Palace",
+    "description": "The official London residence of British monarchs, with a formal facade and gates. Located in United Kingdom.",
+    "fact": "The famous Changing of the Guard ceremony takes place in front of the palace."
+  },
+  {
+    "filename": "153.jpg",
+    "title": "Gateway Arch",
+    "description": "A stainless-steel arch on the Mississippi riverfront. Located in the USA.",
+    "fact": "It is 192 meters tall and 192 meters wide."
+  },
+  {
+    "filename": "154.jpg",
+    "title": "Jiuzhaigou Valley",
+    "description": "A mountain valley of turquoise lakes, waterfalls, and forested slopes. Located in China.",
+    "fact": "Its clear lakes are famous for intense colors caused by minerals and natural light."
+  },
+  {
+    "filename": "155.jpg",
+    "title": "Kinkaku-ji",
+    "description": "Kyoto’s Golden Pavilion reflected in a tranquil pond. Located in Japan.",
+    "fact": "The upper floors are covered with gold leaf."
+  },
+  {
+    "filename": "156.jpg",
+    "title": "Karnak Temple",
+    "description": "A vast ancient Egyptian temple complex with giant columns. Located in Egypt.",
+    "fact": "Its Great Hypostyle Hall contains 134 columns."
+  },
+  {
+    "filename": "157.jpg",
+    "title": "Château de Chambord",
+    "description": "A French Renaissance château with an elaborate roofline. Located in France.",
+    "fact": "It has hundreds of rooms and fireplaces."
+  },
+  {
+    "filename": "158.jpg",
+    "title": "Haeinsa Temple",
+    "description": "A mountain temple known for the halls that house the Tripitaka Koreana. Located in South Korea.",
+    "fact": "The woodblocks stored there form one of the most complete collections of Buddhist scriptures."
+  },
+  {
+    "filename": "159.jpg",
+    "title": "Leaning Tower of Pisa",
+    "description": "A white marble bell tower famous for its graceful tilt. Located in Italy.",
+    "fact": "Its construction began in 1173 and continued in several stages."
+  },
+  {
+    "filename": "160.jpg",
+    "title": "Chefchaouen Blue City",
+    "description": "A mountain town famous for blue-painted lanes and walls. Located in Morocco.",
+    "fact": "Its blue medina is one of Morocco’s most photographed places."
+  },
+  {
+    "filename": "161.jpg",
+    "title": "Mosque-Cathedral of Córdoba",
+    "description": "A landmark interior of striped arches and stone columns. Located in Spain.",
+    "fact": "Its prayer hall is famous for rows of horseshoe arches."
+  },
+  {
+    "filename": "162.jpg",
+    "title": "Palace of Fine Arts",
+    "description": "A classical rotunda and colonnade beside a lagoon in San Francisco. Located in the United States.",
+    "fact": "It was originally built for the 1915 Panama-Pacific International Exposition."
+  },
+  {
+    "filename": "163.jpg",
+    "title": "Ajanta Caves",
+    "description": "Ancient Buddhist cave monuments carved into a horseshoe-shaped cliff. Located in India.",
+    "fact": "The caves are famous for murals and sculptures created over many centuries."
+  },
+  {
+    "filename": "164.jpg",
+    "title": "Wat Pho",
+    "description": "A Buddhist temple known for its enormous reclining Buddha statue. Located in Thailand.",
+    "fact": "The statue’s feet are decorated with mother-of-pearl patterns."
+  },
+  {
+    "filename": "165.jpg",
+    "title": "British Museum",
+    "description": "One of the world’s largest museums, with a classical facade and glass-roofed court. Located in United Kingdom.",
+    "fact": "The Great Court is covered by a vast glass roof."
+  },
+  {
+    "filename": "166.jpg",
+    "title": "Zhangye Danxia",
+    "description": "A landscape of rainbow-striped sandstone hills. Located in China.",
+    "fact": "The colored bands formed from layers of mineral-rich sediment over millions of years."
+  },
+  {
+    "filename": "167.jpg",
+    "title": "Hermitage and Winter Palace",
+    "description": "A green-and-white palace on the Neva River and one of the world’s largest museums. Located in Russia.",
+    "fact": "The Hermitage collection spans several historic buildings."
+  },
+  {
+    "filename": "168.jpg",
+    "title": "Sheikh Lotfollah Mosque",
+    "description": "A Safavid mosque with a luminous tiled dome. Located in Iran.",
+    "fact": "Its dome changes color depending on the light."
+  },
+  {
+    "filename": "169.jpg",
+    "title": "Carcassonne",
+    "description": "A medieval fortified city with double walls and many towers. Located in France.",
+    "fact": "The fortress was extensively restored in the 19th century, preserving its storybook silhouette."
+  },
+  {
+    "filename": "170.jpg",
+    "title": "Himeji Castle",
+    "description": "A brilliantly white hilltop castle and Japanese original. Located in Japan.",
+    "fact": "It is nicknamed the White Heron Castle."
+  },
+  {
+    "filename": "171.jpg",
+    "title": "Devils Tower",
+    "description": "A striking columnar rock monolith rising above the Wyoming plains. Located in the United States.",
+    "fact": "It was designated the first national monument of the United States."
+  },
+  {
+    "filename": "172.jpg",
+    "title": "Milan Cathedral",
+    "description": "A vast Gothic cathedral with many spires and a marble facade. Located in Italy.",
+    "fact": "Visitors can walk on the roof among the spires."
+  },
+  {
+    "filename": "173.jpg",
+    "title": "Port Arthur Historic Site",
+    "description": "A former convict settlement with sandstone ruins beside a Tasmanian bay. Located in Australia.",
+    "fact": "It is one of the best-known Australian Convict Sites on the UNESCO World Heritage List."
+  },
+  {
+    "filename": "174.jpg",
+    "title": "Aoraki Mount Cook",
+    "description": "New Zealand’s highest mountain above glacial valleys. Located in New Zealand.",
+    "fact": "Its Māori name, Aoraki, means cloud piercer."
+  },
+  {
+    "filename": "175.jpg",
+    "title": "Pura Besakih",
+    "description": "A large Balinese temple complex on the slopes of Mount Agung. Located in Indonesia.",
+    "fact": "It is often called the Mother Temple of Bali."
+  },
+  {
+    "filename": "176.jpg",
+    "title": "Red Fort Delhi",
+    "description": "A Mughal fortress of red sandstone with massive walls. Located in India.",
+    "fact": "India’s Independence Day ceremony is held here each year."
+  },
+  {
+    "filename": "177.jpg",
+    "title": "Shanghai Pudong Skyline",
+    "description": "A futuristic skyline across the Huangpu River. Located in China.",
+    "fact": "Pudong’s skyline includes some of China’s tallest towers."
+  },
+  {
+    "filename": "178.jpg",
+    "title": "Santiago de Compostela Cathedral",
+    "description": "A grand cathedral and the final point of the famous pilgrimage route. Located in Spain.",
+    "fact": "Pilgrims from across Europe arrive at the square in front of the cathedral."
+  },
+  {
+    "filename": "179.jpg",
+    "title": "Lincoln Memorial",
+    "description": "A neoclassical monument on the National Mall. Located in the USA.",
+    "fact": "Its 36 columns represent the states at Lincoln’s death."
+  },
+  {
+    "filename": "180.jpg",
+    "title": "Kronborg Castle",
+    "description": "A Renaissance fortress by the Oresund, famous as Hamlet’s castle. Located in Denmark.",
+    "fact": "Shakespeare’s Elsinore is associated with this castle."
+  },
+  {
+    "filename": "181.jpg",
+    "title": "Persepolis",
+    "description": "Ceremonial ruins of the ancient Achaemenid Empire. Located in Iran.",
+    "fact": "Its carved stairways show delegations from across the empire."
+  },
+  {
+    "filename": "182.jpg",
+    "title": "Notre-Dame Cathedral",
+    "description": "A Gothic cathedral on the Île de la Cité in Paris. Located in France.",
+    "fact": "Its flying buttresses helped support the high medieval walls."
+  },
+  {
+    "filename": "183.jpg",
+    "title": "Piccadilly Circus",
+    "description": "A lively square with bright screens and the Eros fountain. Located in United Kingdom.",
+    "fact": "Its light displays made it a symbol of nighttime London."
+  },
+  {
+    "filename": "184.jpg",
+    "title": "Mount Yoshino",
+    "description": "A mountain landscape famous for thousands of cherry trees and temple views. Located in Japan.",
+    "fact": "It has been celebrated for cherry blossoms in Japanese poetry for centuries."
+  },
+  {
+    "filename": "185.jpg",
+    "title": "Florence Cathedral",
+    "description": "The cathedral of Florence, crowned by Brunelleschi's red-tiled dome. Located in Italy.",
+    "fact": "Its dome remains the largest brick dome ever built."
+  },
+  {
+    "filename": "186.jpg",
+    "title": "Kuelap",
+    "description": "A walled mountaintop fortress built by the Chachapoya culture. Located in Peru.",
+    "fact": "Its massive stone walls stand on a ridge high above cloud forest valleys."
+  },
+  {
+    "filename": "187.jpg",
+    "title": "Sultan Abdul Samad Building",
+    "description": "A Moorish-style landmark with a clock tower in Kuala Lumpur. Located in Malaysia.",
+    "fact": "It stands beside Merdeka Square, a key place in Malaysia’s independence history."
+  },
+  {
+    "filename": "188.jpg",
+    "title": "Longmen Grottoes",
+    "description": "Thousands of Buddhist niches and statues carved into riverside cliffs. Located in China.",
+    "fact": "The complex contains tens of thousands of stone Buddha images."
+  },
+  {
+    "filename": "189.jpg",
+    "title": "Crater Lake",
+    "description": "A deep blue caldera lake with Wizard Island. Located in the United States.",
+    "fact": "The lake formed after the collapse of an ancient volcano called Mount Mazama."
+  },
+  {
+    "filename": "190.jpg",
+    "title": "Sanchi Stupa",
+    "description": "An ancient Buddhist stupa with carved gateways. Located in India.",
+    "fact": "The Great Stupa is one of the oldest stone structures in India."
+  },
+  {
+    "filename": "191.jpg",
+    "title": "Schönbrunn Palace",
+    "description": "A grand imperial summer palace with formal gardens. Located in Austria.",
+    "fact": "The palace complex has more than 1,400 rooms."
+  },
+  {
+    "filename": "192.jpg",
+    "title": "Sana’a Old City",
+    "description": "A historic city of tower houses with white gypsum patterns. Located in Yemen.",
+    "fact": "Many decorated tower houses are several centuries old."
+  },
+  {
+    "filename": "193.jpg",
+    "title": "Jeronimos Monastery",
+    "description": "A white limestone monastery with ornate Manueline carving in Lisbon. Located in Portugal.",
+    "fact": "The tomb of explorer Vasco da Gama is located here."
+  },
+  {
+    "filename": "194.jpg",
+    "title": "Bungle Bungle Range",
+    "description": "Striped beehive-shaped sandstone domes in the Kimberley. Located in Australia.",
+    "fact": "The banded domes are part of Purnululu National Park."
+  },
+  {
+    "filename": "195.jpg",
+    "title": "Grande Arche",
+    "description": "A modern monumental arch in the La Défense business district. Located in France.",
+    "fact": "It was designed as a twentieth-century counterpart to Paris’s historic triumphal axis."
+  },
+  {
+    "filename": "196.jpg",
+    "title": "Windsor Castle",
+    "description": "A royal residence with round towers and fortress walls. Located in United Kingdom.",
+    "fact": "It is one of the oldest and largest inhabited castles in the world."
+  },
+  {
+    "filename": "197.jpg",
+    "title": "Segovia Aqueduct",
+    "description": "An ancient Roman aqueduct with two tiers of arches in the city center. Located in Spain.",
+    "fact": "Its stone blocks stand without mortar thanks to precise fitting."
+  },
+  {
+    "filename": "198.jpg",
+    "title": "Itsukushima Shrine",
+    "description": "A Shinto shrine known for its red torii gate standing in the sea. Located in Japan.",
+    "fact": "At high tide the gate appears to float above the water."
+  },
+  {
+    "filename": "199.jpg",
+    "title": "Djemaa el-Fna",
+    "description": "A legendary market square at the heart of Marrakech. Located in Morocco.",
+    "fact": "The square becomes especially lively after sunset."
+  },
+  {
+    "filename": "200.jpg",
+    "title": "Horseshoe Bend",
+    "description": "A dramatic meander of the Colorado River carved into red sandstone. Located in the United States.",
+    "fact": "The overlook sits high above a nearly circular bend in the river."
+  },
+  {
+    "filename": "201.jpg",
+    "title": "Summer Palace",
+    "description": "An imperial garden of lakes, bridges, and pavilions in Beijing. Located in China.",
+    "fact": "Kunming Lake covers much of the palace grounds."
+  },
+  {
+    "filename": "202.jpg",
+    "title": "Wat Arun",
+    "description": "A riverside Buddhist temple with a decorated central spire. Located in Thailand.",
+    "fact": "Its prang is covered with colorful porcelain fragments."
+  },
+  {
+    "filename": "203.jpg",
+    "title": "Gateway of India",
+    "description": "A basalt arch overlooking Mumbai Harbour. Located in India.",
+    "fact": "The monument was completed in the early 20th century."
+  },
+  {
+    "filename": "204.jpg",
+    "title": "Mount Etna",
+    "description": "An active volcano rising above Sicily. Located in Italy.",
+    "fact": "It is one of the most active volcanoes in Europe."
+  },
+  {
+    "filename": "205.jpg",
+    "title": "Tulum Ruins",
+    "description": "An ancient Maya city set on cliffs above the Caribbean Sea. Located in Mexico.",
+    "fact": "It is one of the few Maya cities built directly beside the sea."
+  },
+  {
+    "filename": "206.jpg",
+    "title": "Al-Masjid an-Nabawi",
+    "description": "A major mosque in Medina with the famous Green Dome. Located in Saudi Arabia.",
+    "fact": "It is one of the holiest sites in Islam."
+  },
+  {
+    "filename": "207.jpg",
+    "title": "Moscow Kremlin",
+    "description": "A fortified complex of towers, walls, palaces, and cathedrals. Located in Russia.",
+    "fact": "Its red brick walls stretch for more than 2 kilometers."
+  },
+  {
+    "filename": "208.jpg",
+    "title": "Rocamadour",
+    "description": "A medieval village stacked in terraces against a limestone cliff. Located in France.",
+    "fact": "A pilgrimage route climbs through gates, stairways, and sanctuaries."
+  },
+  {
+    "filename": "209.jpg",
+    "title": "Natural History Museum London",
+    "description": "A Victorian museum building with towers and a grand central hall. Located in United Kingdom.",
+    "fact": "The main hall is famous for its enormous blue whale skeleton."
+  },
+  {
+    "filename": "210.jpg",
+    "title": "Blyde River Canyon",
+    "description": "A green canyon with dramatic cliffs and river views. Located in South Africa.",
+    "fact": "It is known for the Three Rondavels formations."
+  },
+  {
+    "filename": "211.jpg",
+    "title": "Great Buddha of Kamakura",
+    "description": "A bronze outdoor Buddha statue set in a quiet temple setting. Located in Japan.",
+    "fact": "The statue survived tsunamis and earthquakes while standing in the open air."
+  },
+  {
+    "filename": "212.jpg",
+    "title": "Mount Rainier",
+    "description": "A snow-capped volcano reflected in alpine lakes and meadows. Located in the United States.",
+    "fact": "It is the highest peak in the Cascade Range."
+  },
+  {
+    "filename": "213.jpg",
+    "title": "Mogao Caves",
+    "description": "A Silk Road cave-temple complex near Dunhuang. Located in China.",
+    "fact": "The caves contain centuries of Buddhist murals, sculptures, and manuscripts."
+  },
+  {
+    "filename": "214.jpg",
+    "title": "Egeskov Castle",
+    "description": "A red-brick Renaissance water castle reflected in its moat. Located in Denmark.",
+    "fact": "It is considered one of Europe’s best preserved water castles."
+  },
+  {
+    "filename": "215.jpg",
+    "title": "Borobudur",
+    "description": "A vast Buddhist temple built as a stone mandala. Located in Indonesia.",
+    "fact": "The monument has more than 500 Buddha statues."
+  },
+  {
+    "filename": "216.jpg",
+    "title": "Berlin TV Tower",
+    "description": "A tall television tower with a sphere above Alexanderplatz. Located in Germany.",
+    "fact": "The sphere became one of Berlin’s defining silhouettes."
+  },
+  {
+    "filename": "217.jpg",
+    "title": "Piazza del Campo",
+    "description": "A shell-shaped medieval square at the heart of Siena. Located in Italy.",
+    "fact": "The famous Palio horse race is held around this square twice a year."
+  },
+  {
+    "filename": "218.jpg",
+    "title": "Amber Fort",
+    "description": "A hilltop palace-fortress with gates, courtyards, and a mirror hall. Located in India.",
+    "fact": "The fort blends Rajput and Mughal architecture."
+  },
+  {
+    "filename": "219.jpg",
+    "title": "Pashupatinath Temple",
+    "description": "A Hindu temple complex on the sacred Bagmati River. Located in Nepal.",
+    "fact": "The temple is dedicated to Shiva and is an important pilgrimage site."
+  },
+  {
+    "filename": "220.jpg",
+    "title": "Huka Falls",
+    "description": "A powerful blue river flow squeezed through a narrow gorge. Located in New Zealand.",
+    "fact": "A huge volume of water passes through the falls every second."
+  },
+  {
+    "filename": "221.jpg",
+    "title": "Roman Theatre of Orange",
+    "description": "An ancient theatre with an exceptionally preserved high stage wall. Located in France.",
+    "fact": "Its stage wall is considered one of the best preserved in the Roman world."
+  },
+  {
+    "filename": "222.jpg",
+    "title": "White House",
+    "description": "The official residence of the U.S. president with a white neoclassical facade. Located in USA.",
+    "fact": "The building has more than one hundred rooms."
+  },
+  {
+    "filename": "223.jpg",
+    "title": "Deadvlei",
+    "description": "A white clay pan with ancient dark trees among red dunes. Located in Namibia.",
+    "fact": "Many dead camel thorn trees are hundreds of years old."
+  },
+  {
+    "filename": "224.jpg",
+    "title": "Saint Basil's Cathedral",
+    "description": "A colorful cathedral with onion domes on Moscow's Red Square. Located in Russia.",
+    "fact": "It is made up of several chapels grouped around a central church."
+  },
+  {
+    "filename": "225.jpg",
+    "title": "Wawel Castle",
+    "description": "A royal castle and cathedral on a hill above the Vistula River. Located in Poland.",
+    "fact": "Wawel was a symbol of Polish statehood for centuries."
+  },
+  {
+    "filename": "226.jpg",
+    "title": "Fanjingshan",
+    "description": "A mountain summit with temples perched on narrow rock spires above clouds. Located in China.",
+    "fact": "The two temple peaks are linked by a small stone bridge."
+  },
+  {
+    "filename": "227.jpg",
+    "title": "Fes el Bali",
+    "description": "A medieval walled medina of gates, alleys, and historic architecture. Located in Morocco.",
+    "fact": "It is one of the world’s largest car-free urban areas."
+  },
+  {
+    "filename": "228.jpg",
+    "title": "Canterbury Cathedral",
+    "description": "A historic Gothic cathedral and pilgrimage site. Located in the United Kingdom.",
+    "fact": "It is the seat of the Archbishop of Canterbury."
+  },
+  {
+    "filename": "229.jpg",
+    "title": "Ephesus",
+    "description": "An ancient city famed for its marble streets and the Library of Celsus. Located in Turkey.",
+    "fact": "Ephesus was one of the most important cities of the Roman province of Asia."
+  },
+  {
+    "filename": "230.jpg",
+    "title": "Christ the Redeemer",
+    "description": "A monumental statue watching over Rio de Janeiro from Corcovado Mountain. Located in Brazil.",
+    "fact": "The statue's outstretched arms span about 28 meters."
+  },
+  {
+    "filename": "231.jpg",
+    "title": "Nijo Castle",
+    "description": "A historic castle and palace complex with ornate gates and gardens. Located in Japan.",
+    "fact": "It was built as the Kyoto residence of Tokugawa Ieyasu."
+  },
+  {
+    "filename": "232.jpg",
+    "title": "Zion Canyon",
+    "description": "A dramatic sandstone canyon in Zion National Park. Located in the United States.",
+    "fact": "The canyon was carved by the North Fork of the Virgin River."
+  },
+  {
+    "filename": "233.jpg",
+    "title": "Bulguksa Temple",
+    "description": "A historic Buddhist temple of stone terraces and tiled roofs. Located in South Korea.",
+    "fact": "It is one of the most important temple sites from the Silla kingdom."
+  },
+  {
+    "filename": "234.jpg",
+    "title": "Piazza San Marco",
+    "description": "Venice’s main square with the basilica, campanile, and arcades. Located in Italy.",
+    "fact": "Napoleon called it the drawing room of Europe."
+  },
+  {
+    "filename": "235.jpg",
+    "title": "Arc de Triomphe",
+    "description": "A monumental arch at the center of Parisian avenues. Located in France.",
+    "fact": "Twelve major avenues radiate from the square around it."
+  },
+  {
+    "filename": "236.jpg",
+    "title": "Palenque",
+    "description": "A Maya city of temples and palaces rising from rainforest. Located in Mexico.",
+    "fact": "Palenque is known for detailed inscriptions that helped scholars understand Maya history."
+  },
+  {
+    "filename": "237.jpg",
+    "title": "Mysore Palace",
+    "description": "A lavish royal palace with domes, arches, and ornate halls. Located in India.",
+    "fact": "In the evening the palace is lit by tens of thousands of bulbs."
+  },
+  {
+    "filename": "238.jpg",
+    "title": "Jokhang Temple",
+    "description": "A sacred Tibetan temple at the heart of Lhasa. Located in China.",
+    "fact": "Pilgrims have circled it for centuries along the Barkhor route."
+  },
+  {
+    "filename": "239.jpg",
+    "title": "Lake Baikal Ice",
+    "description": "Transparent winter ice and deep cracks across an ancient Siberian lake. Located in Russia.",
+    "fact": "Lake Baikal is the deepest lake on Earth."
+  },
+  {
+    "filename": "240.jpg",
+    "title": "Kruger National Park",
+    "description": "A vast safari reserve of savanna, rivers, and African wildlife. Located in South Africa.",
+    "fact": "It is one of Africa’s largest and best-known national parks."
+  },
+  {
+    "filename": "241.jpg",
+    "title": "Mount Kinabalu",
+    "description": "A granite mountain rising above Borneo’s cloud forest. Located in Malaysia.",
+    "fact": "It is the highest mountain on the island of Borneo."
+  },
+  {
+    "filename": "242.jpg",
+    "title": "Washington Monument",
+    "description": "A tall white obelisk on the National Mall. Located in USA.",
+    "fact": "The monument was once the tallest structure in the world."
+  },
+  {
+    "filename": "243.jpg",
+    "title": "Western Wall",
+    "description": "A sacred ancient stone wall in Jerusalem’s Old City. Located in Israel.",
+    "fact": "It is part of the ancient retaining wall of the Temple Mount."
+  },
+  {
+    "filename": "244.jpg",
+    "title": "Matsumoto Castle",
+    "description": "A black-and-white Japanese castle reflected in water. Located in Japan.",
+    "fact": "Its dark walls earned it the nickname Crow Castle."
+  },
+  {
+    "filename": "245.jpg",
+    "title": "Cusco Plaza de Armas",
+    "description": "A historic square framed by churches and arcades in the former Inca capital. Located in Peru.",
+    "fact": "Cusco was once the political and spiritual center of the Inca Empire."
+  },
+  {
+    "filename": "246.jpg",
+    "title": "Ishtar Gate",
+    "description": "A monumental blue-glazed Babylonian gate reconstructed in Berlin. Located in Germany.",
+    "fact": "The original gate was built in ancient Babylon under King Nebuchadnezzar II."
+  },
+  {
+    "filename": "247.jpg",
+    "title": "London Eye",
+    "description": "A large observation wheel on the Thames opposite Westminster. Located in United Kingdom.",
+    "fact": "One rotation of the wheel takes about half an hour."
+  },
+  {
+    "filename": "248.jpg",
+    "title": "Chartres Cathedral",
+    "description": "A Gothic cathedral famous for its towers and stained glass. Located in France.",
+    "fact": "Many of its medieval stained-glass windows have survived for centuries."
+  },
+  {
+    "filename": "249.jpg",
+    "title": "Trevi Fountain",
+    "description": "A Baroque fountain with figures and a pale stone facade. Located in Italy.",
+    "fact": "Tradition says throwing a coin into the fountain helps you return to Rome."
+  },
+  {
+    "filename": "250.jpg",
+    "title": "Sigiriya Rock Fortress",
+    "description": "An ancient palace fortress atop a massive rock plateau. Located in Sri Lanka.",
+    "fact": "The summit rises about 200 meters above the plains."
+  },
+  {
+    "filename": "251.jpg",
+    "title": "Zhangjiajie Pillars",
+    "description": "Tall sandstone pillars rising through forest and mist. Located in China.",
+    "fact": "The area contains thousands of narrow sandstone columns."
+  },
+  {
+    "filename": "252.jpg",
+    "title": "Montserrat Monastery",
+    "description": "A monastery below serrated mountains in Catalonia. Located in Spain.",
+    "fact": "Its name means “serrated mountain.”"
+  },
+  {
+    "filename": "253.jpg",
+    "title": "Valley of the Kings",
+    "description": "A desert valley of royal tombs near the Nile. Located in Egypt.",
+    "fact": "Tutankhamun’s tomb was discovered here in 1922."
+  },
+  {
+    "filename": "254.jpg",
+    "title": "Space Center Houston",
+    "description": "A space museum and NASA visitor center. Located in USA.",
+    "fact": "Visitors can see real spacecraft and training equipment."
+  },
+  {
+    "filename": "255.jpg",
+    "title": "Ait Benhaddou",
+    "description": "A fortified earthen village on an old caravan route. Located in Morocco.",
+    "fact": "Its buildings are made mainly from rammed earth."
+  },
+  {
+    "filename": "256.jpg",
+    "title": "Changdeokgung Palace",
+    "description": "A Korean royal palace with pavilions and a Secret Garden. Located in South Korea.",
+    "fact": "The palace is known for its harmony with the natural landscape."
+  },
+  {
+    "filename": "257.jpg",
+    "title": "Lumbini",
+    "description": "The sacred birthplace of Buddha with the Maya Devi Temple. Located in Nepal.",
+    "fact": "Lumbini is one of Buddhism’s major pilgrimage places."
+  },
+  {
+    "filename": "258.jpg",
+    "title": "Milford Sound",
+    "description": "A steep fjord of dark water, rainforest cliffs, and waterfalls. Located in New Zealand.",
+    "fact": "Mitre Peak rises directly from the fjord."
+  },
+  {
+    "filename": "259.jpg",
+    "title": "Cotopaxi",
+    "description": "A snow-capped volcano rising above the Andean highlands. Located in Ecuador.",
+    "fact": "Cotopaxi is one of the world’s highest active volcanoes."
+  },
+  {
+    "filename": "260.jpg",
+    "title": "Kakadu National Park",
+    "description": "A vast landscape of wetlands, escarpments, and ancient rock art. Located in Australia.",
+    "fact": "Kakadu is protected for both its natural ecosystems and Aboriginal cultural heritage."
+  },
+  {
+    "filename": "261.jpg",
+    "title": "Château de Fontainebleau",
+    "description": "A royal palace with grand courtyards and richly decorated halls. Located in France.",
+    "fact": "French rulers used and expanded the palace for more than seven centuries."
+  },
+  {
+    "filename": "262.jpg",
+    "title": "Skellig Michael",
+    "description": "A steep Atlantic island with ancient monastic ruins. Located in Ireland.",
+    "fact": "Its beehive huts were built by early Christian monks."
+  },
+  {
+    "filename": "263.jpg",
+    "title": "Konark Sun Temple",
+    "description": "A stone temple designed as the chariot of the sun god. Located in India.",
+    "fact": "Its carved wheels and horses are among the most recognizable details of the monument."
+  },
+  {
+    "filename": "264.jpg",
+    "title": "The Bund",
+    "description": "A historic waterfront promenade facing the Huangpu River in Shanghai. Located in China.",
+    "fact": "Its skyline contrasts early twentieth-century buildings with Pudong’s modern towers."
+  },
+  {
+    "filename": "265.jpg",
+    "title": "United States Capitol",
+    "description": "The home of Congress with a large white dome on Capitol Hill. Located in USA.",
+    "fact": "The Capitol dome is visible from many points in Washington."
+  },
+  {
+    "filename": "266.jpg",
+    "title": "Mount Bromo",
+    "description": "An active volcano rising from a sea of volcanic sand. Located in Indonesia.",
+    "fact": "It sits inside the larger Tengger caldera."
+  },
+  {
+    "filename": "267.jpg",
+    "title": "Spanish Steps",
+    "description": "A famous staircase rising from Piazza di Spagna to Trinità dei Monti. Located in Italy.",
+    "fact": "The steps were completed in the eighteenth century and became a classic Roman meeting place."
+  },
+  {
+    "filename": "268.jpg",
+    "title": "Palace of Culture and Science",
+    "description": "A monumental high-rise and one of Warsaw’s defining symbols. Located in Poland.",
+    "fact": "Its upper floors include an observation terrace overlooking the city."
+  },
+  {
+    "filename": "269.jpg",
+    "title": "Kizhi Pogost",
+    "description": "A wooden architectural ensemble with a many-domed church on an island. Located in Russia.",
+    "fact": "The Transfiguration Church is famous for its many wooden domes."
+  },
+  {
+    "filename": "270.jpg",
+    "title": "Sukhothai Historical Park",
+    "description": "Ancient temple ruins and Buddha statues from the first Thai capital. Located in Thailand.",
+    "fact": "Sukhothai’s art and architecture strongly shaped later Thai culture."
+  },
+  {
+    "filename": "271.jpg",
+    "title": "Marina Bay Sands",
+    "description": "Three towers topped by a long sky park. Located in Singapore.",
+    "fact": "The rooftop SkyPark spans all three hotel towers."
+  },
+  {
+    "filename": "272.jpg",
+    "title": "Zaanse Schans",
+    "description": "A historic village of green wooden houses, canals, and windmills. Located in the Netherlands.",
+    "fact": "It preserves traditional crafts and the look of old Holland."
+  },
+  {
+    "filename": "273.jpg",
+    "title": "Burj Al Arab",
+    "description": "A sail-shaped hotel on an artificial island off Dubai’s coast. Located in UAE.",
+    "fact": "The building’s form resembles a wind-filled sail."
+  },
+  {
+    "filename": "274.jpg",
+    "title": "Tiger’s Nest Monastery",
+    "description": "A cliffside monastery above Bhutan’s Paro Valley. Located in Bhutan.",
+    "fact": "It stands about 900 meters above the valley."
+  },
+  {
+    "filename": "275.jpg",
+    "title": "Pena Palace",
+    "description": "A colorful Romanticist palace in the hills of Sintra. Located in Portugal.",
+    "fact": "It combines several historic architectural styles."
+  },
+  {
+    "filename": "276.jpg",
+    "title": "Victoria Peak",
+    "description": "A famous overlook above Hong Kong’s skyline and harbor. Located in China.",
+    "fact": "The Peak Tram has carried visitors up the steep hillside since the nineteenth century."
+  },
+  {
+    "filename": "277.jpg",
+    "title": "Denali",
+    "description": "North America’s highest mountain rising above Alaska’s tundra. Located in the United States.",
+    "fact": "Its summit reaches 6,190 meters above sea level."
+  },
+  {
+    "filename": "278.jpg",
+    "title": "Banaue Rice Terraces",
+    "description": "Ancient mountain terraces carved into the Cordillera slopes. Located in the Philippines.",
+    "fact": "Many terraces were shaped by hand more than two thousand years ago."
+  },
+  {
+    "filename": "279.jpg",
+    "title": "Addo Elephant National Park",
+    "description": "A wildlife reserve known for elephants and open savanna landscapes. Located in South Africa.",
+    "fact": "The park was created to protect the region’s remaining elephants."
+  },
+  {
+    "filename": "280.jpg",
+    "title": "St Paul’s Cathedral",
+    "description": "A grand London cathedral with a recognizable dome above the City. Located in United Kingdom.",
+    "fact": "Its dome was long one of the highest points in London."
+  },
+  {
+    "filename": "281.jpg",
+    "title": "Plaza de España Seville",
+    "description": "A semicircular square with a canal, bridges, and ceramic panels. Located in Spain.",
+    "fact": "The square was built for the 1929 Ibero-American Exposition."
+  },
+  {
+    "filename": "282.jpg",
+    "title": "Palais des Papes",
+    "description": "A huge Gothic fortress-palace with austere stone walls. Located in France.",
+    "fact": "In the 14th century Avignon was the residence of several popes."
+  },
+  {
+    "filename": "283.jpg",
+    "title": "Atomium",
+    "description": "A futuristic structure of metal spheres connected by tubes. Located in Belgium.",
+    "fact": "The building enlarges the form of an iron crystal billions of times."
+  },
+  {
+    "filename": "284.jpg",
+    "title": "Saint Catherine’s Monastery",
+    "description": "An ancient fortified monastery at the foot of the Sinai mountains. Located in Egypt.",
+    "fact": "It is considered one of the oldest continuously operating Christian monasteries in the world."
+  },
+  {
+    "filename": "285.jpg",
+    "title": "Lake Hillier",
+    "description": "A pink lake separated from the ocean by forest and dunes. Located in Australia.",
+    "fact": "Its pink color remains visible from the air year-round."
+  },
+  {
+    "filename": "286.jpg",
+    "title": "Pompeii",
+    "description": "An ancient Roman city preserved by the eruption of Mount Vesuvius. Located in Italy.",
+    "fact": "The eruption of 79 CE buried streets, houses, and public buildings under volcanic material."
+  },
+  {
+    "filename": "287.jpg",
+    "title": "Wadi Rum",
+    "description": "A desert valley of red sand and towering sandstone mountains. Located in Jordan.",
+    "fact": "Its protected area covers roughly 74,000 hectares."
+  },
+  {
+    "filename": "288.jpg",
+    "title": "Old Faithful",
+    "description": "A famous geyser in Yellowstone National Park. Located in the United States.",
+    "fact": "It is known for eruptions that occur on a fairly predictable schedule."
+  },
+  {
+    "filename": "289.jpg",
+    "title": "Hoi An Ancient Town",
+    "description": "A historic trading town of lanterns, temples, and wooden houses. Located in Vietnam.",
+    "fact": "At night its streets glow with hundreds of colorful lanterns."
+  },
+  {
+    "filename": "290.jpg",
+    "title": "Leshan Giant Buddha",
+    "description": "A colossal seated Buddha carved into a riverside cliff. Located in China.",
+    "fact": "The statue is about 71 meters tall."
+  },
+  {
+    "filename": "291.jpg",
+    "title": "Wartburg Castle",
+    "description": "A medieval fortress on a forested hill above Eisenach. Located in Germany.",
+    "fact": "Martin Luther translated the New Testament into German here."
+  },
+  {
+    "filename": "292.jpg",
+    "title": "Museum of the Future",
+    "description": "A torus-shaped building covered with Arabic calligraphy. Located in UAE.",
+    "fact": "Its facade is made of steel panels cut with calligraphic lines."
+  },
+  {
+    "filename": "293.jpg",
+    "title": "Uxmal",
+    "description": "A Maya city famous for the Pyramid of the Magician. Located in Mexico.",
+    "fact": "Uxmal is a major example of the Puuc architectural style."
+  },
+  {
+    "filename": "294.jpg",
+    "title": "Meenakshi Temple",
+    "description": "A vivid temple complex with sculpted gopuram towers. Located in India.",
+    "fact": "Thousands of painted figures cover its towers."
+  },
+  {
+    "filename": "295.jpg",
+    "title": "Lake Nakuru",
+    "description": "An alkaline lake famous for birdlife and Rift Valley scenery. Located in Kenya.",
+    "fact": "The lake is especially known for flamingos that gather along its shores."
+  },
+  {
+    "filename": "296.jpg",
+    "title": "Moeraki Boulders",
+    "description": "Large round boulders scattered along Koekohe Beach. Located in New Zealand.",
+    "fact": "They formed as natural concretions over millions of years."
+  },
+  {
+    "filename": "297.jpg",
+    "title": "Lençóis Maranhenses",
+    "description": "White dunes dotted with seasonal blue lagoons. Located in Brazil.",
+    "fact": "Rainwater forms the lagoons between the dunes each year."
+  },
+  {
+    "filename": "298.jpg",
+    "title": "Registan Square",
+    "description": "A Silk Road square framed by blue-tiled madrasahs. Located in Uzbekistan.",
+    "fact": "It was the heart of ancient Samarkand."
+  },
+  {
+    "filename": "299.jpg",
+    "title": "Quinta da Regaleira",
+    "description": "An estate with a palace, gardens, and the mysterious Initiation Well. Located in Portugal.",
+    "fact": "The spiral well descends through nine levels of symbolic passage."
+  },
+  {
+    "filename": "300.jpg",
+    "title": "Everglades National Park",
+    "description": "A vast subtropical wetland of sawgrass marshes and winding waterways. Located in the United States.",
+    "fact": "It protects one of the largest wetlands in North America."
+  },
+  {
+    "filename": "301.jpg",
+    "title": "Tokyo Skytree",
+    "description": "A tall broadcasting tower and modern symbol of Tokyo. Located in Japan.",
+    "fact": "It is one of the tallest towers in the world."
+  },
+  {
+    "filename": "302.jpg",
+    "title": "Geghard Monastery",
+    "description": "A medieval monastery partly carved into a cliff. Located in Armenia.",
+    "fact": "Some of its halls are cut directly into the mountain rock."
+  },
+  {
+    "filename": "303.jpg",
+    "title": "Nazca Lines",
+    "description": "Huge ancient geoglyphs drawn across desert plains. Located in Peru.",
+    "fact": "Many figures are best seen clearly from the air."
+  },
+  {
+    "filename": "304.jpg",
+    "title": "Li River Karst",
+    "description": "A winding river framed by steep limestone hills. Located in China.",
+    "fact": "The scenery appears on China’s 20-yuan banknote."
+  },
+  {
+    "filename": "305.jpg",
+    "title": "Orkhon Valley",
+    "description": "A wide Mongolian cultural landscape with monasteries, steppe, and ancient history. Located in Mongolia.",
+    "fact": "The valley was a center for several nomadic empires, including the Mongol Empire."
+  },
+  {
+    "filename": "306.jpg",
+    "title": "Hohensalzburg Fortress",
+    "description": "A large medieval fortress above the rooftops of Salzburg. Located in Austria.",
+    "fact": "It is one of Europe’s largest fully preserved fortresses."
+  },
+  {
+    "filename": "307.jpg",
+    "title": "Trafalgar Square",
+    "description": "A major square with Nelson’s Column, fountains, and the National Gallery. Located in United Kingdom.",
+    "fact": "Four bronze lions stand at the base of the column."
+  },
+  {
+    "filename": "308.jpg",
+    "title": "Dome of the Rock",
+    "description": "A golden-domed shrine on Jerusalem’s Temple Mount. Located in Israel.",
+    "fact": "The shrine was completed in the late 7th century."
+  },
+  {
+    "filename": "309.jpg",
+    "title": "Three Sisters",
+    "description": "A sandstone rock formation above the Blue Mountains. Located in Australia.",
+    "fact": "The formation overlooks the Jamison Valley."
+  },
+  {
+    "filename": "310.jpg",
+    "title": "Amalienborg",
+    "description": "A royal square with four palaces and an equestrian statue at the center. Located in Denmark.",
+    "fact": "The Danish royal family lives here, and the guard changes in the square."
+  },
+  {
+    "filename": "311.jpg",
+    "title": "Pont du Gard",
+    "description": "A three-tier Roman aqueduct bridge crossing the Gardon River. Located in France.",
+    "fact": "It was part of a system that carried water to ancient Nimes."
+  },
+  {
+    "filename": "312.jpg",
+    "title": "Tikal",
+    "description": "A Maya city of tall temples rising above jungle canopy. Located in Guatemala.",
+    "fact": "Tikal was one of the most powerful Maya cities."
+  },
+  {
+    "filename": "313.jpg",
+    "title": "Grand Prismatic Spring",
+    "description": "A colorful geothermal spring in Yellowstone National Park. Located in the United States.",
+    "fact": "Its vivid bands are created by heat-loving microorganisms living at different temperatures."
+  },
+  {
+    "filename": "314.jpg",
+    "title": "Nizwa Fort",
+    "description": "A powerful fortress with a massive round tower and earthen walls. Located in Oman.",
+    "fact": "Its huge tower helped control old trade routes through the region."
+  },
+  {
+    "filename": "315.jpg",
+    "title": "Todai-ji Temple",
+    "description": "A vast wooden Buddhist temple housing the Great Buddha. Located in Japan.",
+    "fact": "Its main hall was long considered one of the world’s largest wooden buildings."
+  },
+  {
+    "filename": "316.jpg",
+    "title": "Mount Sinai",
+    "description": "A rugged desert mountain long associated with pilgrimage routes. Located in Egypt.",
+    "fact": "Its summit is traditionally linked with the biblical story of Moses."
+  },
+  {
+    "filename": "317.jpg",
+    "title": "Quito Historic Center",
+    "description": "A high-altitude colonial city center surrounded by Andean mountains. Located in Ecuador.",
+    "fact": "It was among the first sites inscribed on the UNESCO World Heritage List."
+  },
+  {
+    "filename": "318.jpg",
+    "title": "Uffizi Gallery",
+    "description": "A Renaissance art museum and landmark courtyard in Florence. Located in Italy.",
+    "fact": "It holds major works by artists such as Botticelli, Leonardo da Vinci, and Michelangelo."
+  },
+  {
+    "filename": "319.jpg",
+    "title": "Wieliczka Salt Mine",
+    "description": "Underground halls, chapels, and sculptures carved from salt. Located in Poland.",
+    "fact": "The mine contains St. Kinga’s Chapel, decorated with salt chandeliers."
+  },
+  {
+    "filename": "320.jpg",
+    "title": "Serengeti Plains",
+    "description": "Vast savannas famous for great wildlife migrations. Located in Tanzania.",
+    "fact": "Millions of animals move through the ecosystem each year."
+  },
+  {
+    "filename": "321.jpg",
+    "title": "Jebel Barkal",
+    "description": "A sacred sandstone mountain near ancient Nubian temples and pyramids. Located in Sudan.",
+    "fact": "The site was important to the Kingdom of Kush and ancient Egyptian religion."
+  },
+  {
+    "filename": "322.jpg",
+    "title": "Spis Castle",
+    "description": "Huge medieval fortress ruins spread across a limestone hill. Located in Slovakia.",
+    "fact": "It is one of the largest castle complexes in Central Europe."
+  },
+  {
+    "filename": "323.jpg",
+    "title": "Great Mosque of Djenné",
+    "description": "A monumental adobe mosque in the historic city of Djenné. Located in Mali.",
+    "fact": "The community replasters its earthen walls during an annual festival."
+  },
+  {
+    "filename": "324.jpg",
+    "title": "Lake Louise",
+    "description": "A turquoise alpine lake framed by glaciers and mountains in Banff National Park. Located in Canada.",
+    "fact": "Its color comes from fine rock flour carried by glacial meltwater."
+  },
+  {
+    "filename": "325.jpg",
+    "title": "Naqsh-e Jahan Square",
+    "description": "A monumental historic square framed by mosques, arcades, and a palace. Located in Iran.",
+    "fact": "It is one of the largest historic squares in the world."
+  },
+  {
+    "filename": "326.jpg",
+    "title": "One World Trade Center",
+    "description": "A tall skyscraper in the rebuilt World Trade Center complex. Located in USA.",
+    "fact": "Its height is symbolically 1,776 feet."
+  },
+  {
+    "filename": "327.jpg",
+    "title": "Mount Everest",
+    "description": "The highest mountain on Earth in the Himalayas. Located in Nepal and China.",
+    "fact": "Its official height is 8,848.86 meters."
+  },
+  {
+    "filename": "328.jpg",
+    "title": "Robben Island",
+    "description": "A historic island prison off the coast of Cape Town. Located in South Africa.",
+    "fact": "Nelson Mandela was imprisoned here for many years."
+  },
+  {
+    "filename": "329.jpg",
+    "title": "Lotus Temple",
+    "description": "A white lotus-shaped house of worship surrounded by gardens. Located in India.",
+    "fact": "Its structure is formed by 27 marble-clad petals."
+  },
+  {
+    "filename": "330.jpg",
+    "title": "Galle Fort",
+    "description": "A fortified coastal old town with ramparts and a lighthouse. Located in Sri Lanka.",
+    "fact": "The fort was developed by the Portuguese and later expanded by the Dutch."
+  },
+  {
+    "filename": "331.jpg",
+    "title": "Bagan Temples",
+    "description": "An ancient plain filled with brick temples and pagodas. Located in Myanmar.",
+    "fact": "More than 2,000 temples and pagodas still stand in the area."
+  },
+  {
+    "filename": "332.jpg",
+    "title": "Chocolate Hills",
+    "description": "Hundreds of rounded hills that change color in the dry season. Located in the Philippines.",
+    "fact": "When the grass turns brown, the hills look like chocolate domes."
+  },
+  {
+    "filename": "333.jpg",
+    "title": "Shibam",
+    "description": "An ancient city of tall mudbrick towers in a desert valley. Located in Yemen.",
+    "fact": "It is often called the Manhattan of the Desert for its vertical skyline."
+  },
+  {
+    "filename": "334.jpg",
+    "title": "Fish River Canyon",
+    "description": "A huge rugged canyon carved through southern Namibia. Located in Namibia.",
+    "fact": "It is one of the largest canyons in Africa."
+  },
+  {
+    "filename": "335.jpg",
+    "title": "Sky Tower Auckland",
+    "description": "A tall telecommunications tower above central Auckland. Located in New Zealand.",
+    "fact": "Its observation decks overlook the city and harbors."
+  },
+  {
+    "filename": "336.jpg",
+    "title": "Cathedral of Saint James in Šibenik",
+    "description": "A stone cathedral with a dome in an Adriatic old town. Located in Croatia.",
+    "fact": "The cathedral was built of stone without brick or wood."
+  },
+  {
+    "filename": "337.jpg",
+    "title": "Elephant Rock in AlUla",
+    "description": "A huge sandstone arch shaped like an elephant in the desert. Located in Saudi Arabia.",
+    "fact": "Its unusual form was sculpted by wind and erosion."
+  },
+  {
+    "filename": "338.jpg",
+    "title": "General Sherman Tree",
+    "description": "A giant sequoia in Sequoia National Park. Located in the United States.",
+    "fact": "By volume, it is often cited as the largest known living single-stem tree on Earth."
+  },
+  {
+    "filename": "339.jpg",
+    "title": "Suomenlinna",
+    "description": "A sea fortress spread across islands at the entrance to Helsinki. Located in Finland.",
+    "fact": "The fortress was built to defend the Baltic coast."
+  },
+  {
+    "filename": "340.jpg",
+    "title": "Teotihuacan",
+    "description": "An ancient city with monumental pyramids near Mexico City. Located in Mexico.",
+    "fact": "The Pyramid of the Sun is one of the largest in the Americas."
+  },
+  {
+    "filename": "341.jpg",
+    "title": "Copacabana Beach",
+    "description": "A famous crescent beach with a wave-patterned promenade in Rio de Janeiro. Located in Brazil.",
+    "fact": "Its black-and-white mosaic promenade is one of Rio’s most recognizable designs."
+  },
+  {
+    "filename": "342.jpg",
+    "title": "Petronas Twin Towers",
+    "description": "A pair of linked skyscrapers in Kuala Lumpur. Located in Malaysia.",
+    "fact": "A skybridge connects the towers on the 41st and 42nd floors."
+  },
+  {
+    "filename": "343.jpg",
+    "title": "Cartagena Walled City",
+    "description": "A colorful colonial old town enclosed by historic stone walls. Located in Colombia.",
+    "fact": "Its fortifications were built to protect the Caribbean port from attacks."
+  },
+  {
+    "filename": "344.jpg",
+    "title": "Victoria Harbour",
+    "description": "A dense skyline reflected across Hong Kong’s famous harbor. Located in China.",
+    "fact": "The harbor separates Hong Kong Island and Kowloon."
+  },
+  {
+    "filename": "345.jpg",
+    "title": "Pha That Luang",
+    "description": "A golden Buddhist stupa and national symbol. Located in Laos.",
+    "fact": "The monument is often regarded as the most important stupa in Laos."
+  },
+  {
+    "filename": "346.jpg",
+    "title": "Guggenheim Museum Bilbao",
+    "description": "A titanium museum building with flowing futuristic forms. Located in Spain.",
+    "fact": "The building became a symbol of Bilbao’s renewal."
+  },
+  {
+    "filename": "347.jpg",
+    "title": "Golden Bridge at Ba Na Hills",
+    "description": "A pedestrian bridge seemingly held by giant stone hands. Located in Vietnam.",
+    "fact": "The bridge sits high in the mountains and is often surrounded by clouds."
+  },
+  {
+    "filename": "348.jpg",
+    "title": "Frederiksborg Castle",
+    "description": "A lavish Renaissance palace on islands among a lake and gardens. Located in Denmark.",
+    "fact": "It now houses Denmark’s Museum of National History."
+  },
+  {
+    "filename": "349.jpg",
+    "title": "Mohenjo-daro",
+    "description": "An ancient Indus Valley city of brick streets and public structures. Located in Pakistan.",
+    "fact": "It was one of the major urban centers of the Bronze Age Indus civilization."
+  },
+  {
+    "filename": "350.jpg",
+    "title": "Monument Valley",
+    "description": "A desert landscape of towering sandstone buttes on the Colorado Plateau. Located in the United States.",
+    "fact": "The valley is part of the Navajo Nation and has appeared in many classic films."
+  },
+  {
+    "filename": "351.jpg",
+    "title": "Blue Mosque",
+    "description": "An Ottoman mosque with six minarets in historic Istanbul. Located in Turkey.",
+    "fact": "Its interior is decorated with thousands of İznik tiles."
+  },
+  {
+    "filename": "352.jpg",
+    "title": "Itchan Kala",
+    "description": "The walled inner town of Khiva with minarets, madrasas, and mudbrick walls. Located in Uzbekistan.",
+    "fact": "Itchan Kala was the first site in Uzbekistan inscribed on the UNESCO World Heritage List."
+  },
+  {
+    "filename": "353.jpg",
+    "title": "Qutub Minar",
+    "description": "A tall brick minaret with carved tiers in Delhi. Located in India.",
+    "fact": "Its construction began in the 12th century, and it rises over 70 meters."
+  },
+  {
+    "filename": "354.jpg",
+    "title": "Dead Sea",
+    "description": "A hypersaline lake bordered by desert cliffs. Located between Jordan, Israel, and the West Bank.",
+    "fact": "Its surface lies far below sea level, making it one of Earth’s lowest exposed points."
+  },
+  {
+    "filename": "355.jpg",
+    "title": "Belém Tower",
+    "description": "A riverside fortress from Portugal’s Age of Discoveries. Located in Portugal.",
+    "fact": "It was built to guard Lisbon’s harbor."
+  },
+  {
+    "filename": "356.jpg",
+    "title": "Erbil Citadel",
+    "description": "An ancient fortified settlement rising above the city of Erbil. Located in Iraq.",
+    "fact": "It is considered one of the oldest continuously inhabited urban sites in the world."
+  },
+  {
+    "filename": "357.jpg",
+    "title": "Yungang Grottoes",
+    "description": "A cliffside complex of monumental Buddhist cave statues. Located in China.",
+    "fact": "The grottoes contain thousands of statues carved during the Northern Wei dynasty."
+  },
+  {
+    "filename": "358.jpg",
+    "title": "Cinque Terre",
+    "description": "Five colorful coastal villages built along steep cliffs above the Ligurian Sea. Located in Italy.",
+    "fact": "The villages are connected by historic paths, rail lines, and terraced vineyards."
+  },
+  {
+    "filename": "359.jpg",
+    "title": "Boudhanath Stupa",
+    "description": "A massive white stupa with painted Buddha eyes. Located in Nepal.",
+    "fact": "It is one of the largest spherical stupas in Nepal."
+  },
+  {
+    "filename": "360.jpg",
+    "title": "Dallol",
+    "description": "A vivid geothermal landscape of acidic pools and salt formations. Located in Ethiopia.",
+    "fact": "It is one of the hottest continuously inhabited places on the planet."
+  },
+  {
+    "filename": "361.jpg",
+    "title": "Komodo National Park",
+    "description": "A rugged island park of volcanic hills and clear bays. Located in Indonesia.",
+    "fact": "The park was created to protect the Komodo dragon."
+  },
+  {
+    "filename": "362.jpg",
+    "title": "Stockholm City Hall",
+    "description": "A brick waterfront city hall with a tall tower and golden crowns. Located in Sweden.",
+    "fact": "The Nobel Prize banquet is held here."
+  },
+  {
+    "filename": "363.jpg",
+    "title": "Bastei Bridge",
+    "description": "A stone bridge among sandstone cliffs in Saxon Switzerland. Located in Germany.",
+    "fact": "The bridge spans dramatic rock pillars above the Elbe valley."
+  },
+  {
+    "filename": "364.jpg",
+    "title": "Space Needle",
+    "description": "A futuristic observation tower built for Seattle’s World’s Fair. Located in the USA.",
+    "fact": "It was completed for the 1962 World’s Fair."
+  },
+  {
+    "filename": "365.jpg",
+    "title": "Bran Castle",
+    "description": "A hilltop castle in the Carpathian region of Transylvania. Located in Romania.",
+    "fact": "It is often linked with the Dracula legend."
+  },
+  {
+    "filename": "366.jpg",
+    "title": "Perito Moreno Glacier",
+    "description": "A massive blue glacier in Los Glaciares National Park. Located in Argentina.",
+    "fact": "Its ice front rises around 70 meters above the water."
+  },
+  {
+    "filename": "367.jpg",
+    "title": "Volubilis",
+    "description": "Roman ruins of columns, arches, and mosaics near rolling hills. Located in Morocco.",
+    "fact": "The site preserves remains from an important Roman city in North Africa."
+  },
+  {
+    "filename": "368.jpg",
+    "title": "Shwedagon Pagoda",
+    "description": "A gilded Buddhist pagoda rising above Yangon. Located in Myanmar.",
+    "fact": "Its main stupa is covered with plates of real gold."
+  },
+  {
+    "filename": "369.jpg",
+    "title": "Newgrange",
+    "description": "A prehistoric passage tomb covered by a grassy mound. Located in Ireland.",
+    "fact": "Its entrance is aligned with sunrise around the winter solstice."
+  },
+  {
+    "filename": "370.jpg",
+    "title": "Sossusvlei",
+    "description": "A desert basin surrounded by some of the world’s tallest red dunes. Located in Namibia.",
+    "fact": "The dunes are shaped by winds moving sand from the Namib Desert."
+  },
+  {
+    "filename": "371.jpg",
+    "title": "Keukenhof",
+    "description": "A large spring garden with millions of tulips. Located in the Netherlands.",
+    "fact": "The gardens open only part of the year during bloom season."
+  },
+  {
+    "filename": "372.jpg",
+    "title": "Sidi Bou Said",
+    "description": "A whitewashed town with blue doors above the Mediterranean Sea. Located in Tunisia.",
+    "fact": "Its blue-and-white palette has become one of Tunisia’s most recognizable images."
+  },
+  {
+    "filename": "373.jpg",
+    "title": "Kalyan Minaret",
+    "description": "A towering brick minaret in Bukhara’s historic center. Located in Uzbekistan.",
+    "fact": "The minaret has stood as a symbol of Bukhara since the twelfth century."
+  },
+  {
+    "filename": "374.jpg",
+    "title": "Chillon Castle",
+    "description": "A medieval castle on the shore of Lake Geneva. Located in Switzerland.",
+    "fact": "It stands on a rocky island by the lake."
+  },
+  {
+    "filename": "375.jpg",
+    "title": "Pont Alexandre III",
+    "description": "A Paris bridge with gilded sculptures and ornate lamps. Located in France.",
+    "fact": "The bridge is considered one of the most elegant in Paris."
+  },
+  {
+    "filename": "376.jpg",
+    "title": "Hegra",
+    "description": "Nabataean tombs carved into desert sandstone rocks. Located in Saudi Arabia.",
+    "fact": "It was Saudi Arabia’s first UNESCO World Heritage Site."
+  },
+  {
+    "filename": "377.jpg",
+    "title": "Gandan Monastery",
+    "description": "A major Buddhist monastery in Ulaanbaatar. Located in Mongolia.",
+    "fact": "It is one of Mongolia’s most important active monasteries."
+  },
+  {
+    "filename": "378.jpg",
+    "title": "Jokulsarlon Glacier Lagoon",
+    "description": "A lagoon filled with icebergs beside Iceland’s largest glacier. Located in Iceland.",
+    "fact": "Ice breaks from the glacier and slowly drifts from the lagoon toward the Atlantic Ocean."
+  },
+  {
+    "filename": "379.jpg",
+    "title": "The Wave, Arizona",
+    "description": "A sandstone formation of smooth striped curves and flowing shapes. Located in USA.",
+    "fact": "Access is limited by permit to protect the fragile landscape."
+  },
+  {
+    "filename": "380.jpg",
+    "title": "Svaneti Towers",
+    "description": "Medieval stone towers rising among mountain villages in the Caucasus. Located in Georgia.",
+    "fact": "Many towers served as homes, watchtowers, and refuges at the same time."
+  },
+  {
+    "filename": "381.jpg",
+    "title": "Tallinn Town Hall Square",
+    "description": "A medieval square with a Gothic town hall and old-town towers. Located in Estonia.",
+    "fact": "Tallinn Town Hall is one of the oldest surviving town halls in Northern Europe."
+  },
+  {
+    "filename": "382.jpg",
+    "title": "Oslo Opera House",
+    "description": "A white opera house that seems to slide into the fjord. Located in Norway.",
+    "fact": "Visitors can walk freely on the roof."
+  },
+  {
+    "filename": "383.jpg",
+    "title": "Predjama Castle",
+    "description": "A castle built directly into a cave mouth above a valley. Located in Slovenia.",
+    "fact": "A hidden cave passage system lies behind the castle."
+  },
+  {
+    "filename": "384.jpg",
+    "title": "Ngorongoro Crater",
+    "description": "A vast volcanic caldera filled with grasslands and wildlife. Located in Tanzania.",
+    "fact": "The crater floor covers about 260 square kilometers."
+  },
+  {
+    "filename": "385.jpg",
+    "title": "Rila Monastery",
+    "description": "A mountain monastery with striped arches and frescoes. Located in Bulgaria.",
+    "fact": "It is one of Bulgaria’s most important cultural symbols."
+  },
+  {
+    "filename": "386.jpg",
+    "title": "Ruins of Saint Paul’s Macau",
+    "description": "A stone church facade standing above a grand staircase. Located in Macau.",
+    "fact": "After a fire, mainly the facade of the church survived."
+  },
+  {
+    "filename": "387.jpg",
+    "title": "Sydney Harbour Bridge",
+    "description": "A large steel arch bridge across Sydney Harbour. Located in Australia.",
+    "fact": "Locals call it the Coathanger because of its arch shape."
+  },
+  {
+    "filename": "388.jpg",
+    "title": "La Paz and Mount Illimani",
+    "description": "A high-altitude city spread below the snow-capped Mount Illimani. Located in Bolivia.",
+    "fact": "La Paz is linked by one of the world’s largest urban cable car networks."
+  },
+  {
+    "filename": "389.jpg",
+    "title": "Étretat Cliffs",
+    "description": "White chalk cliffs and sea arches on the Normandy coast. Located in France.",
+    "fact": "The natural arch and needle inspired many artists."
+  },
+  {
+    "filename": "390.jpg",
+    "title": "Bay of Kotor",
+    "description": "A medieval town and fortress walls beside a winding Adriatic bay. Located in Montenegro.",
+    "fact": "Kotor’s old walls climb high up the mountain slope above the town."
+  },
+  {
+    "filename": "391.jpg",
+    "title": "Grand Place Brussels",
+    "description": "A historic square of richly decorated guild houses and a town hall. Located in Belgium.",
+    "fact": "The square is known for a flower carpet created every few years."
+  },
+  {
+    "filename": "392.jpg",
+    "title": "Azadi Tower",
+    "description": "A white arch-tower and one of Tehran’s symbols. Located in Iran.",
+    "fact": "The monument blends modern forms with Persian architectural motifs."
+  },
+  {
+    "filename": "393.jpg",
+    "title": "Bahrain Fort",
+    "description": "An ancient fort and archaeological mound overlooking the sea. Located in Bahrain.",
+    "fact": "The site preserves layers of settlement linked to the Dilmun civilization."
+  },
+  {
+    "filename": "394.jpg",
+    "title": "Garni Temple",
+    "description": "An ancient columned temple standing at the edge of a gorge. Located in Armenia.",
+    "fact": "It is a rare surviving example of Greco-Roman architecture in the region."
+  },
+  {
+    "filename": "395.jpg",
+    "title": "Carlsbad Caverns",
+    "description": "A vast limestone cave system filled with stalactites and stalagmites. Located in the United States.",
+    "fact": "The Big Room is one of the largest accessible cave chambers in North America."
+  },
+  {
+    "filename": "396.jpg",
+    "title": "Mount Nemrut",
+    "description": "A summit sanctuary with giant ancient stone heads. Located in Turkey.",
+    "fact": "The statues were built for King Antiochus I."
+  },
+  {
+    "filename": "397.jpg",
+    "title": "Kuwait Towers",
+    "description": "Three slender towers with blue mosaic spheres. Located in Kuwait.",
+    "fact": "The largest sphere includes an observation deck."
+  },
+  {
+    "filename": "398.jpg",
+    "title": "Torres del Paine",
+    "description": "A Patagonian landscape of granite towers and turquoise lakes. Located in Chile.",
+    "fact": "The park is named after its three sharp towers."
+  },
+  {
+    "filename": "399.jpg",
+    "title": "Mostar Bridge",
+    "description": "A graceful stone arch bridge over the Neretva River. Located in Bosnia and Herzegovina.",
+    "fact": "The rebuilt bridge reopened in 2004."
+  },
+  {
+    "filename": "400.jpg",
+    "title": "Ouro Preto",
+    "description": "A colonial town of steep streets, baroque churches, and mountain views. Located in Brazil.",
+    "fact": "Its name means “Black Gold,” recalling the region’s mining history."
+  },
+  {
+    "filename": "401.jpg",
+    "title": "Chengdu Panda Base",
+    "description": "A conservation center known for giant pandas in bamboo habitats. Located in China.",
+    "fact": "The base supports breeding, research, and public education for giant panda conservation."
+  },
+  {
+    "filename": "402.jpg",
+    "title": "Dubrovnik City Walls",
+    "description": "Medieval stone walls around a red-roofed Adriatic old town. Located in Croatia.",
+    "fact": "The walls run for nearly two kilometers."
+  },
+  {
+    "filename": "403.jpg",
+    "title": "Las Lajas Sanctuary",
+    "description": "A neo-Gothic church carried by a bridge across a deep canyon. Located in Colombia.",
+    "fact": "The sanctuary is built into the cliffs above the Guaitara River."
+  },
+  {
+    "filename": "404.jpg",
+    "title": "CN Tower",
+    "description": "A needle-like observation tower dominating Toronto’s skyline. Located in Canada.",
+    "fact": "It stands 553.3 meters tall."
+  },
+  {
+    "filename": "405.jpg",
+    "title": "Phi Phi Islands",
+    "description": "Famous limestone islands with lagoons and turquoise water. Located in Thailand.",
+    "fact": "The islands’ bays became some of Thailand’s most recognizable seascapes."
+  },
+  {
+    "filename": "406.jpg",
+    "title": "El Jem Amphitheatre",
+    "description": "A vast Roman amphitheater rising from the middle of a Tunisian town. Located in Tunisia.",
+    "fact": "It is one of the largest Roman amphitheaters still standing today."
+  },
+  {
+    "filename": "407.jpg",
+    "title": "Múlafossur Waterfall",
+    "description": "A waterfall dropping from green cliffs into the Atlantic. Located in the Faroe Islands.",
+    "fact": "It flows beside the village of Gásadalur."
+  },
+  {
+    "filename": "408.jpg",
+    "title": "Villa d’Este",
+    "description": "A Renaissance villa celebrated for its terraced gardens and fountains. Located in Italy.",
+    "fact": "Its water gardens influenced landscape design across Europe."
+  },
+  {
+    "filename": "409.jpg",
+    "title": "Tsingy de Bemaraha",
+    "description": "A jagged limestone forest of sharp stone needles. Located in Madagascar.",
+    "fact": "The word tsingy refers to sharp karst formations."
+  },
+  {
+    "filename": "410.jpg",
+    "title": "Cape Town City Hall",
+    "description": "A historic civic building with Table Mountain rising behind it. Located in South Africa.",
+    "fact": "Nelson Mandela gave his first public speech after prison from its balcony in 1990."
+  },
+  {
+    "filename": "411.jpg",
+    "title": "Trakai Island Castle",
+    "description": "A red-brick island castle in the middle of Lake Galve. Located in Lithuania.",
+    "fact": "A wooden bridge leads to the castle, surrounded by a landscape of many lakes."
+  },
+  {
+    "filename": "412.jpg",
+    "title": "Socotra Dragon Trees",
+    "description": "Umbrella-shaped trees growing on a remote island plateau. Located in Yemen.",
+    "fact": "The dragon blood tree is famous for its red resin."
+  },
+  {
+    "filename": "413.jpg",
+    "title": "Sultan Qaboos Grand Mosque",
+    "description": "A grand modern mosque with marble courtyards. Located in Oman.",
+    "fact": "Its main prayer hall contains a huge handwoven carpet."
+  },
+  {
+    "filename": "414.jpg",
+    "title": "Alcatraz Island",
+    "description": "A former prison island in San Francisco Bay. Located in the United States.",
+    "fact": "The island was once a federal penitentiary known for holding high-profile inmates."
+  },
+  {
+    "filename": "415.jpg",
+    "title": "Copán Ruins",
+    "description": "A Maya site known for carved stelae and stairways. Located in Honduras.",
+    "fact": "Its Hieroglyphic Stairway contains a long Maya inscription."
+  },
+  {
+    "filename": "416.jpg",
+    "title": "Louvre Abu Dhabi",
+    "description": "A waterfront museum with a huge perforated dome. Located in UAE.",
+    "fact": "The dome creates a rain of light effect inside the museum."
+  },
+  {
+    "filename": "417.jpg",
+    "title": "Seongsan Ilchulbong",
+    "description": "A volcanic tuff cone rising from Jeju’s coast. Located in South Korea.",
+    "fact": "Its name means Sunrise Peak."
+  },
+  {
+    "filename": "418.jpg",
+    "title": "Lake Konigssee",
+    "description": "An alpine mountain lake with emerald water and St. Bartholomew’s Church. Located in Germany.",
+    "fact": "The lake is famous for clear water and echoes between the cliffs."
+  },
+  {
+    "filename": "419.jpg",
+    "title": "Hawa Mahal",
+    "description": "A pink palace facade filled with honeycomb-like windows. Located in India.",
+    "fact": "The facade has hundreds of small latticed windows."
+  },
+  {
+    "filename": "420.jpg",
+    "title": "Sugarloaf Mountain",
+    "description": "A granite peak overlooking Rio de Janeiro and Guanabara Bay. Located in Brazil.",
+    "fact": "A cable car route has carried visitors to the summit since the early twentieth century."
+  },
+  {
+    "filename": "421.jpg",
+    "title": "Nyhavn",
+    "description": "A colorful waterfront of historic houses and wooden ships. Located in Denmark.",
+    "fact": "It was once a busy trading harbor in Copenhagen."
+  },
+  {
+    "filename": "422.jpg",
+    "title": "Tian Tan Buddha",
+    "description": "A large bronze Buddha statue on a hill on Lantau Island. Located in Hong Kong.",
+    "fact": "A long staircase leads up to the statue."
+  },
+  {
+    "filename": "423.jpg",
+    "title": "Waitomo Glowworm Caves",
+    "description": "Dark limestone caves lit by thousands of glowworms. Located in New Zealand.",
+    "fact": "The glow comes from larvae of a native fungus gnat."
+  },
+  {
+    "filename": "424.jpg",
+    "title": "Lofoten Islands",
+    "description": "Arctic islands of fishing cabins, fjords, and sharp peaks. Located in Norway.",
+    "fact": "Traditional red rorbu cabins line many fishing villages."
+  },
+  {
+    "filename": "425.jpg",
+    "title": "Xunantunich",
+    "description": "A Maya archaeological site with the El Castillo pyramid above the jungle. Located in Belize.",
+    "fact": "Its name is often translated as “Stone Woman” in the local Maya language."
+  },
+  {
+    "filename": "426.jpg",
+    "title": "Akashi Kaikyo Bridge",
+    "description": "One of the world’s largest suspension bridges over the Akashi Strait. Located in Japan.",
+    "fact": "The bridge was engineered for strong earthquakes and typhoons."
+  },
+  {
+    "filename": "427.jpg",
+    "title": "Auschwitz-Birkenau Memorial",
+    "description": "A historic memorial at the site of the former Nazi camp. Located in Poland.",
+    "fact": "The site is preserved in memory of Holocaust victims."
+  },
+  {
+    "filename": "428.jpg",
+    "title": "Darvaza Gas Crater",
+    "description": "A burning desert crater in the Karakum Desert. Located in Turkmenistan.",
+    "fact": "It has burned for decades and is nicknamed the Door to Hell."
+  },
+  {
+    "filename": "429.jpg",
+    "title": "Peterhof Palace",
+    "description": "A palace and park ensemble with fountain cascades by the Gulf of Finland. Located in Russia.",
+    "fact": "The Grand Cascade is decorated with many gilded sculptures."
+  },
+  {
+    "filename": "430.jpg",
+    "title": "Joshua Tree National Park",
+    "description": "A desert landscape of Joshua trees and rounded boulders. Located in the United States.",
+    "fact": "The park sits where the Mojave and Colorado deserts meet."
+  },
+  {
+    "filename": "431.jpg",
+    "title": "Great Mosque of Samarra",
+    "description": "A historic mosque complex known for its spiral Malwiya minaret. Located in Iraq.",
+    "fact": "The minaret rises in a distinctive helical form that became one of Samarra’s symbols."
+  },
+  {
+    "filename": "432.jpg",
+    "title": "Kuang Si Falls",
+    "description": "Turquoise limestone pools and waterfalls in tropical forest. Located in Laos.",
+    "fact": "Minerals give the pools their vivid blue color."
+  },
+  {
+    "filename": "433.jpg",
+    "title": "House of the Blackheads",
+    "description": "An ornate historic facade on Riga’s old square. Located in Latvia.",
+    "fact": "The building was reconstructed in the late 20th century after wartime destruction."
+  },
+  {
+    "filename": "434.jpg",
+    "title": "Reynisfjara Beach",
+    "description": "A black sand beach with basalt columns and sea stacks. Located in Iceland.",
+    "fact": "Its basalt stacks are called Reynisdrangar."
+  },
+  {
+    "filename": "435.jpg",
+    "title": "Philae Temple",
+    "description": "An ancient Egyptian temple complex on an island near Aswan. Located in Egypt.",
+    "fact": "The temples were moved to Agilkia Island to save them from flooding after the Aswan High Dam."
+  },
+  {
+    "filename": "436.jpg",
+    "title": "Batu Caves",
+    "description": "Limestone caves with a giant Murugan statue and colorful staircase. Located in Malaysia.",
+    "fact": "A long staircase of brightly painted steps leads to the temple."
+  },
+  {
+    "filename": "437.jpg",
+    "title": "Potala Palace",
+    "description": "A vast red-and-white palace rising above Lhasa. Located in China.",
+    "fact": "The palace has more than a thousand rooms."
+  },
+  {
+    "filename": "438.jpg",
+    "title": "Arenal Volcano",
+    "description": "A nearly symmetrical volcano rising above rainforest and lake. Located in Costa Rica.",
+    "fact": "Arenal was one of Costa Rica’s most active volcanoes for decades."
+  },
+  {
+    "filename": "439.jpg",
+    "title": "Kenroku-en Garden",
+    "description": "One of Japan’s most famous gardens with ponds, pines, and stone lanterns. Located in Japan.",
+    "fact": "The garden was designed to be beautiful in every season."
+  },
+  {
+    "filename": "440.jpg",
+    "title": "Minaret of Jam",
+    "description": "A tall brick minaret with delicate carvings in a remote mountain valley. Located in Afghanistan.",
+    "fact": "The minaret stands in a hard-to-reach place near the meeting of two rivers."
+  },
+  {
+    "filename": "441.jpg",
+    "title": "Amazon Rainforest",
+    "description": "The largest tropical rainforest on Earth. Located across South America.",
+    "fact": "The Amazon Basin holds the world’s largest river system by discharge."
+  },
+  {
+    "filename": "442.jpg",
+    "title": "Wat Rong Khun",
+    "description": "A striking white Buddhist temple in Chiang Rai. Located in Thailand.",
+    "fact": "Its modern design uses white surfaces and mirrored glass to symbolize purity and wisdom."
+  },
+  {
+    "filename": "443.jpg",
+    "title": "Brooklyn Bridge",
+    "description": "A historic suspension bridge linking Manhattan and Brooklyn. Located in the USA.",
+    "fact": "When it opened, it was the world’s longest suspension bridge."
+  },
+  {
+    "filename": "444.jpg",
+    "title": "Cliffs of Moher",
+    "description": "Dramatic Atlantic cliffs rising above Ireland's western coast. Located in Ireland.",
+    "fact": "At their highest point, the cliffs reach about 214 meters."
+  },
+  {
+    "filename": "445.jpg",
+    "title": "Baalbek",
+    "description": "A monumental Roman temple complex with colossal columns. Located in Lebanon.",
+    "fact": "The Temple of Jupiter had some of the Roman world’s largest columns."
+  },
+  {
+    "filename": "446.jpg",
+    "title": "Panama Canal",
+    "description": "A major ship canal connecting the Atlantic and Pacific oceans. Located in Panama.",
+    "fact": "Its lock system raises and lowers ships across the Isthmus of Panama."
+  },
+  {
+    "filename": "447.jpg",
+    "title": "St Michael’s Mount",
+    "description": "A tidal island crowned by a castle off the coast of Cornwall. Located in the United Kingdom.",
+    "fact": "A stone causeway can be crossed on foot when the tide is low."
+  },
+  {
+    "filename": "448.jpg",
+    "title": "Hue Imperial City",
+    "description": "A walled royal citadel with gates, moats, and palaces. Located in Vietnam.",
+    "fact": "It served as the seat of the Nguyen emperors."
+  },
+  {
+    "filename": "449.jpg",
+    "title": "Rock-Hewn Churches of Lalibela",
+    "description": "Medieval churches carved directly from volcanic rock. Located in Ethiopia.",
+    "fact": "The complex includes eleven rock-hewn churches."
+  },
+  {
+    "filename": "450.jpg",
+    "title": "Rijksmuseum",
+    "description": "Amsterdam’s main museum with a neo-Gothic facade and arches. Located in the Netherlands.",
+    "fact": "The museum houses Rembrandt’s Night Watch."
+  },
+  {
+    "filename": "451.jpg",
+    "title": "Badshahi Mosque",
+    "description": "A grand Mughal mosque of red sandstone and marble domes. Located in Pakistan.",
+    "fact": "It was commissioned by Emperor Aurangzeb in the seventeenth century."
+  },
+  {
+    "filename": "452.jpg",
+    "title": "Palais Garnier",
+    "description": "A grand opera house known for its marble staircase and ornate interiors. Located in France.",
+    "fact": "Its architecture helped inspire the setting of The Phantom of the Opera."
+  },
+  {
+    "filename": "453.jpg",
+    "title": "Okavango Delta",
+    "description": "A lush inland delta spreading into the Kalahari. Located in Botswana.",
+    "fact": "Its floodwaters arrive during Botswana’s dry season."
+  },
+  {
+    "filename": "454.jpg",
+    "title": "Øresund Bridge",
+    "description": "A long bridge and tunnel connecting Denmark and Sweden. Located in Denmark and Sweden.",
+    "fact": "Part of the route disappears underwater through an artificial island."
+  },
+  {
+    "filename": "455.jpg",
+    "title": "Leptis Magna",
+    "description": "A sprawling Roman city ruin near the Mediterranean coast. Located in Libya.",
+    "fact": "The city flourished under Emperor Septimius Severus, who was born there."
+  },
+  {
+    "filename": "456.jpg",
+    "title": "National Palace Museum",
+    "description": "A grand museum of Chinese art on Taipei’s hillside. Located in Taiwan.",
+    "fact": "Its collection includes treasures from imperial China."
+  },
+  {
+    "filename": "457.jpg",
+    "title": "Prague Old Town Square",
+    "description": "A historic square with Gothic towers and the Astronomical Clock. Located in Czechia.",
+    "fact": "The Astronomical Clock was first installed in 1410."
+  },
+  {
+    "filename": "458.jpg",
+    "title": "Victoria Falls",
+    "description": "A vast waterfall pouring into a mist-filled gorge. Located in Zambia and Zimbabwe.",
+    "fact": "The falls stretch for more than 1.7 kilometers across."
+  },
+  {
+    "filename": "459.jpg",
+    "title": "Mount Roraima",
+    "description": "A flat-topped tepui rising above the Gran Sabana. Located in Venezuela, Brazil, and Guyana.",
+    "fact": "Its summit plateau is often wrapped in clouds."
+  },
+  {
+    "filename": "460.jpg",
+    "title": "Museum of Islamic Art Doha",
+    "description": "A geometric waterfront museum inspired by Islamic architecture. Located in Qatar.",
+    "fact": "The building was designed by I. M. Pei."
+  },
+  {
+    "filename": "461.jpg",
+    "title": "Temple of the Sacred Tooth Relic",
+    "description": "A Buddhist temple complex beside Kandy Lake. Located in Sri Lanka.",
+    "fact": "It is said to house a relic of the Buddha’s tooth."
+  },
+  {
+    "filename": "462.jpg",
+    "title": "Tana Toraja",
+    "description": "A highland region known for tongkonan houses with sweeping roofs. Located in Indonesia.",
+    "fact": "Toraja architecture and ceremonies are among Sulawesi’s best-known cultural traditions."
+  },
+  {
+    "filename": "463.jpg",
+    "title": "Son Doong Cave",
+    "description": "A vast limestone cave with skylights, mist, and jungle growing inside. Located in Vietnam.",
+    "fact": "It is often described as one of the largest known cave passages in the world."
+  },
+  {
+    "filename": "464.jpg",
+    "title": "Galápagos Islands",
+    "description": "A volcanic archipelago known for unique wildlife. Located in Ecuador.",
+    "fact": "The islands helped inspire Darwin’s theory of evolution."
+  },
+  {
+    "filename": "465.jpg",
+    "title": "Bojnice Castle",
+    "description": "A romantic castle with towers, a moat, and a fairytale silhouette. Located in Slovakia.",
+    "fact": "A natural travertine cave lies beneath the castle."
+  },
+  {
+    "filename": "466.jpg",
+    "title": "Chan Chan",
+    "description": "A vast adobe city built by the Chimú culture near Peru’s northern coast. Located in Peru.",
+    "fact": "It is one of the largest pre-Columbian cities built from earthen architecture."
+  },
+  {
+    "filename": "467.jpg",
+    "title": "Timbuktu",
+    "description": "A historic desert city known for earthen mosques and ancient scholarship. Located in Mali.",
+    "fact": "Timbuktu was a major center of learning and trade across the Sahara."
+  },
+  {
+    "filename": "468.jpg",
+    "title": "Salar de Uyuni",
+    "description": "The world’s largest salt flat, famous for mirror reflections. Located in Bolivia.",
+    "fact": "It covers more than 10,000 square kilometers."
+  },
+  {
+    "filename": "469.jpg",
+    "title": "Park Güell",
+    "description": "A colorful park of mosaics, terraces, and organic forms designed by Antoni Gaudí. Located in Spain.",
+    "fact": "Its serpentine bench is covered with broken ceramic tile mosaics."
+  },
+  {
+    "filename": "470.jpg",
+    "title": "El Nido, Palawan",
+    "description": "Limestone islands and turquoise lagoons in Bacuit Bay. Located in the Philippines.",
+    "fact": "Bacuit Bay is famous for hidden lagoons and karst cliffs."
+  },
+  {
+    "filename": "471.jpg",
+    "title": "Melk Abbey",
+    "description": "A Baroque monastery on a cliff above the Danube with yellow-white facades. Located in Austria.",
+    "fact": "Its library holds thousands of historic manuscripts and books."
+  },
+  {
+    "filename": "472.jpg",
+    "title": "Australian War Memorial",
+    "description": "A monumental building and memorial avenue in Canberra. Located in Australia.",
+    "fact": "The memorial combines a museum, archive, and place of remembrance."
+  },
+  {
+    "filename": "473.jpg",
+    "title": "Tre Cime di Lavaredo",
+    "description": "Three sharp limestone peaks in the Dolomites. Located in Italy.",
+    "fact": "They are among the most famous peaks of the Dolomites."
+  },
+  {
+    "filename": "474.jpg",
+    "title": "Masada",
+    "description": "An ancient fortress on a desert plateau above the Dead Sea. Located in Israel.",
+    "fact": "Herod the Great built palaces and fortifications on the summit."
+  },
+  {
+    "filename": "475.jpg",
+    "title": "Avenue of the Baobabs",
+    "description": "A dirt road lined with towering ancient baobab trees. Located in Madagascar.",
+    "fact": "Some baobabs here are hundreds of years old."
+  },
+  {
+    "filename": "476.jpg",
+    "title": "Langkawi Sky Bridge",
+    "description": "A curved pedestrian bridge suspended above rainforest mountains. Located in Malaysia.",
+    "fact": "The bridge hangs from a single pylon high above the island’s peaks."
+  },
+  {
+    "filename": "477.jpg",
+    "title": "Seokguram Grotto",
+    "description": "A granite Buddhist grotto with a serene seated Buddha. Located in South Korea.",
+    "fact": "It was built during the Silla period and is paired with Bulguksa Temple on the UNESCO list."
+  },
+  {
+    "filename": "478.jpg",
+    "title": "Imam Reza Shrine",
+    "description": "A vast shrine complex with golden domes and tiled courtyards. Located in Iran.",
+    "fact": "It is one of the most important pilgrimage sites in Iran."
+  },
+  {
+    "filename": "479.jpg",
+    "title": "Lake Titicaca",
+    "description": "A vast high-altitude lake in the Andes. Located in Peru and Bolivia.",
+    "fact": "It lies about 3,812 meters above sea level."
+  },
+  {
+    "filename": "480.jpg",
+    "title": "Omar Ali Saifuddien Mosque",
+    "description": "A white mosque with a golden dome beside a lagoon. Located in Brunei.",
+    "fact": "A ceremonial stone barge stands beside the mosque."
+  }
+]

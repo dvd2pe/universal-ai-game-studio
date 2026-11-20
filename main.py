@@ -6,6 +6,8 @@ Runs the acquisition pipeline as background jobs and serves:
 - JSON reports per project via /api/projects/<slug>/reports/<name>
 """
 import mimetypes
+import os
+import posixpath
 import re
 import threading
 import uuid
@@ -16,6 +18,7 @@ from fastapi import FastAPI, HTTPException, Request
 from fastapi.responses import HTMLResponse, RedirectResponse
 from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel
+from starlette.exceptions import HTTPException as StarletteHTTPException
 
 from studio import config, ghsync
 from studio.pipeline import run_pipeline, run_pipeline_zip
@@ -251,9 +254,14 @@ def api_sync_restore():
 
 @app.get("/play/{slug}")
 def play(slug: str):
-    """Full-viewport wrapper around the mirrored entry page: keeps the game in
-    an iframe context (like the original portal page) and enables cross-origin
-    isolation for Unity builds that use wasm threads."""
+    """Full-viewport wrapper around the mirrored entry page.
+
+    Deliberately served WITHOUT COOP/COEP headers: COEP (require-corp or
+    credentialless) on this document forces the nested game frame to carry its
+    own COEP too — mirrored pages don't, so Chromium blocked the frame with
+    ERR_BLOCKED_BY_RESPONSE ("refused to connect") and the tab stayed black.
+    Cross-origin isolation (SharedArrayBuffer for Unity wasm threads) is
+    sacrificed for the far more important guarantee that games simply run."""
     p = config.GAMES_DIR / slug / "reports" / "manifest.json"
     if not p.exists():
         raise HTTPException(404, "project not found")
@@ -265,10 +273,7 @@ def play(slug: str):
 iframe{{border:0;width:100%;height:100%;display:block}}</style></head>
 <body><iframe src="/games/{slug}/mirror/{entry}"
 allow="autoplay; fullscreen; gamepad; clipboard-write"></iframe></body></html>"""
-    return HTMLResponse(html, headers={
-        "Cross-Origin-Opener-Policy": "same-origin",
-        "Cross-Origin-Embedder-Policy": "credentialless",
-    })
+    return HTMLResponse(html)
 
 
 @app.post("/api/upload_zip")
@@ -360,11 +365,49 @@ def _load_json(p):
     return json.loads(p.read_text())
 
 
+class _QFallbackStatic(StaticFiles):
+    """Serve the queryless copy when a runtime __q… variant is missing.
+
+    The interceptor maps runtime URLs with a query string onto
+    <name>__q<query>.<ext> local paths; the mirror stores each file under one
+    canonical variant only, so any fetch with a *different* query string would
+    404 (some games reload their own entry with another query). Falling back
+    to the base file turns those 404s into 200s."""
+
+    async def get_response(self, path: str, scope):
+        try:
+            return await super().get_response(path, scope)
+        except StarletteHTTPException as exc:
+            if exc.status_code != 404 or "__q" not in posixpath.basename(path):
+                raise
+            name = posixpath.basename(path)
+            idx = name.find("__q")
+            if idx <= 0:
+                raise
+            dot = name.rfind(".")
+            stem = name[:idx]
+            ext = name[dot:] if dot > idx else ""
+            d = posixpath.dirname(path)
+            cands = [stem + ext] if ext else []
+            try:  # any other stored variant of the same file
+                directory = str(self.directory) + (("/" + d) if d else "")
+                cands += [f for f in os.listdir(directory)
+                          if f.startswith(stem + "__q") and f.endswith(ext)]
+            except OSError:
+                pass
+            for c in cands:
+                try:
+                    return await super().get_response(posixpath.join(d, c), scope)
+                except StarletteHTTPException:
+                    continue
+            raise
+
+
 if config.GAMES_DIR.exists():
-    app.mount("/games", StaticFiles(directory=str(config.GAMES_DIR), html=True), name="games")
+    app.mount("/games", _QFallbackStatic(directory=str(config.GAMES_DIR), html=True), name="games")
 else:
     config.GAMES_DIR.mkdir(parents=True, exist_ok=True)
-    app.mount("/games", StaticFiles(directory=str(config.GAMES_DIR), html=True), name="games")
+    app.mount("/games", _QFallbackStatic(directory=str(config.GAMES_DIR), html=True), name="games")
 app.mount("/app", StaticFiles(directory=str(WEB_DIR), html=True), name="web")
 
 # best-effort: after a sandbox reset, bring games back from GitHub

@@ -357,5 +357,6 @@
       "ellisonleao.github.io/clumsy-bird/index.css: data/css/gamefont.ttf",
       "ellisonleao.github.io/clumsy-bird/index.css: data/css/gamefont.svg#gamefont"
     ]
-  }
+  },
+  "stubs": 1
 }

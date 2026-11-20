@@ -1952,5 +1952,6 @@
       "builds.crazygames.com/portal-web/_next/static/css/581e397261e10ee2.css: https://imgs.crazygames.com/assets/SVG/icons/blocked.svg",
       "builds.crazygames.com/portal-web/_next/static/css/5bcc76f3b4fbe4c4.css: /images/daily-games/chevron-up.svg"
     ]
-  }
+  },
+  "stubs": 117
 }

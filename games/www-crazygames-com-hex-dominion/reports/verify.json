@@ -1,5 +1,5 @@
 {
-  "loaded_url": "http://127.0.0.1:47123/hex-dominion.game-files.crazygames.com/hex-dominion/25/index__qisNewUser_tr.html",
+  "loaded_url": "http://127.0.0.1:33397/hex-dominion.game-files.crazygames.com/hex-dominion/25/index__qisNewUser_tr.html",
   "canvas": {
     "w": 483,
     "h": 661
@@ -14,7 +14,7 @@
   "counts": {
     "acquired": 377,
     "discovered": 599,
-    "files": 361
+    "files": 632
   },
   "score": {
     "total": 91,

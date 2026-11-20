@@ -9793,5 +9793,6 @@
       "games.crazygames.com/it_IT/screw-out-bolts-and-nuts/index__qisNewUser_tr.html: <link href> https://builds.crazygames.com",
       "secure-assets.rubiconproject.com/utils/xapi/multi-sync__qp_seedtag_en.html: <script src> usync.js"
     ]
-  }
+  },
+  "stubs": 123
 }

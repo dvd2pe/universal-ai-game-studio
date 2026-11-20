@@ -1,4 +1,4 @@
 {
-  "total": 44,
-  "verdict": "incomplete: significant failures during local verification \u2014 mirror is NOT confirmed playable"
+  "total": 67,
+  "verdict": "partially-verified: mirror loads locally but some runtime checks did not pass (see components)"
 }

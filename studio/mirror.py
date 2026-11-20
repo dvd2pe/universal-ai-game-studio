@@ -51,6 +51,18 @@ def _download(url, referer, dest):
             time.sleep(1.5 * attempt)
 
 
+def _final_entry_rel(resources, index_url, rel_for):
+    """entry_rel must point at a file that really exists in the mirror:
+    sha-256 dedup can merge the captured entry (often a ?query variant of
+    index.html) onto the queryless copy — rel_for alone would then dangle and
+    the entry page itself would 404 (black screen, stuck loader)."""
+    urls = {index_url.split("#", 1)[0], index_url.rstrip("/")}
+    for e in resources:
+        if e["url"].split("#", 1)[0] in urls and "error" not in e:
+            return e["rel"]
+    return rel_for.get(index_url) or rel_for.get(index_url.rstrip("/")) or _local_rel(index_url)
+
+
 def build_mirror(project_dir, recon, progress=print):
     project_dir = Path(project_dir)
     acq = project_dir / "acquisition" / "original"
@@ -124,42 +136,90 @@ def build_mirror(project_dir, recon, progress=print):
     total_dl = len(dl_jobs)
     progress(f"mirror: {counts['captured']} captured from the page session, "
              f"{total_dl} files to download (x{config.DOWNLOAD_CONCURRENCY} parallel)")
+
+    # dead-origin probe: without it every download burns timeout×retries one
+    # file at a time and the mirror step appears to hang for hours on
+    # unreachable sites (batch jobs stuck at "organizing N resources")
+    if total_dl:
+        try:
+            with requests.get(index_url, headers={"User-Agent": config.BROWSER_UA},
+                              timeout=10, stream=True) as _pr:
+                pass
+            origin_ok = True
+        except Exception as e:
+            origin_ok = False
+            progress(f"mirror: origin {index_url} unreachable ({str(e)[:90]}) — "
+                     f"skipping {total_dl} downloads, captured resources only")
+            for job in dl_jobs.values():
+                for entry in job["entries"]:
+                    entry["status"], entry["error"] = 0, "origin unreachable at acquisition time"
+                counts["failed"] += len(job["entries"])
+            total_dl = 0
+
     from concurrent.futures import ThreadPoolExecutor, as_completed
     done = 0
-    with ThreadPoolExecutor(max_workers=max(1, config.DOWNLOAD_CONCURRENCY)) as pool:
-        futs = {pool.submit(_download, job["url"], index_url, dest): (dest, job)
-                for dest, job in dl_jobs.items()}
-        for fut in as_completed(futs):
-            dest, job = futs[fut]
-            try:
-                r = fut.result() or {"status": 0, "error": "download crashed"}
-            except Exception as e:
-                r = {"status": 0, "error": f"download crashed: {e}"}
-            rel = dest.relative_to(acq).as_posix()
-            done += 1
-            if done % 25 == 0 or done == total_dl:
-                progress(f"mirror: downloading {done}/{total_dl}")
+
+    def _handle(fut, dest, job):
+        nonlocal done
+        try:
+            r = fut.result() or {"status": 0, "error": "download crashed"}
+        except Exception as e:
+            r = {"status": 0, "error": f"download crashed: {e}"}
+        rel = dest.relative_to(acq).as_posix()
+        done += 1
+        if done % 25 == 0 or done == total_dl:
+            progress(f"mirror: downloading {done}/{total_dl}")
+        for entry in job["entries"]:
+            entry["status"] = r["status"]
+        if r["status"] == 200:
+            data = dest.read_bytes()
+            h = hashlib.sha256(data).hexdigest()
             for entry in job["entries"]:
-                entry["status"] = r["status"]
-            if r["status"] == 200:
-                data = dest.read_bytes()
-                h = hashlib.sha256(data).hexdigest()
+                entry["sha256"], entry["size"], entry["source"] = h, len(data), "downloaded"
+            if h in seen_hashes:
+                dest.unlink()
                 for entry in job["entries"]:
-                    entry["sha256"], entry["size"], entry["source"] = h, len(data), "downloaded"
-                if h in seen_hashes:
-                    dest.unlink()
-                    for entry in job["entries"]:
-                        entry["rel"] = seen_hashes[h]
-                    counts["duplicates"] += len(job["entries"])
-                else:
-                    seen_hashes[h] = rel
-                    used_rels.add(rel)
-                    counts["downloaded"] += len(job["entries"])
+                    entry["rel"] = seen_hashes[h]
+                counts["duplicates"] += len(job["entries"])
             else:
-                for entry in job["entries"]:
-                    entry["error"] = r.get("error", "acquisition failed")
-                counts["failed"] += len(job["entries"])
+                seen_hashes[h] = rel
+                used_rels.add(rel)
+                counts["downloaded"] += len(job["entries"])
+        else:
+            for entry in job["entries"]:
+                entry["error"] = r.get("error", "acquisition failed")
+            counts["failed"] += len(job["entries"])
+
     if total_dl:
+        deadline = time.time() + config.DOWNLOAD_BUDGET_S
+        processed = set()
+        with ThreadPoolExecutor(max_workers=max(1, config.DOWNLOAD_CONCURRENCY)) as pool:
+            futs = {pool.submit(_download, job["url"], index_url, dest): (dest, job)
+                    for dest, job in dl_jobs.items()}
+            for fut in as_completed(futs):
+                dest, job = futs[fut]
+                _handle(fut, dest, job)
+                processed.add(id(fut))
+                if time.time() > deadline and len(processed) < len(futs):
+                    progress(f"mirror: download budget ({config.DOWNLOAD_BUDGET_S}s) "
+                             f"exhausted — cancelling {len(futs) - len(processed)} remaining files")
+                    # plain with-exit shutdown would wait for the whole queue:
+                    # cancel not-yet-started downloads explicitly
+                    pool.shutdown(wait=False, cancel_futures=True)
+                    break
+        # shutdown done: cancelled futures never ran, completed-but-unprocessed
+        # ones (running when the budget expired) still carry valid results
+        for fut, (dest, job) in futs.items():
+            if id(fut) in processed:
+                continue
+            if fut.cancelled():
+                for entry in job["entries"]:
+                    entry["status"], entry["error"] = 0, "download cancelled (budget exhausted)"
+                counts["failed"] += len(job["entries"])
+            elif fut.done():
+                _handle(fut, dest, job)
+        if counts["failed"]:
+            progress(f"mirror: {counts['failed']} downloads failed or cancelled")
         progress(f"mirror: downloads finished — {counts['downloaded']} saved, "
                  f"{counts['duplicates']} duplicates merged, {counts['failed']} failed")
 
@@ -193,8 +253,8 @@ def build_mirror(project_dir, recon, progress=print):
     missing = [e["url"] for e in resources if "error" in e]
     manifest = {
         "source_url": recon["url"], "entry_url": index_url,
-        "entry_rel": (rel_for.get(index_url) or rel_for.get(index_url.rstrip("/"))
-                      or _local_rel(index_url)), "created": recon.get("finished"),
+        "entry_rel": _final_entry_rel(resources, index_url, rel_for),
+        "created": recon.get("finished"),
         "engine": recon.get("engine", {}), "resources": resources,
         "counts": counts, "missing": missing, "known_rels": sorted(used_rels),
         "interaction_attempted": recon.get("interaction_attempted", False),
