@@ -15,10 +15,13 @@ import zipfile
 from pathlib import Path
 
 from fastapi import FastAPI, HTTPException, Request
-from fastapi.responses import HTMLResponse, RedirectResponse
+from fastapi.responses import HTMLResponse, RedirectResponse, Response
 from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel
+from starlette.concurrency import run_in_threadpool
 from starlette.exceptions import HTTPException as StarletteHTTPException
+
+import requests
 
 from studio import config, ghsync
 from studio.pipeline import run_pipeline, run_pipeline_zip
@@ -55,6 +58,60 @@ async def compressed_static_headers(request, call_next):
         if enc:
             response.headers["Content-Encoding"] = enc
     return response
+
+
+# NO-STUBS POLICY: a mirrored game must always be served its REAL original
+# files. When the mirror lacks a file, fetch it live from the origin CDN the
+# mirror path encodes (games/<slug>/mirror/<host>/<path> → https://<host>/<path>)
+# and save it into the mirror, so the miss heals permanently. If the origin
+# does not have it either, the request stays a 404 — placeholder content is
+# never fabricated (a wrong-but-200 response crashes loaders that handle
+# 404s gracefully).
+_backfill_skip_hosts = {"__studio__", "127.0.0.1", "localhost"}
+
+
+@app.middleware("http")
+async def origin_backfill_on_404(request, call_next):
+    response = await call_next(request)
+    p = request.url.path
+    if response.status_code != 404 or not p.startswith("/games/"):
+        return response
+    rel = p[len("/games/"):].split("?")[0]
+    parts = rel.split("/", 2)
+    if len(parts) < 3 or parts[1] != "mirror" or not parts[2]:
+        return response
+    host, fpath = parts[2].split("/", 1) if "/" in parts[2] else (None, None)
+    if not host or host in _backfill_skip_hosts or not fpath:
+        return response
+    target = config.GAMES_DIR / parts[0] / "mirror" / host / fpath
+    if target.exists() or ".." in fpath or fpath.endswith("/"):
+        return response
+    url = f"https://{host}/{fpath}"
+    try:
+        def _fetch():
+            r = requests.get(url, timeout=(5, 25), stream=True,
+                             headers={"User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/126 Safari/537.36"})
+            if r.status_code != 200 or int(r.headers.get("content-length") or 0) > 200 * 1024 * 1024:
+                return None
+            data = b""
+            for chunk in r.iter_content(1 << 16):
+                data += chunk
+                if len(data) > 200 * 1024 * 1024:
+                    return None
+            return data or None
+        data = await run_in_threadpool(_fetch)
+        if data is None:
+            return response
+        target.parent.mkdir(parents=True, exist_ok=True)
+        tmp = target.with_name(target.name + ".backfill.tmp")
+        tmp.write_bytes(data)
+        os.replace(tmp, target)
+        ct = mimetypes.guess_type(target.name)[0] or "application/octet-stream"
+        return Response(content=data, media_type=ct,
+                        headers={"Cache-Control": "public, max-age=3600",
+                                 "X-Studio-Backfill": url[:120]})
+    except Exception:
+        return response
 
 
 _encoding_cache = {}  # (path, size, mtime) -> "gzip" | "br" | None
@@ -372,23 +429,31 @@ class _QFallbackStatic(StaticFiles):
     <name>__q<query>.<ext> local paths; the mirror stores each file under one
     canonical variant only, so any fetch with a *different* query string would
     404 (some games reload their own entry with another query). Falling back
-    to the base file turns those 404s into 200s."""
+    to the base file turns those 404s into 200s.
+
+    The reverse also happens: a runtime fetch of the plain name (<name>.<ext>)
+    while only a __q… variant is stored (an unpatched loader, e.g. Pixi's
+    Assets, keeps its query in the URL). Serve the stored variant for the
+    same stem + extension — never a different file."""
 
     async def get_response(self, path: str, scope):
         try:
             return await super().get_response(path, scope)
         except StarletteHTTPException as exc:
-            if exc.status_code != 404 or "__q" not in posixpath.basename(path):
+            if exc.status_code != 404:
                 raise
             name = posixpath.basename(path)
-            idx = name.find("__q")
-            if idx <= 0:
-                raise
             dot = name.rfind(".")
-            stem = name[:idx]
-            ext = name[dot:] if dot > idx else ""
+            if dot <= 0:
+                raise
+            ext = name[dot:]
+            stem = name[:dot]
+            if "__q" in stem:  # requested a variant: the plain copy is a candidate
+                stem = stem.split("__q", 1)[0]
+            if not stem:
+                raise
             d = posixpath.dirname(path)
-            cands = [stem + ext] if ext else []
+            cands = [stem + ext]
             try:  # any other stored variant of the same file
                 directory = str(self.directory) + (("/" + d) if d else "")
                 cands += [f for f in os.listdir(directory)

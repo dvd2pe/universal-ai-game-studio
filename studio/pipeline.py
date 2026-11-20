@@ -66,9 +66,11 @@ def run_pipeline(url, slug=None, out_dir=None, progress=print):
 
     manifest = mirror_mod.build_mirror(project, rec, progress)
     rewrite_mod.build_reconstruction(project, manifest, progress)
-    stub_res = stubs_mod.apply_stubs(project, progress)
+    # NO-STUBS POLICY: placeholder files are forbidden. Missing files stay
+    # 404 and are fetched live from the origin CDN by main.py's
+    # origin_backfill_on_404 middleware, then saved into the mirror.
     manifest["rewrite"] = json.loads((reports / "rewrite.json").read_text())
-    manifest["stubs"] = stub_res.get("count", 0)
+    manifest["stubs"] = 0
     (reports / "manifest.json").write_text(json.dumps(manifest, indent=2))
 
     audit_res = audit_mod.run_audit(project, manifest, progress)
@@ -231,7 +233,7 @@ def run_pipeline_zip(zip_path, name=None, out_dir=None, progress=print):
     if mirror.exists():
         shutil.rmtree(mirror)
     shutil.copytree(orig, mirror)
-    stub_res = stubs_mod.apply_stubs(project, progress)  # zips can reference missing files too
+    # NO-STUBS POLICY (see above): zip mirrors stay stub-free too
 
     audit_res = audit_mod.run_audit(project, manifest, progress)
     assets_res = assets_mod.run_assets(project, manifest, progress)
@@ -241,7 +243,7 @@ def run_pipeline_zip(zip_path, name=None, out_dir=None, progress=print):
         "slug": slug, "url": f"zip:{zpath.name}", "status": "complete",
         "final_url": None, "entry_url": manifest["entry_url"],
         "entry_rel": manifest["entry_rel"], "engine": manifest["engine"],
-        "counts": manifest["counts"], "stubs": stub_res.get("count", 0),
+        "counts": manifest["counts"], "stubs": 0,
         "score": verify_res["score"]["total"], "verdict": verify_res["verdict"],
         "audit_summary": audit_res.get("summary", {}),
         "assets_summary": assets_res.get("summary", {}),

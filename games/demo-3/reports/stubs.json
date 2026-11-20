@@ -1,11 +1,1 @@
-{
-  "count": 1,
-  "stubs": [
-    {
-      "rel": "ellisonleao.github.io/clumsy-bird/data/css/gamefont.svg",
-      "refs": [
-        "ellisonleao.github.io/clumsy-bird/index.css: css url() data/css/gamefont.svg#gamefont"
-      ]
-    }
-  ]
-}
+{}

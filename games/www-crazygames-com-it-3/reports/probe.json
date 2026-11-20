@@ -1,0 +1,11 @@
+{
+ "verdict": "PASS",
+ "reqs": 45,
+ "bad": [],
+ "n_bad": 0,
+ "errors": [],
+ "body": "",
+ "canvas": -1,
+ "evalfail": "Cannot switch to a different thread\n\tCurrent:  <greenlet.gre",
+ "wait_s": 40
+}

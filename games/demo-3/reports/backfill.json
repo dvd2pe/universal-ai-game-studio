@@ -1,0 +1,22 @@
+{
+ "cross_filled": 4,
+ "origin_filled": 0,
+ "deleted_missing": 14,
+ "origin_missing": [
+  "count",
+  "ellisonleao.github.io/clumsy-bird/build/data/img/bg.png",
+  "ellisonleao.github.io/clumsy-bird/build/data/img/clumsy.png",
+  "ellisonleao.github.io/clumsy-bird/build/data/img/gameover.png",
+  "ellisonleao.github.io/clumsy-bird/build/data/img/gameoverbg.png",
+  "ellisonleao.github.io/clumsy-bird/build/data/img/getready.png",
+  "ellisonleao.github.io/clumsy-bird/build/data/img/ground.png",
+  "ellisonleao.github.io/clumsy-bird/build/data/img/hit.png",
+  "ellisonleao.github.io/clumsy-bird/build/data/img/logo.png",
+  "ellisonleao.github.io/clumsy-bird/build/data/img/new.png",
+  "ellisonleao.github.io/clumsy-bird/build/data/img/pipe.png",
+  "ellisonleao.github.io/clumsy-bird/build/data/img/share.png",
+  "ellisonleao.github.io/clumsy-bird/build/data/img/tweet.png",
+  "stubs"
+ ],
+ "already_real": 0
+}
