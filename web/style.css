@@ -85,6 +85,12 @@ ul.honest li{margin:6px 0}
 .proj-title{font-size:20px;font-weight:700}
 .kv{font-size:12px;color:var(--muted)}
 .search-wrap{margin-bottom:8px}
+#acq-batch,#zip-file{background:var(--panel2);border:1px solid var(--line);color:var(--text);
+  border-radius:8px;padding:10px 12px;font-size:13px;font-family:inherit;outline:none;width:100%}
+#zip-up{display:flex;align-items:center;gap:10px;margin-top:8px}
+.upbar{flex:1;height:10px;background:var(--panel2);border-radius:6px;overflow:hidden}
+.upbar i{display:block;height:100%;width:0%;background:var(--acc);transition:width .2s}
+#zip-up-pct{min-width:190px;text-align:right}
 @media (max-width:800px){
   .layout{flex-direction:column}
   .sidebar{width:100%;height:auto;position:static;flex-direction:row;flex-wrap:wrap;align-items:center}

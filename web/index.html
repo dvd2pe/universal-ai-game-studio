@@ -57,6 +57,17 @@
         <button id="acq-batch-go" class="primary">Acquire all URLs found</button>
       </div>
 
+      <h2>Upload game ZIP — no size limit</h2>
+      <p class="muted">Have an offline build? Upload a ZIP of a game you own: it is unpacked
+      (streamed, path-safe), the entry page is detected, then audited, verified and backed
+      up to GitHub like any acquired game.</p>
+      <div class="acquire-form" style="flex-direction:column;align-items:stretch">
+        <input id="zip-file" type="file" accept=".zip,application/zip">
+        <button id="zip-go" class="primary">Upload &amp; acquire</button>
+        <div id="zip-up" class="hidden"><div class="upbar"><i id="zip-up-bar"></i></div>
+          <span id="zip-up-pct" class="kv">0%</span></div>
+      </div>
+
       <h2>GitHub backup</h2>
       <p class="muted">After each acquire the workspace (code + games) is pushed to the private
       repo <code>universal-ai-game-studio</code>. If the sandbox resets and projects disappear,

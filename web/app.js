@@ -79,6 +79,46 @@ $("#acq-batch-go").onclick = async () => {
   pollJob(res.job_id, true);
 };
 
+// ---- zip upload (no size limit) ----
+$("#zip-go").onclick = () => {
+  const f = $("#zip-file").files[0];
+  if (!f) return;
+  $("#zip-go").disabled = true;
+  $("#zip-up").classList.remove("hidden");
+  $("#zip-up-bar").style.width = "0%";
+  const xhr = new XMLHttpRequest();
+  xhr.open("POST", "/api/upload_zip?name=" + encodeURIComponent(f.name));
+  xhr.upload.onprogress = e => {
+    if (e.lengthComputable) {
+      const pct = Math.round(e.loaded / e.total * 100);
+      $("#zip-up-bar").style.width = pct + "%";
+      $("#zip-up-pct").textContent = pct + "% · " + fmtSize(e.loaded) + " / " + fmtSize(e.total);
+    }
+  };
+  xhr.onload = () => {
+    $("#zip-go").disabled = false;
+    let res = {};
+    try { res = JSON.parse(xhr.responseText); } catch {}
+    if (!res.job_id) {
+      $("#job-result").innerHTML = `<span class="badge b-bad">${res.detail || "upload failed"}</span>`;
+      $("#acq-progress").classList.remove("hidden");
+      return;
+    }
+    $("#acq-progress").classList.remove("hidden");
+    $("#job-state").textContent = "running";
+    $("#job-slug").textContent = "";
+    $("#job-log").textContent = "zip uploaded — running pipeline\n";
+    $("#job-result").innerHTML = "";
+    pollJob(res.job_id);
+  };
+  xhr.onerror = () => {
+    $("#zip-go").disabled = false;
+    $("#acq-progress").classList.remove("hidden");
+    $("#job-result").innerHTML = `<span class="badge b-bad">upload error</span>`;
+  };
+  xhr.send(f);
+};
+
 // ---- github backup ----
 $("#gh-push").onclick = () => ghSync("/api/sync/push");
 $("#gh-restore").onclick = () => ghSync("/api/sync/restore");
@@ -110,6 +150,7 @@ async function pollJob(id, batch = false) {
   if (j.status === "running") return setTimeout(() => pollJob(id, batch), 1200);
   $("#acq-go").disabled = false;
   $("#acq-batch-go").disabled = false;
+  $("#zip-go").disabled = false;
   if (j.status === "done") {
     if (batch && j.summary?.batch) {
       const rows = (j.summary.results || []).map(r => `<tr>
@@ -236,7 +277,7 @@ async function renderProject(tab = "recon") {
     body.innerHTML = `
       <p class="muted">Local reconstruction, served by this portal (no original host involved):</p>
       <iframe class="preview" src="/games/${slug}/mirror/"></iframe>
-      <p class="muted">Direct link: <a href="/games/${slug}/mirror/${s.entry_rel}" target="_blank">open game in new tab</a></p>`;
+      <p class="muted">Direct link: <a href="/play/${slug}" target="_blank">open game in new tab</a> (full-screen wrapper, cross-origin isolated)</p>`;
   }
 }
 const fbCls = s => s >= 80 ? "b-ok" : s >= 50 ? "b-warn" : "b-bad";

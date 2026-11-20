@@ -28,7 +28,8 @@ def _local_rel(url):
 
 
 def _download(url, referer, dest):
-    headers = {"User-Agent": config.BROWSER_UA, "Referer": referer, "Accept": "*/*"}
+    headers = {"User-Agent": config.BROWSER_UA, "Referer": referer, "Accept": "*/*",
+               "Accept-Encoding": "identity"}  # store decoded bytes, never compressed
     for attempt in range(1, config.DOWNLOAD_RETRIES + 1):
         try:
             r = requests.get(url, headers=headers, timeout=config.DOWNLOAD_TIMEOUT_S, stream=True)
@@ -87,6 +88,7 @@ def build_mirror(project_dir, recon, progress=print):
             all_rels.add(cand)
             progress(f"mirror: page rel '{rel}' clashes with dir prefix → '{cand}'")
 
+    dl_jobs = {}  # dest -> {"url": representative URL, "entries": [entry, ...]}
     for res in recon["resources"]:
         url = res["url"]
         rel = rel_for[url]
@@ -98,7 +100,6 @@ def build_mirror(project_dir, recon, progress=print):
         }
         raw = raw_dir / res["raw"] if res.get("raw") else None
         dest = acq / rel
-        ok = False
         if raw and raw.exists():
             data = raw.read_bytes()
             if data:
@@ -113,27 +114,54 @@ def build_mirror(project_dir, recon, progress=print):
                     seen_hashes[h] = rel
                     used_rels.add(rel)
                     counts["captured"] += 1
-                ok = True
-        if not ok:
-            r = _download(url, index_url, dest)
-            entry["status"] = r["status"]
+            resources.append(entry)
+        else:
+            # downloads are grouped per destination so each file is fetched once
+            job = dl_jobs.setdefault(dest, {"url": url, "entries": []})
+            job["entries"].append(entry)
+            resources.append(entry)
+
+    total_dl = len(dl_jobs)
+    progress(f"mirror: {counts['captured']} captured from the page session, "
+             f"{total_dl} files to download (x{config.DOWNLOAD_CONCURRENCY} parallel)")
+    from concurrent.futures import ThreadPoolExecutor, as_completed
+    done = 0
+    with ThreadPoolExecutor(max_workers=max(1, config.DOWNLOAD_CONCURRENCY)) as pool:
+        futs = {pool.submit(_download, job["url"], index_url, dest): (dest, job)
+                for dest, job in dl_jobs.items()}
+        for fut in as_completed(futs):
+            dest, job = futs[fut]
+            try:
+                r = fut.result() or {"status": 0, "error": "download crashed"}
+            except Exception as e:
+                r = {"status": 0, "error": f"download crashed: {e}"}
+            rel = dest.relative_to(acq).as_posix()
+            done += 1
+            if done % 25 == 0 or done == total_dl:
+                progress(f"mirror: downloading {done}/{total_dl}")
+            for entry in job["entries"]:
+                entry["status"] = r["status"]
             if r["status"] == 200:
                 data = dest.read_bytes()
                 h = hashlib.sha256(data).hexdigest()
-                entry["sha256"], entry["size"], entry["source"] = h, len(data), "downloaded"
+                for entry in job["entries"]:
+                    entry["sha256"], entry["size"], entry["source"] = h, len(data), "downloaded"
                 if h in seen_hashes:
                     dest.unlink()
-                    entry["rel"] = seen_hashes[h]
-                    counts["duplicates"] += 1
+                    for entry in job["entries"]:
+                        entry["rel"] = seen_hashes[h]
+                    counts["duplicates"] += len(job["entries"])
                 else:
                     seen_hashes[h] = rel
                     used_rels.add(rel)
-                    counts["downloaded"] += 1
-                ok = True
+                    counts["downloaded"] += len(job["entries"])
             else:
-                entry["error"] = r.get("error", "acquisition failed")
-                counts["failed"] += 1
-        resources.append(entry)
+                for entry in job["entries"]:
+                    entry["error"] = r.get("error", "acquisition failed")
+                counts["failed"] += len(job["entries"])
+    if total_dl:
+        progress(f"mirror: downloads finished — {counts['downloaded']} saved, "
+                 f"{counts['duplicates']} duplicates merged, {counts['failed']} failed")
 
     # collision repair: two distinct files mapped onto one rel (query-hash corner cases)
     fixed = {}

@@ -9,15 +9,16 @@ import mimetypes
 import re
 import threading
 import uuid
+import zipfile
 from pathlib import Path
 
-from fastapi import FastAPI, HTTPException
-from fastapi.responses import RedirectResponse
+from fastapi import FastAPI, HTTPException, Request
+from fastapi.responses import HTMLResponse, RedirectResponse
 from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel
 
 from studio import config, ghsync
-from studio.pipeline import run_pipeline
+from studio.pipeline import run_pipeline, run_pipeline_zip
 
 # engine-relevant MIME types before any StaticFiles is created
 for ext, mime in [(".wasm", "application/wasm"), (".unityweb", "application/octet-stream"),
@@ -31,36 +32,72 @@ app = FastAPI(title="Universal AI Game Studio", version="0.1.0")
 
 @app.middleware("http")
 async def compressed_static_headers(request, call_next):
-    """Mirrors ship pre-compressed Unity/WebGL assets (.br/.gz), but acquisition
-    stores whatever the CDN actually sent — often already-decoded raw bytes.
-    Response headers must match the REAL content or the browser fails to decode
-    (ERR_CONTENT_DECODING_FAILED / script load error). Sniff magic bytes:
-    1f 8b → gzip, 00 61 73 6d / UnityWebData1_0 or plain text → raw, else brotli."""
+    """Mirror files are stored with DECODED bodies (Playwright gives decoded
+    bytes, and requests decodes gzip/brotli), so almost everything must be
+    served raw with NO Content-Encoding — even under a .br/.gz name. Legacy
+    acquisitions may still hold real compressed bytes: decide by actually
+    attempting decompression, and cache the verdict per file. Wrong headers
+    make the browser fail to decode (ERR_CONTENT_DECODING_FAILED) — the Unity
+    loader then hangs at ~90% right before wasm/data instantiate."""
     response = await call_next(request)
     p = request.url.path
     if p.endswith((".br", ".gz")) and p.startswith("/games/"):
         inner = mimetypes.guess_type(p[:-3])[0] or "application/octet-stream"
         if p[:-3].endswith(".wasm"):
             inner = "application/wasm"
-        enc, head = "br", b""
-        try:
-            f = (config.GAMES_DIR / p[len("/games/"):]).resolve()
-            if str(f).startswith(str(config.GAMES_DIR.resolve())) and f.is_file():
-                with f.open("rb") as fh:
-                    head = fh.read(16)
-        except OSError:
-            head = b""
-        if head[:2] == b"\x1f\x8b":
-            enc = "gzip"
-        elif (head[:4] == b"\x00asm" or head.startswith(b"UnityWebData1.")
-              or all(b < 128 and (32 <= b < 127 or b in (9, 10, 13)) for b in head)):
-            enc = None  # raw bytes — serve as-is, no Content-Encoding
+        enc = _static_encoding(config.GAMES_DIR / p[len("/games/"):])
+        response.headers["Content-Type"] = inner
+        # a stale cache entry with a wrong encoding wedges the game loader
+        response.headers["Cache-Control"] = "no-store"
         if enc:
             response.headers["Content-Encoding"] = enc
-            response.headers["Content-Type"] = inner
-        else:
-            response.headers["Content-Type"] = inner
     return response
+
+
+_encoding_cache = {}  # (path, size, mtime) -> "gzip" | "br" | None
+
+
+def _static_encoding(path):
+    """Cached Content-Encoding verdict for a stored mirror file."""
+    try:
+        f = Path(path).resolve()
+        if not str(f).startswith(str(config.GAMES_DIR.resolve())) or not f.is_file():
+            return None
+        st = f.stat()
+    except OSError:
+        return None
+    key = (str(f), st.st_size, st.st_mtime)
+    if key in _encoding_cache:
+        return _encoding_cache[key]
+    enc = None
+    try:
+        with f.open("rb") as fh:
+            head = fh.read(16)
+        if head[:2] == b"\x1f\x8b":
+            enc = "gzip"  # gzip has a magic number — trust it
+        elif head.startswith(b"UnityWeb"):
+            enc = None    # Unity's own container: the game loader decompresses it
+        elif head[:4] == b"\x00asm" or all(
+                b < 128 and (32 <= b < 127 or b in (9, 10, 13)) for b in head):
+            enc = None    # decoded wasm / decoded text
+        elif st.st_size <= 64 * 1024 * 1024:
+            # ambiguous binary: a genuinely compressed stream decompresses cleanly
+            data = f.read_bytes()
+            try:
+                import brotli
+                brotli.decompress(data)
+                enc = "br"
+            except Exception:
+                try:
+                    import gzip
+                    gzip.decompress(data)
+                    enc = "gzip"
+                except Exception:
+                    enc = None  # decoded binary we don't recognize — serve raw
+    except OSError:
+        enc = None
+    _encoding_cache[key] = enc
+    return enc
 
 
 JOBS = {}  # job_id -> {status, slug, log, summary, error}
@@ -207,6 +244,81 @@ def api_sync_restore():
         except Exception as e:
             JOBS[job_id]["status"] = "failed"
             JOBS[job_id]["error"] = f"{type(e).__name__}: {str(e)[-200:]}"
+
+    threading.Thread(target=worker, daemon=True).start()
+    return {"job_id": job_id}
+
+
+@app.get("/play/{slug}")
+def play(slug: str):
+    """Full-viewport wrapper around the mirrored entry page: keeps the game in
+    an iframe context (like the original portal page) and enables cross-origin
+    isolation for Unity builds that use wasm threads."""
+    p = config.GAMES_DIR / slug / "reports" / "manifest.json"
+    if not p.exists():
+        raise HTTPException(404, "project not found")
+    entry = _load_json(p).get("entry_rel") or ""
+    html = f"""<!doctype html><html><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{slug}</title>
+<style>html,body{{margin:0;height:100%;background:#000;overflow:hidden}}
+iframe{{border:0;width:100%;height:100%;display:block}}</style></head>
+<body><iframe src="/games/{slug}/mirror/{entry}"
+allow="autoplay; fullscreen; gamepad; clipboard-write"></iframe></body></html>"""
+    return HTMLResponse(html, headers={
+        "Cross-Origin-Opener-Policy": "same-origin",
+        "Cross-Origin-Embedder-Policy": "credentialless",
+    })
+
+
+@app.post("/api/upload_zip")
+async def api_upload_zip(request: Request, name: str = ""):
+    """Stream an uploaded game ZIP to disk (raw body — no size limit), then run
+    the zip pipeline as a background job."""
+    job_id = uuid.uuid4().hex[:12]
+    uploads = config.GAMES_DIR.parent / "uploads"
+    uploads.mkdir(parents=True, exist_ok=True)
+    zpath = uploads / f"{job_id}.zip"
+    size = 0
+    with zpath.open("wb") as f:
+        async for chunk in request.stream():
+            f.write(chunk)
+            size += len(chunk)
+    if size == 0 or not zipfile.is_zipfile(zpath):
+        try:
+            zpath.unlink()
+        except OSError:
+            pass
+        raise HTTPException(400, f"no valid zip received ({size} bytes)")
+    JOBS[job_id] = {"status": "running", "slug": None, "log": [], "summary": None, "error": None}
+
+    def progress(line):
+        entry = JOBS.get(job_id)
+        if entry is not None:
+            entry["log"].append(str(line)[:300])
+            if line.startswith("project:"):
+                entry["slug"] = str(line).split()[1]
+
+    def worker():
+        try:
+            with PIPELINE_LOCK:
+                summary = run_pipeline_zip(zpath, name=name, progress=progress)
+            JOBS[job_id]["summary"] = summary
+            JOBS[job_id]["slug"] = summary.get("slug")
+            JOBS[job_id]["status"] = "done" if summary.get("status") == "complete" else "failed"
+            if summary.get("status") == "complete":
+                try:
+                    ghsync.push(progress)
+                except Exception as e:
+                    progress(f"github push failed (game saved locally anyway): {str(e)[-160:]}")
+        except Exception as e:
+            JOBS[job_id]["status"] = "failed"
+            JOBS[job_id]["error"] = f"{type(e).__name__}: {e}"
+        finally:
+            try:
+                zpath.unlink()
+            except OSError:
+                pass
 
     threading.Thread(target=worker, daemon=True).start()
     return {"job_id": job_id}
