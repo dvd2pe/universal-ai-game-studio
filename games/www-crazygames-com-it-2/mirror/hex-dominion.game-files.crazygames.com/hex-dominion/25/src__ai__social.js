@@ -1,0 +1,11 @@
+const FIRST=['Alex','Liam','Noah','Oliver','Daniel','Max','Leo','Lucas','Adam','Ryan','James','Ben','Oscar','Theo','Ethan','Sam','Nico','Aria','Mia','Emma','Sofia','Luna','Chloe','Nora','Eva','Layla','Zoe','Mila','Ava','Hana','Omar','Amir','Yusuf','Karim','Rami','Zaid','Sami','Dani','Ivan','Andrei','Luka','Marek','Hugo','Enzo','Diego','Mateo','Kenji','Ren','Kai','Min'];
+const END=['','_K','_M','.R','77','21','09','88','_GG','42','_T','17'];
+export function rivalName(rng=Math.random){return FIRST[Math.floor(rng()*FIRST.length)]+END[Math.floor(rng()*END.length)];}
+export const matchDuration=(rng=Math.random)=>4500+Math.floor(rng()*2501);
+export const EMOTES=[{id:'laugh',icon:'😂',en:'Laugh',ar:'ضحك'},{id:'cry',icon:'😭',en:'Cry',ar:'بكاء'},{id:'angry',icon:'😤',en:'Angry',ar:'غضب'},{id:'wow',icon:'😮',en:'Surprised',ar:'دهشة'},{id:'good',icon:'👏',en:'Well played',ar:'لعب جميل'},{id:'love',icon:'😎',en:'Confident',ar:'ثقة'}];
+export class RivalEmotes{
+ constructor(rng=Math.random){this.rng=rng;this.nextAt=10+rng()*12;this.pending=null;this.lastPlayer=-10;this.lastBot=-20;this.muted=false;}
+ player(id,now){if(!EMOTES.some(e=>e.id===id)||now-this.lastPlayer<4)return false;this.lastPlayer=now;if(!this.muted&&!this.pending&&now-this.lastBot>8&&this.rng()<.72){const replies={laugh:['laugh','angry','love'],cry:['good','cry'],angry:['wow','love'],wow:['wow','laugh'],good:['good','love'],love:['love','laugh']};const list=replies[id];this.pending={id:list[Math.floor(this.rng()*list.length)],at:now+1.2+this.rng()*2.8};}return true;}
+ tick(b,events=[]){const now=b.elapsed;if(this.muted)return null;if(this.pending&&now>=this.pending.at){const id=this.pending.id;this.pending=null;this.lastBot=now;this.nextAt=now+18+this.rng()*24;return id;}if(now<this.nextAt||now-this.lastBot<12)return null;this.nextAt=now+16+this.rng()*22;const losses=events.filter(e=>e.type==='destroy'&&e.kind!=='bee');let options=b.grid.counts[2]>b.grid.counts[1]+60?['love','laugh']:b.grid.counts[1]>b.grid.counts[2]+60?['angry','wow']:['good','wow'];if(losses.some(e=>e.owner===2))options=['cry','angry'];if(this.rng()>.65)return null;this.lastBot=now;return options[Math.floor(this.rng()*options.length)];}
+ result(playerWon){if(this.muted||this.rng()>.7)return null;const list=playerWon?['cry','good','angry']:['love','good','laugh'];return list[Math.floor(this.rng()*list.length)];}
+}

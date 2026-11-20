@@ -1,0 +1,61 @@
+{
+  "loaded_url": "http://127.0.0.1:35627/hex-dominion.game-files.crazygames.com/hex-dominion/25/index__qisNewUser_tr.html",
+  "canvas": {
+    "w": 483,
+    "h": 661
+  },
+  "animation_detected": true,
+  "console_errors": [],
+  "page_errors": 0,
+  "missing_requests": [],
+  "failed_requests": [],
+  "external_hosts": {},
+  "local_requests": 65,
+  "counts": {
+    "acquired": 366,
+    "discovered": 536,
+    "files": 351
+  },
+  "score": {
+    "total": 92,
+    "components": {
+      "acquisition": {
+        "value": 0.683,
+        "weight": 0.25,
+        "contribution": 17.1
+      },
+      "integrity": {
+        "value": 0.997,
+        "weight": 0.15,
+        "contribution": 15.0
+      },
+      "dependencies": {
+        "value": 1.0,
+        "weight": 0.15,
+        "contribution": 15.0
+      },
+      "launch": {
+        "value": 1.0,
+        "weight": 0.15,
+        "contribution": 15.0
+      },
+      "runtime_paint": {
+        "value": 1.0,
+        "weight": 0.1,
+        "contribution": 10.0
+      },
+      "coverage": {
+        "value": 1.0,
+        "weight": 0.1,
+        "contribution": 10.0
+      },
+      "external_isolation": {
+        "value": 1.0,
+        "weight": 0.1,
+        "contribution": 10.0
+      }
+    },
+    "note": "0-100 weighted sum of independently measured components"
+  },
+  "verdict": "verified-playable-locally: game launched, rendered and animated offline from the mirror"
+}

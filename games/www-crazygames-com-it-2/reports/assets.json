@@ -1,0 +1,5553 @@
+{
+  "items": [
+    {
+      "path": "0406df2f8706c755aea5048db4397059.safeframe.googlesyndication.com/safeframe/1-0-45/html/container__qn_1.html",
+      "category": "code",
+      "meta": {
+        "size_bytes": 7446,
+        "format": "html"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "aax.amazon-adsystem.com/e/dtb/bid/926463.55/0/prebid__qadunitid_aqg",
+      "category": "other",
+      "meta": {
+        "size_bytes": 19,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "accounts.google.com/gsi/client",
+      "category": "other",
+      "meta": {
+        "size_bytes": 280057,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "accounts.google.com/gsi/fedcm/config/passive.json",
+      "category": "config",
+      "meta": {
+        "size_bytes": 1442,
+        "format": "json"
+      },
+      "feasibility": {
+        "score": 55,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "accounts.google.com/gsi/fedcm/listaccounts",
+      "category": "other",
+      "meta": {
+        "size_bytes": 62,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "accounts.google.com/gsi/status__qclient_id_49",
+      "category": "other",
+      "meta": {
+        "size_bytes": 79,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "accounts.google.com/gsi/style",
+      "category": "other",
+      "meta": {
+        "size_bytes": 696,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "ads.pubmatic.com/AdServer/js/user_sync__qgdpr_0_gdpr_.html",
+      "category": "code",
+      "meta": {
+        "size_bytes": 22335,
+        "format": "html"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "api.crazygames.com/v4/en_US/configv3",
+      "category": "other",
+      "meta": {
+        "size_bytes": 18579,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "api.crazygames.com/v4/en_US/game/hex-dominion/rating",
+      "category": "other",
+      "meta": {
+        "size_bytes": 30,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "api.crazygames.com/v4/it_IT/games/basicLaunch__qdevice_deskt",
+      "category": "other",
+      "meta": {
+        "size_bytes": 4098111,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "api.crazygames.com/v4/it_IT/unitsconfig__qcountry_HK",
+      "category": "other",
+      "meta": {
+        "size_bytes": 3503,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "ats-wrapper.privacymanager.io/ats-modules/f335ec38-f1f6-423b-8091-fe87576411ae/ats.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 130499,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/gameframe/static/js/8bMbYHnb2.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 3231,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/gameframe/static/js/B64wT94t.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 10783,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/gameframe/static/js/BByQv_Bo2.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 6227,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/gameframe/static/js/BSTaXr_G.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 4470,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/gameframe/static/js/ByF0oZf9.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 1525,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/gameframe/static/js/CKRfKwc82.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 1263,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/gameframe/static/js/Cc5IXyQv2.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 4183,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/gameframe/static/js/D1oZjxrY2.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 31799,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/gameframe/static/js/DUwvcEJu.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 4854,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/gameframe/static/js/DdPAVnY5.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 24435,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/gameframe/static/js/DesdDbnn.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 1940,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/gameframe/static/js/Df2MVSKS2.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 10487,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/gameframe/v2.14/bundle.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 885121,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/portal-web/_next/static/1795091751/_buildManifest.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 6000,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/portal-web/_next/static/1795091751/_ssgManifest.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 77,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/portal-web/_next/static/chunks/14434-c17bcbafd5b6f726.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 33426,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/portal-web/_next/static/chunks/16790.faa7938429f06041.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 2729,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/portal-web/_next/static/chunks/1871.d8c214416bf611bd.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 41000,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/portal-web/_next/static/chunks/1bd5887b-aeda1d4dc1d4c5d6.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 124967,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/portal-web/_next/static/chunks/20299.3446c1257377bdb1.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 10117,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/portal-web/_next/static/chunks/21550.567375bf60279fc6.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 1863,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/portal-web/_next/static/chunks/23504.8bddfb04a465c6f0.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 9591,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/portal-web/_next/static/chunks/33297-74b8dca86dff2137.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 11886,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/portal-web/_next/static/chunks/36092.0349f610968cbf9e.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 1639,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/portal-web/_next/static/chunks/42035.1477a89fe640024e.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 6986,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/portal-web/_next/static/chunks/49378.60db7626f9d4e44f.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 3236,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/portal-web/_next/static/chunks/54135.d94d5dea709a8f84.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 10990,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/portal-web/_next/static/chunks/63877-c2d40d30009765f7.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 110812,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/portal-web/_next/static/chunks/65142.d96517d600582bf4.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 85267,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/portal-web/_next/static/chunks/6847-aefee112308b4d28.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 25549,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/portal-web/_next/static/chunks/73066-ee4e2d0ab88fd850.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 47355,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/portal-web/_next/static/chunks/76683.bed38207f2580772.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 13592,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/portal-web/_next/static/chunks/80957.fafa430367cb012a.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 26002,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/portal-web/_next/static/chunks/82067.ff9a3b15c3e78a8b.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 17699,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/portal-web/_next/static/chunks/83767.e065e668cf21a614.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 1010,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/portal-web/_next/static/chunks/86092.8f279f3c9e289c0d.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 64325,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/portal-web/_next/static/chunks/88823-2d8457dd7fbe1da5.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 23104,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/portal-web/_next/static/chunks/89247-b71493a621fcc168.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 23342,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/portal-web/_next/static/chunks/89837-94227bbb7509f614.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 46534,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/portal-web/_next/static/chunks/9690-e20dda3addafa762.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 32100,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/portal-web/_next/static/chunks/98881.cf293c9bfa4d5f9d.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 35677,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/portal-web/_next/static/chunks/99414.d6bebab3fad69f8f.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 9458,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/portal-web/_next/static/chunks/framework-5e11c2d5d470e84d.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 190558,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/portal-web/_next/static/chunks/main-d3e2aedeadf39fcd.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 262921,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/portal-web/_next/static/chunks/pages/_app-7d25fb516595d4af.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 1024059,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/portal-web/_next/static/chunks/pages/game/_game_-ad1c3e8dbd589296.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 20597,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/portal-web/_next/static/chunks/webpack-a7cf33bd636e662b.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 28717,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/portal-web/_next/static/css/031e1778ec9c348e.css",
+      "category": "code",
+      "meta": {
+        "size_bytes": 13203,
+        "format": "css"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/portal-web/_next/static/css/3725ca9154e05542.css",
+      "category": "code",
+      "meta": {
+        "size_bytes": 39218,
+        "format": "css"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/portal-web/_next/static/css/581e397261e10ee2.css",
+      "category": "code",
+      "meta": {
+        "size_bytes": 320811,
+        "format": "css"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/portal-web/_next/static/css/5bcc76f3b4fbe4c4.css",
+      "category": "code",
+      "meta": {
+        "size_bytes": 100704,
+        "format": "css"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/portal-web/_next/static/css/5db9552f0a5fb1a1.css",
+      "category": "code",
+      "meta": {
+        "size_bytes": 6513,
+        "format": "css"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/portal-web/_next/static/css/614e687fbe00b148.css",
+      "category": "code",
+      "meta": {
+        "size_bytes": 53518,
+        "format": "css"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/portal-web/_next/static/css/6f3bc1ffa4b59ff3.css",
+      "category": "code",
+      "meta": {
+        "size_bytes": 2689,
+        "format": "css"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/portal-web/_next/static/css/7298308bc3878c18.css",
+      "category": "code",
+      "meta": {
+        "size_bytes": 25002,
+        "format": "css"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/portal-web/_next/static/css/7deffa60fe068947.css",
+      "category": "code",
+      "meta": {
+        "size_bytes": 22800,
+        "format": "css"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/portal-web/_next/static/css/88e5c940bbc969ac.css",
+      "category": "code",
+      "meta": {
+        "size_bytes": 1391,
+        "format": "css"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/portal-web/_next/static/css/91f4b48f90d625cc.css",
+      "category": "code",
+      "meta": {
+        "size_bytes": 29471,
+        "format": "css"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/portal-web/_next/static/css/9802f89b70963e60.css",
+      "category": "code",
+      "meta": {
+        "size_bytes": 705,
+        "format": "css"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/portal-web/_next/static/css/9ce16680287f0906.css",
+      "category": "code",
+      "meta": {
+        "size_bytes": 96833,
+        "format": "css"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/portal-web/_next/static/css/b1de9405606fc0e1.css",
+      "category": "code",
+      "meta": {
+        "size_bytes": 64762,
+        "format": "css"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/portal-web/_next/static/css/b855fb72a0eb1c9c.css",
+      "category": "code",
+      "meta": {
+        "size_bytes": 75269,
+        "format": "css"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/portal-web/_next/static/css/c4a72e6084fc69c3.css",
+      "category": "code",
+      "meta": {
+        "size_bytes": 65432,
+        "format": "css"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/portal-web/_next/static/css/d239be49867c9718.css",
+      "category": "code",
+      "meta": {
+        "size_bytes": 14689,
+        "format": "css"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/portal-web/_next/static/css/dfdf111b0ff12747.css",
+      "category": "code",
+      "meta": {
+        "size_bytes": 58269,
+        "format": "css"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/portal-web/_next/static/css/e844aa76c7b000fa.css",
+      "category": "code",
+      "meta": {
+        "size_bytes": 77517,
+        "format": "css"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/portal-web/_next/static/css/ebbd98611333aec8.css",
+      "category": "code",
+      "meta": {
+        "size_bytes": 14275,
+        "format": "css"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/portal-web/_next/static/css/f5d1c303e6b14100.css",
+      "category": "code",
+      "meta": {
+        "size_bytes": 20510,
+        "format": "css"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/portal-web/_next/static/media/4addd173933af60a.p.woff2",
+      "category": "font",
+      "meta": {
+        "size_bytes": 56744,
+        "format": "woff2"
+      },
+      "feasibility": {
+        "score": 70,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/portal-web/_next/static/media/6ad36a674cfc3e90.p.woff2",
+      "category": "font",
+      "meta": {
+        "size_bytes": 31256,
+        "format": "woff2"
+      },
+      "feasibility": {
+        "score": 70,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/portal-web/_next/static/media/72fd0ddcfc9397a7.p.woff2",
+      "category": "font",
+      "meta": {
+        "size_bytes": 32828,
+        "format": "woff2"
+      },
+      "feasibility": {
+        "score": 70,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/portal-web/_next/static/media/e3353863c413f150.p.woff2",
+      "category": "font",
+      "meta": {
+        "size_bytes": 55908,
+        "format": "woff2"
+      },
+      "feasibility": {
+        "score": 70,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "cdn.privacy-mgmt.com/unified/wrapperMessagingWithoutDetection.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 151158,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "check.analytics.rlcdn.com/check/13431",
+      "category": "other",
+      "meta": {
+        "size_bytes": 25,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "cm.adform.net/cookie__qredirect_url",
+      "category": "other",
+      "meta": {
+        "size_bytes": 35,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "cm.g.doubleclick.net/partnerpixels__qurl_https_3A",
+      "category": "other",
+      "meta": {
+        "size_bytes": 41,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "cms.quantserve.com/pixel/p-5aWVS_roA1dVM__qidmatch_0_gd.gif",
+      "category": "image",
+      "meta": {
+        "size_bytes": 35,
+        "format": "GIF",
+        "width": 1,
+        "height": 1,
+        "mode": "P",
+        "alpha": false
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "cs.media.net/cksync__qcs_8.php",
+      "category": "other",
+      "meta": {
+        "size_bytes": 43,
+        "format": "php"
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "dpm.demdex.net/ibs_dpid_903_dpuuid_3c0e9b63-0e37-49a4-a851-794945974096_gdpr_0_gdpr_consent__redir_https_/match.adsrvr.org/track/cmf/generic_ttd_pid_aam",
+      "category": "other",
+      "meta": {
+        "size_bytes": 42,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "elb.the-ozone-project.com/cookie_sync",
+      "category": "other",
+      "meta": {
+        "size_bytes": 1621,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "elb.the-ozone-project.com/openrtb2/auction",
+      "category": "other",
+      "meta": {
+        "size_bytes": 74,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "elb.the-ozone-project.com/static/load-cookie__qgdpr_0_gdpr_.html",
+      "category": "code",
+      "meta": {
+        "size_bytes": 12608,
+        "format": "html"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "ep1.adtrafficquality.google/getconfig/sodar__qsv_200_tid_g_dup0",
+      "category": "other",
+      "meta": {
+        "size_bytes": 18478,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "ep2.adtrafficquality.google/sodar/sodar2/257/runner.html",
+      "category": "code",
+      "meta": {
+        "size_bytes": 15370,
+        "format": "html"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "ep2.adtrafficquality.google/sodar/sodar2.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 22416,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "esp.rtbhouse.com/encrypt",
+      "category": "other",
+      "meta": {
+        "size_bytes": 305,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "fafvertizing.crazygames.com/v12.38/424.bundle.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 48202,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "fafvertizing.crazygames.com/v12.38/rafvertizing-prebid.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 936240,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "fafvertizing.crazygames.com/v12.38/rafvertizing.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 338884,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "fast.nexx360.io/booster",
+      "category": "other",
+      "meta": {
+        "size_bytes": 5365,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "fastlane.rubiconproject.com/a/api/fastlane__qaccount_id_1.json",
+      "category": "config",
+      "meta": {
+        "size_bytes": 603,
+        "format": "json"
+      },
+      "feasibility": {
+        "score": 55,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "fonts.googleapis.com/css2__qdisplay_swap",
+      "category": "other",
+      "meta": {
+        "size_bytes": 9105,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "fonts.googleapis.com/css__qfamily_Open_",
+      "category": "other",
+      "meta": {
+        "size_bytes": 5954,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "fonts.gstatic.com/s/nunito/v32/XRXV3I6Li01BKofINeaB.woff2",
+      "category": "font",
+      "meta": {
+        "size_bytes": 39128,
+        "format": "woff2"
+      },
+      "feasibility": {
+        "score": 70,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "games.crazygames.com/it_IT/hex-dominion/index__qisNewUser_tr.html",
+      "category": "code",
+      "meta": {
+        "size_bytes": 18710,
+        "format": "html"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "geo.privacymanager.io/index.html",
+      "category": "code",
+      "meta": {
+        "size_bytes": 119,
+        "format": "html"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "google-bidout-d.openx.net/w/1.0/pd__qplm_5",
+      "category": "other",
+      "meta": {
+        "size_bytes": 583,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "google.com/.well-known/web-identity",
+      "category": "other",
+      "meta": {
+        "size_bytes": 218,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "gum.criteo.com/sid/json__qorigin_prebi",
+      "category": "other",
+      "meta": {
+        "size_bytes": 368,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "gum.criteo.com/sid/json__qorigin_publi_dup0",
+      "category": "other",
+      "meta": {
+        "size_bytes": 451,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "gum.criteo.com/syncframe__qorigin_publi",
+      "category": "other",
+      "meta": {
+        "size_bytes": 13406,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "hex-dominion.game-files.crazygames.com/hex-dominion/25/assets__adventure.mp3",
+      "category": "audio",
+      "meta": {
+        "size_bytes": 2968131,
+        "format": "mp3",
+        "duration_s": 247.275102,
+        "channels": 2,
+        "sample_rate": "44100",
+        "width": null,
+        "height": null
+      },
+      "feasibility": {
+        "score": 75,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "hex-dominion.game-files.crazygames.com/hex-dominion/25/assets__arenas.png",
+      "category": "image",
+      "meta": {
+        "size_bytes": 1686296,
+        "format": "PNG",
+        "width": 960,
+        "height": 1600,
+        "mode": "RGBA",
+        "alpha": true
+      },
+      "feasibility": {
+        "score": 80,
+        "class": "easy",
+        "notes": [
+          "shared asset referenced from 2 locations"
+        ],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "hex-dominion.game-files.crazygames.com/hex-dominion/25/assets__avatars.png",
+      "category": "image",
+      "meta": {
+        "size_bytes": 2329882,
+        "format": "PNG",
+        "width": 1448,
+        "height": 1086,
+        "mode": "RGBA",
+        "alpha": true
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "hex-dominion.game-files.crazygames.com/hex-dominion/25/assets__loading-wide.webp",
+      "category": "image",
+      "meta": {
+        "size_bytes": 143848,
+        "format": "WEBP",
+        "width": 1440,
+        "height": 810,
+        "mode": "RGB",
+        "alpha": false
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "hex-dominion.game-files.crazygames.com/hex-dominion/25/assets__lobby-daily.svg",
+      "category": "image",
+      "meta": {
+        "size_bytes": 1692,
+        "format": "svg"
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "hex-dominion.game-files.crazygames.com/hex-dominion/25/assets__lobby-missions.svg",
+      "category": "image",
+      "meta": {
+        "size_bytes": 1521,
+        "format": "svg"
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "hex-dominion.game-files.crazygames.com/hex-dominion/25/assets__packs.png",
+      "category": "image",
+      "meta": {
+        "size_bytes": 1476368,
+        "format": "PNG",
+        "width": 2172,
+        "height": 724,
+        "mode": "RGBA",
+        "alpha": true
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "hex-dominion.game-files.crazygames.com/hex-dominion/25/assets__rounded.ttf",
+      "category": "font",
+      "meta": {
+        "size_bytes": 285508,
+        "format": "ttf"
+      },
+      "feasibility": {
+        "score": 65,
+        "class": "moderate",
+        "notes": [
+          "shared asset referenced from 2 locations"
+        ],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "hex-dominion.game-files.crazygames.com/hex-dominion/25/assets__ui-icons.png",
+      "category": "image",
+      "meta": {
+        "size_bytes": 1549925,
+        "format": "PNG",
+        "width": 1983,
+        "height": 793,
+        "mode": "RGBA",
+        "alpha": true
+      },
+      "feasibility": {
+        "score": 80,
+        "class": "easy",
+        "notes": [
+          "shared asset referenced from 2 locations"
+        ],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "hex-dominion.game-files.crazygames.com/hex-dominion/25/assets__weapons-v1.10.15.webp",
+      "category": "image",
+      "meta": {
+        "size_bytes": 1084370,
+        "format": "WEBP",
+        "width": 1280,
+        "height": 1600,
+        "mode": "RGBA",
+        "alpha": true
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "hex-dominion.game-files.crazygames.com/hex-dominion/25/config.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 133,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "hex-dominion.game-files.crazygames.com/hex-dominion/25/index__qisNewUser_tr.html",
+      "category": "code",
+      "meta": {
+        "size_bytes": 1393,
+        "format": "html"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "hex-dominion.game-files.crazygames.com/hex-dominion/25/src__ai__bot.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 11263,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "hex-dominion.game-files.crazygames.com/hex-dominion/25/src__ai__social.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 2414,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "hex-dominion.game-files.crazygames.com/hex-dominion/25/src__battle__engine.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 16779,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "hex-dominion.game-files.crazygames.com/hex-dominion/25/src__bootstrap.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 1821,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "hex-dominion.game-files.crazygames.com/hex-dominion/25/src__economy__battle-supplies.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 4397,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "hex-dominion.game-files.crazygames.com/hex-dominion/25/src__economy__daily.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 3421,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "hex-dominion.game-files.crazygames.com/hex-dominion/25/src__economy__deployment.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 2325,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "hex-dominion.game-files.crazygames.com/hex-dominion/25/src__economy__economy.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 5548,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "hex-dominion.game-files.crazygames.com/hex-dominion/25/src__economy__market.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 3120,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "hex-dominion.game-files.crazygames.com/hex-dominion/25/src__economy__missions.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 6465,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "hex-dominion.game-files.crazygames.com/hex-dominion/25/src__economy__quick-charge.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 1301,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "hex-dominion.game-files.crazygames.com/hex-dominion/25/src__economy__road.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 5910,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "hex-dominion.game-files.crazygames.com/hex-dominion/25/src__economy__stage-packs.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 7040,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "hex-dominion.game-files.crazygames.com/hex-dominion/25/src__economy__unlocks.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 1512,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "hex-dominion.game-files.crazygames.com/hex-dominion/25/src__economy__upgrade-support.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 1200,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "hex-dominion.game-files.crazygames.com/hex-dominion/25/src__main.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 122987,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "hex-dominion.game-files.crazygames.com/hex-dominion/25/src__platform__ad-session.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 1860,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "hex-dominion.game-files.crazygames.com/hex-dominion/25/src__platform__audio.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 12528,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "hex-dominion.game-files.crazygames.com/hex-dominion/25/src__platform__device.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 960,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "hex-dominion.game-files.crazygames.com/hex-dominion/25/src__platform__loading.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 2676,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "hex-dominion.game-files.crazygames.com/hex-dominion/25/src__platform__match-break.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 1753,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "hex-dominion.game-files.crazygames.com/hex-dominion/25/src__platform__platform.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 8619,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "hex-dominion.game-files.crazygames.com/hex-dominion/25/src__progression__avatars.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 1299,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "hex-dominion.game-files.crazygames.com/hex-dominion/25/src__progression__deck.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 1120,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "hex-dominion.game-files.crazygames.com/hex-dominion/25/src__progression__identity.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 1550,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "hex-dominion.game-files.crazygames.com/hex-dominion/25/src__progression__progress.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 12987,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "hex-dominion.game-files.crazygames.com/hex-dominion/25/src__progression__record.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 357,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "hex-dominion.game-files.crazygames.com/hex-dominion/25/src__territory__grid.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 2015,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "hex-dominion.game-files.crazygames.com/hex-dominion/25/src__ui__boot.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 6121,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "hex-dominion.game-files.crazygames.com/hex-dominion/25/src__ui__camera.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 4179,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "hex-dominion.game-files.crazygames.com/hex-dominion/25/src__ui__collection-layout.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 853,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "hex-dominion.game-files.crazygames.com/hex-dominion/25/src__ui__daily.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 2729,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "hex-dominion.game-files.crazygames.com/hex-dominion/25/src__ui__deck-drag.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 5091,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "hex-dominion.game-files.crazygames.com/hex-dominion/25/src__ui__deployment.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 3626,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "hex-dominion.game-files.crazygames.com/hex-dominion/25/src__ui__game.css",
+      "category": "code",
+      "meta": {
+        "size_bytes": 299351,
+        "format": "css"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "hex-dominion.game-files.crazygames.com/hex-dominion/25/src__ui__health-bars.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 685,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "hex-dominion.game-files.crazygames.com/hex-dominion/25/src__ui__i18n.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 9126,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "hex-dominion.game-files.crazygames.com/hex-dominion/25/src__ui__matchmaking.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 824,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "hex-dominion.game-files.crazygames.com/hex-dominion/25/src__ui__missions.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 4444,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "hex-dominion.game-files.crazygames.com/hex-dominion/25/src__ui__placement.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 294,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "hex-dominion.game-files.crazygames.com/hex-dominion/25/src__ui__quick-charge.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 3141,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "hex-dominion.game-files.crazygames.com/hex-dominion/25/src__ui__renderer.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 14961,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "hex-dominion.game-files.crazygames.com/hex-dominion/25/src__ui__rival-picker.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 1087,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "hex-dominion.game-files.crazygames.com/hex-dominion/25/src__ui__scroll.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 1446,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "hex-dominion.game-files.crazygames.com/hex-dominion/25/src__ui__stages.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 665,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "hex-dominion.game-files.crazygames.com/hex-dominion/25/src__ui__supplies.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 10270,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "hex-dominion.game-files.crazygames.com/hex-dominion/25/src__ui__upgrades.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 560,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "hex-dominion.game-files.crazygames.com/hex-dominion/25/src__ui__victory.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 8614,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "hex-dominion.game-files.crazygames.com/hex-dominion/25/src__ui__viewport.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 1228,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "hex-dominion.game-files.crazygames.com/hex-dominion/25/src__weapons__catalog.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 5962,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "hex-dominion.game-files.crazygames.com/hex-dominion/25/src__weapons__tactics.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 5291,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "htlb.casalemedia.com/openrtb/pbjs__qs_512809",
+      "category": "other",
+      "meta": {
+        "size_bytes": 58,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "id.crwdcntrl.net/id__qc_18200",
+      "category": "other",
+      "meta": {
+        "size_bytes": 75,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "image6.pubmatic.com/AdServer/PugMaster__qsec_1_async__dup0",
+      "category": "other",
+      "meta": {
+        "size_bytes": 2261,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "imasdk.googleapis.com/js/sdkloader/ima3.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 509118,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/1-fish-every-second_16x9/20261001134247/1-fish-every-second_16x9-cover__qmetadata_non.png",
+      "category": "image",
+      "meta": {
+        "size_bytes": 15469,
+        "format": "AVIF",
+        "width": 288,
+        "height": 162,
+        "mode": "RGBA",
+        "alpha": true
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/9-worlds_16x9/20260813063300/9-worlds_16x9-cover__qmetadata_non",
+      "category": "other",
+      "meta": {
+        "size_bytes": 14566,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/ant-miners_16x9/20261110082813/ant-miners_16x9-cover__qmetadata_non.png",
+      "category": "image",
+      "meta": {
+        "size_bytes": 11829,
+        "format": "AVIF",
+        "width": 288,
+        "height": 162,
+        "mode": "RGB",
+        "alpha": false
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/assets/SVG/icons/appstore.svg",
+      "category": "image",
+      "meta": {
+        "size_bytes": 699,
+        "format": "svg"
+      },
+      "feasibility": {
+        "score": 80,
+        "class": "easy",
+        "notes": [
+          "shared asset referenced from 2 locations"
+        ],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/assets/SVG/icons/arrow-full-right.svg",
+      "category": "image",
+      "meta": {
+        "size_bytes": 545,
+        "format": "svg"
+      },
+      "feasibility": {
+        "score": 80,
+        "class": "easy",
+        "notes": [
+          "shared asset referenced from 2 locations"
+        ],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/assets/SVG/icons/arrow-full-top.svg",
+      "category": "image",
+      "meta": {
+        "size_bytes": 554,
+        "format": "svg"
+      },
+      "feasibility": {
+        "score": 80,
+        "class": "easy",
+        "notes": [
+          "shared asset referenced from 2 locations"
+        ],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/assets/SVG/icons/close.svg",
+      "category": "image",
+      "meta": {
+        "size_bytes": 687,
+        "format": "svg"
+      },
+      "feasibility": {
+        "score": 80,
+        "class": "easy",
+        "notes": [
+          "shared asset referenced from 2 locations"
+        ],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/assets/SVG/icons/discord.svg",
+      "category": "image",
+      "meta": {
+        "size_bytes": 2930,
+        "format": "svg"
+      },
+      "feasibility": {
+        "score": 80,
+        "class": "easy",
+        "notes": [
+          "shared asset referenced from 2 locations"
+        ],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/assets/SVG/icons/linkedin.svg",
+      "category": "image",
+      "meta": {
+        "size_bytes": 1005,
+        "format": "svg"
+      },
+      "feasibility": {
+        "score": 80,
+        "class": "easy",
+        "notes": [
+          "shared asset referenced from 2 locations"
+        ],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/assets/SVG/icons/new.svg",
+      "category": "image",
+      "meta": {
+        "size_bytes": 1350,
+        "format": "svg"
+      },
+      "feasibility": {
+        "score": 80,
+        "class": "easy",
+        "notes": [
+          "shared asset referenced from 2 locations"
+        ],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/assets/SVG/icons/open-menu.svg",
+      "category": "image",
+      "meta": {
+        "size_bytes": 737,
+        "format": "svg"
+      },
+      "feasibility": {
+        "score": 80,
+        "class": "easy",
+        "notes": [
+          "shared asset referenced from 2 locations"
+        ],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/assets/SVG/icons/originals6.svg",
+      "category": "image",
+      "meta": {
+        "size_bytes": 4034,
+        "format": "svg"
+      },
+      "feasibility": {
+        "score": 80,
+        "class": "easy",
+        "notes": [
+          "shared asset referenced from 2 locations"
+        ],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/assets/SVG/icons/playstore.svg",
+      "category": "image",
+      "meta": {
+        "size_bytes": 958,
+        "format": "svg"
+      },
+      "feasibility": {
+        "score": 80,
+        "class": "easy",
+        "notes": [
+          "shared asset referenced from 2 locations"
+        ],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/assets/SVG/icons/refresh.svg",
+      "category": "image",
+      "meta": {
+        "size_bytes": 971,
+        "format": "svg"
+      },
+      "feasibility": {
+        "score": 80,
+        "class": "easy",
+        "notes": [
+          "shared asset referenced from 2 locations"
+        ],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/assets/SVG/icons/search.svg",
+      "category": "image",
+      "meta": {
+        "size_bytes": 738,
+        "format": "svg"
+      },
+      "feasibility": {
+        "score": 80,
+        "class": "easy",
+        "notes": [
+          "shared asset referenced from 2 locations"
+        ],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/assets/SVG/icons/share.svg",
+      "category": "image",
+      "meta": {
+        "size_bytes": 1422,
+        "format": "svg"
+      },
+      "feasibility": {
+        "score": 80,
+        "class": "easy",
+        "notes": [
+          "shared asset referenced from 2 locations"
+        ],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/assets/SVG/icons/tiktok.svg",
+      "category": "image",
+      "meta": {
+        "size_bytes": 1232,
+        "format": "svg"
+      },
+      "feasibility": {
+        "score": 80,
+        "class": "easy",
+        "notes": [
+          "shared asset referenced from 2 locations"
+        ],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/assets/SVG/icons/youtube.svg",
+      "category": "image",
+      "meta": {
+        "size_bytes": 1496,
+        "format": "svg"
+      },
+      "feasibility": {
+        "score": 80,
+        "class": "easy",
+        "notes": [
+          "shared asset referenced from 2 locations"
+        ],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/assets/SVG/ui-icons/action.svg",
+      "category": "image",
+      "meta": {
+        "size_bytes": 376,
+        "format": "svg"
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/assets/SVG/ui-icons/adventure.svg",
+      "category": "image",
+      "meta": {
+        "size_bytes": 427,
+        "format": "svg"
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/assets/SVG/ui-icons/arcade.svg",
+      "category": "image",
+      "meta": {
+        "size_bytes": 1175,
+        "format": "svg"
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/assets/SVG/ui-icons/board.svg",
+      "category": "image",
+      "meta": {
+        "size_bytes": 365,
+        "format": "svg"
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/assets/SVG/ui-icons/cards.svg",
+      "category": "image",
+      "meta": {
+        "size_bytes": 1610,
+        "format": "svg"
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/assets/SVG/ui-icons/chevron_right.svg",
+      "category": "image",
+      "meta": {
+        "size_bytes": 238,
+        "format": "svg"
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/assets/SVG/ui-icons/clicker.svg",
+      "category": "image",
+      "meta": {
+        "size_bytes": 783,
+        "format": "svg"
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/assets/SVG/ui-icons/clock.svg",
+      "category": "image",
+      "meta": {
+        "size_bytes": 821,
+        "format": "svg"
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/assets/SVG/ui-icons/cloud_error.svg",
+      "category": "image",
+      "meta": {
+        "size_bytes": 694,
+        "format": "svg"
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/assets/SVG/ui-icons/controls.svg",
+      "category": "image",
+      "meta": {
+        "size_bytes": 1613,
+        "format": "svg"
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/assets/SVG/ui-icons/dislike.svg",
+      "category": "image",
+      "meta": {
+        "size_bytes": 457,
+        "format": "svg"
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/assets/SVG/ui-icons/driving.svg",
+      "category": "image",
+      "meta": {
+        "size_bytes": 809,
+        "format": "svg"
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/assets/SVG/ui-icons/expand.svg",
+      "category": "image",
+      "meta": {
+        "size_bytes": 635,
+        "format": "svg"
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/assets/SVG/ui-icons/feedback.svg",
+      "category": "image",
+      "meta": {
+        "size_bytes": 744,
+        "format": "svg"
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/assets/SVG/ui-icons/fire.svg",
+      "category": "image",
+      "meta": {
+        "size_bytes": 544,
+        "format": "svg"
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/assets/SVG/ui-icons/friends.svg",
+      "category": "image",
+      "meta": {
+        "size_bytes": 940,
+        "format": "svg"
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/assets/SVG/ui-icons/home.svg",
+      "category": "image",
+      "meta": {
+        "size_bytes": 271,
+        "format": "svg"
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/assets/SVG/ui-icons/io.svg",
+      "category": "image",
+      "meta": {
+        "size_bytes": 453,
+        "format": "svg"
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/assets/SVG/ui-icons/leaderboard.svg",
+      "category": "image",
+      "meta": {
+        "size_bytes": 2231,
+        "format": "svg"
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/assets/SVG/ui-icons/like.svg",
+      "category": "image",
+      "meta": {
+        "size_bytes": 461,
+        "format": "svg"
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/assets/SVG/ui-icons/menu_close.svg",
+      "category": "image",
+      "meta": {
+        "size_bytes": 1022,
+        "format": "svg"
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/assets/SVG/ui-icons/new.svg",
+      "category": "image",
+      "meta": {
+        "size_bytes": 947,
+        "format": "svg"
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/assets/SVG/ui-icons/notifications.svg",
+      "category": "image",
+      "meta": {
+        "size_bytes": 513,
+        "format": "svg"
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/assets/SVG/ui-icons/originals.svg",
+      "category": "image",
+      "meta": {
+        "size_bytes": 2845,
+        "format": "svg"
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/assets/SVG/ui-icons/phone.svg",
+      "category": "image",
+      "meta": {
+        "size_bytes": 574,
+        "format": "svg"
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/assets/SVG/ui-icons/puzzle.svg",
+      "category": "image",
+      "meta": {
+        "size_bytes": 746,
+        "format": "svg"
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/assets/SVG/ui-icons/save.svg",
+      "category": "image",
+      "meta": {
+        "size_bytes": 328,
+        "format": "svg"
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/assets/SVG/ui-icons/shooting.svg",
+      "category": "image",
+      "meta": {
+        "size_bytes": 822,
+        "format": "svg"
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/assets/SVG/ui-icons/simulation.svg",
+      "category": "image",
+      "meta": {
+        "size_bytes": 1227,
+        "format": "svg"
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/assets/SVG/ui-icons/sports.svg",
+      "category": "image",
+      "meta": {
+        "size_bytes": 654,
+        "format": "svg"
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/assets/SVG/ui-icons/strategy.svg",
+      "category": "image",
+      "meta": {
+        "size_bytes": 1058,
+        "format": "svg"
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/assets/SVG/ui-icons/tag.svg",
+      "category": "image",
+      "meta": {
+        "size_bytes": 745,
+        "format": "svg"
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/assets/SVG/ui-icons/trivia.svg",
+      "category": "image",
+      "meta": {
+        "size_bytes": 1336,
+        "format": "svg"
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/assets/SVG/ui-icons/unmute.svg",
+      "category": "image",
+      "meta": {
+        "size_bytes": 820,
+        "format": "svg"
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/assets/SVG/ui-icons/updated.svg",
+      "category": "image",
+      "meta": {
+        "size_bytes": 1046,
+        "format": "svg"
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/assets/SVG/ui-icons/words.svg",
+      "category": "image",
+      "meta": {
+        "size_bytes": 758,
+        "format": "svg"
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/automata-protocol-uri_16x9/20261110180928/automata-protocol-uri_16x9-cover__qmetadata_non.jpg",
+      "category": "image",
+      "meta": {
+        "size_bytes": 12457,
+        "format": "AVIF",
+        "width": 288,
+        "height": 162,
+        "mode": "RGB",
+        "alpha": false
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/banner-brawl_16x9/20260928115448/banner-brawl_16x9-cover__qmetadata_non.png",
+      "category": "image",
+      "meta": {
+        "size_bytes": 10705,
+        "format": "AVIF",
+        "width": 288,
+        "height": 162,
+        "mode": "RGBA",
+        "alpha": true
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/beacon-bay_16x9/20261028132119/beacon-bay_16x9-cover__qmetadata_non.png",
+      "category": "image",
+      "meta": {
+        "size_bytes": 10254,
+        "format": "AVIF",
+        "width": 288,
+        "height": 162,
+        "mode": "RGBA",
+        "alpha": true
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/bloxdhop-io_16x9/20261027023447/bloxdhop-io_16x9-cover__qmetadata_non.png",
+      "category": "image",
+      "meta": {
+        "size_bytes": 8676,
+        "format": "AVIF",
+        "width": 288,
+        "height": 162,
+        "mode": "RGBA",
+        "alpha": true
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/bomb-the-castle_16x9/20261112025743/bomb-the-castle_16x9-cover__qmetadata_non.png",
+      "category": "image",
+      "meta": {
+        "size_bytes": 17483,
+        "format": "AVIF",
+        "width": 288,
+        "height": 162,
+        "mode": "RGB",
+        "alpha": false
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/bring-back-the-lake_16x9/20261118043909/bring-back-the-lake_16x9-cover__qmetadata_non.png",
+      "category": "image",
+      "meta": {
+        "size_bytes": 16819,
+        "format": "AVIF",
+        "width": 288,
+        "height": 162,
+        "mode": "RGBA",
+        "alpha": true
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/bunker-empire_16x9/20261112062541/bunker-empire_16x9-cover__qmetadata_non.png",
+      "category": "image",
+      "meta": {
+        "size_bytes": 7265,
+        "format": "AVIF",
+        "width": 288,
+        "height": 162,
+        "mode": "RGB",
+        "alpha": false
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/chicken-battle-simulator_16x9/20261028071840/chicken-battle-simulator_16x9-cover__qmetadata_non.png",
+      "category": "image",
+      "meta": {
+        "size_bytes": 15018,
+        "format": "AVIF",
+        "width": 288,
+        "height": 162,
+        "mode": "RGB",
+        "alpha": false
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/city-takeover_16x9/20250121050933/city-takeover_16x9-cover__qmetadata_non",
+      "category": "other",
+      "meta": {
+        "size_bytes": 11320,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/claw-master_16x9/20261106094054/claw-master_16x9-cover__qmetadata_non.png",
+      "category": "image",
+      "meta": {
+        "size_bytes": 19004,
+        "format": "AVIF",
+        "width": 288,
+        "height": 162,
+        "mode": "RGB",
+        "alpha": false
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/coin-drop-factory-tvh_16x9/20261111031519/coin-drop-factory-tvh_16x9-cover__qmetadata_non.png",
+      "category": "image",
+      "meta": {
+        "size_bytes": 19303,
+        "format": "AVIF",
+        "width": 288,
+        "height": 162,
+        "mode": "RGB",
+        "alpha": false
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/conquest-io_16x9/20261015103052/conquest-io_16x9-cover__qmetadata_non.png",
+      "category": "image",
+      "meta": {
+        "size_bytes": 19776,
+        "format": "AVIF",
+        "width": 288,
+        "height": 162,
+        "mode": "RGBA",
+        "alpha": true
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/crazygames/bannerSquareBackground__qmetadata_non.svg",
+      "category": "image",
+      "meta": {
+        "size_bytes": 390,
+        "format": "svg"
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/crazygames/favicon-2026/touch-icon__qmetadata_non_dup0.png",
+      "category": "image",
+      "meta": {
+        "size_bytes": 3015,
+        "format": "PNG",
+        "width": 32,
+        "height": 32,
+        "mode": "RGBA",
+        "alpha": true
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/crazygames/ziggy_friends__qmetadata_non.svg",
+      "category": "image",
+      "meta": {
+        "size_bytes": 8250,
+        "format": "svg"
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/crazygames/ziggy_rainbow2__qmetadata_non.svg",
+      "category": "image",
+      "meta": {
+        "size_bytes": 67627,
+        "format": "svg"
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/crust-crusher_16x9/20261030153154/crust-crusher_16x9-cover__qmetadata_non.png",
+      "category": "image",
+      "meta": {
+        "size_bytes": 11880,
+        "format": "AVIF",
+        "width": 288,
+        "height": 162,
+        "mode": "RGB",
+        "alpha": false
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/dear-travellers---airline-chaos_16x9/20260910025106/dear-travellers---airline-chaos_16x9-cover__qmetadata_non",
+      "category": "other",
+      "meta": {
+        "size_bytes": 11539,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/dualforce-idle-2_16x9/20261116030618/dualforce-idle-2_16x9-cover__qmetadata_non.png",
+      "category": "image",
+      "meta": {
+        "size_bytes": 11648,
+        "format": "AVIF",
+        "width": 288,
+        "height": 162,
+        "mode": "RGB",
+        "alpha": false
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/dust-bullet_16x9/20261006191346/dust-bullet_16x9-cover__qmetadata_non.png",
+      "category": "image",
+      "meta": {
+        "size_bytes": 6749,
+        "format": "AVIF",
+        "width": 288,
+        "height": 162,
+        "mode": "RGBA",
+        "alpha": true
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/eat-earth_16x9/20261106050245/eat-earth_16x9-cover__qmetadata_non.png",
+      "category": "image",
+      "meta": {
+        "size_bytes": 11134,
+        "format": "AVIF",
+        "width": 288,
+        "height": 162,
+        "mode": "RGB",
+        "alpha": false
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/endless-gunner_16x9/20261008064305/endless-gunner_16x9-cover__qmetadata_non.png",
+      "category": "image",
+      "meta": {
+        "size_bytes": 22088,
+        "format": "AVIF",
+        "width": 288,
+        "height": 162,
+        "mode": "RGBA",
+        "alpha": true
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/era-legion-fzc_16x9/20261026042916/era-legion-fzc_16x9-cover__qmetadata_non.png",
+      "category": "image",
+      "meta": {
+        "size_bytes": 20479,
+        "format": "AVIF",
+        "width": 288,
+        "height": 162,
+        "mode": "RGBA",
+        "alpha": true
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/feed-the-fire-kgr_16x9/20261112100526/feed-the-fire-kgr_16x9-cover__qmetadata_non.png",
+      "category": "image",
+      "meta": {
+        "size_bytes": 11254,
+        "format": "AVIF",
+        "width": 288,
+        "height": 162,
+        "mode": "RGB",
+        "alpha": false
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/final-drop_16x9/20261117170328/final-drop_16x9-cover__qmetadata_non.png",
+      "category": "image",
+      "meta": {
+        "size_bytes": 10295,
+        "format": "AVIF",
+        "width": 288,
+        "height": 162,
+        "mode": "RGB",
+        "alpha": false
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/fish-rush-khn_16x9/20261109051306/fish-rush-khn_16x9-cover__qmetadata_non.png",
+      "category": "image",
+      "meta": {
+        "size_bytes": 6909,
+        "format": "AVIF",
+        "width": 288,
+        "height": 162,
+        "mode": "RGBA",
+        "alpha": true
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/flotsam-io_16x9/20261020070626/flotsam-io_16x9-cover__qmetadata_non.png",
+      "category": "image",
+      "meta": {
+        "size_bytes": 21072,
+        "format": "AVIF",
+        "width": 288,
+        "height": 162,
+        "mode": "RGBA",
+        "alpha": true
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/frontwars-io_16x9/20261026051115/frontwars-io_16x9-cover__qmetadata_non.png",
+      "category": "image",
+      "meta": {
+        "size_bytes": 9443,
+        "format": "AVIF",
+        "width": 288,
+        "height": 162,
+        "mode": "RGBA",
+        "alpha": true
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/glimwick_16x9/20261117120701/glimwick_16x9-cover__qmetadata_non.jpg",
+      "category": "image",
+      "meta": {
+        "size_bytes": 4666,
+        "format": "AVIF",
+        "width": 288,
+        "height": 162,
+        "mode": "RGB",
+        "alpha": false
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/hay-factory-tycoon_16x9/20261019113627/hay-factory-tycoon_16x9-cover__qmetadata_non.png",
+      "category": "image",
+      "meta": {
+        "size_bytes": 18787,
+        "format": "AVIF",
+        "width": 288,
+        "height": 162,
+        "mode": "RGBA",
+        "alpha": true
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/haystack-hunter_16x9/20261008101955/haystack-hunter_16x9-cover__qmetadata_non.png",
+      "category": "image",
+      "meta": {
+        "size_bytes": 11911,
+        "format": "AVIF",
+        "width": 288,
+        "height": 162,
+        "mode": "RGBA",
+        "alpha": true
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/hero-merge-jpc_16x9/20261023111431/hero-merge-jpc_16x9-cover__qmetadata_non.png",
+      "category": "image",
+      "meta": {
+        "size_bytes": 24166,
+        "format": "AVIF",
+        "width": 288,
+        "height": 162,
+        "mode": "RGBA",
+        "alpha": true
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/hex-bois_16x9/20260608062338/hex-bois_16x9-cover__qmetadata_non",
+      "category": "other",
+      "meta": {
+        "size_bytes": 13828,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/hex-dominion_16x9/20261012033120/hex-dominion_16x9-cover__qmetadata_non_dup0.png",
+      "category": "image",
+      "meta": {
+        "size_bytes": 8159,
+        "format": "AVIF",
+        "width": 208,
+        "height": 117,
+        "mode": "RGBA",
+        "alpha": true
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/hole-io-uyt_16x9/20260929080322/hole-io-uyt_16x9-cover__qmetadata_non.png",
+      "category": "image",
+      "meta": {
+        "size_bytes": 13802,
+        "format": "AVIF",
+        "width": 288,
+        "height": 162,
+        "mode": "RGBA",
+        "alpha": true
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/hordecraft_16x9/20261120030358/hordecraft_16x9-cover__qmetadata_non.png",
+      "category": "image",
+      "meta": {
+        "size_bytes": 12322,
+        "format": "AVIF",
+        "width": 288,
+        "height": 162,
+        "mode": "RGB",
+        "alpha": false
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/idle-island-build_16x9/20260928085220/idle-island-build_16x9-cover__qmetadata_non.png",
+      "category": "image",
+      "meta": {
+        "size_bytes": 13498,
+        "format": "AVIF",
+        "width": 288,
+        "height": 162,
+        "mode": "RGBA",
+        "alpha": true
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/kaboom-kingdoms_16x9/20261026101743/kaboom-kingdoms_16x9-cover__qmetadata_non.jpg",
+      "category": "image",
+      "meta": {
+        "size_bytes": 20139,
+        "format": "AVIF",
+        "width": 288,
+        "height": 162,
+        "mode": "RGB",
+        "alpha": false
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/lawn-mower-idle_16x9/20260930095350/lawn-mower-idle_16x9-cover__qmetadata_non.png",
+      "category": "image",
+      "meta": {
+        "size_bytes": 20572,
+        "format": "AVIF",
+        "width": 288,
+        "height": 162,
+        "mode": "RGBA",
+        "alpha": true
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/lumber-hero-idle-defense_16x9/20260930105638/lumber-hero-idle-defense_16x9-cover__qmetadata_non.png",
+      "category": "image",
+      "meta": {
+        "size_bytes": 13916,
+        "format": "AVIF",
+        "width": 288,
+        "height": 162,
+        "mode": "RGBA",
+        "alpha": true
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/megminer_16x9/20261102050935/megminer_16x9-cover__qmetadata_non.png",
+      "category": "image",
+      "meta": {
+        "size_bytes": 16812,
+        "format": "AVIF",
+        "width": 288,
+        "height": 162,
+        "mode": "RGB",
+        "alpha": false
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/nations-royale_16x9/20260811022045/nations-royale_16x9-cover__qmetadata_non",
+      "category": "other",
+      "meta": {
+        "size_bytes": 13870,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/openfront-gsw_16x9/20260515051210/openfront-gsw_16x9-cover__qmetadata_non",
+      "category": "other",
+      "meta": {
+        "size_bytes": 11219,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/planet-defense_16x9/20261012063700/planet-defense_16x9-cover__qmetadata_non.png",
+      "category": "image",
+      "meta": {
+        "size_bytes": 18683,
+        "format": "AVIF",
+        "width": 288,
+        "height": 162,
+        "mode": "RGBA",
+        "alpha": true
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/potato-peeler-tycoon_16x9/20261023064055/potato-peeler-tycoon_16x9-cover__qmetadata_non.png",
+      "category": "image",
+      "meta": {
+        "size_bytes": 11179,
+        "format": "AVIF",
+        "width": 288,
+        "height": 162,
+        "mode": "RGBA",
+        "alpha": true
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/pulseboard-qed_16x9/20260917125208/pulseboard-qed_16x9-cover__qmetadata_non.png",
+      "category": "image",
+      "meta": {
+        "size_bytes": 13705,
+        "format": "AVIF",
+        "width": 288,
+        "height": 162,
+        "mode": "RGBA",
+        "alpha": true
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/ragdoll-archers_16x9/20250926080758/ragdoll-archers_16x9-cover__qmetadata_non",
+      "category": "other",
+      "meta": {
+        "size_bytes": 8053,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/real-survival-not-fake_16x9/20261014072714/real-survival-not-fake_16x9-cover__qmetadata_non.png",
+      "category": "image",
+      "meta": {
+        "size_bytes": 14353,
+        "format": "AVIF",
+        "width": 288,
+        "height": 162,
+        "mode": "RGBA",
+        "alpha": true
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/real-war-not-fake-sno_16x9/20260813072730/real-war-not-fake-sno_16x9-cover__qmetadata_non",
+      "category": "other",
+      "meta": {
+        "size_bytes": 7424,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/refund-me-td-2_16x9/20261119172202/refund-me-td-2_16x9-cover__qmetadata_non.jpg",
+      "category": "image",
+      "meta": {
+        "size_bytes": 13383,
+        "format": "AVIF",
+        "width": 288,
+        "height": 162,
+        "mode": "RGB",
+        "alpha": false
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/ricochet-room-cjg_16x9/20261111042004/ricochet-room-cjg_16x9-cover__qmetadata_non.png",
+      "category": "image",
+      "meta": {
+        "size_bytes": 19998,
+        "format": "AVIF",
+        "width": 288,
+        "height": 162,
+        "mode": "RGBA",
+        "alpha": true
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/rift-war-merge-evolve-weapons_16x9/20261007151839/rift-war-merge-evolve-weapons_16x9-cover__qmetadata_non.png",
+      "category": "image",
+      "meta": {
+        "size_bytes": 15100,
+        "format": "AVIF",
+        "width": 288,
+        "height": 162,
+        "mode": "RGBA",
+        "alpha": true
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/rocket-fling_16x9/20261112074956/rocket-fling_16x9-cover__qmetadata_non.png",
+      "category": "image",
+      "meta": {
+        "size_bytes": 14340,
+        "format": "AVIF",
+        "width": 288,
+        "height": 162,
+        "mode": "RGBA",
+        "alpha": true
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/root-to-core_16x9/20261116045706/root-to-core_16x9-cover__qmetadata_non.png",
+      "category": "image",
+      "meta": {
+        "size_bytes": 10787,
+        "format": "AVIF",
+        "width": 288,
+        "height": 162,
+        "mode": "RGB",
+        "alpha": false
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/runespire-idle-tower-defense_16x9/20261102030139/runespire-idle-tower-defense_16x9-cover__qmetadata_non.png",
+      "category": "image",
+      "meta": {
+        "size_bytes": 17393,
+        "format": "AVIF",
+        "width": 288,
+        "height": 162,
+        "mode": "RGB",
+        "alpha": false
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/rustlight-zqy_16x9/20261019034555/rustlight-zqy_16x9-cover__qmetadata_non.png",
+      "category": "image",
+      "meta": {
+        "size_bytes": 16109,
+        "format": "AVIF",
+        "width": 288,
+        "height": 162,
+        "mode": "RGBA",
+        "alpha": true
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/sea-survivor-lcj_16x9/20261028115717/sea-survivor-lcj_16x9-cover__qmetadata_non.png",
+      "category": "image",
+      "meta": {
+        "size_bytes": 20674,
+        "format": "AVIF",
+        "width": 288,
+        "height": 162,
+        "mode": "RGBA",
+        "alpha": true
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/shred-the-evidence_16x9/20261103110509/shred-the-evidence_16x9-cover__qmetadata_non.png",
+      "category": "image",
+      "meta": {
+        "size_bytes": 6618,
+        "format": "AVIF",
+        "width": 288,
+        "height": 162,
+        "mode": "RGB",
+        "alpha": false
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/sprout-king-kmm_16x9/20261016051058/sprout-king-kmm_16x9-cover__qmetadata_non.png",
+      "category": "image",
+      "meta": {
+        "size_bytes": 15000,
+        "format": "AVIF",
+        "width": 288,
+        "height": 162,
+        "mode": "RGBA",
+        "alpha": true
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/state-io---conquer-the-world_16x9/20261027070812/state-io---conquer-the-world_16x9-cover__qmetadata_non.png",
+      "category": "image",
+      "meta": {
+        "size_bytes": 8007,
+        "format": "AVIF",
+        "width": 288,
+        "height": 162,
+        "mode": "RGBA",
+        "alpha": true
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/the-king-lqh_16x9/20261112102744/the-king-lqh_16x9-cover__qmetadata_non.png",
+      "category": "image",
+      "meta": {
+        "size_bytes": 14006,
+        "format": "AVIF",
+        "width": 288,
+        "height": 162,
+        "mode": "RGB",
+        "alpha": false
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/the-moo-factory-dzw_16x9/20261101123249/the-moo-factory-dzw_16x9-cover__qmetadata_non.jpg",
+      "category": "image",
+      "meta": {
+        "size_bytes": 14411,
+        "format": "AVIF",
+        "width": 288,
+        "height": 162,
+        "mode": "RGB",
+        "alpha": false
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/tiny-tribes_16x9/20261027065756/tiny-tribes_16x9-cover__qmetadata_non.png",
+      "category": "image",
+      "meta": {
+        "size_bytes": 12362,
+        "format": "AVIF",
+        "width": 288,
+        "height": 162,
+        "mode": "RGB",
+        "alpha": false
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/tnt-voxel_16x9/20260904094522/tnt-voxel_16x9-cover__qmetadata_non",
+      "category": "other",
+      "meta": {
+        "size_bytes": 14993,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/trash-tycoon-syd_16x9/20261109040230/trash-tycoon-syd_16x9-cover__qmetadata_non.png",
+      "category": "image",
+      "meta": {
+        "size_bytes": 17149,
+        "format": "AVIF",
+        "width": 288,
+        "height": 162,
+        "mode": "RGB",
+        "alpha": false
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/voidrush-erc_16x9/20261102073606/voidrush-erc_16x9-cover__qmetadata_non.png",
+      "category": "image",
+      "meta": {
+        "size_bytes": 7541,
+        "format": "AVIF",
+        "width": 288,
+        "height": 162,
+        "mode": "RGB",
+        "alpha": false
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/world-conquest_16x9/20260806091226/world-conquest_16x9-cover__qmetadata_non",
+      "category": "other",
+      "meta": {
+        "size_bytes": 14293,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/your-military_16x9/20261102153652/your-military_16x9-cover__qmetadata_non.png",
+      "category": "image",
+      "meta": {
+        "size_bytes": 11241,
+        "format": "AVIF",
+        "width": 288,
+        "height": 162,
+        "mode": "RGB",
+        "alpha": false
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "index.html",
+      "category": "code",
+      "meta": {
+        "size_bytes": 164,
+        "format": "html"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "invstatic101.creativecdn.com/encrypted-signals/encrypted-tag-g.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 2727,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "mafvertizing.crazygames.com/prebid.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 149,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "match.adsrvr.org/track/rid__qttd_pid_c67x",
+      "category": "other",
+      "meta": {
+        "size_bytes": 109,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "match.adsrvr.org/track/usersync__qus_privacy__",
+      "category": "other",
+      "meta": {
+        "size_bytes": 44,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "model.crazygames.com/v2/gamepageRequest__qtable_game_r",
+      "category": "other",
+      "meta": {
+        "size_bytes": 204153,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "o187844.ingest.us.sentry.io/api/1511344/envelope/index__qsentry_versi.html",
+      "category": "code",
+      "meta": {
+        "size_bytes": 102,
+        "format": "html"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "oa.openxcdn.net/esp.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 32447,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "pagead2.googlesyndication.com/bg/Z4x1aK_9z8avgBkDMULgyabWdPVsrxsMGL2jqwC3Qu0.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 63756,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "prebid.media.net/rtb/prebid__qcid_8CUYL2RS",
+      "category": "other",
+      "meta": {
+        "size_bytes": 680,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "px.ads.linkedin.com/setuid__qpartner_appN",
+      "category": "other",
+      "meta": {
+        "size_bytes": 43,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "rtb.openx.net/esp__qurl_https_3A_dup0",
+      "category": "other",
+      "meta": {
+        "size_bytes": 85,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "s.amazon-adsystem.com/x/19cb1bfc173dcb98ccec",
+      "category": "other",
+      "meta": {
+        "size_bytes": 274,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "sdk.crazygames.com/crazygames-sdk-v3.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 98378,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "securepubads.g.doubleclick.net/gampad/ads__qpvsid_430841_dup0",
+      "category": "other",
+      "meta": {
+        "size_bytes": 867,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "securepubads.g.doubleclick.net/gampad/ads__qpvsid_600279",
+      "category": "other",
+      "meta": {
+        "size_bytes": 1631,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "securepubads.g.doubleclick.net/pagead/managed/dict/m202611100101/gpt",
+      "category": "other",
+      "meta": {
+        "size_bytes": 64597,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202611120201/pubads_impl.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 732796,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "securepubads.g.doubleclick.net/tag/js/gpt_dup0.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 142474,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "simage2.pubmatic.com/AdServer/Pug__qvcode_bz0yJn",
+      "category": "other",
+      "meta": {
+        "size_bytes": 52,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092",
+      "category": "other",
+      "meta": {
+        "size_bytes": 31853,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "static.criteo.net/js/ld/publishertag.ids.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 36121,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "sync-dsp.ad-m.asia/dsp/api/sync/send__qs_openx",
+      "category": "other",
+      "meta": {
+        "size_bytes": 43,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "sync-tm.everesttech.net/ct/upi/pid/ny75r2x0__qredir_https_",
+      "category": "other",
+      "meta": {
+        "size_bytes": 85,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "sync.crwdcntrl.net/qmap__qc_240_tp_PUB",
+      "category": "other",
+      "meta": {
+        "size_bytes": 49,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "tags.crwdcntrl.net/lt/c/16589/sync.min.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 46587,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "threeredcubes.com/files/m2ha9qa_3jniu.bundle.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 141642,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "threeredcubes.com/ilag9emsitv51rv5z1p5kyr3",
+      "category": "other",
+      "meta": {
+        "size_bytes": 16,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "tpc.googlesyndication.com/pagead/js/r20261118/r20110914/abg_lite_fy2021.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 21781,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "tpc.googlesyndication.com/pagead/js/r20261118/r20110914/client/load_preloaded_resource_fy2021.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 1712,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "tpc.googlesyndication.com/pagead/js/r20261118/r20110914/client/qs_click_protection_fy2021.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 20933,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "tpc.googlesyndication.com/pagead/js/r20261118/r20110914/client/window_focus_fy2021.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 2746,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "tpc.googlesyndication.com/pagead/js/r20261118/r20110914/elements/html/countdown_handler_fy2021.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 25510,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "tpc.googlesyndication.com/pagead/js/r20261118/r20110914/elements/html/interstitial_ad_frame_fy2021.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 26907,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "uipglob.semasio.net/pubmatic/1/info2__qsType_sync_s",
+      "category": "other",
+      "meta": {
+        "size_bytes": 42,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "um.simpli.fi/pubmatic__qhttps___sima",
+      "category": "other",
+      "meta": {
+        "size_bytes": 43,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "ut.pubmatic.com/geo__qpubid_0",
+      "category": "other",
+      "meta": {
+        "size_bytes": 22,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "www.crazygames.com/images/background2.jpg",
+      "category": "image",
+      "meta": {
+        "size_bytes": 5956,
+        "format": "JPEG",
+        "width": 1200,
+        "height": 674,
+        "mode": "RGB",
+        "alpha": false
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [
+          "no alpha channel: transparency-sensitive placements need care"
+        ],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "www.crazygames.com/images/logo/icon/logo-icon-white.svg",
+      "category": "image",
+      "meta": {
+        "size_bytes": 4909,
+        "format": "svg"
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "www.crazygames.com/images/logo/text/logo-text-white.svg",
+      "category": "image",
+      "meta": {
+        "size_bytes": 3078,
+        "format": "svg"
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "www.crazygames.com/it/game/hex-dominion",
+      "category": "other",
+      "meta": {
+        "size_bytes": 170397,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "www.google.com/recaptcha/api2/aframe",
+      "category": "other",
+      "meta": {
+        "size_bytes": 894,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "www.gstatic.com/images/icons/material/system/2x/settings_grey600_24dp.png",
+      "category": "image",
+      "meta": {
+        "size_bytes": 604,
+        "format": "PNG",
+        "width": 48,
+        "height": 48,
+        "mode": "LA",
+        "alpha": true
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "www.gstatic.com/mysidia/1a6c8d76751db1ca6b691968c556700c__qtag_engine_c.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 1982,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "www.gstatic.com/mysidia/4008da5d566dcbc89c58891131e16a93__qtag_video_mr.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 181680,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "www.gstatic.com/mysidia/c725080e2f8c8de65736d5d0352633ff__qtag_addon_my.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 45204,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "x.bidswitch.net/sync__qssp_ozone_gd",
+      "category": "other",
+      "meta": {
+        "size_bytes": 0,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "x.bidswitch.net/sync__qssp_pubmatic",
+      "category": "other",
+      "meta": {
+        "size_bytes": 1,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    }
+  ],
+  "summary": {
+    "assets": 351,
+    "by_category": {
+      "code": 155,
+      "other": 62,
+      "config": 2,
+      "font": 6,
+      "image": 125,
+      "audio": 1
+    },
+    "overall_feasibility": 58,
+    "bottleneck": null,
+    "thresholds": ">=80 easy, 50-79 moderate, 25-49 difficult, <25 very difficult"
+  }
+}
