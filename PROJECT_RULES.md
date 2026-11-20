@@ -36,11 +36,33 @@ Il mirror archivia ogni file sotto una sola variante canonica. Il serving
 - `python3 -I scripts/probe_frame.py <slug> [sec]` — carica il gioco headless e
   stampa PRIMA i problemi: risposte ≥400, STUDIO-MISS, schermata errore, testo UI.
   Il probe stesso innesca il backfill live: rieseguirlo dopo un fix.
+- `python3 -I scripts/probe_stall.py <slug…>` — il verdetto che conta. Un gioco
+  bloccato NON dà errori di rete: ha richieste PENDENTI mai completate o un'UI
+  di caricamento immobile. Traccia ogni richiesta (pending list), il timeline
+  e confronta due screenshot a 10 s di distanza: spinner/barra ferma = STALLED,
+  scena piena di colori o in movimento = LOADED. ERROR prevale su tutto.
 - `python3 -I scripts/purge_backfill_stubs.py` — inventario firme stub su tutti i
   progetti, sostituzione con originali (cross-fill + origine), report in
   `reports/backfill.json`, `stubs.json` azzerato.
-- Verifica finale: il gioco deve superare il loading (UI di gioco reale a schermo,
-  0 richieste ≥400, nessun testo d'errore), non bastano canvas animati.
+- Verdetto LOADED richiede TUTTO questo: 0 richieste ≥400, 0 errori console,
+  0 schermata d'errore, 0 richieste pendenti, e (per i giochi canvas) scena
+  renderizzata. "Nessun errore" da solo NON basta: è esattamente l'inganno che
+  ha fatto passare per sani giochi bloccati alla barra di caricamento.
+
+## Affidabilità del servizio (il "gioco stuck" nel browser dell'utente)
+
+- Il browser dell'utente carica i giochi attraverso il tunnel di preview: il
+  primo avvio è pesante (es. screw-out ≈ 57 MB di wasm/data brotli). Il portale
+  ora serve gzip trasparente SOLO sui testi (js/css/html/json/svg) e
+  Cache-Control 24 h sui file mirror (immutabili): il ricaricamento è locale.
+  I binari già compressi (webp/wasm/mp3/data/.br) passano intatti.
+- Watchdog: `scripts/portal_watchdog.sh` (loop nohup, check ogni 30 s, riavvia
+  il portale se non risponde). I processi muoiono col riciclo della sandbox:
+  il primo turno dell'agente dopo un riciclo esegue sempre
+  `scripts/restart_portal.sh`.
+- Se un gioco resta bloccato SOLO nel browser dell'utente mentre probe_stall
+  dice LOADED: primo sospetto cache vecchia → hard refresh (Ctrl+Shift+R);
+  secondo sospetto il tunnel (riprovare / aprire la scheda direct link).
 
 ## Stato della policy
 

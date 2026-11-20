@@ -5,6 +5,7 @@ Runs the acquisition pipeline as background jobs and serves:
 - mirrored games at /games/<slug>/mirror/...
 - JSON reports per project via /api/projects/<slug>/reports/<name>
 """
+import gzip
 import mimetypes
 import os
 import posixpath
@@ -115,6 +116,44 @@ async def origin_backfill_on_404(request, call_next):
 
 
 _encoding_cache = {}  # (path, size, mtime) -> "gzip" | "br" | None
+
+_GZIPPABLE = re.compile(r"text/|javascript|application/json|svg|manifest", re.I)
+
+
+@app.middleware("http")
+async def tunnel_friendly_static(request, call_next):
+    """The preview tunnel is the slow link between the user's browser and this
+    sandbox: cut its bytes and its round-trips for every game.
+    - Cache-Control 24h: mirror files are immutable, so a reload must not
+      re-transfer anything (first load stays heavy, every next one is local).
+    - On-the-fly gzip for TEXT formats only (js/css/html/json/svg…): ~60-70%
+      fewer bytes on the slow link. Binary formats (webp/wasm/mp3/data) are
+      already compressed — gzip would burn CPU for nothing and can corrupt
+      Range-based streaming, so they pass through untouched."""
+    response = await call_next(request)
+    p = request.url.path
+    if not p.startswith("/games/"):
+        return response
+    if p.endswith((".br", ".gz")):  # legacy compressed-name handling below
+        return response
+    if request.method in ("GET", "HEAD") and response.status_code == 200:
+        response.headers.setdefault("Cache-Control", "public, max-age=86400")
+        ct = response.headers.get("content-type", "")
+        ae = request.headers.get("accept-encoding", "")
+        if (_GZIPPABLE.search(ct) and "gzip" in ae
+                and "content-encoding" not in response.headers
+                and not request.headers.get("range")
+                and int(response.headers.get("content-length") or 0) > 1400):
+            body = b""
+            async for chunk in response.body_iterator:
+                body += chunk
+            gz = gzip.compress(body, compresslevel=6)
+            response = Response(content=gz, status_code=response.status_code,
+                                headers=dict(response.headers))
+            response.headers["content-encoding"] = "gzip"
+            response.headers["content-length"] = str(len(gz))
+            response.headers["vary"] = "Accept-Encoding"
+    return response
 
 
 def _static_encoding(path):
@@ -318,11 +357,21 @@ def play(slug: str):
     own COEP too — mirrored pages don't, so Chromium blocked the frame with
     ERR_BLOCKED_BY_RESPONSE ("refused to connect") and the tab stayed black.
     Cross-origin isolation (SharedArrayBuffer for Unity wasm threads) is
-    sacrificed for the far more important guarantee that games simply run."""
+    sacrificed for the far more important guarantee that games simply run.
+
+    A project whose entry is a www.crazygames.com PAGE (not game files) can
+    never run the game itself: the game lives on a game-files host that page
+    project never captured, and its URL is built at runtime by the site's JS
+    from API responses. Those projects declare `redirect_play` in their
+    manifest — the project that mirrors the REAL game files."""
     p = config.GAMES_DIR / slug / "reports" / "manifest.json"
     if not p.exists():
         raise HTTPException(404, "project not found")
-    entry = _load_json(p).get("entry_rel") or ""
+    m = _load_json(p)
+    target = m.get("redirect_play")
+    if target and (config.GAMES_DIR / target / "reports" / "manifest.json").exists():
+        return RedirectResponse(f"/play/{target}", status_code=307)
+    entry = m.get("entry_rel") or ""
     html = f"""<!doctype html><html><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{slug}</title>

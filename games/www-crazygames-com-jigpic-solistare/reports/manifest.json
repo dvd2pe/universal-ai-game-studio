@@ -1953,5 +1953,7 @@
       "builds.crazygames.com/portal-web/_next/static/css/5bcc76f3b4fbe4c4.css: /images/daily-games/chevron-up.svg"
     ]
   },
-  "stubs": 117
+  "stubs": 117,
+  "redirect_play": "www-crazygames-com-it-3",
+  "redirect_note": "entry is the www.crazygames.com PAGE (game runs on jigpic-solitaire.game-files host, built by site JS from API); the real game build is mirrored by it-3 (jigpic-solitaire/15)"
 }
