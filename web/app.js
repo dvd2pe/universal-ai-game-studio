@@ -196,6 +196,8 @@ async function renderProject(tab = "recon") {
         <div class="kv">engine: <b>${s.engine?.engine || "?"}</b> (${s.engine?.confidence || "?"}) ·
           acquired ${s.counts?.captured ?? 0}+${s.counts?.downloaded ?? 0} · ${s.duration_s ?? "?"}s</div>
         <div><span class="badge ${scoreCls}">${(s.verdict || "").split(":")[0]}</span></div>
+        <div><button class="primary" id="proj-publish" onclick="publishProject()">⬆ Publish</button>
+          <span class="kv" id="pub-status"></span></div>
       </div>
     </div>`;
   const body = $("#proj-body");
@@ -276,9 +278,28 @@ async function renderProject(tab = "recon") {
   if (tab === "preview") {
     body.innerHTML = `
       <p class="muted">Local reconstruction, served by this portal (no original host involved):</p>
-      <iframe class="preview" src="/games/${slug}/mirror/"></iframe>
+      ${s.entry_rel
+        ? `<iframe class="preview" src="/games/${slug}/mirror/${s.entry_rel}"></iframe>`
+        : `<p class="muted">no entry page recorded for this project</p>`}
       <p class="muted">Direct link: <a href="/play/${slug}" target="_blank">open game in new tab</a> (full-screen wrapper, cross-origin isolated)</p>`;
   }
+}
+async function publishProject() {
+  const btn = $("#proj-publish"), st = $("#pub-status");
+  if (!btn || btn.disabled) return;
+  btn.disabled = true; st.textContent = "publishing…";
+  const res = await (await fetch("/api/sync/push", { method: "POST" })).json();
+  if (!res.job_id) { btn.disabled = false; st.textContent = res.detail || "failed"; return; }
+  for (let i = 0; i < 120; i++) {
+    const j = await (await fetch("/api/jobs/" + res.job_id)).json();
+    if (j.status !== "running") {
+      btn.disabled = false;
+      st.textContent = j.status === "done" ? "published ✓" : "failed: " + (j.error || "?");
+      return;
+    }
+    await new Promise(r => setTimeout(r, 1500));
+  }
+  btn.disabled = false; st.textContent = "timeout";
 }
 const fbCls = s => s >= 80 ? "b-ok" : s >= 50 ? "b-warn" : "b-bad";
 const row = (a, b) => `<tr><td style="white-space:normal"><b>${a}</b></td><td style="white-space:normal">${b ?? ""}</td></tr>`;
