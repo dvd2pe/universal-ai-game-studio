@@ -1,0 +1,16 @@
+<!DOCTYPE html><html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+    <title>Puzzle</title>
+    <link rel="icon" href="./images/icon.png">
+
+    <script>
+        console.log("Puzzle version: ", 1);
+    </script>
+<script defer="defer" src="355.c0947f7f9745da94c149.js"></script><script defer="defer" src="main.c0947f7f9745da94c149.js"></script><link href="style.c0947f7f9745da94c149.css" rel="stylesheet"><link rel="canonical" href="https://www.crazygames.com/game/jigpic-solitaire"></head>
+<body class="unselectable">
+    <div id="gameDiv" class="unselectable"></div>
+    <script src="./extra/tweenjs.min.js"></script>
+    
+
+</body></html>

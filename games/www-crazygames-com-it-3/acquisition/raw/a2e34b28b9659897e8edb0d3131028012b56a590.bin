@@ -1,0 +1,75 @@
+{
+    "fonts": {
+        "main": "./fonts/Roundedmplus1cblack.ttf"
+    },
+    "resources": {
+        "dark_gradient": "./images/dark_gradient.png",
+
+        "ui": "./images/spritesheets/ui.json",
+        "confetti": "./images/spritesheets/confetti.json",
+        "piggy": "./images/spritesheets/piggy.json",
+        "shop": "./images/spritesheets/shop.json",
+        "lights": "./images/spritesheets/lights.json",
+        "logo": "./images/logo_${lang}_v1.png",
+        "leaderboard": "./images/spritesheets/leaderboard.json",
+        "chest": "./images/spritesheets/chest.json",
+
+        "texts": "./json/localizations/${lang}/texts.json",
+
+        "chapters": "${images_url}/chapters/descriptions/${lang}.json",
+        "config": "${images_url}/levels/config.json",
+        "calendar": "${images_url}/calendar/config.json"
+    },
+    "resources_packages": {
+        "first": [
+            "lights",
+            "ui",
+            "logo",
+            "confetti",
+
+            "texts",
+            "chapters",
+            "dark_gradient",
+            "config"
+        ],
+        "level": [
+            "lights"
+        ],
+        "piggy": [
+            "piggy",
+            "ui"
+        ],
+        "calendar": [
+            "calendar",
+            "chest"
+        ]
+    },
+    "first_load_sounds": [
+        "click"
+    ],
+    "sounds": {
+        "click": "./sounds/click.mp3",
+        "wrong": "./sounds/wrong.mp3",
+        "move": "./sounds/move.mp3",
+        "pop": "./sounds/pop.mp3",
+        "ding": "./sounds/ding.mp3",
+        "collect": "./sounds/collect.mp3",
+        "win": "./sounds/win.mp3",
+        "bonus": "./sounds/bonus.mp3",
+        "flip": "./sounds/flip.mp3",
+        "connect": "./sounds/connect.mp3",
+        "card_up": "./sounds/card_up.mp3",
+        "card_down": "./sounds/card_down.mp3",
+        "flip_1": "./sounds/flip_1.mp3",
+        "flip_2": "./sounds/flip_2.mp3",
+        "flip_3": "./sounds/flip_3.mp3",
+        "flip_4": "./sounds/flip_4.mp3",
+        "hard_level": "./sounds/hard_level.mp3",
+        "piggy_open": "./sounds/piggy_open.mp3",
+        "coin": "./sounds/coin.mp3",
+        "click_like": "./sounds/click_like.mp3"
+    },
+    "musics": {
+        "loop": "./sounds/loop.mp3"
+    }
+}

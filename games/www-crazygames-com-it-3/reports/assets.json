@@ -1,0 +1,5956 @@
+{
+  "items": [
+    {
+      "path": "_/https_/jigpic-solitaire.game-files.crazygames.com/f77fdc93-c5ae-4f97-8dc3-f47c215f51b6",
+      "category": "other",
+      "meta": {
+        "size_bytes": 747,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "aax.amazon-adsystem.com/e/dtb/bid/926463.55/0/prebid__qadunitid_aqg",
+      "category": "other",
+      "meta": {
+        "size_bytes": 19,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "accounts.google.com/gsi/client_dup0",
+      "category": "other",
+      "meta": {
+        "size_bytes": 284136,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "accounts.google.com/gsi/fedcm/config/passive.json",
+      "category": "config",
+      "meta": {
+        "size_bytes": 1442,
+        "format": "json"
+      },
+      "feasibility": {
+        "score": 55,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "accounts.google.com/gsi/fedcm/listaccounts",
+      "category": "other",
+      "meta": {
+        "size_bytes": 62,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "accounts.google.com/gsi/status__qclient_id_49_dup0",
+      "category": "other",
+      "meta": {
+        "size_bytes": 79,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "accounts.google.com/gsi/style",
+      "category": "other",
+      "meta": {
+        "size_bytes": 696,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "ad.360yield.com/ul_cb/user_sync__qrt_html_part",
+      "category": "other",
+      "meta": {
+        "size_bytes": 265,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "ad.360yield.com/user_sync__qrt_html_part",
+      "category": "other",
+      "meta": {
+        "size_bytes": 265,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "ad.turn.com/r/cs__qpid_45_id_RX",
+      "category": "other",
+      "meta": {
+        "size_bytes": 43,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "ads.pubmatic.com/AdServer/js/user_sync__qgdpr_0_gdpr_.html",
+      "category": "code",
+      "meta": {
+        "size_bytes": 22335,
+        "format": "html"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "ap1rtb-user-sync.oneadtag.com/api/v1/sync/start__qgdpr_0_gdpr_",
+      "category": "other",
+      "meta": {
+        "size_bytes": 277,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "api.crazygames.com/v4/en_US/game/jigpic-solitaire/rating",
+      "category": "other",
+      "meta": {
+        "size_bytes": 34,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "api.crazygames.com/v4/it_IT/games/basicLaunch__qdevice_deskt",
+      "category": "other",
+      "meta": {
+        "size_bytes": 4098111,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "api.crazygames.com/v4/it_IT/unitsconfig__qcountry_HK_dup0",
+      "category": "other",
+      "meta": {
+        "size_bytes": 3503,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "ats-wrapper.privacymanager.io/ats-modules/f335ec38-f1f6-423b-8091-fe87576411ae/ats.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 130499,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "b1sync.outbrain.com/usersync/seedtag__qcb_https_3A_",
+      "category": "other",
+      "meta": {
+        "size_bytes": 26,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/gameframe/static/js/8bMbYHnb2.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 3231,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/gameframe/static/js/B64wT94t.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 10783,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/gameframe/static/js/BByQv_Bo2.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 6227,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/gameframe/static/js/BSTaXr_G.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 4470,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/gameframe/static/js/ByF0oZf9.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 1525,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/gameframe/static/js/CKRfKwc82.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 1263,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/gameframe/static/js/Cc5IXyQv2.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 4183,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/gameframe/static/js/D1oZjxrY2.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 31799,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/gameframe/static/js/DUwvcEJu.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 4854,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/gameframe/static/js/DdPAVnY5.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 24435,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/gameframe/static/js/DesdDbnn.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 1940,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/gameframe/static/js/Df2MVSKS2.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 10487,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/gameframe/v2.14/bundle.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 885121,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/portal-web/_next/static/1795091751/_buildManifest.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 6000,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/portal-web/_next/static/1795091751/_ssgManifest.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 77,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/portal-web/_next/static/chunks/14434-c17bcbafd5b6f726.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 33426,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/portal-web/_next/static/chunks/16790.faa7938429f06041.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 2729,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/portal-web/_next/static/chunks/1871.d8c214416bf611bd.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 41005,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/portal-web/_next/static/chunks/1bd5887b-aeda1d4dc1d4c5d6.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 124967,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/portal-web/_next/static/chunks/20299.3446c1257377bdb1.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 10117,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/portal-web/_next/static/chunks/21550.567375bf60279fc6.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 1863,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/portal-web/_next/static/chunks/23504.8bddfb04a465c6f0.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 9591,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/portal-web/_next/static/chunks/33297-74b8dca86dff2137.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 11886,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/portal-web/_next/static/chunks/36092.0349f610968cbf9e.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 1639,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/portal-web/_next/static/chunks/42035.1477a89fe640024e.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 6986,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/portal-web/_next/static/chunks/49378.60db7626f9d4e44f.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 3236,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/portal-web/_next/static/chunks/54135.d94d5dea709a8f84.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 10990,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/portal-web/_next/static/chunks/63877-c2d40d30009765f7.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 110812,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/portal-web/_next/static/chunks/65142.d96517d600582bf4.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 85267,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/portal-web/_next/static/chunks/6847-aefee112308b4d28.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 25549,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/portal-web/_next/static/chunks/73066-ee4e2d0ab88fd850.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 47355,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/portal-web/_next/static/chunks/76683.bed38207f2580772.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 13592,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/portal-web/_next/static/chunks/80957.fafa430367cb012a.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 26002,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/portal-web/_next/static/chunks/82067.ff9a3b15c3e78a8b.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 17699,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/portal-web/_next/static/chunks/83767.e065e668cf21a614.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 1010,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/portal-web/_next/static/chunks/86092.8f279f3c9e289c0d.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 64325,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/portal-web/_next/static/chunks/88823-2d8457dd7fbe1da5.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 23104,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/portal-web/_next/static/chunks/89247-b71493a621fcc168.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 23342,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/portal-web/_next/static/chunks/89837-94227bbb7509f614.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 46534,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/portal-web/_next/static/chunks/9690-e20dda3addafa762.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 32100,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/portal-web/_next/static/chunks/98881.cf293c9bfa4d5f9d.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 35677,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/portal-web/_next/static/chunks/99414.d6bebab3fad69f8f.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 9458,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/portal-web/_next/static/chunks/framework-5e11c2d5d470e84d.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 190558,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/portal-web/_next/static/chunks/main-d3e2aedeadf39fcd.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 262921,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/portal-web/_next/static/chunks/pages/_app-7d25fb516595d4af.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 1024084,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/portal-web/_next/static/chunks/pages/game/_game_-ad1c3e8dbd589296.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 20597,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/portal-web/_next/static/chunks/webpack-a7cf33bd636e662b.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 28717,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/portal-web/_next/static/css/031e1778ec9c348e.css",
+      "category": "code",
+      "meta": {
+        "size_bytes": 13203,
+        "format": "css"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/portal-web/_next/static/css/3725ca9154e05542.css",
+      "category": "code",
+      "meta": {
+        "size_bytes": 39218,
+        "format": "css"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/portal-web/_next/static/css/581e397261e10ee2.css",
+      "category": "code",
+      "meta": {
+        "size_bytes": 320829,
+        "format": "css"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/portal-web/_next/static/css/5bcc76f3b4fbe4c4.css",
+      "category": "code",
+      "meta": {
+        "size_bytes": 100704,
+        "format": "css"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/portal-web/_next/static/css/5db9552f0a5fb1a1.css",
+      "category": "code",
+      "meta": {
+        "size_bytes": 6513,
+        "format": "css"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/portal-web/_next/static/css/614e687fbe00b148.css",
+      "category": "code",
+      "meta": {
+        "size_bytes": 53518,
+        "format": "css"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/portal-web/_next/static/css/6f3bc1ffa4b59ff3.css",
+      "category": "code",
+      "meta": {
+        "size_bytes": 2689,
+        "format": "css"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/portal-web/_next/static/css/7298308bc3878c18.css",
+      "category": "code",
+      "meta": {
+        "size_bytes": 25002,
+        "format": "css"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/portal-web/_next/static/css/7deffa60fe068947.css",
+      "category": "code",
+      "meta": {
+        "size_bytes": 22800,
+        "format": "css"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/portal-web/_next/static/css/88e5c940bbc969ac.css",
+      "category": "code",
+      "meta": {
+        "size_bytes": 1391,
+        "format": "css"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/portal-web/_next/static/css/91f4b48f90d625cc.css",
+      "category": "code",
+      "meta": {
+        "size_bytes": 29471,
+        "format": "css"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/portal-web/_next/static/css/9802f89b70963e60.css",
+      "category": "code",
+      "meta": {
+        "size_bytes": 705,
+        "format": "css"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/portal-web/_next/static/css/9ce16680287f0906.css",
+      "category": "code",
+      "meta": {
+        "size_bytes": 96833,
+        "format": "css"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/portal-web/_next/static/css/b1de9405606fc0e1.css",
+      "category": "code",
+      "meta": {
+        "size_bytes": 64762,
+        "format": "css"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/portal-web/_next/static/css/b855fb72a0eb1c9c.css",
+      "category": "code",
+      "meta": {
+        "size_bytes": 75269,
+        "format": "css"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/portal-web/_next/static/css/c4a72e6084fc69c3.css",
+      "category": "code",
+      "meta": {
+        "size_bytes": 65432,
+        "format": "css"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/portal-web/_next/static/css/d239be49867c9718.css",
+      "category": "code",
+      "meta": {
+        "size_bytes": 14689,
+        "format": "css"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/portal-web/_next/static/css/dfdf111b0ff12747.css",
+      "category": "code",
+      "meta": {
+        "size_bytes": 58269,
+        "format": "css"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/portal-web/_next/static/css/e844aa76c7b000fa.css",
+      "category": "code",
+      "meta": {
+        "size_bytes": 77517,
+        "format": "css"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/portal-web/_next/static/css/ebbd98611333aec8.css",
+      "category": "code",
+      "meta": {
+        "size_bytes": 14275,
+        "format": "css"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/portal-web/_next/static/css/f5d1c303e6b14100.css",
+      "category": "code",
+      "meta": {
+        "size_bytes": 20510,
+        "format": "css"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/portal-web/_next/static/media/4addd173933af60a.p.woff2",
+      "category": "font",
+      "meta": {
+        "size_bytes": 56744,
+        "format": "woff2"
+      },
+      "feasibility": {
+        "score": 70,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/portal-web/_next/static/media/6ad36a674cfc3e90.p.woff2",
+      "category": "font",
+      "meta": {
+        "size_bytes": 31256,
+        "format": "woff2"
+      },
+      "feasibility": {
+        "score": 70,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/portal-web/_next/static/media/72fd0ddcfc9397a7.p.woff2",
+      "category": "font",
+      "meta": {
+        "size_bytes": 32828,
+        "format": "woff2"
+      },
+      "feasibility": {
+        "score": 70,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/portal-web/_next/static/media/e3353863c413f150.p.woff2",
+      "category": "font",
+      "meta": {
+        "size_bytes": 55908,
+        "format": "woff2"
+      },
+      "feasibility": {
+        "score": 70,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "cdn.privacy-mgmt.com/unified/wrapperMessagingWithoutDetection.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 151158,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "ced-ns.sascdn.com/diff/js/modules/cmp.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 25316,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "check.analytics.rlcdn.com/check/13431",
+      "category": "other",
+      "meta": {
+        "size_bytes": 25,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "cms.quantserve.com/pixel/p-zLwwakwy-hZw3__qidmatch_0_ss.gif",
+      "category": "image",
+      "meta": {
+        "size_bytes": 35,
+        "format": "GIF",
+        "width": 1,
+        "height": 1,
+        "mode": "P",
+        "alpha": false
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "cs.media.net/cst__qgdpr_0_cs_6_",
+      "category": "other",
+      "meta": {
+        "size_bytes": 61,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "cs.seedtag.com/cs__qga_false_cd_.html",
+      "category": "code",
+      "meta": {
+        "size_bytes": 8900,
+        "format": "html"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "csync.smartadserver.com/rtb/csync/CookieSync.min.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 75330,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "csync.smartadserver.com/rtb/csync/CookieSync__qnwid_3050_dc.html",
+      "category": "code",
+      "meta": {
+        "size_bytes": 560,
+        "format": "html"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "csync.smartadserver.com/rtb/csync/TemplatePool.min.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 337565,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "elb.the-ozone-project.com/cookie_sync_dup0",
+      "category": "other",
+      "meta": {
+        "size_bytes": 301,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "elb.the-ozone-project.com/openrtb2/auction_dup0",
+      "category": "other",
+      "meta": {
+        "size_bytes": 74,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "elb.the-ozone-project.com/static/load-cookie__qgdpr_0_gdpr__dup0.html",
+      "category": "code",
+      "meta": {
+        "size_bytes": 12608,
+        "format": "html"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "ep1.adtrafficquality.google/getconfig/sodar__qsv_200_tid_g_dup0",
+      "category": "other",
+      "meta": {
+        "size_bytes": 18318,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "ep2.adtrafficquality.google/sodar/Klz6NWr5.html",
+      "category": "code",
+      "meta": {
+        "size_bytes": 36378,
+        "format": "html"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "ep2.adtrafficquality.google/sodar/VFc2VJAc.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 43767,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "eu1rtb-user-sync.oneadtag.com/api/v1/sync/start__qgdpr_0_gdpr_",
+      "category": "other",
+      "meta": {
+        "size_bytes": 277,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "eus.rubiconproject.com/usync.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 46590,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "fafvertizing.crazygames.com/v12.38/424.bundle.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 48202,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "fast.nexx360.io/booster_dup0",
+      "category": "other",
+      "meta": {
+        "size_bytes": 5464,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "fastlane.rubiconproject.com/a/api/fastlane__qaccount_id_1_dup0.json",
+      "category": "config",
+      "meta": {
+        "size_bytes": 607,
+        "format": "json"
+      },
+      "feasibility": {
+        "score": 55,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "fonts.googleapis.com/css2__qdisplay_swap",
+      "category": "other",
+      "meta": {
+        "size_bytes": 9105,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "fonts.gstatic.com/s/nunito/v32/XRXV3I6Li01BKofINeaB.woff2",
+      "category": "font",
+      "meta": {
+        "size_bytes": 39128,
+        "format": "woff2"
+      },
+      "feasibility": {
+        "score": 70,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "games.crazygames.com/it_IT/jigpic-solitaire/index__qisNewUser_tr.html",
+      "category": "code",
+      "meta": {
+        "size_bytes": 18180,
+        "format": "html"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "geo.privacymanager.io/index.html",
+      "category": "code",
+      "meta": {
+        "size_bytes": 119,
+        "format": "html"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "google-bidout-d.openx.net/w/1.0/pd__qplm_5_dup0",
+      "category": "other",
+      "meta": {
+        "size_bytes": 491,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "google.com/.well-known/web-identity",
+      "category": "other",
+      "meta": {
+        "size_bytes": 218,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "googleads.g.doubleclick.net/dbm/ad__qdbm_c_AKAmf-",
+      "category": "other",
+      "meta": {
+        "size_bytes": 128831,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "gum.criteo.com/sid/json__qorigin_prebi_dup0",
+      "category": "other",
+      "meta": {
+        "size_bytes": 437,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "gum.criteo.com/sid/json__qorigin_publi_dup0",
+      "category": "other",
+      "meta": {
+        "size_bytes": 431,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "hblg-nv.media.net/log__qlogid_kfke_e",
+      "category": "other",
+      "meta": {
+        "size_bytes": 43,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "hblg.media.net/log__qlogid_kfke_p",
+      "category": "other",
+      "meta": {
+        "size_bytes": 35,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "hbx.media.net/checksync__qvsSync_1_cs_.php",
+      "category": "other",
+      "meta": {
+        "size_bytes": 39024,
+        "format": "php"
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "htlb.casalemedia.com/openrtb/pbjs__qs_512809_dup0",
+      "category": "other",
+      "meta": {
+        "size_bytes": 58,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "id.crwdcntrl.net/id__qc_18200",
+      "category": "other",
+      "meta": {
+        "size_bytes": 74,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "image6.pubmatic.com/AdServer/PugMaster__qsec_1_async__dup0",
+      "category": "other",
+      "meta": {
+        "size_bytes": 826,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "imasdk.googleapis.com/js/sdkloader/ima3_dup0.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 509139,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/8-ball-pool-billiards-multiplayer_16x9/20260722044342/8-ball-pool-billiards-multiplayer_16x9-cover__qmetadata_non_dup0",
+      "category": "other",
+      "meta": {
+        "size_bytes": 6279,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/arrow-slide-puzzle_16x9/20260811081420/arrow-slide-puzzle_16x9-cover__qmetadata_non_dup0",
+      "category": "other",
+      "meta": {
+        "size_bytes": 8465,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/arrows-bmj_16x9/20261002031008/arrows-bmj_16x9-cover__qmetadata_non_dup0.png",
+      "category": "image",
+      "meta": {
+        "size_bytes": 17482,
+        "format": "AVIF",
+        "width": 288,
+        "height": 162,
+        "mode": "RGBA",
+        "alpha": true
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/assets/SVG/icons/appstore.svg",
+      "category": "image",
+      "meta": {
+        "size_bytes": 699,
+        "format": "svg"
+      },
+      "feasibility": {
+        "score": 80,
+        "class": "easy",
+        "notes": [
+          "shared asset referenced from 2 locations"
+        ],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/assets/SVG/icons/arrow-full-right.svg",
+      "category": "image",
+      "meta": {
+        "size_bytes": 545,
+        "format": "svg"
+      },
+      "feasibility": {
+        "score": 80,
+        "class": "easy",
+        "notes": [
+          "shared asset referenced from 2 locations"
+        ],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/assets/SVG/icons/arrow-full-top.svg",
+      "category": "image",
+      "meta": {
+        "size_bytes": 554,
+        "format": "svg"
+      },
+      "feasibility": {
+        "score": 80,
+        "class": "easy",
+        "notes": [
+          "shared asset referenced from 2 locations"
+        ],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/assets/SVG/icons/close.svg",
+      "category": "image",
+      "meta": {
+        "size_bytes": 687,
+        "format": "svg"
+      },
+      "feasibility": {
+        "score": 80,
+        "class": "easy",
+        "notes": [
+          "shared asset referenced from 2 locations"
+        ],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/assets/SVG/icons/discord.svg",
+      "category": "image",
+      "meta": {
+        "size_bytes": 2930,
+        "format": "svg"
+      },
+      "feasibility": {
+        "score": 80,
+        "class": "easy",
+        "notes": [
+          "shared asset referenced from 2 locations"
+        ],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/assets/SVG/icons/hot.svg",
+      "category": "image",
+      "meta": {
+        "size_bytes": 1728,
+        "format": "svg"
+      },
+      "feasibility": {
+        "score": 80,
+        "class": "easy",
+        "notes": [
+          "shared asset referenced from 2 locations"
+        ],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/assets/SVG/icons/linkedin.svg",
+      "category": "image",
+      "meta": {
+        "size_bytes": 1005,
+        "format": "svg"
+      },
+      "feasibility": {
+        "score": 80,
+        "class": "easy",
+        "notes": [
+          "shared asset referenced from 2 locations"
+        ],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/assets/SVG/icons/new.svg",
+      "category": "image",
+      "meta": {
+        "size_bytes": 1350,
+        "format": "svg"
+      },
+      "feasibility": {
+        "score": 80,
+        "class": "easy",
+        "notes": [
+          "shared asset referenced from 2 locations"
+        ],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/assets/SVG/icons/open-menu.svg",
+      "category": "image",
+      "meta": {
+        "size_bytes": 737,
+        "format": "svg"
+      },
+      "feasibility": {
+        "score": 80,
+        "class": "easy",
+        "notes": [
+          "shared asset referenced from 2 locations"
+        ],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/assets/SVG/icons/originals6.svg",
+      "category": "image",
+      "meta": {
+        "size_bytes": 4034,
+        "format": "svg"
+      },
+      "feasibility": {
+        "score": 80,
+        "class": "easy",
+        "notes": [
+          "shared asset referenced from 2 locations"
+        ],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/assets/SVG/icons/playstore.svg",
+      "category": "image",
+      "meta": {
+        "size_bytes": 958,
+        "format": "svg"
+      },
+      "feasibility": {
+        "score": 80,
+        "class": "easy",
+        "notes": [
+          "shared asset referenced from 2 locations"
+        ],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/assets/SVG/icons/refresh.svg",
+      "category": "image",
+      "meta": {
+        "size_bytes": 971,
+        "format": "svg"
+      },
+      "feasibility": {
+        "score": 80,
+        "class": "easy",
+        "notes": [
+          "shared asset referenced from 2 locations"
+        ],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/assets/SVG/icons/search.svg",
+      "category": "image",
+      "meta": {
+        "size_bytes": 738,
+        "format": "svg"
+      },
+      "feasibility": {
+        "score": 80,
+        "class": "easy",
+        "notes": [
+          "shared asset referenced from 2 locations"
+        ],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/assets/SVG/icons/share.svg",
+      "category": "image",
+      "meta": {
+        "size_bytes": 1422,
+        "format": "svg"
+      },
+      "feasibility": {
+        "score": 80,
+        "class": "easy",
+        "notes": [
+          "shared asset referenced from 2 locations"
+        ],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/assets/SVG/icons/tiktok.svg",
+      "category": "image",
+      "meta": {
+        "size_bytes": 1232,
+        "format": "svg"
+      },
+      "feasibility": {
+        "score": 80,
+        "class": "easy",
+        "notes": [
+          "shared asset referenced from 2 locations"
+        ],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/assets/SVG/icons/youtube.svg",
+      "category": "image",
+      "meta": {
+        "size_bytes": 1496,
+        "format": "svg"
+      },
+      "feasibility": {
+        "score": 80,
+        "class": "easy",
+        "notes": [
+          "shared asset referenced from 2 locations"
+        ],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/assets/SVG/ui-icons/action_dup0.svg",
+      "category": "image",
+      "meta": {
+        "size_bytes": 376,
+        "format": "svg"
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/assets/SVG/ui-icons/adventure_dup0.svg",
+      "category": "image",
+      "meta": {
+        "size_bytes": 427,
+        "format": "svg"
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/assets/SVG/ui-icons/arcade.svg",
+      "category": "image",
+      "meta": {
+        "size_bytes": 1175,
+        "format": "svg"
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/assets/SVG/ui-icons/board_dup0.svg",
+      "category": "image",
+      "meta": {
+        "size_bytes": 365,
+        "format": "svg"
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/assets/SVG/ui-icons/cards_dup0.svg",
+      "category": "image",
+      "meta": {
+        "size_bytes": 1610,
+        "format": "svg"
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/assets/SVG/ui-icons/chevron_right_dup0.svg",
+      "category": "image",
+      "meta": {
+        "size_bytes": 238,
+        "format": "svg"
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/assets/SVG/ui-icons/clicker_dup0.svg",
+      "category": "image",
+      "meta": {
+        "size_bytes": 783,
+        "format": "svg"
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/assets/SVG/ui-icons/clock_dup0.svg",
+      "category": "image",
+      "meta": {
+        "size_bytes": 821,
+        "format": "svg"
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/assets/SVG/ui-icons/cloud_error.svg",
+      "category": "image",
+      "meta": {
+        "size_bytes": 694,
+        "format": "svg"
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/assets/SVG/ui-icons/controls.svg",
+      "category": "image",
+      "meta": {
+        "size_bytes": 1613,
+        "format": "svg"
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/assets/SVG/ui-icons/dislike.svg",
+      "category": "image",
+      "meta": {
+        "size_bytes": 457,
+        "format": "svg"
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/assets/SVG/ui-icons/driving_dup0.svg",
+      "category": "image",
+      "meta": {
+        "size_bytes": 809,
+        "format": "svg"
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/assets/SVG/ui-icons/expand.svg",
+      "category": "image",
+      "meta": {
+        "size_bytes": 635,
+        "format": "svg"
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/assets/SVG/ui-icons/feedback.svg",
+      "category": "image",
+      "meta": {
+        "size_bytes": 744,
+        "format": "svg"
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/assets/SVG/ui-icons/fire_dup0.svg",
+      "category": "image",
+      "meta": {
+        "size_bytes": 544,
+        "format": "svg"
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/assets/SVG/ui-icons/friends.svg",
+      "category": "image",
+      "meta": {
+        "size_bytes": 940,
+        "format": "svg"
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/assets/SVG/ui-icons/home.svg",
+      "category": "image",
+      "meta": {
+        "size_bytes": 271,
+        "format": "svg"
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/assets/SVG/ui-icons/io_dup0.svg",
+      "category": "image",
+      "meta": {
+        "size_bytes": 453,
+        "format": "svg"
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/assets/SVG/ui-icons/leaderboard_dup0.svg",
+      "category": "image",
+      "meta": {
+        "size_bytes": 2231,
+        "format": "svg"
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/assets/SVG/ui-icons/like.svg",
+      "category": "image",
+      "meta": {
+        "size_bytes": 461,
+        "format": "svg"
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/assets/SVG/ui-icons/menu_close_dup0.svg",
+      "category": "image",
+      "meta": {
+        "size_bytes": 1022,
+        "format": "svg"
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/assets/SVG/ui-icons/new_dup0.svg",
+      "category": "image",
+      "meta": {
+        "size_bytes": 947,
+        "format": "svg"
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/assets/SVG/ui-icons/notifications.svg",
+      "category": "image",
+      "meta": {
+        "size_bytes": 513,
+        "format": "svg"
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/assets/SVG/ui-icons/originals_dup0.svg",
+      "category": "image",
+      "meta": {
+        "size_bytes": 2845,
+        "format": "svg"
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/assets/SVG/ui-icons/phone.svg",
+      "category": "image",
+      "meta": {
+        "size_bytes": 574,
+        "format": "svg"
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/assets/SVG/ui-icons/puzzle.svg",
+      "category": "image",
+      "meta": {
+        "size_bytes": 746,
+        "format": "svg"
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/assets/SVG/ui-icons/shooting_dup0.svg",
+      "category": "image",
+      "meta": {
+        "size_bytes": 822,
+        "format": "svg"
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/assets/SVG/ui-icons/simulation.svg",
+      "category": "image",
+      "meta": {
+        "size_bytes": 1227,
+        "format": "svg"
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/assets/SVG/ui-icons/sports_dup0.svg",
+      "category": "image",
+      "meta": {
+        "size_bytes": 654,
+        "format": "svg"
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/assets/SVG/ui-icons/strategy_dup0.svg",
+      "category": "image",
+      "meta": {
+        "size_bytes": 1058,
+        "format": "svg"
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/assets/SVG/ui-icons/tag.svg",
+      "category": "image",
+      "meta": {
+        "size_bytes": 745,
+        "format": "svg"
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/assets/SVG/ui-icons/trivia.svg",
+      "category": "image",
+      "meta": {
+        "size_bytes": 1336,
+        "format": "svg"
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/assets/SVG/ui-icons/unmute.svg",
+      "category": "image",
+      "meta": {
+        "size_bytes": 820,
+        "format": "svg"
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/assets/SVG/ui-icons/updated_dup0.svg",
+      "category": "image",
+      "meta": {
+        "size_bytes": 1046,
+        "format": "svg"
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/assets/SVG/ui-icons/words_dup0.svg",
+      "category": "image",
+      "meta": {
+        "size_bytes": 758,
+        "format": "svg"
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/block-puzzle-master_16x9/20250924025352/block-puzzle-master_16x9-cover__qmetadata_non_dup0",
+      "category": "other",
+      "meta": {
+        "size_bytes": 6243,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/blockbuster-puzzle_16x9/20241118032546/blockbuster-puzzle_16x9-cover__qmetadata_non_dup0",
+      "category": "other",
+      "meta": {
+        "size_bytes": 6896,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/bloxdhop-io_16x9/20261027023447/bloxdhop-io_16x9-cover__qmetadata_non_dup0.png",
+      "category": "image",
+      "meta": {
+        "size_bytes": 8676,
+        "format": "AVIF",
+        "width": 288,
+        "height": 162,
+        "mode": "RGBA",
+        "alpha": true
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/bloxity-io_16x9/20261019060604/bloxity-io_16x9-cover__qmetadata_non_dup0.png",
+      "category": "image",
+      "meta": {
+        "size_bytes": 13433,
+        "format": "AVIF",
+        "width": 288,
+        "height": 162,
+        "mode": "RGBA",
+        "alpha": true
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/bridge-race_16x9/20241227062023/bridge-race_16x9-cover__qmetadata_non_dup0",
+      "category": "other",
+      "meta": {
+        "size_bytes": 10391,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/bubble-blast-pwd_16x9/20240927035025/bubble-blast-pwd_16x9-cover__qmetadata_non_dup0",
+      "category": "other",
+      "meta": {
+        "size_bytes": 20319,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/bubble-story_16x9/20260304024134/bubble-story_16x9-cover__qmetadata_non_dup0",
+      "category": "other",
+      "meta": {
+        "size_bytes": 18275,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/bus-escape-clear-jam_16x9/20260226030858/bus-escape-clear-jam_16x9-cover__qmetadata_non_dup0",
+      "category": "other",
+      "meta": {
+        "size_bytes": 15521,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/car-out-jam-parking-puzzle_16x9/20261105101809/car-out-jam-parking-puzzle_16x9-cover__qmetadata_non_dup0.png",
+      "category": "image",
+      "meta": {
+        "size_bytes": 14576,
+        "format": "AVIF",
+        "width": 288,
+        "height": 162,
+        "mode": "RGBA",
+        "alpha": true
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/cavern-golf-xba_16x9/20261118213518/cavern-golf-xba_16x9-cover__qmetadata_non.png",
+      "category": "image",
+      "meta": {
+        "size_bytes": 10882,
+        "format": "JPEG",
+        "width": 288,
+        "height": 162,
+        "mode": "RGB",
+        "alpha": false
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [
+          "no alpha channel: transparency-sensitive placements need care"
+        ],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/coffee-color-blocks_16x9/20260203044136/coffee-color-blocks_16x9-cover__qmetadata_non_dup0",
+      "category": "other",
+      "meta": {
+        "size_bytes": 13154,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/color-match-amg_16x9/20251028101328/color-match-amg_16x9-cover__qmetadata_non_dup0",
+      "category": "other",
+      "meta": {
+        "size_bytes": 7191,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/color-tap-coloring-by-numbers_16x9/20261102040506/color-tap-coloring-by-numbers_16x9-cover__qmetadata_non_dup0.png",
+      "category": "image",
+      "meta": {
+        "size_bytes": 13523,
+        "format": "AVIF",
+        "width": 288,
+        "height": 162,
+        "mode": "RGB",
+        "alpha": false
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/cornerlet_16x9/20261007100945/cornerlet_16x9-cover__qmetadata_non_dup0.png",
+      "category": "image",
+      "meta": {
+        "size_bytes": 14648,
+        "format": "AVIF",
+        "width": 288,
+        "height": 162,
+        "mode": "RGBA",
+        "alpha": true
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/count-masters-stickman-games_16x9/20260318145715/count-masters-stickman-games_16x9-cover__qmetadata_non_dup0",
+      "category": "other",
+      "meta": {
+        "size_bytes": 6271,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/crazygames/bannerHorBackground__qmetadata_non.svg",
+      "category": "image",
+      "meta": {
+        "size_bytes": 384,
+        "format": "svg"
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/crazygames/bannerSquareBackground__qmetadata_non.svg",
+      "category": "image",
+      "meta": {
+        "size_bytes": 390,
+        "format": "svg"
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/crazygames/favicon-2026/touch-icon__qmetadata_non_dup0.png",
+      "category": "image",
+      "meta": {
+        "size_bytes": 3015,
+        "format": "PNG",
+        "width": 32,
+        "height": 32,
+        "mode": "RGBA",
+        "alpha": true
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/crazygames/ziggy_friends__qmetadata_non.svg",
+      "category": "image",
+      "meta": {
+        "size_bytes": 8250,
+        "format": "svg"
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/crazygames/ziggy_rainbow2__qmetadata_non.svg",
+      "category": "image",
+      "meta": {
+        "size_bytes": 67627,
+        "format": "svg"
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/cups---water-sort-puzzle_16x9/20230829022932/cups---water-sort-puzzle_16x9-cover__qmetadata_non_dup0",
+      "category": "other",
+      "meta": {
+        "size_bytes": 6020,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/daily-car-wash-3d_16x9/20261114063802/daily-car-wash-3d_16x9-cover__qmetadata_non.png",
+      "category": "image",
+      "meta": {
+        "size_bytes": 10779,
+        "format": "JPEG",
+        "width": 288,
+        "height": 162,
+        "mode": "RGB",
+        "alpha": false
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [
+          "no alpha channel: transparency-sensitive placements need care"
+        ],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/daily-puzzle_16x9/20241114031959/daily-puzzle_16x9-cover__qmetadata_non_dup0",
+      "category": "other",
+      "meta": {
+        "size_bytes": 6959,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/designville-merge-design_16x9/20260827034042/designville-merge-design_16x9-cover__qmetadata_non_dup0",
+      "category": "other",
+      "meta": {
+        "size_bytes": 10509,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/favorite-puzzles_16x9/20250616154206/favorite-puzzles_16x9-cover__qmetadata_non_dup0",
+      "category": "other",
+      "meta": {
+        "size_bytes": 14551,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/find-it---find-the-differences_16x9/20240906051610/find-it---find-the-differences_16x9-cover__qmetadata_non_dup0",
+      "category": "other",
+      "meta": {
+        "size_bytes": 7834,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/find-the-cow-lqn_16x9/20260416083431/find-the-cow-lqn_16x9-cover__qmetadata_non_dup0",
+      "category": "other",
+      "meta": {
+        "size_bytes": 15941,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/find-the-difference/20230711101336/find-the-difference-cover__qmetadata_non_dup0",
+      "category": "other",
+      "meta": {
+        "size_bytes": 12225,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/fistbul-of-rubble-zmb_16x9/20261115022554/fistbul-of-rubble-zmb_16x9-cover__qmetadata_non.png",
+      "category": "image",
+      "meta": {
+        "size_bytes": 14086,
+        "format": "AVIF",
+        "width": 288,
+        "height": 162,
+        "mode": "RGB",
+        "alpha": false
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/flowmania__qmetadata_non_dup0.png",
+      "category": "image",
+      "meta": {
+        "size_bytes": 5742,
+        "format": "AVIF",
+        "width": 288,
+        "height": 178,
+        "mode": "RGBA",
+        "alpha": true
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/gameframe/ziggy__qmetadata_non.svg",
+      "category": "image",
+      "meta": {
+        "size_bytes": 2865,
+        "format": "svg"
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/games/mahjongg-solitaire/cover_16x9-1707829450935__qmetadata_non_dup0.png",
+      "category": "image",
+      "meta": {
+        "size_bytes": 12029,
+        "format": "AVIF",
+        "width": 288,
+        "height": 162,
+        "mode": "RGBA",
+        "alpha": true
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/games/pipe-puzzle/thumb-1551208552238__qmetadata_non_dup0.png",
+      "category": "image",
+      "meta": {
+        "size_bytes": 8281,
+        "format": "AVIF",
+        "width": 288,
+        "height": 178,
+        "mode": "RGBA",
+        "alpha": true
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/games/tic-tac-toe/thumb-1579168809142__qmetadata_non_dup0.png",
+      "category": "image",
+      "meta": {
+        "size_bytes": 5897,
+        "format": "AVIF",
+        "width": 288,
+        "height": 178,
+        "mode": "RGBA",
+        "alpha": true
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/goods-triple-match-3d_16x9/20261106094921/goods-triple-match-3d_16x9-cover__qmetadata_non_dup0.png",
+      "category": "image",
+      "meta": {
+        "size_bytes": 19902,
+        "format": "AVIF",
+        "width": 288,
+        "height": 162,
+        "mode": "RGBA",
+        "alpha": true
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/hexa-stack_16x9/20261027022923/hexa-stack_16x9-cover__qmetadata_non_dup0.jpg",
+      "category": "image",
+      "meta": {
+        "size_bytes": 8887,
+        "format": "AVIF",
+        "width": 288,
+        "height": 162,
+        "mode": "RGB",
+        "alpha": false
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/hidden-objects_16x9/20250505042911/hidden-objects_16x9-cover__qmetadata_non_dup0",
+      "category": "other",
+      "meta": {
+        "size_bytes": 18014,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/hole-io-uyt_16x9/20260929080322/hole-io-uyt_16x9-cover__qmetadata_non_dup0.png",
+      "category": "image",
+      "meta": {
+        "size_bytes": 13802,
+        "format": "AVIF",
+        "width": 288,
+        "height": 162,
+        "mode": "RGBA",
+        "alpha": true
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/ice-cream-inc-xkw_16x9/20260128093713/ice-cream-inc-xkw_16x9-cover__qmetadata_non_dup0",
+      "category": "other",
+      "meta": {
+        "size_bytes": 9399,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/idol-livestream-fashion-game_16x9/20250730090912/idol-livestream-fashion-game_16x9-cover__qmetadata_non_dup0",
+      "category": "other",
+      "meta": {
+        "size_bytes": 16001,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/jigmerge_16x9/20260617090709/jigmerge_16x9-cover__qmetadata_non_dup0",
+      "category": "other",
+      "meta": {
+        "size_bytes": 9164,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/jigpic-solitaire_16x9/20260302022451/jigpic-solitaire_16x9-cover__qmetadata_non_dup0",
+      "category": "other",
+      "meta": {
+        "size_bytes": 7637,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/man-runner-2048_16x9/20260520032150/man-runner-2048_16x9-cover__qmetadata_non_dup0",
+      "category": "other",
+      "meta": {
+        "size_bytes": 4861,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/mansion-tale-merge-secrets_16x9/20261009081529/mansion-tale-merge-secrets_16x9-cover__qmetadata_non_dup0.png",
+      "category": "image",
+      "meta": {
+        "size_bytes": 12160,
+        "format": "AVIF",
+        "width": 288,
+        "height": 162,
+        "mode": "RGBA",
+        "alpha": true
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/merge-haven-fzh_16x9/20260716065052/merge-haven-fzh_16x9-cover__qmetadata_non_dup0",
+      "category": "other",
+      "meta": {
+        "size_bytes": 10935,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/movie-star-dress-up_16x9/20261116020821/movie-star-dress-up_16x9-cover__qmetadata_non_dup0.png",
+      "category": "image",
+      "meta": {
+        "size_bytes": 15065,
+        "format": "AVIF",
+        "width": 288,
+        "height": 162,
+        "mode": "RGB",
+        "alpha": false
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/munch-mob-hxk_16x9/20261119110742/munch-mob-hxk_16x9-cover__qmetadata_non.png",
+      "category": "image",
+      "meta": {
+        "size_bytes": 11060,
+        "format": "AVIF",
+        "width": 288,
+        "height": 162,
+        "mode": "RGBA",
+        "alpha": true
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/numicolor_16x9/20261117051047/numicolor_16x9-cover__qmetadata_non_dup0.png",
+      "category": "image",
+      "meta": {
+        "size_bytes": 16263,
+        "format": "AVIF",
+        "width": 288,
+        "height": 162,
+        "mode": "RGB",
+        "alpha": false
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/nuts-puzzle-sort-by-color_16x9/20250602100233/nuts-puzzle-sort-by-color_16x9-cover__qmetadata_non_dup0",
+      "category": "other",
+      "meta": {
+        "size_bytes": 7881,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/paint-to-hide_16x9/20261111044857/paint-to-hide_16x9-cover__qmetadata_non_dup0.jpg",
+      "category": "image",
+      "meta": {
+        "size_bytes": 9260,
+        "format": "AVIF",
+        "width": 288,
+        "height": 162,
+        "mode": "RGB",
+        "alpha": false
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/piece-of-cake-merge-and-bake_16x9/20260812042932/piece-of-cake-merge-and-bake_16x9-cover__qmetadata_non_dup0",
+      "category": "other",
+      "meta": {
+        "size_bytes": 12028,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/plumberpipeout__qmetadata_non_dup0.png",
+      "category": "image",
+      "meta": {
+        "size_bytes": 4065,
+        "format": "AVIF",
+        "width": 288,
+        "height": 178,
+        "mode": "RGBA",
+        "alpha": true
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/racing-limits_16x9/20250711091800/racing-limits_16x9-cover__qmetadata_non_dup0",
+      "category": "other",
+      "meta": {
+        "size_bytes": 11366,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/ragdoll-archers_16x9/20250926080758/ragdoll-archers_16x9-cover__qmetadata_non_dup0",
+      "category": "other",
+      "meta": {
+        "size_bytes": 8053,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/real-war-not-fake-sno_16x9/20260813072730/real-war-not-fake-sno_16x9-cover__qmetadata_non_dup0",
+      "category": "other",
+      "meta": {
+        "size_bytes": 7424,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/royal-glow-princess-makeover-nen_16x9/20261013050109/royal-glow-princess-makeover-nen_16x9-cover__qmetadata_non_dup0.png",
+      "category": "image",
+      "meta": {
+        "size_bytes": 16288,
+        "format": "AVIF",
+        "width": 288,
+        "height": 162,
+        "mode": "RGBA",
+        "alpha": true
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/screw-out-bolts-and-nuts_16x9/20250711094331/screw-out-bolts-and-nuts_16x9-cover__qmetadata_non_dup0",
+      "category": "other",
+      "meta": {
+        "size_bytes": 11582,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/snake-out-maze-escape_16x9/20261009095406/snake-out-maze-escape_16x9-cover__qmetadata_non_dup0.png",
+      "category": "image",
+      "meta": {
+        "size_bytes": 14851,
+        "format": "AVIF",
+        "width": 288,
+        "height": 162,
+        "mode": "RGBA",
+        "alpha": true
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/space-waves_16x9/20260805094726/space-waves_16x9-cover__qmetadata_non_dup0",
+      "category": "other",
+      "meta": {
+        "size_bytes": 7920,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/spotti-find-the-differences_16x9/20260305091547/spotti-find-the-differences_16x9-cover__qmetadata_non_dup0",
+      "category": "other",
+      "meta": {
+        "size_bytes": 9742,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/steal-a-eggs_16x9/20260904032016/steal-a-eggs_16x9-cover__qmetadata_non_dup0",
+      "category": "other",
+      "meta": {
+        "size_bytes": 15346,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/tangle-master_16x9/20250421050537/tangle-master_16x9-cover__qmetadata_non_dup0",
+      "category": "other",
+      "meta": {
+        "size_bytes": 6217,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/tap-3d-wood-block-away_16x9/20250409080352/tap-3d-wood-block-away_16x9-cover__qmetadata_non_dup0",
+      "category": "other",
+      "meta": {
+        "size_bytes": 7550,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/thief-puzzle_16x9/20240919050737/thief-puzzle_16x9-cover__qmetadata_non_dup0",
+      "category": "other",
+      "meta": {
+        "size_bytes": 6436,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/tile-away-story_16x9/20260810055725/tile-away-story_16x9-cover__qmetadata_non_dup0",
+      "category": "other",
+      "meta": {
+        "size_bytes": 13757,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/traffic-rider-vvq_16x9/20250526021507/traffic-rider-vvq_16x9-cover__qmetadata_non_dup0",
+      "category": "other",
+      "meta": {
+        "size_bytes": 9863,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/twisted-tangle-nmt_16x9/20250409111646/twisted-tangle-nmt_16x9-cover__qmetadata_non_dup0",
+      "category": "other",
+      "meta": {
+        "size_bytes": 9309,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/what-s-the-difference-online_16x9/20261109102141/what-s-the-difference-online_16x9-cover__qmetadata_non_dup0.png",
+      "category": "image",
+      "meta": {
+        "size_bytes": 7546,
+        "format": "AVIF",
+        "width": 288,
+        "height": 162,
+        "mode": "RGB",
+        "alpha": false
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/wood-screw-bolts-puzzle_16x9/20250410095028/wood-screw-bolts-puzzle_16x9-cover__qmetadata_non_dup0",
+      "category": "other",
+      "meta": {
+        "size_bytes": 9988,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/word-search-lyg_16x9/20240306053554/word-search-lyg_16x9-cover__qmetadata_non_dup0",
+      "category": "other",
+      "meta": {
+        "size_bytes": 8412,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/words-of-wonders_16x9/20231019163757/words-of-wonders_16x9-cover__qmetadata_non_dup0",
+      "category": "other",
+      "meta": {
+        "size_bytes": 7526,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/zumba-quest_16x9/20251006091932/zumba-quest_16x9-cover__qmetadata_non_dup0",
+      "category": "other",
+      "meta": {
+        "size_bytes": 15416,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "index.html",
+      "category": "code",
+      "meta": {
+        "size_bytes": 172,
+        "format": "html"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "ipac.ctnsnet.com/int/cm__qexc_14_redir",
+      "category": "other",
+      "meta": {
+        "size_bytes": 43,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "jigpic-solitaire.game-files.crazygames.com/jigpic-solitaire/15/355.c0947f7f9745da94c149.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 673775,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "jigpic-solitaire.game-files.crazygames.com/jigpic-solitaire/15/cloud/chapters/descriptions/en__qv_c0947f7f97.json",
+      "category": "config",
+      "meta": {
+        "size_bytes": 116337,
+        "format": "json"
+      },
+      "feasibility": {
+        "score": 55,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "jigpic-solitaire.game-files.crazygames.com/jigpic-solitaire/15/cloud/levels/config__qv_c0947f7f97.json",
+      "category": "config",
+      "meta": {
+        "size_bytes": 22,
+        "format": "json"
+      },
+      "feasibility": {
+        "score": 55,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "jigpic-solitaire.game-files.crazygames.com/jigpic-solitaire/15/extra/tweenjs.min.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 25558,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "jigpic-solitaire.game-files.crazygames.com/jigpic-solitaire/15/fonts/Roundedmplus1cblack.ttf",
+      "category": "font",
+      "meta": {
+        "size_bytes": 95488,
+        "format": "ttf"
+      },
+      "feasibility": {
+        "score": 70,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "jigpic-solitaire.game-files.crazygames.com/jigpic-solitaire/15/images/back.png",
+      "category": "image",
+      "meta": {
+        "size_bytes": 415937,
+        "format": "PNG",
+        "width": 1922,
+        "height": 1080,
+        "mode": "P",
+        "alpha": false
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "jigpic-solitaire.game-files.crazygames.com/jigpic-solitaire/15/images/spritesheets/confetti__qv_c0947f7f97.json",
+      "category": "config",
+      "meta": {
+        "size_bytes": 619,
+        "format": "json"
+      },
+      "feasibility": {
+        "score": 55,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "jigpic-solitaire.game-files.crazygames.com/jigpic-solitaire/15/images/spritesheets/lights__qv_c0947f7f97.json",
+      "category": "config",
+      "meta": {
+        "size_bytes": 631,
+        "format": "json"
+      },
+      "feasibility": {
+        "score": 55,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "jigpic-solitaire.game-files.crazygames.com/jigpic-solitaire/15/images/spritesheets/ui__qv_c0947f7f97.json",
+      "category": "config",
+      "meta": {
+        "size_bytes": 3612,
+        "format": "json"
+      },
+      "feasibility": {
+        "score": 55,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "jigpic-solitaire.game-files.crazygames.com/jigpic-solitaire/15/index__qisNewUser_tr.html",
+      "category": "code",
+      "meta": {
+        "size_bytes": 1041,
+        "format": "html"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "jigpic-solitaire.game-files.crazygames.com/jigpic-solitaire/15/json/localizations/config.json",
+      "category": "config",
+      "meta": {
+        "size_bytes": 117,
+        "format": "json"
+      },
+      "feasibility": {
+        "score": 55,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "jigpic-solitaire.game-files.crazygames.com/jigpic-solitaire/15/json/localizations/en/texts__qv_c0947f7f97.json",
+      "category": "config",
+      "meta": {
+        "size_bytes": 4180,
+        "format": "json"
+      },
+      "feasibility": {
+        "score": 55,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "jigpic-solitaire.game-files.crazygames.com/jigpic-solitaire/15/json/resources__qv_c0947f7f97.json",
+      "category": "config",
+      "meta": {
+        "size_bytes": 2226,
+        "format": "json"
+      },
+      "feasibility": {
+        "score": 55,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "jigpic-solitaire.game-files.crazygames.com/jigpic-solitaire/15/main.c0947f7f9745da94c149.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 2596081,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "jigpic-solitaire.game-files.crazygames.com/jigpic-solitaire/15/sounds/bonus.mp3",
+      "category": "audio",
+      "meta": {
+        "size_bytes": 22641,
+        "format": "mp3",
+        "duration_s": 1.8,
+        "channels": 2,
+        "sample_rate": "32000",
+        "width": null,
+        "height": null
+      },
+      "feasibility": {
+        "score": 75,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "jigpic-solitaire.game-files.crazygames.com/jigpic-solitaire/15/sounds/card_down.mp3",
+      "category": "audio",
+      "meta": {
+        "size_bytes": 6480,
+        "format": "mp3",
+        "duration_s": 0.504,
+        "channels": 2,
+        "sample_rate": "32000",
+        "width": null,
+        "height": null
+      },
+      "feasibility": {
+        "score": 75,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "jigpic-solitaire.game-files.crazygames.com/jigpic-solitaire/15/sounds/card_up.mp3",
+      "category": "audio",
+      "meta": {
+        "size_bytes": 3456,
+        "format": "mp3",
+        "duration_s": 0.252,
+        "channels": 2,
+        "sample_rate": "32000",
+        "width": null,
+        "height": null
+      },
+      "feasibility": {
+        "score": 75,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "jigpic-solitaire.game-files.crazygames.com/jigpic-solitaire/15/sounds/click.mp3",
+      "category": "audio",
+      "meta": {
+        "size_bytes": 3024,
+        "format": "mp3",
+        "duration_s": 0.216,
+        "channels": 2,
+        "sample_rate": "32000",
+        "width": null,
+        "height": null
+      },
+      "feasibility": {
+        "score": 75,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "jigpic-solitaire.game-files.crazygames.com/jigpic-solitaire/15/sounds/click_like.mp3",
+      "category": "audio",
+      "meta": {
+        "size_bytes": 5851,
+        "format": "mp3",
+        "duration_s": 0.182844,
+        "channels": 2,
+        "sample_rate": "44100",
+        "width": null,
+        "height": null
+      },
+      "feasibility": {
+        "score": 75,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "jigpic-solitaire.game-files.crazygames.com/jigpic-solitaire/15/sounds/coin.mp3",
+      "category": "audio",
+      "meta": {
+        "size_bytes": 38016,
+        "format": "mp3",
+        "duration_s": 3.132,
+        "channels": 2,
+        "sample_rate": "32000",
+        "width": null,
+        "height": null
+      },
+      "feasibility": {
+        "score": 75,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "jigpic-solitaire.game-files.crazygames.com/jigpic-solitaire/15/sounds/collect.mp3",
+      "category": "audio",
+      "meta": {
+        "size_bytes": 38016,
+        "format": "mp3",
+        "duration_s": 3.132,
+        "channels": 2,
+        "sample_rate": "32000",
+        "width": null,
+        "height": null
+      },
+      "feasibility": {
+        "score": 75,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "jigpic-solitaire.game-files.crazygames.com/jigpic-solitaire/15/sounds/connect.mp3",
+      "category": "audio",
+      "meta": {
+        "size_bytes": 10656,
+        "format": "mp3",
+        "duration_s": 0.864,
+        "channels": 2,
+        "sample_rate": "24000",
+        "width": null,
+        "height": null
+      },
+      "feasibility": {
+        "score": 75,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "jigpic-solitaire.game-files.crazygames.com/jigpic-solitaire/15/sounds/ding.mp3",
+      "category": "audio",
+      "meta": {
+        "size_bytes": 21888,
+        "format": "mp3",
+        "duration_s": 1.8,
+        "channels": 2,
+        "sample_rate": "24000",
+        "width": null,
+        "height": null
+      },
+      "feasibility": {
+        "score": 75,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "jigpic-solitaire.game-files.crazygames.com/jigpic-solitaire/15/sounds/flip.mp3",
+      "category": "audio",
+      "meta": {
+        "size_bytes": 12225,
+        "format": "mp3",
+        "duration_s": 0.992653,
+        "channels": 1,
+        "sample_rate": "44100",
+        "width": null,
+        "height": null
+      },
+      "feasibility": {
+        "score": 75,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "jigpic-solitaire.game-files.crazygames.com/jigpic-solitaire/15/sounds/flip_1.mp3",
+      "category": "audio",
+      "meta": {
+        "size_bytes": 10944,
+        "format": "mp3",
+        "duration_s": 0.888,
+        "channels": 2,
+        "sample_rate": "24000",
+        "width": null,
+        "height": null
+      },
+      "feasibility": {
+        "score": 75,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "jigpic-solitaire.game-files.crazygames.com/jigpic-solitaire/15/sounds/flip_2.mp3",
+      "category": "audio",
+      "meta": {
+        "size_bytes": 12096,
+        "format": "mp3",
+        "duration_s": 0.984,
+        "channels": 2,
+        "sample_rate": "24000",
+        "width": null,
+        "height": null
+      },
+      "feasibility": {
+        "score": 75,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "jigpic-solitaire.game-files.crazygames.com/jigpic-solitaire/15/sounds/flip_3.mp3",
+      "category": "audio",
+      "meta": {
+        "size_bytes": 12960,
+        "format": "mp3",
+        "duration_s": 1.056,
+        "channels": 2,
+        "sample_rate": "24000",
+        "width": null,
+        "height": null
+      },
+      "feasibility": {
+        "score": 75,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "jigpic-solitaire.game-files.crazygames.com/jigpic-solitaire/15/sounds/flip_4.mp3",
+      "category": "audio",
+      "meta": {
+        "size_bytes": 12096,
+        "format": "mp3",
+        "duration_s": 0.984,
+        "channels": 2,
+        "sample_rate": "24000",
+        "width": null,
+        "height": null
+      },
+      "feasibility": {
+        "score": 75,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "jigpic-solitaire.game-files.crazygames.com/jigpic-solitaire/15/sounds/hard_level.mp3",
+      "category": "audio",
+      "meta": {
+        "size_bytes": 67824,
+        "format": "mp3",
+        "duration_s": 5.616,
+        "channels": 2,
+        "sample_rate": "32000",
+        "width": null,
+        "height": null
+      },
+      "feasibility": {
+        "score": 75,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "jigpic-solitaire.game-files.crazygames.com/jigpic-solitaire/15/sounds/loop.mp3",
+      "category": "audio",
+      "meta": {
+        "size_bytes": 659664,
+        "format": "mp3",
+        "duration_s": 54.936,
+        "channels": 2,
+        "sample_rate": "32000",
+        "width": null,
+        "height": null
+      },
+      "feasibility": {
+        "score": 75,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "jigpic-solitaire.game-files.crazygames.com/jigpic-solitaire/15/sounds/move.mp3",
+      "category": "audio",
+      "meta": {
+        "size_bytes": 5661,
+        "format": "mp3",
+        "duration_s": 0.432,
+        "channels": 2,
+        "sample_rate": "32000",
+        "width": null,
+        "height": null
+      },
+      "feasibility": {
+        "score": 75,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "jigpic-solitaire.game-files.crazygames.com/jigpic-solitaire/15/sounds/piggy_open.mp3",
+      "category": "audio",
+      "meta": {
+        "size_bytes": 41040,
+        "format": "mp3",
+        "duration_s": 3.384,
+        "channels": 2,
+        "sample_rate": "32000",
+        "width": null,
+        "height": null
+      },
+      "feasibility": {
+        "score": 75,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "jigpic-solitaire.game-files.crazygames.com/jigpic-solitaire/15/sounds/pop.mp3",
+      "category": "audio",
+      "meta": {
+        "size_bytes": 1880,
+        "format": "mp3",
+        "duration_s": 0.130612,
+        "channels": 1,
+        "sample_rate": "44100",
+        "width": null,
+        "height": null
+      },
+      "feasibility": {
+        "score": 75,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "jigpic-solitaire.game-files.crazygames.com/jigpic-solitaire/15/sounds/silence.mp3",
+      "category": "audio",
+      "meta": {
+        "size_bytes": 2160,
+        "format": "mp3",
+        "duration_s": 0.144,
+        "channels": 2,
+        "sample_rate": "32000",
+        "width": null,
+        "height": null
+      },
+      "feasibility": {
+        "score": 75,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "jigpic-solitaire.game-files.crazygames.com/jigpic-solitaire/15/sounds/win.mp3",
+      "category": "audio",
+      "meta": {
+        "size_bytes": 51840,
+        "format": "mp3",
+        "duration_s": 4.296,
+        "channels": 2,
+        "sample_rate": "24000",
+        "width": null,
+        "height": null
+      },
+      "feasibility": {
+        "score": 75,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "jigpic-solitaire.game-files.crazygames.com/jigpic-solitaire/15/sounds/wrong.mp3",
+      "category": "audio",
+      "meta": {
+        "size_bytes": 6048,
+        "format": "mp3",
+        "duration_s": 0.468,
+        "channels": 2,
+        "sample_rate": "32000",
+        "width": null,
+        "height": null
+      },
+      "feasibility": {
+        "score": 75,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "jigpic-solitaire.game-files.crazygames.com/jigpic-solitaire/15/style.c0947f7f9745da94c149.css",
+      "category": "code",
+      "meta": {
+        "size_bytes": 3426,
+        "format": "css"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "jsconfig.adsafeprotected.com/jsconfig/rjss/st/3165405/97515980/skeleton__qcbName___Int.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 3539,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "match.adsrvr.org/track/cmf/generic__qttd_pid_8m33",
+      "category": "other",
+      "meta": {
+        "size_bytes": 43,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "match.adsrvr.org/track/rid__qttd_pid_c67x",
+      "category": "other",
+      "meta": {
+        "size_bytes": 109,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "match.prod.bidr.io/cookie-sync/see",
+      "category": "other",
+      "meta": {
+        "size_bytes": 20,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "model.crazygames.com/v2/gamepageRequest__qtable_game_r",
+      "category": "other",
+      "meta": {
+        "size_bytes": 154712,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "na.edge.optable.co/config__qosdk_web-v0._dup0",
+      "category": "other",
+      "meta": {
+        "size_bytes": 135,
+        "format": "_dup0"
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "na.edge.optable.co/v2/targeting__qid___passpor",
+      "category": "other",
+      "meta": {
+        "size_bytes": 306,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "na.edge.optable.co/witness__qosdk_web-v0._dup0",
+      "category": "other",
+      "meta": {
+        "size_bytes": 135,
+        "format": "_dup0"
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "o187844.ingest.us.sentry.io/api/1511344/envelope/index__qsentry_versi_dup0.html",
+      "category": "code",
+      "meta": {
+        "size_bytes": 102,
+        "format": "html"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "onetag-sys.com/usync/index__qpubId_75601b.html",
+      "category": "code",
+      "meta": {
+        "size_bytes": 2550,
+        "format": "html"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "p.rfihub.com/cm__qpub_19967_in",
+      "category": "other",
+      "meta": {
+        "size_bytes": 60,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "pagead2.googlesyndication.com/pagead/gen_204__qid_xbid_dbm_",
+      "category": "other",
+      "meta": {
+        "size_bytes": 42,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "pagead2.googlesyndication.com/pagead/js/dv3.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 116114,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "pagead2.googlesyndication.com/pagead/js/r20261118/r20110914/abg_lite.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 29249,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "pagead2.googlesyndication.com/pagead/js/r20261118/r20110914/elements/html/omrhp.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 13133,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "pbs.yahoo.com/setuid__qbidder_rubic",
+      "category": "other",
+      "meta": {
+        "size_bytes": 86,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "pixel.rubiconproject.com/exchange/sync__qp_19564.php",
+      "category": "other",
+      "meta": {
+        "size_bytes": 82,
+        "format": "php"
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "pixel.tapad.com/idsync/ex/push__qpartner_id_2",
+      "category": "other",
+      "meta": {
+        "size_bytes": 134,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "prebid.media.net/rtb/prebid__qcid_8CUYL2RS_dup0",
+      "category": "other",
+      "meta": {
+        "size_bytes": 520,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "rtb.openx.net/esp__qurl_https_3A_dup0",
+      "category": "other",
+      "meta": {
+        "size_bytes": 85,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "s.amazon-adsystem.com/dcm__qpid_06432402",
+      "category": "other",
+      "meta": {
+        "size_bytes": 43,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "s.amazon-adsystem.com/x/19cb1bfc173dcb98ccec",
+      "category": "other",
+      "meta": {
+        "size_bytes": 274,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "s.seedtag.com/cs/cookiesync/prebid__qgdpr_0_gdpr_",
+      "category": "other",
+      "meta": {
+        "size_bytes": 379,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "s.tribalfusion.com/z/i__qp_b11_redire.match",
+      "category": "other",
+      "meta": {
+        "size_bytes": 43,
+        "format": "match"
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "s0.2mdn.net/879366/DcmEnabler_01_262.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 33976,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "s0.2mdn.net/879366/express_html_inpage_rendering_lib_200_287.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 119488,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "s0.2mdn.net/sadbundle/6887291699853298110/Asset_100.png",
+      "category": "image",
+      "meta": {
+        "size_bytes": 53629,
+        "format": "PNG",
+        "width": 303,
+        "height": 270,
+        "mode": "RGBA",
+        "alpha": true
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "s0.2mdn.net/sadbundle/6887291699853298110/Asset_101.png",
+      "category": "image",
+      "meta": {
+        "size_bytes": 53151,
+        "format": "PNG",
+        "width": 304,
+        "height": 267,
+        "mode": "RGBA",
+        "alpha": true
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "s0.2mdn.net/sadbundle/6887291699853298110/Asset_103.png",
+      "category": "image",
+      "meta": {
+        "size_bytes": 43705,
+        "format": "PNG",
+        "width": 389,
+        "height": 187,
+        "mode": "RGBA",
+        "alpha": true
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "s0.2mdn.net/sadbundle/6887291699853298110/Asset_65.png",
+      "category": "image",
+      "meta": {
+        "size_bytes": 2850,
+        "format": "PNG",
+        "width": 238,
+        "height": 16,
+        "mode": "RGBA",
+        "alpha": true
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "s0.2mdn.net/sadbundle/6887291699853298110/Asset_91.png",
+      "category": "image",
+      "meta": {
+        "size_bytes": 326667,
+        "format": "PNG",
+        "width": 652,
+        "height": 521,
+        "mode": "RGBA",
+        "alpha": true
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "s0.2mdn.net/sadbundle/6887291699853298110/Asset_97.png",
+      "category": "image",
+      "meta": {
+        "size_bytes": 50367,
+        "format": "PNG",
+        "width": 286,
+        "height": 281,
+        "mode": "RGBA",
+        "alpha": true
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "s0.2mdn.net/sadbundle/6887291699853298110/Asset_98.png",
+      "category": "image",
+      "meta": {
+        "size_bytes": 43401,
+        "format": "PNG",
+        "width": 258,
+        "height": 281,
+        "mode": "RGBA",
+        "alpha": true
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "s0.2mdn.net/sadbundle/6887291699853298110/Asset_99.png",
+      "category": "image",
+      "meta": {
+        "size_bytes": 58558,
+        "format": "PNG",
+        "width": 282,
+        "height": 285,
+        "mode": "RGBA",
+        "alpha": true
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "s0.2mdn.net/sadbundle/6887291699853298110/Cake_roll.png",
+      "category": "image",
+      "meta": {
+        "size_bytes": 257635,
+        "format": "PNG",
+        "width": 459,
+        "height": 558,
+        "mode": "RGBA",
+        "alpha": true
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "s0.2mdn.net/sadbundle/6887291699853298110/Cake_roll_price.png",
+      "category": "image",
+      "meta": {
+        "size_bytes": 6370,
+        "format": "PNG",
+        "width": 211,
+        "height": 67,
+        "mode": "RGBA",
+        "alpha": true
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "s0.2mdn.net/sadbundle/6887291699853298110/Cheese_cake.png",
+      "category": "image",
+      "meta": {
+        "size_bytes": 165634,
+        "format": "PNG",
+        "width": 360,
+        "height": 371,
+        "mode": "RGBA",
+        "alpha": true
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "s0.2mdn.net/sadbundle/6887291699853298110/Cheese_price.png",
+      "category": "image",
+      "meta": {
+        "size_bytes": 6074,
+        "format": "PNG",
+        "width": 220,
+        "height": 63,
+        "mode": "RGBA",
+        "alpha": true
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "s0.2mdn.net/sadbundle/6887291699853298110/Chocolate.png",
+      "category": "image",
+      "meta": {
+        "size_bytes": 14611,
+        "format": "PNG",
+        "width": 99,
+        "height": 74,
+        "mode": "RGBA",
+        "alpha": true
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "s0.2mdn.net/sadbundle/6887291699853298110/Cream_Pastry.png",
+      "category": "image",
+      "meta": {
+        "size_bytes": 182383,
+        "format": "PNG",
+        "width": 339,
+        "height": 278,
+        "mode": "RGBA",
+        "alpha": true
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "s0.2mdn.net/sadbundle/6887291699853298110/Cream_Pastry_price.png",
+      "category": "image",
+      "meta": {
+        "size_bytes": 4057,
+        "format": "PNG",
+        "width": 177,
+        "height": 62,
+        "mode": "RGBA",
+        "alpha": true
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "s0.2mdn.net/sadbundle/6887291699853298110/Know_more.png",
+      "category": "image",
+      "meta": {
+        "size_bytes": 9473,
+        "format": "PNG",
+        "width": 203,
+        "height": 69,
+        "mode": "RGBA",
+        "alpha": true
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "s0.2mdn.net/sadbundle/6887291699853298110/Logo.png",
+      "category": "image",
+      "meta": {
+        "size_bytes": 39194,
+        "format": "PNG",
+        "width": 418,
+        "height": 138,
+        "mode": "RGBA",
+        "alpha": true
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "s0.2mdn.net/sadbundle/6887291699853298110/Made_in_JP.png",
+      "category": "image",
+      "meta": {
+        "size_bytes": 4410,
+        "format": "PNG",
+        "width": 107,
+        "height": 36,
+        "mode": "RGBA",
+        "alpha": true
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "s0.2mdn.net/sadbundle/6887291699853298110/Pudding.png",
+      "category": "image",
+      "meta": {
+        "size_bytes": 169487,
+        "format": "PNG",
+        "width": 382,
+        "height": 367,
+        "mode": "RGBA",
+        "alpha": true
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "s0.2mdn.net/sadbundle/6887291699853298110/Pudding_price.png",
+      "category": "image",
+      "meta": {
+        "size_bytes": 4356,
+        "format": "PNG",
+        "width": 176,
+        "height": 62,
+        "mode": "RGBA",
+        "alpha": true
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "s0.2mdn.net/sadbundle/6887291699853298110/Puff.png",
+      "category": "image",
+      "meta": {
+        "size_bytes": 154430,
+        "format": "PNG",
+        "width": 377,
+        "height": 442,
+        "mode": "RGBA",
+        "alpha": true
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "s0.2mdn.net/sadbundle/6887291699853298110/Puff_price.png",
+      "category": "image",
+      "meta": {
+        "size_bytes": 5581,
+        "format": "PNG",
+        "width": 192,
+        "height": 72,
+        "mode": "RGBA",
+        "alpha": true
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "s0.2mdn.net/sadbundle/6887291699853298110/Wine.png",
+      "category": "image",
+      "meta": {
+        "size_bytes": 54465,
+        "format": "PNG",
+        "width": 143,
+        "height": 253,
+        "mode": "RGBA",
+        "alpha": true
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "s0.2mdn.net/sadbundle/6887291699853298110/alcohol_notice_1.png",
+      "category": "image",
+      "meta": {
+        "size_bytes": 3402,
+        "format": "PNG",
+        "width": 237,
+        "height": 19,
+        "mode": "RGBA",
+        "alpha": true
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "s0.2mdn.net/sadbundle/6887291699853298110/index__qev_01_262.html",
+      "category": "code",
+      "meta": {
+        "size_bytes": 249936,
+        "format": "html"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "sdk.crazygames.com/crazygames-sdk-v3.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 98378,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "secure-assets.rubiconproject.com/utils/xapi/multi-sync__qp_seedtag_en.html",
+      "category": "code",
+      "meta": {
+        "size_bytes": 318,
+        "format": "html"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "securepubads.g.doubleclick.net/gampad/ads__qpvsid_119742_dup0",
+      "category": "other",
+      "meta": {
+        "size_bytes": 867,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "securepubads.g.doubleclick.net/gampad/ads__qpvsid_166889_dup0",
+      "category": "other",
+      "meta": {
+        "size_bytes": 198269,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "securepubads.g.doubleclick.net/gampad/ads__qpvsid_317691_dup0",
+      "category": "other",
+      "meta": {
+        "size_bytes": 1019,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "securepubads.g.doubleclick.net/gampad/ads__qpvsid_740420",
+      "category": "other",
+      "meta": {
+        "size_bytes": 1637,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "securepubads.g.doubleclick.net/tag/js/gpt_dup0.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 142302,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "simage2.pubmatic.com/AdServer/Pug__qvcode_bz0yJn",
+      "category": "other",
+      "meta": {
+        "size_bytes": 52,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "solutions.cdn.optable.co/crazygames/sdk.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 120332,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "static.adsafeprotected.com/4a.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 1879,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "static.adsafeprotected.com/IAS_PassbackAds_300x250.png",
+      "category": "image",
+      "meta": {
+        "size_bytes": 14233,
+        "format": "PNG",
+        "width": 300,
+        "height": 250,
+        "mode": "RGBA",
+        "alpha": true
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "static.adsafeprotected.com/passback_300x250.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 2981,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "static.adsafeprotected.com/sca.17.6.4.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 93624,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092",
+      "category": "other",
+      "meta": {
+        "size_bytes": 31853,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "sync-dsp.ad-m.asia/dsp/api/sync/send__qs_openx",
+      "category": "other",
+      "meta": {
+        "size_bytes": 43,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "sync-tm.everesttech.net/ct/upi/pid/ny75r2x0__qredir_https_",
+      "category": "other",
+      "meta": {
+        "size_bytes": 85,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "sync.crwdcntrl.net/qmap__qc_240_tp_PUB",
+      "category": "other",
+      "meta": {
+        "size_bytes": 49,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "sync.inmobi.com/gob__qgoogle_gid_C",
+      "category": "other",
+      "meta": {
+        "size_bytes": 6597,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "sync.teads.tv/um__qssb_provider",
+      "category": "other",
+      "meta": {
+        "size_bytes": 23,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "threeredcubes.com/files/m2ha9qa_3jniu.bundle_dup0.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 141659,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "threeredcubes.com/ilag9emsitv51rv5z1p5kyr3_dup0",
+      "category": "other",
+      "meta": {
+        "size_bytes": 16,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "token.rubiconproject.com/khaos.json",
+      "category": "config",
+      "meta": {
+        "size_bytes": 7,
+        "format": "json"
+      },
+      "feasibility": {
+        "score": 55,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "tpc.googlesyndication.com/safeframe/1-0-45/js/ext.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 23889,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "trc.taboola.com/sg/google-authorized-buyers/1/cm__qgoogle_uid_C",
+      "category": "other",
+      "meta": {
+        "size_bytes": 43,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "u.openx.net/w/1.0/cm__qid_e297ef35-",
+      "category": "other",
+      "meta": {
+        "size_bytes": 604,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "uipglob.semasio.net/pubmatic/1/info__qsType_sync_s",
+      "category": "other",
+      "meta": {
+        "size_bytes": 42,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "um.simpli.fi/pubmatic__qhttps___sima",
+      "category": "other",
+      "meta": {
+        "size_bytes": 43,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "us1rtb-user-sync.oneadtag.com/api/v1/sync/start__qgdpr_0_gdpr_",
+      "category": "other",
+      "meta": {
+        "size_bytes": 277,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "us1rtb-user-sync.oneadtag.com/api/v1/sync/start__qsid_mnet_gdp",
+      "category": "other",
+      "meta": {
+        "size_bytes": 842,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "ut.pubmatic.com/geo__qpubid_0_dup0",
+      "category": "other",
+      "meta": {
+        "size_bytes": 22,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "warp.media.net/rtb/resources/release-20260917-284-adperformance.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 24991,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "www.crazygames.com/images/background2.jpg",
+      "category": "image",
+      "meta": {
+        "size_bytes": 5956,
+        "format": "JPEG",
+        "width": 1200,
+        "height": 674,
+        "mode": "RGB",
+        "alpha": false
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [
+          "no alpha channel: transparency-sensitive placements need care"
+        ],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "www.crazygames.com/images/logo/icon/logo-icon-white.svg",
+      "category": "image",
+      "meta": {
+        "size_bytes": 4909,
+        "format": "svg"
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "www.crazygames.com/images/logo/text/logo-text-white.svg",
+      "category": "image",
+      "meta": {
+        "size_bytes": 3078,
+        "format": "svg"
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "www.crazygames.com/it/game/jigpic-solitaire_dup0",
+      "category": "other",
+      "meta": {
+        "size_bytes": 170161,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "www.google.com/recaptcha/api2/aframe_dup0",
+      "category": "other",
+      "meta": {
+        "size_bytes": 894,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "www.gstatic.com/images/icons/material/system/2x/feedback_grey600_24dp.png",
+      "category": "image",
+      "meta": {
+        "size_bytes": 205,
+        "format": "PNG",
+        "width": 48,
+        "height": 48,
+        "mode": "LA",
+        "alpha": true
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "www.gstatic.com/mysidia/1a6c8d76751db1ca6b691968c556700c__qtag_engine_c.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 1982,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "www.gstatic.com/mysidia/4008da5d566dcbc89c58891131e16a93__qtag_video_mr.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 181693,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "x.bidswitch.net/sync__qssp_pubmatic",
+      "category": "other",
+      "meta": {
+        "size_bytes": 1,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "y.one.impact-ad.jp/ul_cb/ebda_cs__qgoogle_gid_C",
+      "category": "other",
+      "meta": {
+        "size_bytes": 11,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    }
+  ],
+  "summary": {
+    "assets": 382,
+    "by_category": {
+      "other": 119,
+      "config": 11,
+      "code": 111,
+      "font": 6,
+      "image": 113,
+      "audio": 22
+    },
+    "overall_feasibility": 59,
+    "bottleneck": null,
+    "thresholds": ">=80 easy, 50-79 moderate, 25-49 difficult, <25 very difficult"
+  }
+}

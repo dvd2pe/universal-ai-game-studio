@@ -1,0 +1,55 @@
+{
+  "slug": "www-crazygames-com-it-3",
+  "url": "https://www.crazygames.com/it/game/jigpic-solitaire",
+  "status": "complete",
+  "final_url": "https://www.crazygames.com/it/game/jigpic-solitaire",
+  "entry_url": "https://jigpic-solitaire.game-files.crazygames.com/jigpic-solitaire/15/index.html?isNewUser=false&__nextLocale=it&isFirstSession=true&czyExpClientOptable4=enabled&czyExpClientAdsDummyAA50=disabled&czyExpClientAmazonBidRoute_2=prebid&czyExpClientAdsHolidayMode_CZY_21360=enabled&czyExpClientAdmiral=enabled&czyExpClientAdXFloor_1_CZY_20844=1.1&czyExpClientVerticalVideoSize_CZY_22165=disabled&czyExpDisableInterstitialsFirst12h_CZY_18471=disabled&czyExpClientArtworkAbTesting_CZY_20701=enabled&czyExpModelApiTraffic_CZY_21907=enabled&czyExpCoversImages_CZY_21375=enabled&czyExpClientDomainProbe_CZY_21425=disabled&czyExpClientGamepageModelBlend_CZY_21410=enabled&czyExpClientInAppPurchaseAlternativeBillingAndroidValidToken=disabled&czyExpClientConfirmLeaveGame=enabled&czyExpClientImpressionDiscounting_CZY_20723=enabled&czyExpClientLbRankProgress_CZY_21923=enabled&czyExpIncreasedLeaderboardProminance=enabled&czyExpClientModelGamePage=knn_v3&czyExpClientInAppPurchaseAlternativeBillingAndroid=enabled&czyExpClientInAppPurchaseAlternativeBillingIOSUS=enabled",
+  "entry_rel": "jigpic-solitaire.game-files.crazygames.com/jigpic-solitaire/15/index__qisNewUser_fa.html",
+  "engine": {
+    "engine": "unknown",
+    "confidence": "none",
+    "evidence": []
+  },
+  "counts": {
+    "discovered": 1292,
+    "captured": 142,
+    "downloaded": 410,
+    "failed": 126,
+    "duplicates": 614
+  },
+  "score": 44,
+  "verdict": "incomplete: significant failures during local verification \u2014 mirror is NOT confirmed playable",
+  "audit_summary": {
+    "GREEN": 14,
+    "UNKNOWN": 170,
+    "YELLOW": 8
+  },
+  "assets_summary": {
+    "assets": 382,
+    "by_category": {
+      "other": 119,
+      "config": 11,
+      "code": 111,
+      "font": 6,
+      "image": 113,
+      "audio": 22
+    },
+    "overall_feasibility": 59,
+    "bottleneck": null,
+    "thresholds": ">=80 easy, 50-79 moderate, 25-49 difficult, <25 very difficult"
+  },
+  "created": "2026-11-20T10:18:22.700985+00:00",
+  "duration_s": 373.6,
+  "preview_url": "/games/www-crazygames-com-it-3/mirror/jigpic-solitaire.game-files.crazygames.com/jigpic-solitaire/15/index__qisNewUser_fa.html",
+  "reports": {
+    "summary": "games/www-crazygames-com-it-3/reports/summary.json",
+    "recon": "games/www-crazygames-com-it-3/reports/recon.json",
+    "manifest": "games/www-crazygames-com-it-3/reports/manifest.json",
+    "depgraph": "games/www-crazygames-com-it-3/reports/depgraph.json",
+    "rewrite": "games/www-crazygames-com-it-3/reports/rewrite.json",
+    "audit": "games/www-crazygames-com-it-3/reports/audit.json",
+    "assets": "games/www-crazygames-com-it-3/reports/assets.json",
+    "verify": "games/www-crazygames-com-it-3/reports/verify.json",
+    "score": "games/www-crazygames-com-it-3/reports/score.json"
+  }
+}
