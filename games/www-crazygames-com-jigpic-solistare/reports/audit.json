@@ -1,0 +1,153 @@
+{
+  "findings": [
+    {
+      "type": "external-service",
+      "target": "aax.amazon-adsystem.com",
+      "category": "unknown-external",
+      "classification": "UNKNOWN",
+      "evidence": "1 acquired resources from this host (e.g. aax.amazon-adsystem.com/e/dtb/bid/926463.55/0/prebid__qadunitid_aqg)",
+      "depends_on_gameplay": "unknown",
+      "risk": "removal may break loading if the game fetches from it at runtime",
+      "confidence": "directly observed",
+      "recommended_action": "investigate before touching",
+      "rollback": "restore originals from acquisition/original/"
+    },
+    {
+      "type": "external-service",
+      "target": "accounts.google.com",
+      "category": "analytics",
+      "classification": "GREEN",
+      "evidence": "5 acquired resources from this host (e.g. accounts.google.com/gsi/client)",
+      "depends_on_gameplay": "unknown",
+      "risk": "removal may break loading if the game fetches from it at runtime",
+      "confidence": "directly observed",
+      "recommended_action": "remove",
+      "rollback": "restore originals from acquisition/original/"
+    },
+    {
+      "type": "external-service",
+      "target": "api.crazygames.com",
+      "category": "unknown-external",
+      "classification": "UNKNOWN",
+      "evidence": "1 acquired resources from this host (e.g. api.crazygames.com/v4/it_IT/games__qpaginationPa)",
+      "depends_on_gameplay": "unknown",
+      "risk": "removal may break loading if the game fetches from it at runtime",
+      "confidence": "directly observed",
+      "recommended_action": "investigate before touching",
+      "rollback": "restore originals from acquisition/original/"
+    },
+    {
+      "type": "external-service",
+      "target": "builds.crazygames.com",
+      "category": "unknown-external",
+      "classification": "UNKNOWN",
+      "evidence": "46 acquired resources from this host (e.g. builds.crazygames.com/portal-web/_next/static/css/581e397261e10ee2.css)",
+      "depends_on_gameplay": "unknown",
+      "risk": "removal may break loading if the game fetches from it at runtime",
+      "confidence": "directly observed",
+      "recommended_action": "investigate before touching",
+      "rollback": "restore originals from acquisition/original/"
+    },
+    {
+      "type": "external-service",
+      "target": "cdn.privacy-mgmt.com",
+      "category": "unknown-external",
+      "classification": "UNKNOWN",
+      "evidence": "1 acquired resources from this host (e.g. cdn.privacy-mgmt.com/unified/wrapperMessagingWithoutDetection.js)",
+      "depends_on_gameplay": "unknown",
+      "risk": "removal may break loading if the game fetches from it at runtime",
+      "confidence": "directly observed",
+      "recommended_action": "investigate before touching",
+      "rollback": "restore originals from acquisition/original/"
+    },
+    {
+      "type": "external-service",
+      "target": "google.com",
+      "category": "unknown-external",
+      "classification": "UNKNOWN",
+      "evidence": "1 acquired resources from this host (e.g. google.com/.well-known/web-identity)",
+      "depends_on_gameplay": "unknown",
+      "risk": "removal may break loading if the game fetches from it at runtime",
+      "confidence": "directly observed",
+      "recommended_action": "investigate before touching",
+      "rollback": "restore originals from acquisition/original/"
+    },
+    {
+      "type": "external-service",
+      "target": "imgs.crazygames.com",
+      "category": "unknown-external",
+      "classification": "UNKNOWN",
+      "evidence": "57 acquired resources from this host (e.g. imgs.crazygames.com/assets/SVG/ui-icons/menu_close.svg)",
+      "depends_on_gameplay": "unknown",
+      "risk": "removal may break loading if the game fetches from it at runtime",
+      "confidence": "directly observed",
+      "recommended_action": "investigate before touching",
+      "rollback": "restore originals from acquisition/original/"
+    },
+    {
+      "type": "external-service",
+      "target": "na.edge.optable.co",
+      "category": "unknown-external",
+      "classification": "UNKNOWN",
+      "evidence": "3 acquired resources from this host (e.g. na.edge.optable.co/config__qosdk_web-v0.)",
+      "depends_on_gameplay": "unknown",
+      "risk": "removal may break loading if the game fetches from it at runtime",
+      "confidence": "directly observed",
+      "recommended_action": "investigate before touching",
+      "rollback": "restore originals from acquisition/original/"
+    },
+    {
+      "type": "external-service",
+      "target": "o187844.ingest.us.sentry.io",
+      "category": "error-monitoring",
+      "classification": "GREEN",
+      "evidence": "3 acquired resources from this host (e.g. o187844.ingest.us.sentry.io/api/1511344/envelope/index__qsentry_versi.html)",
+      "depends_on_gameplay": "unknown",
+      "risk": "removal may break loading if the game fetches from it at runtime",
+      "confidence": "directly observed",
+      "recommended_action": "remove",
+      "rollback": "restore originals from acquisition/original/"
+    },
+    {
+      "type": "external-service",
+      "target": "solutions.cdn.optable.co",
+      "category": "unknown-external",
+      "classification": "UNKNOWN",
+      "evidence": "2 acquired resources from this host (e.g. solutions.cdn.optable.co/crazygames/sdk.js)",
+      "depends_on_gameplay": "unknown",
+      "risk": "removal may break loading if the game fetches from it at runtime",
+      "confidence": "directly observed",
+      "recommended_action": "investigate before touching",
+      "rollback": "restore originals from acquisition/original/"
+    },
+    {
+      "type": "external-service",
+      "target": "threeredcubes.com",
+      "category": "unknown-external",
+      "classification": "UNKNOWN",
+      "evidence": "3 acquired resources from this host (e.g. threeredcubes.com/files/m2ha9qa_3jniu.bundle.js)",
+      "depends_on_gameplay": "unknown",
+      "risk": "removal may break loading if the game fetches from it at runtime",
+      "confidence": "directly observed",
+      "recommended_action": "investigate before touching",
+      "rollback": "restore originals from acquisition/original/"
+    },
+    {
+      "type": "branding",
+      "target": "cdn.privacy-mgmt.com/unified/wrapperMessagingWithoutDetection.js",
+      "category": "branding",
+      "classification": "YELLOW",
+      "evidence": "copyright line: \u202610.2\",mode:r?\"pure\":\"global\",copyright:\"\u00a9 2021 Denis Pushkarev (zloirock.ru)\"})},function(e,t,n){var r=n(5\u2026",
+      "risk": "cosmetic",
+      "confidence": "directly observed",
+      "recommended_action": "review and edit manually",
+      "rollback": "restore originals from acquisition/original/"
+    }
+  ],
+  "summary": {
+    "UNKNOWN": 9,
+    "GREEN": 2,
+    "YELLOW": 1
+  },
+  "note": "Nothing was removed. Every change requires explicit human approval."
+}

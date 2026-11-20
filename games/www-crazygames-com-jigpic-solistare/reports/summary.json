@@ -1,0 +1,56 @@
+{
+  "slug": "www-crazygames-com-jigpic-solistare",
+  "url": "https://www.crazygames.com/it/game/jigpic-solistare",
+  "status": "complete",
+  "final_url": "https://www.crazygames.com/it/game/jigpic-solistare",
+  "entry_url": "https://www.crazygames.com/it/game/jigpic-solistare",
+  "entry_rel": "www.crazygames.com/it/game/jigpic-solistare",
+  "engine": {
+    "engine": "melonjs",
+    "confidence": "medium",
+    "evidence": [
+      "signature match: 'me\\.game'"
+    ]
+  },
+  "counts": {
+    "discovered": 127,
+    "captured": 124,
+    "downloaded": 0,
+    "failed": 0,
+    "duplicates": 3
+  },
+  "score": 68,
+  "verdict": "partially-verified: mirror loads locally but some runtime checks did not pass (see components)",
+  "audit_summary": {
+    "UNKNOWN": 9,
+    "GREEN": 2,
+    "YELLOW": 1
+  },
+  "assets_summary": {
+    "assets": 121,
+    "by_category": {
+      "other": 19,
+      "config": 1,
+      "code": 48,
+      "font": 4,
+      "image": 49
+    },
+    "overall_feasibility": 60,
+    "bottleneck": null,
+    "thresholds": ">=80 easy, 50-79 moderate, 25-49 difficult, <25 very difficult"
+  },
+  "created": "2026-11-20T10:45:51.726502+00:00",
+  "duration_s": 35.4,
+  "preview_url": "/games/www-crazygames-com-jigpic-solistare/mirror/www.crazygames.com/it/game/jigpic-solistare",
+  "reports": {
+    "summary": "games/www-crazygames-com-jigpic-solistare/reports/summary.json",
+    "recon": "games/www-crazygames-com-jigpic-solistare/reports/recon.json",
+    "manifest": "games/www-crazygames-com-jigpic-solistare/reports/manifest.json",
+    "depgraph": "games/www-crazygames-com-jigpic-solistare/reports/depgraph.json",
+    "rewrite": "games/www-crazygames-com-jigpic-solistare/reports/rewrite.json",
+    "audit": "games/www-crazygames-com-jigpic-solistare/reports/audit.json",
+    "assets": "games/www-crazygames-com-jigpic-solistare/reports/assets.json",
+    "verify": "games/www-crazygames-com-jigpic-solistare/reports/verify.json",
+    "score": "games/www-crazygames-com-jigpic-solistare/reports/score.json"
+  }
+}

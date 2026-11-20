@@ -1,0 +1,1861 @@
+{
+  "items": [
+    {
+      "path": "aax.amazon-adsystem.com/e/dtb/bid/926463.55/0/prebid__qadunitid_aqg",
+      "category": "other",
+      "meta": {
+        "size_bytes": 19,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "accounts.google.com/gsi/client",
+      "category": "other",
+      "meta": {
+        "size_bytes": 284105,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "accounts.google.com/gsi/fedcm/config/passive.json",
+      "category": "config",
+      "meta": {
+        "size_bytes": 1442,
+        "format": "json"
+      },
+      "feasibility": {
+        "score": 55,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "accounts.google.com/gsi/fedcm/listaccounts",
+      "category": "other",
+      "meta": {
+        "size_bytes": 62,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "accounts.google.com/gsi/status__qclient_id_49",
+      "category": "other",
+      "meta": {
+        "size_bytes": 79,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "accounts.google.com/gsi/style",
+      "category": "other",
+      "meta": {
+        "size_bytes": 696,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "api.crazygames.com/v4/it_IT/games__qpaginationPa",
+      "category": "other",
+      "meta": {
+        "size_bytes": 25624,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/portal-web/_next/static/1795091751/_buildManifest.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 6000,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/portal-web/_next/static/1795091751/_ssgManifest.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 77,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/portal-web/_next/static/chunks/14434-c17bcbafd5b6f726.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 33426,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/portal-web/_next/static/chunks/1871.d8c214416bf611bd.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 41000,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/portal-web/_next/static/chunks/1bd5887b-aeda1d4dc1d4c5d6.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 124967,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/portal-web/_next/static/chunks/20299.3446c1257377bdb1.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 10117,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/portal-web/_next/static/chunks/21550.567375bf60279fc6.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 1863,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/portal-web/_next/static/chunks/23504.8bddfb04a465c6f0.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 9591,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/portal-web/_next/static/chunks/36092.0349f610968cbf9e.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 1639,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/portal-web/_next/static/chunks/42035.1477a89fe640024e.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 6986,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/portal-web/_next/static/chunks/54135.d94d5dea709a8f84.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 10990,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/portal-web/_next/static/chunks/63877-c2d40d30009765f7.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 110812,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/portal-web/_next/static/chunks/6847-aefee112308b4d28.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 25549,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/portal-web/_next/static/chunks/73066-ee4e2d0ab88fd850.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 47355,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/portal-web/_next/static/chunks/76683.bed38207f2580772.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 13592,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/portal-web/_next/static/chunks/80957.fafa430367cb012a.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 26002,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/portal-web/_next/static/chunks/82067.ff9a3b15c3e78a8b.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 17699,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/portal-web/_next/static/chunks/83767.e065e668cf21a614.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 1010,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/portal-web/_next/static/chunks/88823-2d8457dd7fbe1da5.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 23104,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/portal-web/_next/static/chunks/89247-b71493a621fcc168.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 23342,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/portal-web/_next/static/chunks/98881.cf293c9bfa4d5f9d.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 35677,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/portal-web/_next/static/chunks/99414.d6bebab3fad69f8f.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 9458,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/portal-web/_next/static/chunks/framework-5e11c2d5d470e84d.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 190558,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/portal-web/_next/static/chunks/main-d3e2aedeadf39fcd.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 262921,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/portal-web/_next/static/chunks/pages/_app-7d25fb516595d4af.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 1024079,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/portal-web/_next/static/chunks/pages/game/_game_-ad1c3e8dbd589296.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 20597,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/portal-web/_next/static/chunks/webpack-a7cf33bd636e662b.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 28717,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/portal-web/_next/static/css/031e1778ec9c348e.css",
+      "category": "code",
+      "meta": {
+        "size_bytes": 13203,
+        "format": "css"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/portal-web/_next/static/css/581e397261e10ee2.css",
+      "category": "code",
+      "meta": {
+        "size_bytes": 320793,
+        "format": "css"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/portal-web/_next/static/css/5bcc76f3b4fbe4c4.css",
+      "category": "code",
+      "meta": {
+        "size_bytes": 100704,
+        "format": "css"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/portal-web/_next/static/css/614e687fbe00b148.css",
+      "category": "code",
+      "meta": {
+        "size_bytes": 53518,
+        "format": "css"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/portal-web/_next/static/css/6f3bc1ffa4b59ff3.css",
+      "category": "code",
+      "meta": {
+        "size_bytes": 2689,
+        "format": "css"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/portal-web/_next/static/css/7298308bc3878c18.css",
+      "category": "code",
+      "meta": {
+        "size_bytes": 25002,
+        "format": "css"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/portal-web/_next/static/css/88e5c940bbc969ac.css",
+      "category": "code",
+      "meta": {
+        "size_bytes": 1391,
+        "format": "css"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/portal-web/_next/static/css/91f4b48f90d625cc.css",
+      "category": "code",
+      "meta": {
+        "size_bytes": 29471,
+        "format": "css"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/portal-web/_next/static/css/9ce16680287f0906.css",
+      "category": "code",
+      "meta": {
+        "size_bytes": 96833,
+        "format": "css"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/portal-web/_next/static/css/b1de9405606fc0e1.css",
+      "category": "code",
+      "meta": {
+        "size_bytes": 64762,
+        "format": "css"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/portal-web/_next/static/css/b855fb72a0eb1c9c.css",
+      "category": "code",
+      "meta": {
+        "size_bytes": 75269,
+        "format": "css"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/portal-web/_next/static/css/c4a72e6084fc69c3.css",
+      "category": "code",
+      "meta": {
+        "size_bytes": 65432,
+        "format": "css"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/portal-web/_next/static/css/d239be49867c9718.css",
+      "category": "code",
+      "meta": {
+        "size_bytes": 14689,
+        "format": "css"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/portal-web/_next/static/css/e844aa76c7b000fa.css",
+      "category": "code",
+      "meta": {
+        "size_bytes": 77517,
+        "format": "css"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/portal-web/_next/static/css/ebbd98611333aec8.css",
+      "category": "code",
+      "meta": {
+        "size_bytes": 14275,
+        "format": "css"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/portal-web/_next/static/media/4addd173933af60a.p.woff2",
+      "category": "font",
+      "meta": {
+        "size_bytes": 56744,
+        "format": "woff2"
+      },
+      "feasibility": {
+        "score": 70,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/portal-web/_next/static/media/6ad36a674cfc3e90.p.woff2",
+      "category": "font",
+      "meta": {
+        "size_bytes": 31256,
+        "format": "woff2"
+      },
+      "feasibility": {
+        "score": 70,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/portal-web/_next/static/media/72fd0ddcfc9397a7.p.woff2",
+      "category": "font",
+      "meta": {
+        "size_bytes": 32828,
+        "format": "woff2"
+      },
+      "feasibility": {
+        "score": 70,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "builds.crazygames.com/portal-web/_next/static/media/e3353863c413f150.p.woff2",
+      "category": "font",
+      "meta": {
+        "size_bytes": 55908,
+        "format": "woff2"
+      },
+      "feasibility": {
+        "score": 70,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "cdn.privacy-mgmt.com/unified/wrapperMessagingWithoutDetection.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 151158,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "google.com/.well-known/web-identity",
+      "category": "other",
+      "meta": {
+        "size_bytes": 218,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/8-ball-pool-billiards-multiplayer_16x9/20260722044342/8-ball-pool-billiards-multiplayer_16x9-cover__qmetadata_non",
+      "category": "other",
+      "meta": {
+        "size_bytes": 6279,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/assets/SVG/icons/appstore.svg",
+      "category": "image",
+      "meta": {
+        "size_bytes": 699,
+        "format": "svg"
+      },
+      "feasibility": {
+        "score": 80,
+        "class": "easy",
+        "notes": [
+          "shared asset referenced from 2 locations"
+        ],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/assets/SVG/icons/close.svg",
+      "category": "image",
+      "meta": {
+        "size_bytes": 687,
+        "format": "svg"
+      },
+      "feasibility": {
+        "score": 80,
+        "class": "easy",
+        "notes": [
+          "shared asset referenced from 2 locations"
+        ],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/assets/SVG/icons/discord.svg",
+      "category": "image",
+      "meta": {
+        "size_bytes": 2930,
+        "format": "svg"
+      },
+      "feasibility": {
+        "score": 80,
+        "class": "easy",
+        "notes": [
+          "shared asset referenced from 2 locations"
+        ],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/assets/SVG/icons/home.svg",
+      "category": "image",
+      "meta": {
+        "size_bytes": 2811,
+        "format": "svg"
+      },
+      "feasibility": {
+        "score": 80,
+        "class": "easy",
+        "notes": [
+          "shared asset referenced from 2 locations"
+        ],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/assets/SVG/icons/linkedin.svg",
+      "category": "image",
+      "meta": {
+        "size_bytes": 1005,
+        "format": "svg"
+      },
+      "feasibility": {
+        "score": 80,
+        "class": "easy",
+        "notes": [
+          "shared asset referenced from 2 locations"
+        ],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/assets/SVG/icons/new.svg",
+      "category": "image",
+      "meta": {
+        "size_bytes": 1350,
+        "format": "svg"
+      },
+      "feasibility": {
+        "score": 80,
+        "class": "easy",
+        "notes": [
+          "shared asset referenced from 2 locations"
+        ],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/assets/SVG/icons/originals6.svg",
+      "category": "image",
+      "meta": {
+        "size_bytes": 4034,
+        "format": "svg"
+      },
+      "feasibility": {
+        "score": 80,
+        "class": "easy",
+        "notes": [
+          "shared asset referenced from 2 locations"
+        ],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/assets/SVG/icons/playstore.svg",
+      "category": "image",
+      "meta": {
+        "size_bytes": 958,
+        "format": "svg"
+      },
+      "feasibility": {
+        "score": 80,
+        "class": "easy",
+        "notes": [
+          "shared asset referenced from 2 locations"
+        ],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/assets/SVG/icons/random.svg",
+      "category": "image",
+      "meta": {
+        "size_bytes": 1868,
+        "format": "svg"
+      },
+      "feasibility": {
+        "score": 80,
+        "class": "easy",
+        "notes": [
+          "shared asset referenced from 2 locations"
+        ],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/assets/SVG/icons/refresh.svg",
+      "category": "image",
+      "meta": {
+        "size_bytes": 971,
+        "format": "svg"
+      },
+      "feasibility": {
+        "score": 80,
+        "class": "easy",
+        "notes": [
+          "shared asset referenced from 2 locations"
+        ],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/assets/SVG/icons/search.svg",
+      "category": "image",
+      "meta": {
+        "size_bytes": 738,
+        "format": "svg"
+      },
+      "feasibility": {
+        "score": 80,
+        "class": "easy",
+        "notes": [
+          "shared asset referenced from 2 locations"
+        ],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/assets/SVG/icons/tiktok.svg",
+      "category": "image",
+      "meta": {
+        "size_bytes": 1232,
+        "format": "svg"
+      },
+      "feasibility": {
+        "score": 80,
+        "class": "easy",
+        "notes": [
+          "shared asset referenced from 2 locations"
+        ],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/assets/SVG/icons/trending.svg",
+      "category": "image",
+      "meta": {
+        "size_bytes": 1688,
+        "format": "svg"
+      },
+      "feasibility": {
+        "score": 80,
+        "class": "easy",
+        "notes": [
+          "shared asset referenced from 2 locations"
+        ],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/assets/SVG/icons/youtube.svg",
+      "category": "image",
+      "meta": {
+        "size_bytes": 1496,
+        "format": "svg"
+      },
+      "feasibility": {
+        "score": 80,
+        "class": "easy",
+        "notes": [
+          "shared asset referenced from 2 locations"
+        ],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/assets/SVG/ui-icons/action.svg",
+      "category": "image",
+      "meta": {
+        "size_bytes": 376,
+        "format": "svg"
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/assets/SVG/ui-icons/adventure.svg",
+      "category": "image",
+      "meta": {
+        "size_bytes": 427,
+        "format": "svg"
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/assets/SVG/ui-icons/arcade.svg",
+      "category": "image",
+      "meta": {
+        "size_bytes": 1175,
+        "format": "svg"
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/assets/SVG/ui-icons/board.svg",
+      "category": "image",
+      "meta": {
+        "size_bytes": 365,
+        "format": "svg"
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/assets/SVG/ui-icons/cards.svg",
+      "category": "image",
+      "meta": {
+        "size_bytes": 1610,
+        "format": "svg"
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/assets/SVG/ui-icons/clicker.svg",
+      "category": "image",
+      "meta": {
+        "size_bytes": 783,
+        "format": "svg"
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/assets/SVG/ui-icons/clock.svg",
+      "category": "image",
+      "meta": {
+        "size_bytes": 821,
+        "format": "svg"
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/assets/SVG/ui-icons/driving.svg",
+      "category": "image",
+      "meta": {
+        "size_bytes": 809,
+        "format": "svg"
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/assets/SVG/ui-icons/fire.svg",
+      "category": "image",
+      "meta": {
+        "size_bytes": 544,
+        "format": "svg"
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/assets/SVG/ui-icons/friends.svg",
+      "category": "image",
+      "meta": {
+        "size_bytes": 940,
+        "format": "svg"
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/assets/SVG/ui-icons/home.svg",
+      "category": "image",
+      "meta": {
+        "size_bytes": 271,
+        "format": "svg"
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/assets/SVG/ui-icons/io.svg",
+      "category": "image",
+      "meta": {
+        "size_bytes": 453,
+        "format": "svg"
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/assets/SVG/ui-icons/leaderboard.svg",
+      "category": "image",
+      "meta": {
+        "size_bytes": 2231,
+        "format": "svg"
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/assets/SVG/ui-icons/menu_close.svg",
+      "category": "image",
+      "meta": {
+        "size_bytes": 1022,
+        "format": "svg"
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/assets/SVG/ui-icons/new.svg",
+      "category": "image",
+      "meta": {
+        "size_bytes": 947,
+        "format": "svg"
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/assets/SVG/ui-icons/notifications.svg",
+      "category": "image",
+      "meta": {
+        "size_bytes": 513,
+        "format": "svg"
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/assets/SVG/ui-icons/originals.svg",
+      "category": "image",
+      "meta": {
+        "size_bytes": 2845,
+        "format": "svg"
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/assets/SVG/ui-icons/puzzle.svg",
+      "category": "image",
+      "meta": {
+        "size_bytes": 746,
+        "format": "svg"
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/assets/SVG/ui-icons/save.svg",
+      "category": "image",
+      "meta": {
+        "size_bytes": 328,
+        "format": "svg"
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/assets/SVG/ui-icons/shooting.svg",
+      "category": "image",
+      "meta": {
+        "size_bytes": 822,
+        "format": "svg"
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/assets/SVG/ui-icons/simulation.svg",
+      "category": "image",
+      "meta": {
+        "size_bytes": 1227,
+        "format": "svg"
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/assets/SVG/ui-icons/sports.svg",
+      "category": "image",
+      "meta": {
+        "size_bytes": 654,
+        "format": "svg"
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/assets/SVG/ui-icons/strategy.svg",
+      "category": "image",
+      "meta": {
+        "size_bytes": 1058,
+        "format": "svg"
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/assets/SVG/ui-icons/tag.svg",
+      "category": "image",
+      "meta": {
+        "size_bytes": 745,
+        "format": "svg"
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/assets/SVG/ui-icons/trivia.svg",
+      "category": "image",
+      "meta": {
+        "size_bytes": 1336,
+        "format": "svg"
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/assets/SVG/ui-icons/updated.svg",
+      "category": "image",
+      "meta": {
+        "size_bytes": 1046,
+        "format": "svg"
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/assets/SVG/ui-icons/words.svg",
+      "category": "image",
+      "meta": {
+        "size_bytes": 758,
+        "format": "svg"
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/bloxdhop-io_16x9/20261027023447/bloxdhop-io_16x9-cover__qmetadata_non.png",
+      "category": "image",
+      "meta": {
+        "size_bytes": 8676,
+        "format": "AVIF",
+        "width": 288,
+        "height": 162,
+        "mode": "RGBA",
+        "alpha": true
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/bloxity-io_16x9/20261019060604/bloxity-io_16x9-cover__qmetadata_non.png",
+      "category": "image",
+      "meta": {
+        "size_bytes": 13433,
+        "format": "AVIF",
+        "width": 288,
+        "height": 162,
+        "mode": "RGBA",
+        "alpha": true
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/color-tap-coloring-by-numbers_16x9/20261102040506/color-tap-coloring-by-numbers_16x9-cover__qmetadata_non.png",
+      "category": "image",
+      "meta": {
+        "size_bytes": 13523,
+        "format": "AVIF",
+        "width": 288,
+        "height": 162,
+        "mode": "RGB",
+        "alpha": false
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/crazygames/favicon-2026/touch-icon__qmetadata_non_dup0.png",
+      "category": "image",
+      "meta": {
+        "size_bytes": 3015,
+        "format": "PNG",
+        "width": 32,
+        "height": 32,
+        "mode": "RGBA",
+        "alpha": true
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/games/mahjongg-solitaire/cover_16x9-1707829450935__qmetadata_non.png",
+      "category": "image",
+      "meta": {
+        "size_bytes": 12029,
+        "format": "AVIF",
+        "width": 288,
+        "height": 162,
+        "mode": "RGBA",
+        "alpha": true
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/hidden-objects_16x9/20250505042911/hidden-objects_16x9-cover__qmetadata_non",
+      "category": "other",
+      "meta": {
+        "size_bytes": 18014,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/mergest-kingdom_16x9/20251124121228/mergest-kingdom_16x9-cover__qmetadata_non",
+      "category": "other",
+      "meta": {
+        "size_bytes": 14804,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/openfront-gsw_16x9/20260515051210/openfront-gsw_16x9-cover__qmetadata_non",
+      "category": "other",
+      "meta": {
+        "size_bytes": 11219,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/piece-of-cake-merge-and-bake_16x9/20260812042932/piece-of-cake-merge-and-bake_16x9-cover__qmetadata_non",
+      "category": "other",
+      "meta": {
+        "size_bytes": 12028,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/piles-of-mahjong-jhb_16x9/20250203080756/piles-of-mahjong-jhb_16x9-cover__qmetadata_non",
+      "category": "other",
+      "meta": {
+        "size_bytes": 6025,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/ragdoll-archers_16x9/20250926080758/ragdoll-archers_16x9-cover__qmetadata_non",
+      "category": "other",
+      "meta": {
+        "size_bytes": 8053,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "imgs.crazygames.com/words-of-wonders_16x9/20231019163757/words-of-wonders_16x9-cover__qmetadata_non",
+      "category": "other",
+      "meta": {
+        "size_bytes": 7526,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "index.html",
+      "category": "code",
+      "meta": {
+        "size_bytes": 127,
+        "format": "html"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "na.edge.optable.co/config__qosdk_web-v0._dup0",
+      "category": "other",
+      "meta": {
+        "size_bytes": 134,
+        "format": "_dup0"
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "na.edge.optable.co/v2/targeting__qid___passpor",
+      "category": "other",
+      "meta": {
+        "size_bytes": 306,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "o187844.ingest.us.sentry.io/api/1511344/envelope/index__qsentry_versi.html",
+      "category": "code",
+      "meta": {
+        "size_bytes": 102,
+        "format": "html"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "solutions.cdn.optable.co/crazygames/rtd-bridge.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 8008,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "solutions.cdn.optable.co/crazygames/sdk.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 120332,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "threeredcubes.com/files/m2ha9qa_3jniu.bundle.js",
+      "category": "code",
+      "meta": {
+        "size_bytes": 141637,
+        "format": "js"
+      },
+      "feasibility": {
+        "score": 40,
+        "class": "difficult",
+        "notes": [
+          "logic code: changes risk breaking gameplay behavior"
+        ],
+        "recommended_action": "specialist pipeline required"
+      }
+    },
+    {
+      "path": "threeredcubes.com/qbu0v_68skb1lztx5ir4mg61y",
+      "category": "other",
+      "meta": {
+        "size_bytes": 16,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    },
+    {
+      "path": "www.crazygames.com/images/background2.jpg",
+      "category": "image",
+      "meta": {
+        "size_bytes": 5956,
+        "format": "JPEG",
+        "width": 1200,
+        "height": 674,
+        "mode": "RGB",
+        "alpha": false
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [
+          "no alpha channel: transparency-sensitive placements need care"
+        ],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "www.crazygames.com/images/logo/icon/logo-icon-white.svg",
+      "category": "image",
+      "meta": {
+        "size_bytes": 4909,
+        "format": "svg"
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "www.crazygames.com/images/logo/text/logo-text-white.svg",
+      "category": "image",
+      "meta": {
+        "size_bytes": 3078,
+        "format": "svg"
+      },
+      "feasibility": {
+        "score": 85,
+        "class": "easy",
+        "notes": [],
+        "recommended_action": "replace file directly"
+      }
+    },
+    {
+      "path": "www.crazygames.com/it/game/jigpic-solistare",
+      "category": "other",
+      "meta": {
+        "size_bytes": 128051,
+        "format": ""
+      },
+      "feasibility": {
+        "score": 50,
+        "class": "moderate",
+        "notes": [],
+        "recommended_action": "replace with technical validation"
+      }
+    }
+  ],
+  "summary": {
+    "assets": 121,
+    "by_category": {
+      "other": 19,
+      "config": 1,
+      "code": 48,
+      "font": 4,
+      "image": 49
+    },
+    "overall_feasibility": 60,
+    "bottleneck": null,
+    "thresholds": ">=80 easy, 50-79 moderate, 25-49 difficult, <25 very difficult"
+  }
+}

@@ -1,0 +1,290 @@
+{
+  "nodes": [
+    "aax.amazon-adsystem.com/e/dtb/bid/926463.55/0/prebid__qadunitid_aqg",
+    "accounts.google.com/gsi/client",
+    "accounts.google.com/gsi/fedcm/config/passive.json",
+    "accounts.google.com/gsi/fedcm/listaccounts",
+    "accounts.google.com/gsi/status__qclient_id_49",
+    "accounts.google.com/gsi/style",
+    "api.crazygames.com/v4/it_IT/games__qpaginationPa",
+    "builds.crazygames.com/portal-web/_next/static/1795091751/_buildManifest.js",
+    "builds.crazygames.com/portal-web/_next/static/1795091751/_ssgManifest.js",
+    "builds.crazygames.com/portal-web/_next/static/chunks/14434-c17bcbafd5b6f726.js",
+    "builds.crazygames.com/portal-web/_next/static/chunks/1871.d8c214416bf611bd.js",
+    "builds.crazygames.com/portal-web/_next/static/chunks/1bd5887b-aeda1d4dc1d4c5d6.js",
+    "builds.crazygames.com/portal-web/_next/static/chunks/20299.3446c1257377bdb1.js",
+    "builds.crazygames.com/portal-web/_next/static/chunks/21550.567375bf60279fc6.js",
+    "builds.crazygames.com/portal-web/_next/static/chunks/23504.8bddfb04a465c6f0.js",
+    "builds.crazygames.com/portal-web/_next/static/chunks/36092.0349f610968cbf9e.js",
+    "builds.crazygames.com/portal-web/_next/static/chunks/42035.1477a89fe640024e.js",
+    "builds.crazygames.com/portal-web/_next/static/chunks/54135.d94d5dea709a8f84.js",
+    "builds.crazygames.com/portal-web/_next/static/chunks/63877-c2d40d30009765f7.js",
+    "builds.crazygames.com/portal-web/_next/static/chunks/6847-aefee112308b4d28.js",
+    "builds.crazygames.com/portal-web/_next/static/chunks/73066-ee4e2d0ab88fd850.js",
+    "builds.crazygames.com/portal-web/_next/static/chunks/76683.bed38207f2580772.js",
+    "builds.crazygames.com/portal-web/_next/static/chunks/80957.fafa430367cb012a.js",
+    "builds.crazygames.com/portal-web/_next/static/chunks/82067.ff9a3b15c3e78a8b.js",
+    "builds.crazygames.com/portal-web/_next/static/chunks/83767.e065e668cf21a614.js",
+    "builds.crazygames.com/portal-web/_next/static/chunks/88823-2d8457dd7fbe1da5.js",
+    "builds.crazygames.com/portal-web/_next/static/chunks/89247-b71493a621fcc168.js",
+    "builds.crazygames.com/portal-web/_next/static/chunks/98881.cf293c9bfa4d5f9d.js",
+    "builds.crazygames.com/portal-web/_next/static/chunks/99414.d6bebab3fad69f8f.js",
+    "builds.crazygames.com/portal-web/_next/static/chunks/framework-5e11c2d5d470e84d.js",
+    "builds.crazygames.com/portal-web/_next/static/chunks/main-d3e2aedeadf39fcd.js",
+    "builds.crazygames.com/portal-web/_next/static/chunks/pages/_app-7d25fb516595d4af.js",
+    "builds.crazygames.com/portal-web/_next/static/chunks/pages/game/_game_-ad1c3e8dbd589296.js",
+    "builds.crazygames.com/portal-web/_next/static/chunks/webpack-a7cf33bd636e662b.js",
+    "builds.crazygames.com/portal-web/_next/static/css/031e1778ec9c348e.css",
+    "builds.crazygames.com/portal-web/_next/static/css/581e397261e10ee2.css",
+    "builds.crazygames.com/portal-web/_next/static/css/5bcc76f3b4fbe4c4.css",
+    "builds.crazygames.com/portal-web/_next/static/css/614e687fbe00b148.css",
+    "builds.crazygames.com/portal-web/_next/static/css/6f3bc1ffa4b59ff3.css",
+    "builds.crazygames.com/portal-web/_next/static/css/7298308bc3878c18.css",
+    "builds.crazygames.com/portal-web/_next/static/css/88e5c940bbc969ac.css",
+    "builds.crazygames.com/portal-web/_next/static/css/91f4b48f90d625cc.css",
+    "builds.crazygames.com/portal-web/_next/static/css/9ce16680287f0906.css",
+    "builds.crazygames.com/portal-web/_next/static/css/b1de9405606fc0e1.css",
+    "builds.crazygames.com/portal-web/_next/static/css/b855fb72a0eb1c9c.css",
+    "builds.crazygames.com/portal-web/_next/static/css/c4a72e6084fc69c3.css",
+    "builds.crazygames.com/portal-web/_next/static/css/d239be49867c9718.css",
+    "builds.crazygames.com/portal-web/_next/static/css/e844aa76c7b000fa.css",
+    "builds.crazygames.com/portal-web/_next/static/css/ebbd98611333aec8.css",
+    "builds.crazygames.com/portal-web/_next/static/media/4addd173933af60a.p.woff2",
+    "builds.crazygames.com/portal-web/_next/static/media/6ad36a674cfc3e90.p.woff2",
+    "builds.crazygames.com/portal-web/_next/static/media/72fd0ddcfc9397a7.p.woff2",
+    "builds.crazygames.com/portal-web/_next/static/media/e3353863c413f150.p.woff2",
+    "cdn.privacy-mgmt.com/unified/wrapperMessagingWithoutDetection.js",
+    "google.com/.well-known/web-identity",
+    "imgs.crazygames.com/8-ball-pool-billiards-multiplayer_16x9/20260722044342/8-ball-pool-billiards-multiplayer_16x9-cover__qmetadata_non",
+    "imgs.crazygames.com/assets/SVG/icons/appstore.svg",
+    "imgs.crazygames.com/assets/SVG/icons/close.svg",
+    "imgs.crazygames.com/assets/SVG/icons/discord.svg",
+    "imgs.crazygames.com/assets/SVG/icons/home.svg",
+    "imgs.crazygames.com/assets/SVG/icons/linkedin.svg",
+    "imgs.crazygames.com/assets/SVG/icons/new.svg",
+    "imgs.crazygames.com/assets/SVG/icons/originals6.svg",
+    "imgs.crazygames.com/assets/SVG/icons/playstore.svg",
+    "imgs.crazygames.com/assets/SVG/icons/random.svg",
+    "imgs.crazygames.com/assets/SVG/icons/refresh.svg",
+    "imgs.crazygames.com/assets/SVG/icons/search.svg",
+    "imgs.crazygames.com/assets/SVG/icons/tiktok.svg",
+    "imgs.crazygames.com/assets/SVG/icons/trending.svg",
+    "imgs.crazygames.com/assets/SVG/icons/youtube.svg",
+    "imgs.crazygames.com/assets/SVG/ui-icons/action.svg",
+    "imgs.crazygames.com/assets/SVG/ui-icons/adventure.svg",
+    "imgs.crazygames.com/assets/SVG/ui-icons/arcade.svg",
+    "imgs.crazygames.com/assets/SVG/ui-icons/board.svg",
+    "imgs.crazygames.com/assets/SVG/ui-icons/cards.svg",
+    "imgs.crazygames.com/assets/SVG/ui-icons/clicker.svg",
+    "imgs.crazygames.com/assets/SVG/ui-icons/clock.svg",
+    "imgs.crazygames.com/assets/SVG/ui-icons/driving.svg",
+    "imgs.crazygames.com/assets/SVG/ui-icons/fire.svg",
+    "imgs.crazygames.com/assets/SVG/ui-icons/friends.svg",
+    "imgs.crazygames.com/assets/SVG/ui-icons/home.svg",
+    "imgs.crazygames.com/assets/SVG/ui-icons/io.svg",
+    "imgs.crazygames.com/assets/SVG/ui-icons/leaderboard.svg",
+    "imgs.crazygames.com/assets/SVG/ui-icons/menu_close.svg",
+    "imgs.crazygames.com/assets/SVG/ui-icons/new.svg",
+    "imgs.crazygames.com/assets/SVG/ui-icons/notifications.svg",
+    "imgs.crazygames.com/assets/SVG/ui-icons/originals.svg",
+    "imgs.crazygames.com/assets/SVG/ui-icons/puzzle.svg",
+    "imgs.crazygames.com/assets/SVG/ui-icons/save.svg",
+    "imgs.crazygames.com/assets/SVG/ui-icons/shooting.svg",
+    "imgs.crazygames.com/assets/SVG/ui-icons/simulation.svg",
+    "imgs.crazygames.com/assets/SVG/ui-icons/sports.svg",
+    "imgs.crazygames.com/assets/SVG/ui-icons/strategy.svg",
+    "imgs.crazygames.com/assets/SVG/ui-icons/tag.svg",
+    "imgs.crazygames.com/assets/SVG/ui-icons/trivia.svg",
+    "imgs.crazygames.com/assets/SVG/ui-icons/updated.svg",
+    "imgs.crazygames.com/assets/SVG/ui-icons/words.svg",
+    "imgs.crazygames.com/bloxdhop-io_16x9/20261027023447/bloxdhop-io_16x9-cover__qmetadata_non.png",
+    "imgs.crazygames.com/bloxity-io_16x9/20261019060604/bloxity-io_16x9-cover__qmetadata_non.png",
+    "imgs.crazygames.com/color-tap-coloring-by-numbers_16x9/20261102040506/color-tap-coloring-by-numbers_16x9-cover__qmetadata_non.png",
+    "imgs.crazygames.com/crazygames/favicon-2026/touch-icon__qmetadata_non_dup0.png",
+    "imgs.crazygames.com/games/mahjongg-solitaire/cover_16x9-1707829450935__qmetadata_non.png",
+    "imgs.crazygames.com/hidden-objects_16x9/20250505042911/hidden-objects_16x9-cover__qmetadata_non",
+    "imgs.crazygames.com/mergest-kingdom_16x9/20251124121228/mergest-kingdom_16x9-cover__qmetadata_non",
+    "imgs.crazygames.com/openfront-gsw_16x9/20260515051210/openfront-gsw_16x9-cover__qmetadata_non",
+    "imgs.crazygames.com/piece-of-cake-merge-and-bake_16x9/20260812042932/piece-of-cake-merge-and-bake_16x9-cover__qmetadata_non",
+    "imgs.crazygames.com/piles-of-mahjong-jhb_16x9/20250203080756/piles-of-mahjong-jhb_16x9-cover__qmetadata_non",
+    "imgs.crazygames.com/ragdoll-archers_16x9/20250926080758/ragdoll-archers_16x9-cover__qmetadata_non",
+    "imgs.crazygames.com/words-of-wonders_16x9/20231019163757/words-of-wonders_16x9-cover__qmetadata_non",
+    "na.edge.optable.co/config__qosdk_web-v0._dup0",
+    "na.edge.optable.co/v2/targeting__qid___passpor",
+    "o187844.ingest.us.sentry.io/api/1511344/envelope/index__qsentry_versi.html",
+    "solutions.cdn.optable.co/crazygames/rtd-bridge.js",
+    "solutions.cdn.optable.co/crazygames/sdk.js",
+    "threeredcubes.com/files/m2ha9qa_3jniu.bundle.js",
+    "threeredcubes.com/qbu0v_68skb1lztx5ir4mg61y",
+    "www.crazygames.com/images/background2.jpg",
+    "www.crazygames.com/images/logo/icon/logo-icon-white.svg",
+    "www.crazygames.com/images/logo/text/logo-text-white.svg",
+    "www.crazygames.com/it/game/jigpic-solistare"
+  ],
+  "edges": [
+    {
+      "from": "builds.crazygames.com/portal-web/_next/static/css/581e397261e10ee2.css",
+      "to": "builds.crazygames.com/portal-web/_next/static/media/6ad36a674cfc3e90.p.woff2"
+    },
+    {
+      "from": "builds.crazygames.com/portal-web/_next/static/css/581e397261e10ee2.css",
+      "to": "builds.crazygames.com/portal-web/_next/static/media/72fd0ddcfc9397a7.p.woff2"
+    },
+    {
+      "from": "builds.crazygames.com/portal-web/_next/static/css/581e397261e10ee2.css",
+      "to": "builds.crazygames.com/portal-web/_next/static/media/4addd173933af60a.p.woff2"
+    },
+    {
+      "from": "builds.crazygames.com/portal-web/_next/static/css/581e397261e10ee2.css",
+      "to": "builds.crazygames.com/portal-web/_next/static/media/e3353863c413f150.p.woff2"
+    },
+    {
+      "from": "builds.crazygames.com/portal-web/_next/static/css/581e397261e10ee2.css",
+      "to": "imgs.crazygames.com/assets/SVG/icons/appstore.svg"
+    },
+    {
+      "from": "builds.crazygames.com/portal-web/_next/static/css/581e397261e10ee2.css",
+      "to": "imgs.crazygames.com/assets/SVG/icons/appstore.svg"
+    },
+    {
+      "from": "builds.crazygames.com/portal-web/_next/static/css/581e397261e10ee2.css",
+      "to": "imgs.crazygames.com/assets/SVG/icons/close.svg"
+    },
+    {
+      "from": "builds.crazygames.com/portal-web/_next/static/css/581e397261e10ee2.css",
+      "to": "imgs.crazygames.com/assets/SVG/icons/close.svg"
+    },
+    {
+      "from": "builds.crazygames.com/portal-web/_next/static/css/581e397261e10ee2.css",
+      "to": "imgs.crazygames.com/assets/SVG/icons/discord.svg"
+    },
+    {
+      "from": "builds.crazygames.com/portal-web/_next/static/css/581e397261e10ee2.css",
+      "to": "imgs.crazygames.com/assets/SVG/icons/discord.svg"
+    },
+    {
+      "from": "builds.crazygames.com/portal-web/_next/static/css/581e397261e10ee2.css",
+      "to": "imgs.crazygames.com/assets/SVG/icons/home.svg"
+    },
+    {
+      "from": "builds.crazygames.com/portal-web/_next/static/css/581e397261e10ee2.css",
+      "to": "imgs.crazygames.com/assets/SVG/icons/home.svg"
+    },
+    {
+      "from": "builds.crazygames.com/portal-web/_next/static/css/581e397261e10ee2.css",
+      "to": "imgs.crazygames.com/assets/SVG/icons/linkedin.svg"
+    },
+    {
+      "from": "builds.crazygames.com/portal-web/_next/static/css/581e397261e10ee2.css",
+      "to": "imgs.crazygames.com/assets/SVG/icons/linkedin.svg"
+    },
+    {
+      "from": "builds.crazygames.com/portal-web/_next/static/css/581e397261e10ee2.css",
+      "to": "imgs.crazygames.com/assets/SVG/icons/new.svg"
+    },
+    {
+      "from": "builds.crazygames.com/portal-web/_next/static/css/581e397261e10ee2.css",
+      "to": "imgs.crazygames.com/assets/SVG/icons/new.svg"
+    },
+    {
+      "from": "builds.crazygames.com/portal-web/_next/static/css/581e397261e10ee2.css",
+      "to": "imgs.crazygames.com/assets/SVG/icons/originals6.svg"
+    },
+    {
+      "from": "builds.crazygames.com/portal-web/_next/static/css/581e397261e10ee2.css",
+      "to": "imgs.crazygames.com/assets/SVG/icons/originals6.svg"
+    },
+    {
+      "from": "builds.crazygames.com/portal-web/_next/static/css/581e397261e10ee2.css",
+      "to": "imgs.crazygames.com/assets/SVG/icons/playstore.svg"
+    },
+    {
+      "from": "builds.crazygames.com/portal-web/_next/static/css/581e397261e10ee2.css",
+      "to": "imgs.crazygames.com/assets/SVG/icons/playstore.svg"
+    },
+    {
+      "from": "builds.crazygames.com/portal-web/_next/static/css/581e397261e10ee2.css",
+      "to": "imgs.crazygames.com/assets/SVG/icons/random.svg"
+    },
+    {
+      "from": "builds.crazygames.com/portal-web/_next/static/css/581e397261e10ee2.css",
+      "to": "imgs.crazygames.com/assets/SVG/icons/random.svg"
+    },
+    {
+      "from": "builds.crazygames.com/portal-web/_next/static/css/581e397261e10ee2.css",
+      "to": "imgs.crazygames.com/assets/SVG/icons/refresh.svg"
+    },
+    {
+      "from": "builds.crazygames.com/portal-web/_next/static/css/581e397261e10ee2.css",
+      "to": "imgs.crazygames.com/assets/SVG/icons/refresh.svg"
+    },
+    {
+      "from": "builds.crazygames.com/portal-web/_next/static/css/581e397261e10ee2.css",
+      "to": "imgs.crazygames.com/assets/SVG/icons/search.svg"
+    },
+    {
+      "from": "builds.crazygames.com/portal-web/_next/static/css/581e397261e10ee2.css",
+      "to": "imgs.crazygames.com/assets/SVG/icons/search.svg"
+    },
+    {
+      "from": "builds.crazygames.com/portal-web/_next/static/css/581e397261e10ee2.css",
+      "to": "imgs.crazygames.com/assets/SVG/icons/tiktok.svg"
+    },
+    {
+      "from": "builds.crazygames.com/portal-web/_next/static/css/581e397261e10ee2.css",
+      "to": "imgs.crazygames.com/assets/SVG/icons/tiktok.svg"
+    },
+    {
+      "from": "builds.crazygames.com/portal-web/_next/static/css/581e397261e10ee2.css",
+      "to": "imgs.crazygames.com/assets/SVG/icons/trending.svg"
+    },
+    {
+      "from": "builds.crazygames.com/portal-web/_next/static/css/581e397261e10ee2.css",
+      "to": "imgs.crazygames.com/assets/SVG/icons/trending.svg"
+    },
+    {
+      "from": "builds.crazygames.com/portal-web/_next/static/css/581e397261e10ee2.css",
+      "to": "imgs.crazygames.com/assets/SVG/icons/youtube.svg"
+    },
+    {
+      "from": "builds.crazygames.com/portal-web/_next/static/css/581e397261e10ee2.css",
+      "to": "imgs.crazygames.com/assets/SVG/icons/youtube.svg"
+    }
+  ],
+  "unresolved_refs": [
+    "builds.crazygames.com/portal-web/_next/static/css/581e397261e10ee2.css: https://builds.crazygames.com/portal-web/_next/static/media/1c867a160d61396e.woff2",
+    "builds.crazygames.com/portal-web/_next/static/css/581e397261e10ee2.css: https://builds.crazygames.com/portal-web/_next/static/media/e6a92b4f622ad549.woff2",
+    "builds.crazygames.com/portal-web/_next/static/css/581e397261e10ee2.css: https://imgs.crazygames.com/assets/SVG/icons/3users.svg",
+    "builds.crazygames.com/portal-web/_next/static/css/581e397261e10ee2.css: https://imgs.crazygames.com/assets/SVG/icons/3users.svg",
+    "builds.crazygames.com/portal-web/_next/static/css/581e397261e10ee2.css: https://imgs.crazygames.com/assets/SVG/icons/apple.svg",
+    "builds.crazygames.com/portal-web/_next/static/css/581e397261e10ee2.css: https://imgs.crazygames.com/assets/SVG/icons/apple.svg",
+    "builds.crazygames.com/portal-web/_next/static/css/581e397261e10ee2.css: https://imgs.crazygames.com/assets/SVG/icons/arcade.svg",
+    "builds.crazygames.com/portal-web/_next/static/css/581e397261e10ee2.css: https://imgs.crazygames.com/assets/SVG/icons/arcade.svg",
+    "builds.crazygames.com/portal-web/_next/static/css/581e397261e10ee2.css: https://imgs.crazygames.com/assets/SVG/icons/arrow-full-bottom.svg",
+    "builds.crazygames.com/portal-web/_next/static/css/581e397261e10ee2.css: https://imgs.crazygames.com/assets/SVG/icons/arrow-full-bottom.svg",
+    "builds.crazygames.com/portal-web/_next/static/css/581e397261e10ee2.css: https://imgs.crazygames.com/assets/SVG/icons/arrow-full-left.svg",
+    "builds.crazygames.com/portal-web/_next/static/css/581e397261e10ee2.css: https://imgs.crazygames.com/assets/SVG/icons/arrow-full-left.svg",
+    "builds.crazygames.com/portal-web/_next/static/css/581e397261e10ee2.css: https://imgs.crazygames.com/assets/SVG/icons/arrow-full-right.svg",
+    "builds.crazygames.com/portal-web/_next/static/css/581e397261e10ee2.css: https://imgs.crazygames.com/assets/SVG/icons/arrow-full-right.svg",
+    "builds.crazygames.com/portal-web/_next/static/css/581e397261e10ee2.css: https://imgs.crazygames.com/assets/SVG/icons/arrow-full-top.svg",
+    "builds.crazygames.com/portal-web/_next/static/css/581e397261e10ee2.css: https://imgs.crazygames.com/assets/SVG/icons/arrow-full-top.svg",
+    "builds.crazygames.com/portal-web/_next/static/css/581e397261e10ee2.css: https://imgs.crazygames.com/assets/SVG/icons/bell.svg",
+    "builds.crazygames.com/portal-web/_next/static/css/581e397261e10ee2.css: https://imgs.crazygames.com/assets/SVG/icons/bell.svg",
+    "builds.crazygames.com/portal-web/_next/static/css/581e397261e10ee2.css: https://imgs.crazygames.com/assets/SVG/icons/blocked.svg",
+    "builds.crazygames.com/portal-web/_next/static/css/581e397261e10ee2.css: https://imgs.crazygames.com/assets/SVG/icons/blocked.svg",
+    "builds.crazygames.com/portal-web/_next/static/css/5bcc76f3b4fbe4c4.css: /images/daily-games/chevron-up.svg"
+  ],
+  "external_hosts": [
+    "aax.amazon-adsystem.com",
+    "accounts.google.com",
+    "api.crazygames.com",
+    "builds.crazygames.com",
+    "cdn.privacy-mgmt.com",
+    "google.com",
+    "imgs.crazygames.com",
+    "na.edge.optable.co",
+    "o187844.ingest.us.sentry.io",
+    "solutions.cdn.optable.co",
+    "threeredcubes.com"
+  ]
+}
