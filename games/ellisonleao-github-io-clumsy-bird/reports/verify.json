@@ -1,5 +1,5 @@
 {
-  "loaded_url": "http://127.0.0.1:56221/ellisonleao.github.io/clumsy-bird/index.html",
+  "loaded_url": "http://127.0.0.1:48921/ellisonleao.github.io/clumsy-bird/index.html",
   "canvas": {
     "w": 1200,
     "h": 800
@@ -13,16 +13,16 @@
   "local_requests": 22,
   "counts": {
     "acquired": 21,
-    "discovered": 21,
+    "discovered": 22,
     "files": 22
   },
   "score": {
-    "total": 97,
+    "total": 96,
     "components": {
       "acquisition": {
-        "value": 1.0,
+        "value": 0.955,
         "weight": 0.25,
-        "contribution": 25.0
+        "contribution": 23.9
       },
       "integrity": {
         "value": 1.0,

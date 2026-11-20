@@ -24,18 +24,6 @@
   ],
   "edges": [
     {
-      "from": "ellisonleao.github.io/clumsy-bird/index.html",
-      "to": "ellisonleao.github.io/clumsy-bird/index.css"
-    },
-    {
-      "from": "ellisonleao.github.io/clumsy-bird/index.html",
-      "to": "ellisonleao.github.io/clumsy-bird/js/melonJS-min.js"
-    },
-    {
-      "from": "ellisonleao.github.io/clumsy-bird/index.html",
-      "to": "ellisonleao.github.io/clumsy-bird/build/clumsy-min.js"
-    },
-    {
       "from": "ellisonleao.github.io/clumsy-bird/index.css",
       "to": "ellisonleao.github.io/clumsy-bird/data/css/gamefont.woff"
     }
@@ -44,7 +32,10 @@
     "ellisonleao.github.io/clumsy-bird/index.html: <link href> data/img/touch-icon-iphone.png",
     "ellisonleao.github.io/clumsy-bird/index.html: <link href> data/img/touch-icon-iphone-retina.png",
     "ellisonleao.github.io/clumsy-bird/index.html: <link href> data/img/favicon.ico",
+    "ellisonleao.github.io/clumsy-bird/index.html: <link href> index.css",
     "ellisonleao.github.io/clumsy-bird/index.html: <link href> humans.txt",
+    "ellisonleao.github.io/clumsy-bird/index.html: <script src> js/melonJS-min.js",
+    "ellisonleao.github.io/clumsy-bird/index.html: <script src> build/clumsy-min.js",
     "ellisonleao.github.io/clumsy-bird/index.css: data/css/gamefont.eot",
     "ellisonleao.github.io/clumsy-bird/index.css: data/css/gamefont.eot?#iefix",
     "ellisonleao.github.io/clumsy-bird/index.css: data/css/gamefont.ttf",
