@@ -19,6 +19,7 @@ MODEL_ROWS = [
     ("qwen_edit", "qwen_edit", "Qwen/Qwen-Image-Edit-2509", "Qwen Image Edit 2509 · image editing"),
     ("flux_schnell", "flux", "black-forest-labs/FLUX.1-schnell", "FLUX.1 Schnell · experimental / high RAM"),
     ("moss", "moss", "OpenMOSS-Team/MOSS-Image-Base", "MOSS-Image Base · text rendering / layout"),
+    ("cpu_tiny", "cpu_tiny", "hf-internal-testing/tiny-stable-diffusion-pipe", "CPU Lite · tiny test model (low quality)"),
 ]
 MODELS = {label: (key, kind, model_id) for key, kind, model_id, label in MODEL_ROWS}
 _PIPELINES = {}
@@ -39,21 +40,29 @@ def _qwen_nf4_config():
 
 
 def load_pipeline(key):
-    if not torch.cuda.is_available():
-        raise gr.Error("CUDA GPU required. Enable a Kaggle GPU accelerator.")
+    row = next(row for row in MODEL_ROWS if row[0] == key)
+    _, kind, model_id, _ = row
+    if kind != "cpu_tiny" and not torch.cuda.is_available():
+        raise gr.Error("This model requires a CUDA GPU. Choose CPU Lite for CPU-only testing.")
     if key in _PIPELINES:
         return _PIPELINES[key]
 
     # Keep only one large model resident; release the previous model before loading.
     _PIPELINES.clear()
     gc.collect()
-    torch.cuda.empty_cache()
+    if torch.cuda.is_available():
+        torch.cuda.empty_cache()
 
-    row = next(row for row in MODEL_ROWS if row[0] == key)
-    _, kind, model_id, _ = row
     dtype = torch.float16
 
-    if kind == "zimage":
+    if kind == "cpu_tiny":
+        from diffusers import StableDiffusionPipeline
+        pipe = StableDiffusionPipeline.from_pretrained(
+            model_id, torch_dtype=torch.float32,
+            safety_checker=None, requires_safety_checker=False,
+        ).to("cpu")
+        pipe.set_progress_bar_config(disable=True)
+    elif kind == "zimage":
         from diffusers import ZImagePipeline
         pipe = ZImagePipeline.from_pretrained(
             model_id, dtype=dtype, low_cpu_mem_usage=True
@@ -121,14 +130,19 @@ def generate(model_label, prompt, source_image, width, height, steps, seed):
 
     pipe = load_pipeline(key)
     seed_value = int(seed)
-    generator = (
-        torch.Generator(device="cpu" if kind == "moss" else "cuda").manual_seed(seed_value)
-        if seed_value >= 0 else None
-    )
+    generator_device = "cpu" if kind in ("moss", "cpu_tiny") else "cuda"
+    generator = torch.Generator(device=generator_device).manual_seed(seed_value) if seed_value >= 0 else None
     started = time.time()
 
     with torch.inference_mode():
-        if kind == "zimage":
+        if kind == "cpu_tiny":
+            # This is a tiny pipeline fixture for CPU functionality checks, not a quality model.
+            result = pipe(
+                prompt=prompt, width=64, height=64,
+                num_inference_steps=2, guidance_scale=7.5,
+                generator=generator,
+            )
+        elif kind == "zimage":
             result = pipe(
                 prompt=prompt, width=width, height=height,
                 num_inference_steps=steps, generator=generator,
@@ -203,9 +217,11 @@ with gr.Blocks(title="Open Image Studio", theme=gr.themes.Soft()) as demo:
         [output, saved, status], concurrency_limit=1,
     )
     gr.Markdown(
-        "**Memory notes:** Z-Image and FLUX use CPU offload; Qwen uses NF4 "
-        "quantization; MOSS uses its official custom pipeline. FLUX and MOSS "
-        "may need substantial host RAM. Models load on first use, one at a time."
+        "**CPU Lite** uses a tiny test-only Stable Diffusion checkpoint at 64×64; "
+        "it proves the CPU path works but is not intended for attractive outputs. "
+        "Z-Image and FLUX use CPU offload; Qwen uses NF4 quantization; MOSS uses "
+        "its official custom pipeline. FLUX and MOSS may need substantial host RAM. "
+        "Models load on first use, one at a time."
     )
 
 demo.queue(default_concurrency_limit=1, max_size=32).launch(
