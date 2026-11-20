@@ -1,0 +1,55 @@
+{
+  "slug": "www-crazygames-com-hex-dominion",
+  "url": "https://www.crazygames.com/it/game/hex-dominion",
+  "status": "complete",
+  "final_url": "https://www.crazygames.com/it/game/hex-dominion",
+  "entry_url": "https://hex-dominion.game-files.crazygames.com/hex-dominion/25/index.html?isNewUser=true&__nextLocale=it&isFirstSession=true&czyExpClientOptable4=enabled&czyExpClientAdsDummyAA20=disabled&czyExpClientAdsDummyAA50=enabled&czyExpClientAmazonBidRoute_2=prebid&czyExpClientAdsHolidayMode_CZY_21360=enabled&czyExpClientAdmiral=enabled&czyExpClientAdXFloor_1_CZY_20844=1&czyExpClientAutoRefreshIngameBanners=disabled&czyExpClientVerticalVideoSize_CZY_22165=disabled&czyExpDisableInterstitialsFirst12h_CZY_18471=disabled&czyExpClientArtworkAbTesting_CZY_20701=enabled&czyExpModelApiTraffic_CZY_21907=enabled&czyExpCoversImages_CZY_21375=enabled&czyExpClientDomainProbe_CZY_21425=disabled&czyExpClientGamepageModelBlend_CZY_21410=enabled&czyExpClientInAppPurchaseAlternativeBillingAndroidValidToken=disabled&czyExpClientConfirmLeaveGame=enabled&czyExpClientModel=V10_history_v9_1w_D&czyExpClientModelRecommended=V10_history_v9_1w_D&czyExpClientModelGamePage=knn_v3&czyExpClientInAppPurchaseAlternativeBillingAndroid=enabled&czyExpClientInAppPurchaseAlternativeBillingIOSUS=enabled",
+  "entry_rel": "hex-dominion.game-files.crazygames.com/hex-dominion/25/index__qisNewUser_tr.html",
+  "engine": {
+    "engine": "unknown",
+    "confidence": "none",
+    "evidence": []
+  },
+  "counts": {
+    "discovered": 599,
+    "captured": 370,
+    "downloaded": 7,
+    "failed": 12,
+    "duplicates": 186
+  },
+  "score": 91,
+  "verdict": "verified-playable-locally: game launched, rendered and animated offline from the mirror",
+  "audit_summary": {
+    "UNKNOWN": 105,
+    "GREEN": 9,
+    "YELLOW": 9
+  },
+  "assets_summary": {
+    "assets": 361,
+    "by_category": {
+      "other": 67,
+      "config": 2,
+      "code": 158,
+      "font": 6,
+      "audio": 1,
+      "image": 127
+    },
+    "overall_feasibility": 58,
+    "bottleneck": null,
+    "thresholds": ">=80 easy, 50-79 moderate, 25-49 difficult, <25 very difficult"
+  },
+  "created": "2026-11-20T10:45:08.808910+00:00",
+  "duration_s": 50.7,
+  "preview_url": "/games/www-crazygames-com-hex-dominion/mirror/hex-dominion.game-files.crazygames.com/hex-dominion/25/index__qisNewUser_tr.html",
+  "reports": {
+    "summary": "games/www-crazygames-com-hex-dominion/reports/summary.json",
+    "recon": "games/www-crazygames-com-hex-dominion/reports/recon.json",
+    "manifest": "games/www-crazygames-com-hex-dominion/reports/manifest.json",
+    "depgraph": "games/www-crazygames-com-hex-dominion/reports/depgraph.json",
+    "rewrite": "games/www-crazygames-com-hex-dominion/reports/rewrite.json",
+    "audit": "games/www-crazygames-com-hex-dominion/reports/audit.json",
+    "assets": "games/www-crazygames-com-hex-dominion/reports/assets.json",
+    "verify": "games/www-crazygames-com-hex-dominion/reports/verify.json",
+    "score": "games/www-crazygames-com-hex-dominion/reports/score.json"
+  }
+}
