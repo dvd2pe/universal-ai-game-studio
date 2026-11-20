@@ -12,7 +12,7 @@ A direct Gradio studio for prompt-to-image and instruction-based image editing. 
 | FLUX.1 Schnell | Text to image | Experimental on Kaggle T4; CPU offload, high host-RAM and download requirements. Uses the distilled 4-step / guidance 0 recipe. |
 | MOSS-Image Base | Text to image, typography and layout | Official custom Diffusers pipeline. The loader uses `trust_remote_code=True`; review the model repository code and license before running. |
 
-No ComfyUI, node graphs, or manual code edits per prompt.
+No ComfyUI, node graphs, or manual code edits per prompt. The app also includes a CPU Lite test backend, and GitHub Actions runs an actual tiny-model CPU inference test.
 
 ## Start on Kaggle
 
@@ -24,7 +24,7 @@ No ComfyUI, node graphs, or manual code edits per prompt.
 
 Keep the Kaggle session running while generating. The notebook currently saves to Kaggle session storage; Google Drive persistence is not configured.
 
-## Hardware and model selection
+## CPU-only mode (GitHub Actions or local CPU)\n\n- Select **CPU Lite · tiny test model** in the app to run a real, very small Stable Diffusion test checkpoint on CPU without CUDA. It generates a 64×64 image and is intended only to validate the inference path; output quality is deliberately poor and it is not a production model.\n- The separate GitHub Actions workflow installs CPU-only PyTorch, downloads the same tiny checkpoint, performs two inference steps, validates the PNG, and uploads it as the `image-studio-cpu-smoke` artifact (retained for 7 days).\n- This proves CPU inference works for the tiny fixture; it does not mean the large Z-Image, Qwen, FLUX, or MOSS models can run practically on GitHub-hosted CPU runners.\n\n## Hardware and model selection
 
 - Z-Image Turbo is the recommended first model to try on a T4.
 - Qwen Turbo and Qwen Edit use 4-bit NF4 quantization. Edit is heavier than text-to-image.
@@ -38,7 +38,7 @@ Keep the Kaggle session running while generating. The notebook currently saves t
 - Gradio queue is in-memory and session-scoped; it is not a durable job queue.
 - Output PNGs remain in `/kaggle/working/outputs` only until the Kaggle session ends.
 - The first run downloads dependencies and model weights; allow time and disk space.
-- A GitHub Actions pass checks Python compilation and notebook syntax only. It does not prove GPU compatibility, download success, image quality, or successful inference on Kaggle.
+- The `Image Studio Checks` workflow checks Python compilation and notebook syntax. The separate `Image Studio CPU Inference` workflow performs a real CPU inference with a tiny test checkpoint and uploads the PNG. Neither proves GPU compatibility, quality, or successful inference of the large models on Kaggle.
 - Model weights and remote pipeline code are governed by their respective licenses and terms. Review them before commercial use.
 
 ## References
