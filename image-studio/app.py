@@ -122,7 +122,7 @@ def generate(model_label, prompt, source_image, width, height, steps, seed):
     pipe = load_pipeline(key)
     seed_value = int(seed)
     generator = (
-        torch.Generator(device="cuda").manual_seed(seed_value)
+        torch.Generator(device="cpu" if kind == "moss" else "cuda").manual_seed(seed_value)
         if seed_value >= 0 else None
     )
     started = time.time()
