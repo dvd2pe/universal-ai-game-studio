@@ -60,11 +60,14 @@ def init_repo(progress):
         if r.returncode:
             raise RuntimeError("git init: " + r.stderr[-300:])
         _git(["symbolic-ref", "HEAD", "refs/heads/main"])
-        _git(["config", "user.name", "UGS Sync"])
-        _git(["config", "user.email", "ugs-sync@local"])
-        _git(["config", "credential.helper", "!" + str(CRED_HELPER)])
         (STUDIO_DIR / ".gitignore").write_text("__pycache__/\n*.pyc\n")
         progress("github: studio repository initialized")
+    # ensure config on BOTH fresh and pre-existing repos (a pre-existing repo
+    # may lack the credential helper — without it push prompts and fails)
+    if not _git(["config", "user.email"]).stdout.strip():
+        _git(["config", "user.name", "UGS Sync"])
+        _git(["config", "user.email", "ugs-sync@local"])
+    _git(["config", "credential.helper", "!" + str(CRED_HELPER)])
     me = gh_api("GET", "/user")
     owner = me["login"]
     full = owner + "/" + REPO_NAME
