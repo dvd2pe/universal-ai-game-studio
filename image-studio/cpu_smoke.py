@@ -28,7 +28,7 @@ pipe.set_progress_bar_config(disable=True)
 
 with torch.inference_mode():
     result = pipe(
-        prompt="a small red apple on a plain table",
+        prompt="photorealistic close-up portrait of a tabby cat with green eyes, detailed fur, natural window light",
         height=64,
         width=64,
         num_inference_steps=2,
