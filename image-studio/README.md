@@ -12,10 +12,9 @@ No ComfyUI, no node graphs, no manual code edits per prompt.
 ## Start on Kaggle
 1. Open notebooks/ImageStudio_Kaggle.ipynb in this repository in Kaggle (or download/import it).
 2. Enable Internet and a GPU accelerator (T4 x1/x2 or better).
-3. Run the single launcher cell. It mounts Google Drive when available, installs dependencies, checks out this branch, and starts the web UI.
+3. Run the single launcher cell. It checks out this branch, installs dependencies, and starts the web UI.
 4. Open the Gradio public URL printed by the cell. Keep the Kaggle session running while jobs are processing.
-
-Generated images are saved under MyDrive/OpenImageHub/outputs when Drive is mounted.
+5. Download generated PNGs from /kaggle/working/outputs before the session ends. The notebook's output files are session-scoped; Google Drive persistence is not yet automated on Kaggle.
 
 ## Runtime notes
 - Kaggle GPU sessions are temporary; the notebook must remain active.
