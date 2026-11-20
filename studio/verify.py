@@ -85,23 +85,26 @@ def verify_project(project_dir, manifest, progress=print):
         browser = p.chromium.launch(headless=True, args=["--no-sandbox", "--disable-dev-shm-usage"])
         ctx = browser.new_context(viewport={"width": 1280, "height": 800})
         page = ctx.new_page()
+        # games keep the main thread busy (Unity/WebGL): every API call needs a
+        # hard timeout or verify can hang indefinitely on heavy pages
+        page.set_default_timeout(20000)
         page.on("console", on_console)
         page.on("pageerror", on_pageerror)
         page.on("response", on_response)
         page.on("requestfailed", on_requestfailed)
         try:
-            page.goto(url, wait_until="networkidle", timeout=30000)
-        except Exception:
-            try:
-                page.goto(url, wait_until="domcontentloaded", timeout=20000)
-            except Exception as e:
-                console_errors.append(f"local navigation failed: {e}")
+            page.goto(url, wait_until="domcontentloaded", timeout=30000)
+        except Exception as e:
+            console_errors.append(f"local navigation failed: {e}")
         page.wait_for_timeout(4000)
+        progress(f"verify: page loaded — local requests {local_requests[0]}, "
+                 f"console errors {len(console_errors)}")
         try:
             canvas_ok = page.evaluate(
                 "() => { const c=document.querySelector('canvas'); return c ? {w:c.width,h:c.height} : null }")
         except Exception:
             canvas_ok = None
+        progress(f"verify: canvas {canvas_ok}")
         try:
             c = page.query_selector("canvas")
             if c:
@@ -114,13 +117,21 @@ def verify_project(project_dir, manifest, progress=print):
         try:
             t1 = tempfile.NamedTemporaryFile(suffix=".png", delete=False).name
             t2 = tempfile.NamedTemporaryFile(suffix=".png", delete=False).name
-            page.screenshot(path=t1)
+            page.screenshot(path=t1, timeout=15000)
             page.wait_for_timeout(1500)
-            page.screenshot(path=t2)
+            page.screenshot(path=t2, timeout=15000)
             animating = _shots_differ(t1, t2)
         except Exception:
             animating = False
-        browser.close()
+        progress(f"verify: animation detected {animating}")
+        try:
+            ctx.close()
+        except Exception:
+            pass
+        try:
+            browser.close()
+        except Exception:
+            pass
     httpd.shutdown()
 
     counts = manifest.get("counts", {})

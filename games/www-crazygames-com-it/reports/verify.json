@@ -1,0 +1,61 @@
+{
+  "loaded_url": "http://127.0.0.1:52213/screw-out-bolts-and-nuts.game-files.crazygames.com/unity/unity2020/screw-out-bolts-and-nuts__qisNewUser_tr.html",
+  "canvas": {
+    "w": 1280,
+    "h": 800
+  },
+  "animation_detected": false,
+  "console_errors": [],
+  "page_errors": 0,
+  "missing_requests": [],
+  "failed_requests": [],
+  "external_hosts": {},
+  "local_requests": 7,
+  "counts": {
+    "acquired": 350,
+    "discovered": 675,
+    "files": 331
+  },
+  "score": {
+    "total": 82,
+    "components": {
+      "acquisition": {
+        "value": 0.519,
+        "weight": 0.25,
+        "contribution": 13.0
+      },
+      "integrity": {
+        "value": 0.997,
+        "weight": 0.15,
+        "contribution": 15.0
+      },
+      "dependencies": {
+        "value": 1.0,
+        "weight": 0.15,
+        "contribution": 15.0
+      },
+      "launch": {
+        "value": 1.0,
+        "weight": 0.15,
+        "contribution": 15.0
+      },
+      "runtime_paint": {
+        "value": 0.4,
+        "weight": 0.1,
+        "contribution": 4.0
+      },
+      "coverage": {
+        "value": 1.0,
+        "weight": 0.1,
+        "contribution": 10.0
+      },
+      "external_isolation": {
+        "value": 1.0,
+        "weight": 0.1,
+        "contribution": 10.0
+      }
+    },
+    "note": "0-100 weighted sum of independently measured components"
+  },
+  "verdict": "partially-verified: mirror loads locally but some runtime checks did not pass (see components)"
+}

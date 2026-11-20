@@ -1,0 +1,4 @@
+{
+  "total": 82,
+  "verdict": "partially-verified: mirror loads locally but some runtime checks did not pass (see components)"
+}

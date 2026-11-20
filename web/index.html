@@ -48,6 +48,28 @@
         <pre id="job-log"></pre>
         <div id="job-result"></div>
       </div>
+
+      <h2>Batch acquire — paste text with multiple URLs</h2>
+      <p class="muted">Paste any text containing one or more game URLs (notes, lists, chat
+      messages): only the URLs are extracted and acquired one by one, each backed up to GitHub.</p>
+      <div class="acquire-form" style="flex-direction:column;align-items:stretch">
+        <textarea id="acq-batch" rows="5" placeholder="e.g.&#10;Check these out:&#10;https://www.crazygames.com/game/xxx&#10;…and https://www.crazygames.com/game/yyy is fun too" spellcheck="false"></textarea>
+        <button id="acq-batch-go" class="primary">Acquire all URLs found</button>
+      </div>
+
+      <h2>GitHub backup</h2>
+      <p class="muted">After each acquire the workspace (code + games) is pushed to the private
+      repo <code>universal-ai-game-studio</code>. If the sandbox resets and projects disappear,
+      restore them from GitHub.</p>
+      <div class="acquire-form">
+        <button id="gh-push">Push to GitHub now</button>
+        <button id="gh-restore">Restore games from GitHub</button>
+      </div>
+      <div id="gh-progress" class="progress-box hidden">
+        <div class="job-head"><b id="gh-state">running</b></div>
+        <pre id="gh-log"></pre>
+        <div id="gh-result"></div>
+      </div>
     </section>
 
     <!-- PROJECTS -->

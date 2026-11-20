@@ -117,7 +117,16 @@ def build_mirror(project_dir, recon, progress=print):
         if rel in fixed and e.get("sha256") and e["sha256"] != fixed[rel]:
             p = Path(rel)
             stem, ext = (p.stem, p.suffix) if p.suffix else (p.name, "")
-            e["rel"] = str(p.parent / f"{stem}_dup{len([1 for x in fixed.values() if x.startswith(rel)])}{ext}")
+            # find a genuinely unused name: fixed/used_rels hold rels claimed by
+            # other entries, so reuse would corrupt the manifest (all collisions
+            # used to collapse onto _dup0 because the counter counted sha values)
+            n = 0
+            while True:
+                cand = str(p.parent / f"{stem}_dup{n}{ext}")
+                if cand not in used_rels and cand not in fixed and not (acq / cand).exists():
+                    break
+                n += 1
+            e["rel"] = cand
             src = acq / rel
             if src.exists():
                 nd = acq / e["rel"]

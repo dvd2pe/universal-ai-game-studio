@@ -56,17 +56,75 @@ $("#acq-go").onclick = async () => {
   })).json();
   pollJob(res.job_id);
 };
-async function pollJob(id) {
+// ---- batch acquire (paste text with multiple URLs) ----
+$("#acq-batch-go").onclick = async () => {
+  const text = $("#acq-batch").value;
+  if (!text.trim()) return;
+  $("#acq-batch-go").disabled = true;
+  $("#acq-progress").classList.remove("hidden");
+  $("#job-state").textContent = "running";
+  $("#job-slug").textContent = "";
+  $("#job-log").textContent = "";
+  $("#job-result").innerHTML = "";
+  const res = await (await fetch("/api/acquire_batch", {
+    method: "POST", headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ text })
+  })).json();
+  if (res.detail || res.error) {
+    $("#acq-batch-go").disabled = false;
+    $("#job-result").innerHTML = `<span class="badge b-bad">${res.detail || res.error}</span>`;
+    return;
+  }
+  $("#job-log").textContent = "URLs found:\n" + res.urls.join("\n") + "\n\n";
+  pollJob(res.job_id, true);
+};
+
+// ---- github backup ----
+$("#gh-push").onclick = () => ghSync("/api/sync/push");
+$("#gh-restore").onclick = () => ghSync("/api/sync/restore");
+async function ghSync(ep) {
+  $("#gh-progress").classList.remove("hidden");
+  $("#gh-state").textContent = "running";
+  $("#gh-log").textContent = "";
+  $("#gh-result").innerHTML = "";
+  const res = await (await fetch(ep, { method: "POST" })).json();
+  pollGh(res.job_id);
+}
+async function pollGh(id) {
+  const j = await (await fetch("/api/jobs/" + id)).json();
+  $("#gh-log").textContent = (j.log || []).join("\n");
+  $("#gh-log").scrollTop = $("#gh-log").scrollHeight;
+  if (j.status === "running") return setTimeout(() => pollGh(id), 1500);
+  $("#gh-state").textContent = j.status;
+  $("#gh-result").innerHTML = j.status === "done"
+    ? `<span class="badge b-ok">GitHub sync ok</span>`
+    : `<span class="badge b-bad">sync failed: ${j.error || "?"}</span>`;
+}
+
+async function pollJob(id, batch = false) {
   const j = await (await fetch("/api/jobs/" + id)).json();
   $("#job-log").textContent = (j.log || []).join("\n");
+  $("#job-log").scrollTop = $("#job-log").scrollHeight;
   $("#job-state").textContent = j.status;
   if (j.slug) $("#job-slug").textContent = " · " + j.slug;
-  if (j.status === "running") return setTimeout(() => pollJob(id), 1200);
+  if (j.status === "running") return setTimeout(() => pollJob(id, batch), 1200);
   $("#acq-go").disabled = false;
+  $("#acq-batch-go").disabled = false;
   if (j.status === "done") {
-    $("#job-result").innerHTML = `
-      <span class="badge b-ok">score ${j.summary.score}/100</span>
-      <button class="primary" onclick='showProject("${j.summary.slug}")'>Open project</button>`;
+    if (batch && j.summary?.batch) {
+      const rows = (j.summary.results || []).map(r => `<tr>
+        <td style="white-space:normal">${r.url}</td><td>${r.slug || "–"}</td>
+        <td>${r.status === "complete"
+          ? `<span class="badge b-ok">${r.score}/100</span>`
+          : `<span class="badge b-bad">failed</span>`}</td></tr>`).join("");
+      $("#job-result").innerHTML = `<b>Batch finished: ${j.summary.ok}/${j.summary.found} acquired</b>` +
+        table(["URL", "Project", "Score"], rows);
+    } else {
+      $("#job-result").innerHTML = `
+        <span class="badge b-ok">score ${j.summary.score}/100</span>
+        <button class="primary" onclick='showProject("${j.summary.slug}")'>Open project</button>`;
+    }
+    loadProjects();
   } else {
     $("#job-result").innerHTML = `<span class="badge b-bad">failed: ${j.error || "?"}</span>`;
   }
@@ -150,7 +208,7 @@ async function renderProject(tab = "recon") {
         row("Failed requests", v.failed_requests.length),
         row("External hosts at runtime", Object.keys(v.external_hosts || {}).length ? Object.keys(v.external_hosts).join(", ") : '<span class="badge b-ok">none</span>'),
         row("Console errors", v.console_errors.length),
-      ])} + `<pre>${(v.console_errors || []).slice(0, 12).join("\n")}</pre>`;
+      ]) + `<pre>${(v.console_errors || []).slice(0, 12).join("\n")}</pre>`}`;
   }
   if (tab === "audit") {
     const a = await report(slug, "audit");

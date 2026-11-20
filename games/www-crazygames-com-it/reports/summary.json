@@ -1,0 +1,56 @@
+{
+  "slug": "www-crazygames-com-it",
+  "url": "https://www.crazygames.com/it/game/screw-out-bolts-and-nuts",
+  "status": "complete",
+  "final_url": "https://www.crazygames.com/it/game/screw-out-bolts-and-nuts",
+  "entry_url": "https://screw-out-bolts-and-nuts.game-files.crazygames.com/unity/unity2020/screw-out-bolts-and-nuts.html?isNewUser=true&__nextLocale=it&isFirstSession=true&czyExpClientOptable4=enabled&czyExpClientAdsDummyAA50=disabled&czyExpClientAmazonBidRoute_2=prebid&czyExpClientBidBasedPriceFloor_CZY_21335=disabled&czyExpClientAdsHolidayMode_CZY_21360=enabled&czyExpClientAdmiral=enabled&czyExpClientAdXFloor_1_CZY_20844=1.2&czyExpClientAutoRefreshIngameBanners=disabled&czyExpClientVerticalVideoSize_CZY_22165=disabled&czyExpDisableInterstitialsFirst12h_CZY_18471=disabled&czyExpClientArtworkAbTesting_CZY_20701=enabled&czyExpModelApiTraffic_CZY_21907=enabled&czyExpCoversImages_CZY_21375=enabled&czyExpClientDomainProbe_CZY_21425=enabled&czyExpClientGamepageModelBlend_CZY_21410=enabled&czyExpClientInAppPurchaseAlternativeBillingAndroidValidToken=disabled&czyExpClientConfirmLeaveGame=enabled&czyExpClientModelGamePage=knn_v3&czyExpClientInAppPurchaseAlternativeBillingAndroid=enabled&czyExpClientInAppPurchaseAlternativeBillingIOSUS=enabled&v=2.14&useMax1024Wasm=true",
+  "entry_rel": "screw-out-bolts-and-nuts.game-files.crazygames.com/unity/unity2020/screw-out-bolts-and-nuts__qisNewUser_tr.html",
+  "engine": {
+    "engine": "wasm-generic",
+    "confidence": "medium",
+    "evidence": [
+      "signature match: '\\.wasm'"
+    ]
+  },
+  "counts": {
+    "discovered": 675,
+    "captured": 323,
+    "downloaded": 27,
+    "failed": 52,
+    "duplicates": 273
+  },
+  "score": 82,
+  "verdict": "partially-verified: mirror loads locally but some runtime checks did not pass (see components)",
+  "audit_summary": {
+    "GREEN": 9,
+    "UNKNOWN": 146,
+    "YELLOW": 9
+  },
+  "assets_summary": {
+    "assets": 331,
+    "by_category": {
+      "code": 120,
+      "other": 123,
+      "config": 3,
+      "font": 5,
+      "image": 80
+    },
+    "overall_feasibility": 55,
+    "bottleneck": null,
+    "thresholds": ">=80 easy, 50-79 moderate, 25-49 difficult, <25 very difficult"
+  },
+  "created": "2026-11-19T18:03:42.391530+00:00",
+  "duration_s": 166.2,
+  "preview_url": "/games/www-crazygames-com-it/mirror/screw-out-bolts-and-nuts.game-files.crazygames.com/unity/unity2020/screw-out-bolts-and-nuts__qisNewUser_tr.html",
+  "reports": {
+    "summary": "games/www-crazygames-com-it/reports/summary.json",
+    "recon": "games/www-crazygames-com-it/reports/recon.json",
+    "manifest": "games/www-crazygames-com-it/reports/manifest.json",
+    "depgraph": "games/www-crazygames-com-it/reports/depgraph.json",
+    "rewrite": "games/www-crazygames-com-it/reports/rewrite.json",
+    "audit": "games/www-crazygames-com-it/reports/audit.json",
+    "assets": "games/www-crazygames-com-it/reports/assets.json",
+    "verify": "games/www-crazygames-com-it/reports/verify.json",
+    "score": "games/www-crazygames-com-it/reports/score.json"
+  }
+}

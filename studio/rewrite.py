@@ -36,6 +36,57 @@ def url_to_rel(url):
 
 TEXT_EXTS = {".html", ".htm", ".css", ".js", ".mjs"}
 _SKIP_PREFIXES = ("data:", "blob:", "javascript:", "about:", "chrome:", "file:")
+
+
+def _extract_loader_config(text):
+    """Find a `loaderConfig` JSON blob (CrazyGames-style Unity embed data) in a
+    captured page/JS payload — {..., "loaderConfig": {"unityLoaderUrl": "...",
+    "unityConfigOptions": {"dataUrl": ..., "codeUrl": ..., "frameworkUrl": ...}}}.
+    Brace-matches the object after the key and parses it. Returns dict or None."""
+    idx = text.find('"loaderConfig"')
+    if idx < 0:
+        return None
+    start = text.find("{", idx)
+    if start < 0:
+        return None
+    depth, in_str, esc = 0, False, False
+    for i in range(start, min(start + 8000, len(text))):
+        c = text[i]
+        if in_str:
+            if esc:
+                esc = False
+            elif c == "\\":
+                esc = True
+            elif c == '"':
+                in_str = False
+            continue
+        if c == '"':
+            in_str = True
+        elif c == "{":
+            depth += 1
+        elif c == "}":
+            depth -= 1
+            if depth == 0:
+                try:
+                    cfg = json.loads(text[start:i + 1])
+                except Exception:
+                    return None
+                return cfg if cfg.get("unityLoaderUrl") else None
+    return None
+
+
+def _match_loader_config(configs, wrapper_rel):
+    """Pick the loader config that belongs to a wrapper page (slug overlap)."""
+    if len(configs) == 1:
+        return configs[0]
+    toks = set(t for t in re.split(r"[\W_]+", wrapper_rel.lower()) if t)
+    best, score = None, 0
+    for c in configs:
+        u = str(c.get("unityLoaderUrl", "")).lower()
+        s = len(toks & set(t for t in re.split(r"[\W_]+", u) if t))
+        if s > score:
+            best, score = c, s
+    return best or configs[0]
 _CSS_URL = re.compile(r"url\(\s*(['\"]?)([^'\")]+)\1\s*\)")
 _CSS_IMPORT = re.compile(r"@import\s+(['\"])([^'\"]+)\1")
 _JS_URL = re.compile(r'(["\'])((?:https?:)?//[^"\')\s]{4,})\1')
@@ -167,9 +218,14 @@ def build_reconstruction(project_dir, manifest, progress=print):
 
     stats = {"rewritten": {"html": 0, "css": 0, "js": 0}, "copied_binary": 0, "unresolved": []}
     edges = []
+    loader_configs, unity_wrappers = [], []
 
+    seen_rels = set()
     for e in manifest["resources"]:
         rel = e["rel"]
+        if rel in seen_rels:
+            continue  # duplicate manifest entry — this rel was already reconstructed
+        seen_rels.add(rel)
         src = acq / rel
         if not src.exists():
             continue
@@ -178,6 +234,13 @@ def build_reconstruction(project_dir, manifest, progress=print):
         ext = Path(rel).suffix.lower()
         if ext in TEXT_EXTS:
             text = src.read_text(encoding="utf-8", errors="replace")
+            # collect Unity embed data / detect iframed-unity wrapper pages
+            if "loaderConfig" in text:
+                cfg = _extract_loader_config(text)
+                if cfg:
+                    loader_configs.append(cfg)
+            if ext in (".html", ".htm") and "unity-canvas" in text and "unity2020config" in text:
+                unity_wrappers.append(rel)
             depth = rel.count("/")
             prefix = "../" * depth
             page_url = e["url"]
@@ -201,7 +264,64 @@ def build_reconstruction(project_dir, manifest, progress=print):
             try:
                 os.link(src, dst)
             except OSError:
-                shutil.copy2(src, dst)
+                # os.link may fail because dst already exists (duplicate manifest
+                # rel or retry); if src and dst are the same inode — e.g. a
+                # previous pass hardlinked this pair — copy2 would raise
+                # SameFileError, so skip instead of copying.
+                if dst.exists() and os.path.samefile(src, dst):
+                    pass
+                else:
+                    shutil.copy2(src, dst)
+            # extensionless payloads (Next.js page data etc.) can carry Unity
+            # loaderConfig JSON — scan small binaries for the bootstrap data
+            try:
+                if src.stat().st_size < 8_000_000:
+                    raw = src.read_bytes()
+                    if b'"loaderConfig"' in raw:
+                        cfg = _extract_loader_config(raw.decode("utf-8", "replace"))
+                        if cfg:
+                            loader_configs.append(cfg)
+            except OSError:
+                pass
+
+    # Unity wrapper pages wait for a gameframe postMessage that never comes
+    # when the mirror is served standalone → inject a bootstrap that provides
+    # the config itself (values extracted from the acquired game data above)
+    for i, rel in enumerate(unity_wrappers):
+        if not loader_configs:
+            break
+        dstf = mirror / rel
+        if not dstf.exists():
+            continue
+        cfg = _match_loader_config(loader_configs, rel)
+        prefix = "../" * rel.count("/")
+        boot = {"unityLoaderUrl": None, "unityConfigOptions": {}}
+        lu = resolver(cfg.get("unityLoaderUrl") or "")
+        if not lu:
+            continue  # loader not acquired — cannot bootstrap
+        boot["unityLoaderUrl"] = prefix + lu
+        for k, u in (cfg.get("unityConfigOptions") or {}).items():
+            if isinstance(u, str):
+                r = resolver(u)
+                boot["unityConfigOptions"][k] = (prefix + r) if r else u
+            else:
+                boot["unityConfigOptions"][k] = u
+        m_ = re.search(r'"productName"\s*:\s*"([^"]{1,80})"', str(cfg))
+        if m_:
+            boot["productName"] = m_.group(1)
+        bname = f"__studio__/unity_bootstrap_{i}.js"
+        tpl = (Path(__file__).parent / "unity_bootstrap.js").read_text(encoding="utf-8")
+        (mirror / bname).write_text(tpl.replace("__UNITY_CONFIG_JSON__", json.dumps(boot)),
+                                    encoding="utf-8")
+        html = dstf.read_text(encoding="utf-8")
+        tag = f'<script src="{prefix}{bname}"></script>'
+        m2 = re.search(r'<script src="[^"]*__studio__/interceptor\.js"></script>', html)
+        if m2:
+            html = html[:m2.end()] + tag + html[m2.end():]
+        else:
+            html = html.replace("<head>", "<head>" + tag, 1)
+        dstf.write_text(html, encoding="utf-8")
+        progress(f"reconstruct: unity bootstrap injected into {rel}")
 
     # root index → entry page
     entry_rel = manifest["entry_rel"]
