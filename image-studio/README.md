@@ -1,4 +1,4 @@
-# Open Image Studio (Kaggle GPU, no ComfyUI)
+# Open Image Studio (Kaggle + Colab GPU, no ComfyUI)
 
 A direct Gradio studio for prompt-to-image and instruction-based image editing. The Kaggle notebook launches the app; models load only when selected and GPU work is serialized through Gradio's queue.
 
@@ -14,9 +14,11 @@ A direct Gradio studio for prompt-to-image and instruction-based image editing. 
 
 No ComfyUI, node graphs, or manual code edits per prompt. The app also includes a CPU Lite test backend, and GitHub Actions runs an actual tiny-model CPU inference test.
 
-## Start on Kaggle
+## Run on Kaggle or Google Colab
 
-1. Open `image-studio/notebooks/ImageStudio_Kaggle.ipynb` in Kaggle (or download/import it).
+**Kaggle:** open `image-studio/notebooks/ImageStudio_Kaggle.ipynb` in Kaggle and run all cells. Enable Internet and select a GPU accelerator.
+
+**Google Colab:** open `image-studio/notebooks/ImageStudio_Colab.ipynb` in Colab, choose Runtime → Change runtime type → T4 GPU (or another GPU), then run all cells. Both notebooks clone this branch and launch the Gradio app.
 2. Enable Internet and a GPU accelerator.
 3. Run the launcher cell. It checks out this branch, installs dependencies, and starts the web UI.
 4. Open the temporary Gradio public URL printed by the cell.
